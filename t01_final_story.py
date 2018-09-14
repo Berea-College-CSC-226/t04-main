@@ -72,7 +72,8 @@ if dead == True:
     quit()
 
 #########################################################################################################
-# Christson Alfaro
+# Christson & Alfaro
+# Refactored by Team 1
 
 direction = input("Where do you want to go today?. Choose carefully hahaahhaha [Wakanda, New York, Asgard, Gotham City]")
 
@@ -122,6 +123,7 @@ if dead == True:
 
 #########################################################################################################
 # toktobaeva & coxb
+# Refactored by Team 2
 
 print ()
 print ()
@@ -200,6 +202,7 @@ if dead == True:
 
 #########################################################################################################
 # cullomn & coreass
+# Refactored by Team 3
 
 print()
 print("You wake up in the middle of the night to footsteps coming down the hallway.")
@@ -241,6 +244,7 @@ if dead == True:
 
 #########################################################################################################
 # Morgan's & Matilda
+# Refactored by Team 4
 
 #Sleep is between the lines to make it so a wall of text doesn't appear at once.
 print("You hear some sort of... Odd sound. Is that a dripping sound?")
@@ -322,6 +326,8 @@ if dead == True:
 
 #########################################################################################################
 # Dunn & Dovranov
+# Refactored by Team 5
+
 direction = input("Where do you want to go?  [North/South/East/West]" )
 
 if direction == "East":
@@ -369,6 +375,7 @@ if dead == True:
 
 #########################################################################################################
 # lovelle
+# Refactored by Team 6
 
 direction = input("Which direction would you like to go? [North/South/East/West] ")
 
@@ -404,6 +411,7 @@ if dead == True:
 
 #########################################################################################################
 # Eppersonb & Barnetth
+# Refactored by Team 7
 
 print()
 print(username, "continues on their quest")
@@ -455,6 +463,7 @@ if dead == True:
 
 #########################################################################################################
 # Guillermo & Tanner
+# Refactored by Team 8
 
 #We pick it up from the point where you are in a dark room with a stranger. What happens next?
 decision = input("The stranger tells you that he knows the way out, but you have to follow his every word. What is your decision? [I trust you/No way, No thank you] ")
@@ -481,6 +490,7 @@ if dead == True:
 
 #########################################################################################################
 # hilljac & nudgarrobot
+# Refactored by Team 9
 
 direction = input("Which direction would you like to go? [North/South/East/West]" )
 
@@ -701,6 +711,7 @@ if dead == True:
 
 #########################################################################################################
 # jamalie & juem
+# Refactored by Team 10
 
 direction = input("There is a river in your path, what would you do to cross the river? (swim, make a bridge,etc)")
 sleep(delay)
@@ -748,6 +759,7 @@ if dead == True:
 
 #########################################################################################################
 # nashab & phillipsvi
+# Refactored by Team 11
 
 print()
 print("To your left, you notice a house. Curious... Looking around more, you see a cat behind you.")
@@ -793,6 +805,7 @@ if dead == True:
 
 #########################################################################################################
 # prattw & phillipsde
+# Refactored by Team 12
 
 print()
 print('An eerie box lays before you, and for some reason you are drawn to it.')
@@ -840,6 +853,7 @@ else:
 
 #########################################################################################################
 # mayerss & kinyunaa
+# Refactored by Team 13
 
 jump = input("which direction would you like to go?[jump/stay/parachute]")
 
@@ -866,6 +880,7 @@ if dead == True:
 
 #########################################################################################################
 # stettner & vankirk
+# Refactored by Team 14
 
 direction = input(" You see a ladder in front of you and hear Water to the right. Do you want to go for a Swim or Climb the ladder? "
                   "[Swim, Climb]")
@@ -901,6 +916,7 @@ if dead == True:
 
 #########################################################################################################
 # stetzera and whitfordr
+# Refactored by Team 15
 
 print()
 print("A figure emerges from the shadows, hunched and withered. Her single good eye turns to face you -- a witch!")
@@ -946,6 +962,7 @@ if dead == True:
 
 
 #########################################################################################################
+# Refactored by Team 16
 print()
 print("Deeper in the cave, you hear the sound of someone crying!")
 sleep(delay)
@@ -987,6 +1004,7 @@ if dead == True:
 
 #########################################################################################################
 # westth & whitakerj
+# Refactored by Team 17
 
 Move = input("You see a cell phone up ahead. Do you want to pick it up, leave it where it is, or try to watch youtube videos? Type pick up, leave it or youtube, please. ")
 
