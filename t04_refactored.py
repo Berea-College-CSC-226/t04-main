@@ -131,9 +131,9 @@ def team_5_adv():
 
 
 def team_6_adv():
-"""
+    """
     Team 6's refactored chapter.
-    Originally by lovelle.
+    Originally by lovelle, refactored by lovelle.
 
     :return: None
     """
