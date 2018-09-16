@@ -131,8 +131,58 @@ def team_5_adv():
 
 
 def team_6_adv():
-    pass
-    # TODO Add your code here
+"""
+    Team 6's refactored chapter.
+    Originally by lovelle.
+
+    :return: None
+    """
+
+    global dead
+    direction = input("Which direction would you like to go? [North/South/East/West] ")
+
+    if direction == "East":
+        # Good choice
+        print()
+        print("You come upon an underground lake, fed by a glistening stream.")
+        print()
+        print("The sound of the water soothes your troubled nerves.")
+        sleep(delay)
+        print()
+    elif direction == "South":
+        # Bad choice
+        print()
+        print("Ever so suddenly, you find yourself surrounded by ogres twice your size.")
+        print("They realize you are harmless and you catch your breath. It seems they might let you pass...")
+        sleep(delay * 5)
+        print()
+        print("They strike up a song, ready to continue on their way.")
+        print("Oh, but how loud their voices are! And you aren't feeling so good...")
+        sleep(delay * 5)
+        print()
+        print("The leader asks you to rank the quality of their singing, on a scale of 1 to 10.")
+        rating = int(input("What do you say? Choose wisely; your life depends on it... "))
+        print()
+        if rating < 10:
+            print("You fall to the ground, feeling the power of a cursed song. Looks like your time is up, friend.")
+            dead = True
+            sleep(delay)
+            print()
+        else:
+            print("The ogre thanks you for the complement and sends you on your merry way.")
+            sleep(delay)
+            print()
+    else:
+        # Neutral choice
+        print()
+        print("Phew, you're still on solid ground. But still in the dark. Think fast!")
+        sleep(delay)
+        print()
+
+    if dead == True:
+        print("Oh no! You died. And what a shame it had to happen this way.")
+        print("Better luck next time - try again by hitting the green play button!")
+        quit()
 
 
 def team_7_adv():
