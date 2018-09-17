@@ -186,8 +186,58 @@ def team_6_adv():
 
 
 def team_7_adv():
-    pass
-    # TODO Add your code here
+    """
+    Team 7's refactored chapter.
+    Originally done by EppersonB and BarnettH, refactored by BarnettH and DunnA
+
+    :return: None
+    """
+    global dead
+    print()
+    print("You continue your path in the forest")
+    print("As you walk through the forest, you encounter a bear wearing a fez and sunglasses.")
+    print("You notice that the fez has the name 'Bosco' labeled on it. You deduce that this is the famous runaway circus bear, Bosco the Bear.")
+    sleep(delay)
+    print()
+    print("However, Bosco has took notice of you and stands on his hind legs and takes interest in you.")
+    print("You must make a choice, or it could end very badly for you!")
+
+    choice = input("What would you like to do? [Entertain or Fight?]")
+
+    if choice == "Fight":
+        #Good Choice!
+        print("You choose to engage in fisticuffs with Bosco the Bear. This seems like a very bad idea.")
+        print()
+        sleep(delay)
+        print("Luckily for you, Bosco the Bear lived in the circus his whole life. He does not know how to fight.")
+        print("Feeling intimated, Bosco the Bear flees. Dropping his fez and glasses.")
+        print()
+        print("You are free to continue on your journey while rocking the fez and glasses. Well at least you look nice.")
+        print()
+    elif choice == "Entertain":
+        # Bad Choice
+        print("Bosco the Bear is not amused with your performance.")
+        print()
+        sleep(delay)
+        print("He ran away from the circus because he hated that life.")
+        print("Your entertainment reminded him of that hatred. How inconsiderate of you.")
+        print()
+        sleep(delay)
+        print("In a fit of rage, Bosco the Bear kills you with his bare hands.")
+        print()
+        dead = True
+    else:
+        #Neutral Choice
+        print("Bosco the Bear is confused by your actions.")
+        print("Bosco the Bear does not see you as a threat and leaves.")
+        print()
+        print("You are free to continue on your journey.")
+        print()
+
+    if dead == True:
+        print("Oh no! You died. Better luck next time! Try again by hiting the green play button. ")
+        quit()
+
 
 
 def team_8_adv():
