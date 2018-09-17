@@ -226,7 +226,52 @@ def team_14_adv():
 
 
 def team_15_adv():
-    pass
+    # stetzera and whitfordr
+    # Refactored by Team 15
+    global dead
+
+    print()
+    print("A figure emerges from the shadows, hunched and withered. Her single good eye turns to face you -- a witch!")
+    sleep(delay)
+    print("Two more eyes blink out of the darkness, the witch's black cat slinking their way out from around the hem of her dress.")
+    sleep(delay)
+    # Exposition for the upcoming choices.
+
+    choice = input("The witch stares at you, blocking the way forward. What do you do? [Pet the cat/Attack the witch/Run away]")
+
+    if choice == "Pet the cat":
+        # Cats always equal best choice.
+        print("You kneel down, holding out a hand to the cat.")
+        print("The kitty pads forward, sniffing at you...")
+        sleep(delay * 5)
+        print("The little black cat purrs.")
+        print("With a throaty laugh the witch shuffles to the side, apparently trusting her cat's judgement. You're free to go!")
+
+    elif choice == "Attack the witch":
+        # What sort of idiot attacks a mysterious woman with a cat? How rude.
+        print("Fearing for your life -- it's a witch, who trusts witches? -- you pull out a dagger from the sheathe at your belt.")
+        print("With a echoing bellow you rush forward, only to find yourself frozen in place.")
+        print("A hex!")
+        dead = True
+
+    elif choice == "Run away":
+        # Arguably the most rational.
+        print("Not your circus, not your monkeys.")
+        print("You just turn around, avoid eye contact and meander back into the darkness of the cave from whence you came.")
+
+    else:
+        # Neutral/indecisive choice.
+        print("You find yourself full of strange thoughts, pulled backwards into the labyrinth once more.")
+        sleep(delay)
+
+    if dead:
+        print("Your muscles lock up, which, unfortunately, includes your heart.")
+        sleep(delay)
+        print("As your lifeless body falls to the ground, the witch and cat both turn, melting back into the shadows of the cave.")
+        print("Serves you right for attacking a mostly-defenseless old woman.")
+        print("Better luck next time! Try again by hitting the green play button.")
+        quit()
+
     # TODO Add your code here
 
 
