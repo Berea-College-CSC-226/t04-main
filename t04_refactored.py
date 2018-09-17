@@ -126,8 +126,60 @@ def team_4_adv():
 
 
 def team_5_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1BzQqW9mFzMhzRlAyL1DkV31Ps5QJOwXgqQtEBJ4gJAI/edit?usp=sharing
+    Team 5's refactored chapter
+    Originally by Dunn & Dovranov
+    :return: None
+    """
+    # Dunn & Dovranov
+    # Refactored by Team 5
+
+    global dead
+
+    direction = input("Where do you want to go?  [North/South/East/West]")
+
+    if direction == "East":
+        # Bad Choice
+        print("You followed the light and it led to another person that was lost.")
+        print("Slowly approaching the other person you fall and they now know they are not alone.")
+        print("You are now injured and the other person is leaving you because of the noise.")
+        print("After they have left you fall asleep.")
+        sleep(delay)
+        print("You awaken to the noise of bear that is approaching closer to you.")
+        print("Unfortunately, you can't walk and the bear is close to you.")
+        print("The bear is hungry and is looking for a delicious meal.")
+        print("The bear begins to eat you.")
+        print("You have one more chance to live. You see a rock.")
+
+        userinput = input("Can you grab it? [Yes/No]")
+
+        if userinput == "Yes":
+            print("You hit the bear and it runs off.")
+        elif userinput == "No":
+            print("The bear ate you.")
+        else :
+            print("The bear ate you.")
+
+        dead = True
+
+    elif direction == "West":
+        # Good choice
+        print("You are walking in the dark and you stumble across something on the ground.")
+        print("You bend over and pick it up.")
+        print("It is a flashlight!")
+        print("However, you are still in the dark but now you have a flashlight to see more with so you do not fall.")
+        sleep(delay)
+
+    else:
+        # Neutral choice
+        print("You found a place to stay for the night until daytime.")
+        sleep(delay)
+
+    if dead == True:
+        print("Oh no! You died. Try again by hitting the green play button.")
+        quit()
+
 
 
 def team_6_adv():
@@ -183,6 +235,7 @@ def team_6_adv():
         print("Oh no! You died. And what a shame it had to happen this way.")
         print("Better luck next time - try again by hitting the green play button!")
         quit()
+
 
 
 def team_7_adv():
