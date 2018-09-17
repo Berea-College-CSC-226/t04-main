@@ -205,9 +205,56 @@ def team_10_adv():
     # TODO Add your code here
 
 
-def team_11_adv():
-    pass
-    # TODO Add your code here
+def team_11_adv(): # Refactored by Team 11
+    """
+    https://docs.google.com/document/d/1trPAy_4RAI__kv4UXJYL8SUDABny1Yp-sSZgqdX9sFE/edit?usp=sharing
+    :return:
+    """
+
+    direction = input("What will you do? [House/Cat/Sleep]")
+
+    if direction == "House":
+        # bad choice
+        print("You decide that you need help and make your way towards the house. The path is a bit rocky though...")
+        sleep(delay)
+        print("...")
+        sleep(delay)
+        print("......")
+        sleep(delay)
+        print(".........")
+        sleep(delay * 2)
+        print("Oh no! You tripped on a rock! It was so shocking, you die before you hit the ground.")
+        dead = True
+
+    elif direction == "Cat":
+        # neutral choice
+        print("The cat is just so damn intriguing, you can't help but examine it.")
+        print("You stretch out your hand, and the cat nuzzles you, its several tails twitching affectionately.")
+        print("This is nice, but accomplishes nothing.")
+        sleep(delay)
+        print()
+        print("You waste time loving the cat, but nothing gets done.")
+        sleep(delay)
+        dead = False
+
+    else:
+        print("You disregard that because you fell asleep.")
+        sleep(delay * 5)
+        print("You awake feeling refreshed.")
+        dead=False
+
+    if dead:
+        print("What a sad way to die.")
+        quit()
+
+
+def main():
+    print()
+    print("To your left, you notice a house. Curious,... Looking around more, you see a cat behind you.")
+    print("The cat has seven tails and a missing eye. You ponder for a moment. You feel sleepy.")
+    sleep(delay * 2)
+    print()
+    team_11_adv()
 
 
 def team_12_adv():
