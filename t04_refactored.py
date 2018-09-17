@@ -216,8 +216,39 @@ def team_12_adv():
 
 
 def team_13_adv():
-    pass
-    # TODO Add your code here
+
+    print("You find yourself on a cliff. There doesn't seem to be a path down. You chance a glance over the edge")
+    print("Seems like a long way down...")
+
+    jump = input("What would you like to do?[jump/stay/parachute]")
+
+    if jump == "jump":
+        # bad choice
+        print("You fall from the sky and land on your head..")
+        sleep(delay)
+        print("Your skull burst open and your brains spread everywhere")
+        sleep(delay)
+        print("Your chances of survival are zero.")
+        sleep(delay * 2)
+        print("You're dead meat.")
+        dead = True
+        if dead is True:
+            print("You died, but at least you don't have to take 226 anymore. :)")
+            quit()
+
+    elif jump == "parachute":
+        # good choice
+        print("You open your parachute at approximately 1000 feet and you avoid injury.")
+        sleep(delay * 2)
+        print("Congratulations, you passed your parachute test today!")
+
+    elif jump == "stay":
+        print("You decided to stay. The wind is pretty fierce this high up.")
+
+    else:
+        print("What was that?")
+
+
 
 
 def team_14_adv():
