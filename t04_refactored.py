@@ -210,7 +210,50 @@ def team_11_adv():
     # TODO Add your code here
 
 
-def team_12_adv():
+def westth_benningfield():
+    """https://docs.google.com/document/d/11l9OqTJTGxCbiatW3S5czFA036_AvCPBq0RjwNz4eaA/edit?usp=sharing"""
+    print()
+    print('An eerie box lays before you, and for some reason you are drawn to it.')
+    print()
+    print('As you draw closer you hear a voice in your head...')
+    print()
+    print('"In order to receive the treasures of the box you must reveal your deepest and darkest secret"')
+
+    choice = input('Will you reveal your secret? [Yes/No]')
+
+    if choice == "Yes" or choice == "Y":
+        secret = input('Speak now and reveal the truth.')
+        print(secret)
+        print("The box opens and you reach inside to retrieve your treasure...")
+        sleep(delay)
+        print()
+        print('''It's a flower with petals made of fire and a note that says, "It's a me, copyright."''')
+        sleep(delay)
+        print()
+        print('Confused by the note, you take your reward and move on.')
+        print()
+        sleep(delay)
+    elif choice == "No" or choice == "N":
+        death = input('Will you open the box? [Yes/No]')
+        if death == "Yes":
+            print('You attempt to open the box but you become consumed by a deadly darkness that envelops your body.')
+            print()
+            print('You died. LOL')
+            revive = input("would You like to restart")
+            if revive == "Yes":
+                riddle = input("What starts with 'e' ends with 'e' and contains one letter? ""[a/an]")
+
+                if riddle == "envelope":
+                    print("You live. Good job! However, you don't get the treasure.")
+            if revive == "No":
+                print("ah its your choice")
+                quit()
+        elif death == "No":
+            print('You decide not to open the box.')
+            print()
+            print('You feel like you have avoided some mysterious danger but missed out on some sweet loot.')
+    else:
+        print("You walk away")
     pass
     # TODO Add your code here
 
@@ -266,7 +309,7 @@ def main():
              team_3_adv, team_4_adv, team_5_adv,
              team_6_adv, team_7_adv, team_8_adv,
              team_9_adv, team_10_adv, team_11_adv,
-             team_12_adv, team_13_adv, team_14_adv,
+             westth_benningfield, team_13_adv, team_14_adv,
              team_15_adv, team_16_adv, team_17_adv,
              team_18_adv, team_19_adv, team_20_adv]
     random.shuffle(paths)                               # Shuffles the order of paths, so each adventure is different
