@@ -211,7 +211,8 @@ def team_11_adv():
 
 
 def westth_benningfield():
-    """https://docs.google.com/document/d/11l9OqTJTGxCbiatW3S5czFA036_AvCPBq0RjwNz4eaA/edit?usp=sharing"""
+    """ inputs the room we were asked to refactor.
+    link to our google doc: https://docs.google.com/document/d/11l9OqTJTGxCbiatW3S5czFA036_AvCPBq0RjwNz4eaA/edit?usp=sharing"""
     print()
     print('An eerie box lays before you, and for some reason you are drawn to it.')
     print()
@@ -221,7 +222,7 @@ def westth_benningfield():
 
     choice = input('Will you reveal your secret? [Yes/No]')
 
-    if choice == "Yes" or choice == "Y":
+    if choice == "Yes" or choice == "Y" or choice == "yes":
         secret = input('Speak now and reveal the truth.')
         print(secret)
         print("The box opens and you reach inside to retrieve your treasure...")
@@ -233,22 +234,22 @@ def westth_benningfield():
         print('Confused by the note, you take your reward and move on.')
         print()
         sleep(delay)
-    elif choice == "No" or choice == "N":
+    elif choice == "No" or choice == "N" or choice == "no":
         death = input('Will you open the box? [Yes/No]')
-        if death == "Yes":
+        if death == "Yes" or choice == "Y" or choice == "yes":
             print('You attempt to open the box but you become consumed by a deadly darkness that envelops your body.')
             print()
             print('You died. LOL')
             revive = input("would You like to restart")
-            if revive == "Yes":
+            if revive == "Yes" or choice == "Y" or choice == "yes":
                 riddle = input("What starts with 'e' ends with 'e' and contains one letter? ""[a/an]")
 
                 if riddle == "envelope":
                     print("You live. Good job! However, you don't get the treasure.")
-            if revive == "No":
+            if revive == "No" or choice == "N" or choice == "no":
                 print("ah its your choice")
                 quit()
-        elif death == "No":
+        elif death == "No" or choice == "N" or choice == "no":
             print('You decide not to open the box.')
             print()
             print('You feel like you have avoided some mysterious danger but missed out on some sweet loot.')
