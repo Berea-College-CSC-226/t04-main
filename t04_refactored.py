@@ -111,9 +111,81 @@ def team_1_adv():
 
 
 def team_2_adv():
-    pass
-    # TODO Add your code here
+    global dead
+    print()
+    print()
+    direction = input ("As a Berean, no matter where you end up, you have to constantly make this hard decision: Go to dining or Go do homework, what do you say? [Go to dining/Go do homework]")
+    if direction == "Go to dining":
+        # Good choice!
+        print()
+        print("you get tired of this trivial cave and leave and head to dining to meet up friends")
+        print()
+        sleep(delay*3)
+    elif direction == "Go do homework":
+        # Bad choice!
+        print()
+        sleep(delay*3)
+        print("You think you are making the right choice to conform to this capitalist world.")
+        sleep(delay*3)
+        print()
+        print("When you, at heart, are a leftist Marxist")
+        sleep(delay*3)
+        print()
+        print("You know you shouldn't be enslaved by the institution that is generally accepted in the form of")
+        sleep(delay*3)
+        print()
+        print("'all american college'")
+        sleep(delay*3)
+        print()
+        print("You graduate with a degree.")
+        sleep(delay*3)
+        print()
+        print("Work an 8-5 job.")
+        sleep(delay*3)
+        print()
+        print("Have two children.")
+        sleep(delay*3)
+        print()
+        print("Get old.")
+        sleep(delay*3)
+        print()
+        print("And, when sitting at your white wood porch, looking at your old pictures, quietly sob realizing...")
+        sleep(delay*3)
+        print()
+        print("that you should have gone to the dining hall")
+        sleep(delay*3)
+        print()
+        print("You die a victim of this machine.")
+        print()
+        print()
+        dead = True
+    else:
+        sleep(delay)
+        print()
+        print("You are not a true Berean.")
+        print()
+        sleep(delay)
+    if dead == True:
+        sleep(delay)
+        print("Oh no. You are dead. Bye.")
+        quit()
 
+    money = int(input ("How much is your family income?"))
+    if money < 30000:
+        sleep (delay)
+        print()
+        print("Berea, berea, beloved")
+    elif money > 30000:
+        sleep(delay)
+        print()
+        print("you don't belong here")
+        dead = True
+    else:
+        sleep(delay)
+        print("illiterate. bye. *middle finger emoji* *clown emoji* *middle finger emoji*")
+    if dead == True:
+        print("go back to the centre college where you belong.")
+        quit()
 
 def team_3_adv():
     pass
