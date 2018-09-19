@@ -225,7 +225,12 @@ def team_14_adv():
     # TODO Add your code here
 
 
-def team_15_adv():
+def team_15_prattw_vankirkj():
+    """
+    Team 15's refactored chapter.
+    Originally by stetzera and whitfordr, refactored by prattw and vankirkj.
+    :return: none
+    """
     # stetzera and whitfordr
     # Refactored by Team 15
     global dead
@@ -239,7 +244,7 @@ def team_15_adv():
 
     choice = input("The witch stares at you, blocking the way forward. What do you do? [Pet the cat/Attack the witch/Run away]")
 
-    if choice == "Pet the cat":
+    if choice == "Pet the cat" or choice == "pet the cat":
         # Cats always equal best choice.
         print("You kneel down, holding out a hand to the cat.")
         print("The kitty pads forward, sniffing at you...")
@@ -247,15 +252,16 @@ def team_15_adv():
         print("The little black cat purrs.")
         print("With a throaty laugh the witch shuffles to the side, apparently trusting her cat's judgement. You're free to go!")
 
-    elif choice == "Attack the witch":
+    elif choice == "Attack the witch" or choice == "attack the witch" or choice == "dab":
         # What sort of idiot attacks a mysterious woman with a cat? How rude.
+        # the dab is a special easter egg :D
         print("Fearing for your life -- it's a witch, who trusts witches? -- you pull out a dagger from the sheathe at your belt.")
         print("With a echoing bellow you rush forward, only to find yourself frozen in place.")
         sleep(delay * 2)
         print("A hex!")
         dead = True
 
-    elif choice == "Run away":
+    elif choice == "Run away" or choice == "run away":
         # Arguably the most rational.
         print("Not your circus, not your monkeys.")
         print("You just turn around, avoid eye contact and meander back into the darkness of the cave from whence you came.")
@@ -313,7 +319,7 @@ def main():
              team_6_adv, team_7_adv, team_8_adv,
              team_9_adv, team_10_adv, team_11_adv,
              team_12_adv, team_13_adv, team_14_adv,
-             team_15_adv, team_16_adv, team_17_adv,
+             team_15_prattw_vankirkj(), team_16_adv, team_17_adv,
              team_18_adv, team_19_adv, team_20_adv]
     random.shuffle(paths)                               # Shuffles the order of paths, so each adventure is different
 
