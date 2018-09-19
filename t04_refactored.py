@@ -199,12 +199,20 @@ def team_9_adv():
     """
     Team 9's refactored chapter.
     Originally by hilljac & nudgarrobot, refactored by Juem, Jamalie, Gutheriet.
+    Google doc:
+    https://docs.google.com/document/d/1gmxTnKp2swHlYWCZ1cTMZxnLcmNqr2PQnm7XLbYNwsU/edit?usp=sharing
 
     :return: None
     """
 
 
-direction = input("Which direction would you like to go? [North/South/East/West]" )
+injured = 0          # You start with 100% of your limbs! When this reaches two, you die!
+flashlight = 0       # You have no source of light!
+anti_soft_lock = 0     # For loops
+checkGlint = 0       # Tracking!
+checkPool = 0       # ^
+
+direction = input("Which direction would you like to go? [North/South/East/West]")
 
 if direction == "South":
     # Good choice!
@@ -264,7 +272,7 @@ if direction == "South":
         sleep(delay*2)
         dead = True
         sleep(delay)
-        if dead == True:
+        if dead is True:
             print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
             quit()
     else:
@@ -296,7 +304,7 @@ elif direction == "East":
         sleep(delay*2.33)
         print("In the far side of the cave, you see something small glisten as you sweep the flashlight over it.")
         choice = input("[Inspect pool]/[Check Glint]")
-        #TODO Flesh out choices for flashlight-enabled play!
+        # TODO Flesh out choices for flashlight-enabled play!
         if choice == "Check Glint":
                 print("You carefully walk around the pool and inspect the base of the wall for anything unusual.")
                 sleep(delay)
@@ -394,14 +402,14 @@ elif direction == "East":
         print("You don't particularly feel the space inviting...")
         sleep(delay*2)
         print("...But you still need to find a way out of here.")
-        while antisoftlock == 0:
+        while anti_soft_lock == 0:
             choice = input("[Follow wall]/[Venture into dark]/[Retreat through tunnel]")
             if choice == "Follow wall":
                 print("Placeholder text, you follow the wall.")
-                antisoftlock = antisoftlock + 1
+                anti_soft_lock = anti_soft_lock + 1
             elif choice == "Venture into dark":
                 print("Placeholder text, you leave the wall and walk into the inky blackness.")
-                antisoftlock = antisoftlock + 1
+                anti_soft_lock = anti_soft_lock + 1
             elif choice == "Retreat through tunnel":
                 print("Placeholder text. The tunnel is too wide to retreat through without forcing yourself through.")
             else:
@@ -417,7 +425,7 @@ else:
     print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
     sleep(delay)
 
-if dead == True:
+if dead is True:
     print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
     quit()
 
