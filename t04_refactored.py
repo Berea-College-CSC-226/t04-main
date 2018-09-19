@@ -210,7 +210,11 @@ def team_11_adv(): # Refactored by Team 11
     https://docs.google.com/document/d/1trPAy_4RAI__kv4UXJYL8SUDABny1Yp-sSZgqdX9sFE/edit?usp=sharing
     :return:
     """
-
+    print()
+    print("To your left, you notice a house. Curious,... Looking around more, you see a cat behind you.")
+    print("The cat has seven tails and a missing eye. You ponder for a moment. You feel sleepy.")
+    sleep(delay * 2)
+    print()
     direction = input("What will you do? [House/Cat/Sleep]")
 
     if direction == "House":
@@ -246,16 +250,6 @@ def team_11_adv(): # Refactored by Team 11
     if dead:
         print("What a sad way to die.")
         quit()
-
-
-def main():
-    print()
-    print("To your left, you notice a house. Curious,... Looking around more, you see a cat behind you.")
-    print("The cat has seven tails and a missing eye. You ponder for a moment. You feel sleepy.")
-    sleep(delay * 2)
-    print()
-    team_11_adv()
-
 
 def team_12_adv():
     pass
