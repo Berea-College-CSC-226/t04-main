@@ -108,6 +108,7 @@ def scott_adventure():
 def places_to_go():
     """
     https://docs.google.com/document/d/1ydkRlcWI9bj7BYYdBTKScwrTixQgIL6u_Hl1hY28p98/edit?usp=sharing
+    The docstring is linked to the Google Doc for the Teamo4 Assignment of toktobaeva and alfaro
     :return: None
     """
 
