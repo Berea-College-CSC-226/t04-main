@@ -110,19 +110,21 @@ def team_1_adv():
     # TODO Add your code here
 
 
-def team_2_adv():
+def team_2_adv():                   #LOOK AT EMAIL!!!!!!!!!!!
+    """
+    Google Doc: https://docs.google.com/document/d/19jYjDRX_WR4pPynsAYmeglDpQWDvNVMDgYvd4EUWqm8/edit?usp=sharing
+    :return:
+    """
     global dead
     print()
     print()
     direction = input ("As a Berean, no matter where you end up, you have to constantly make this hard decision: Go to dining or Go do homework, what do you say? [Go to dining/Go do homework]")
-    if direction == "Go to dining" or "go to dining":
-        # Good choice!
+    if direction == "Go to dining" or "go to dining":       # Good choice! asking if they want to go to dining
         print()
         print("you get tired of this trivial cave and leave and head to dining to meet up friends")
         print()
         sleep(delay*3)
-    elif direction == "Go do homework" or "go do homework":
-        # Bad choice!
+    elif direction == "Go do homework" or "go do homework":  # Bad choice! asking if they want to do homework
         print()
         sleep(delay*3)
         print("You think you are making the right choice to conform to this capitalist world.")
@@ -159,28 +161,28 @@ def team_2_adv():
         print()
         print()
         dead = True
-    else:
+    else:                                                   #user inputs something other than the dining or homework asnwers
         sleep(delay)
         print()
         print("You are not a true Berean.")
         print()
         sleep(delay)
-    if dead == True:
+    if dead == True:                                        #end of the homework answer
         sleep(delay)
         print("Oh no. You are dead. Bye.")
         quit()
 
-    money = int(input ("How much is your family income?"))
-    if money < 30000:
+    money = int(input ("How much is your family income?"))   #ask what family income is
+    if money < 30000:                                        #does the print if they asnwer with something below 30000
         sleep (delay)
         print()
         print("Berea, berea, beloved")
-    elif money > 30000:
+    elif money > 30000:                                      #does the print if they answer with something above 30000
         sleep(delay)
         print()
         print("you don't belong here")
         dead = True
-    else:
+    else:                                                    #catches any answers that are not the ones we want
         sleep(delay)
         print("illiterate. bye. *middle finger emoji* *clown emoji* *middle finger emoji*")
     if dead == True:
