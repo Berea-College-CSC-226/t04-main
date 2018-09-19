@@ -240,7 +240,7 @@ def team_13_adv():
         # good choice
         print("You open your parachute at approximately 1000 feet and you avoid injury.")
         sleep(delay * 2)
-        print("Congratulations, you passed your parachute test today!")
+        print("Congratulations, you passed your parachute test!")
 
     elif jump == "stay":
         print("You decided to stay. The wind is pretty fierce this high up.")
