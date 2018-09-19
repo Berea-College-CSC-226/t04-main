@@ -251,6 +251,7 @@ def team_15_adv():
         # What sort of idiot attacks a mysterious woman with a cat? How rude.
         print("Fearing for your life -- it's a witch, who trusts witches? -- you pull out a dagger from the sheathe at your belt.")
         print("With a echoing bellow you rush forward, only to find yourself frozen in place.")
+        sleep(delay * 2)
         print("A hex!")
         dead = True
 
@@ -262,7 +263,7 @@ def team_15_adv():
     else:
         # Neutral/indecisive choice.
         print("You find yourself full of strange thoughts, pulled backwards into the labyrinth once more.")
-        sleep(delay)
+        sleep(delay * 5)
 
     if dead:
         print("Your muscles lock up, which, unfortunately, includes your heart.")
