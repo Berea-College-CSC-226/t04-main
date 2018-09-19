@@ -134,6 +134,8 @@ def places_to_go():
         print ("*Bang*")
         print("You're Dead")
         dead = True
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+
 
     elif direction == "Wakanda":
         #interesting choice
@@ -154,11 +156,10 @@ def places_to_go():
         print("Press the green button so you can see if you have better luck next time")
         sleep(delay * 2)
 
-    if dead == True:
-        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
-
     kill_if_dead(dead)
+
+
+
 
 
 
