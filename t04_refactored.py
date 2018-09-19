@@ -1,5 +1,5 @@
 ######################################################################
-# Author: The Fall 2018 226 Class!
+# Author: Brian and Ben
 #
 # Assignment: T04: Adventure in Gitland
 #
@@ -115,13 +115,13 @@ def team_2_adv():
     print()
     print()
     direction = input ("As a Berean, no matter where you end up, you have to constantly make this hard decision: Go to dining or Go do homework, what do you say? [Go to dining/Go do homework]")
-    if direction == "Go to dining":
+    if direction == "Go to dining" or "go to dining":
         # Good choice!
         print()
         print("you get tired of this trivial cave and leave and head to dining to meet up friends")
         print()
         sleep(delay*3)
-    elif direction == "Go do homework":
+    elif direction == "Go do homework" or "go do homework":
         # Bad choice!
         print()
         sleep(delay*3)
