@@ -115,7 +115,7 @@ def places_to_go():
     direction = input("Where do you want to go today?. Choose carefully hahaahhaha [Wakanda, New York, Asgard, Gotham City]")
 
     if direction == "Asgard":
-        #Well done!
+        # Well done!
         print()
         print("Wow, I'm shocked!. Good Choice!")
         print()
@@ -124,37 +124,37 @@ def places_to_go():
         print("Thor deems you worthy to fight by his side! Welcome to Asgard")
         sleep(delay)
     elif direction == "Gotham City":
-        #oh.. bad choice
+        # oh.. bad choice
         print()
-        sleep(delay * 2)
+        sleep(delay*2)
         print("You find yourself in an dark alley, you hear two gunshots *bang, bang*")
-        sleep(delay * 2)
+        sleep(delay*2)
         print("A man runs past you, no witnesses he says...")
-        sleep (delay *2 )
-        print ("*Bang*")
+        sleep(delay*2)
+        print("*Bang*")
         print("You're Dead")
         dead = True
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
 
 
-    elif direction == "Wakanda":
-        #interesting choice
+    elif direction=="Wakanda":
+        # interesting choice
         print()
-        name = input ("Are you a Wakanda citizen ?")
+        name = input("Are you a Wakanda citizen ?")
         if name == "Yes":
-            sleep (delay *2 )
+            sleep (delay *2)
             print("Welcome back, your family missed you")
         else:
-            sleep (delay *2 )
+            sleep (delay*2)
             print ("You can't find Wakanda. You only see a rhino here")
             print("He looks friendly but this is boring")
-            sleep (delay *2 )
+            sleep (delay*2)
     else:
-        #neutral choice
+        # neutral choice
         print("You are in New York. Not much for you to do here")
-        sleep (delay *2 )
+        sleep (delay*2)
         print("Press the green button so you can see if you have better luck next time")
-        sleep(delay * 2)
+        sleep(delay*2)
 
     kill_if_dead(dead)
 
