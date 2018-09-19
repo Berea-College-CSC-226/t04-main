@@ -129,7 +129,7 @@ def team_5_adv():
     """
     https://docs.google.com/document/d/1BzQqW9mFzMhzRlAyL1DkV31Ps5QJOwXgqQtEBJ4gJAI/edit?usp=sharing
     Team 5's refactored chapter
-    Originally by Dunn & Dovranov
+    Originally by Dunn & Dovranov , refactored by Jacob Hill, Bryan Epperson, Susan Coreas
     :return: None
     """
     # Dunn & Dovranov
