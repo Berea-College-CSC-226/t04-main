@@ -206,6 +206,7 @@ def team_7_adv():
 
     if choice == "Fight":
         #Good Choice!
+
         print("You choose to engage in fisticuffs with Bosco the Bear. This seems like a very bad idea.")
         print()
         sleep(delay)
