@@ -117,7 +117,7 @@ def team_2_adv():
 
 def team_3_adv():
     decision = input("The stranger tells you that he knows the way out, but you have to follow his every word. What is your decision? [I trust you/No way, No thank you] ")
-
+    global dead
     if decision == "I trust you":
         # Good choice!
         print("The stranger is overcome with joy, and hands you flashlight and a ham sandwich.")
@@ -128,15 +128,13 @@ def team_3_adv():
         print("Your unwillingness to trust the stranger angers him. He begins to chase you through the dark cave, and you find a place to hide. You hide there for several days.")
         sleep(delay)
         print("After several days of hiding, you begin to fell fatigued. You lose consciousness, and the stranger is able to find your body and he dismembers you.")
-        dead is True
+        dead = True
+        print("You died, oh no! Try again by hitting the green button.")
+        quit()
 
     else:
         print("You respectfully decline his offer, and decide to wonder around in the dark by yourself. You wonder in the dark for hours, and make no progress. ")
         sleep(delay)
-
-    if dead is True:
-        print("You died, oh no! Try again by hitting the green button.")
-        quit()
 
 
 def team_4_adv():
