@@ -210,6 +210,7 @@ def cullomn_whitfordr(): # Refactored by Team 11
     Journey to a house.
     https://docs.google.com/document/d/1trPAy_4RAI__kv4UXJYL8SUDABny1Yp-sSZgqdX9sFE/edit?usp=sharing
     :return:
+    Print statements.  No return. None.
     """
     print()
     print("To your left, you notice a house. Curious,... Looking around more, you see a cat behind you.")
