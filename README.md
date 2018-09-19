@@ -1,11 +1,9 @@
 # T04: Adventures in Gitland
 
-Name 1: ____________
+Name 1: Abby Nash
 
-Name 2: ____________
+Name 2: Heidi Stetzer
 
-Name 3 (if needed): ____________
+Repository Link: https://github.com/fall-2018-csc-226/t04-master.git
 
-Repository Link: ______________
-
-Google Document Link: ______________
+Google Document Link: https://docs.google.com/document/d/17Yz7-0dx2HY8ysxpR5TYoAwOJzgdK63a0maeYIfQ8hM/edit?usp=sharing
