@@ -214,7 +214,7 @@ checkPool = 0       # ^
 
 direction = input("Which direction would you like to go? [North/South/East/West]")
 
-if direction == "South":
+if direction == "South" or direction == "south" or direction == "S" or direction == "s":
     # Good choice!
     print("...")
     sleep(delay)
@@ -224,7 +224,7 @@ if direction == "South":
     sleep(delay)
     itemChoice = input("What do you do? [Pocket the gold]/[Grab the flashlight]/[Try to grab both]")
     sleep(delay)
-    if itemChoice == "Pocket the gold":
+    if itemChoice == "Pocket the gold" or itemChoice == "pocket the gold":
         print("You stuff your pockets as full as you can, and continue on your journey")
         sleep(delay*3)
         print("But wait!!")
@@ -234,7 +234,7 @@ if direction == "South":
         sleep(delay)
 
         # branching good path
-        if skeletonChoice == "Keep the gold":
+        if skeletonChoice == "Keep the gold" or skeletonChoice == "keep the gold":
             print("You decide to keep the gold for yourself, and attempt to run for your life. You escape the room, but in the process, the skeleton stabs you in the shoulder, injuring you for the duration of the adventure")
 
         elif skeletonChoice == "Leave the gold":
