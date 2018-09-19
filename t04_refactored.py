@@ -109,13 +109,14 @@ def places_to_go():
     """
     https://docs.google.com/document/d/1ydkRlcWI9bj7BYYdBTKScwrTixQgIL6u_Hl1hY28p98/edit?usp=sharing
     The docstring is linked to the Google Doc for the Teamo4 Assignment of toktobaeva and alfaro
+    The function places_to_go() you are faced with a decision to choose between cities: Wakanda, Asgard, New You or Gotham City
     :return: None
     """
 
     global dead
     direction = input("Where do you want to go today?. Choose carefully hahaahhaha [Wakanda, New York, Asgard, Gotham City]")
 
-    if direction == "Asgard":
+    if direction == "Asgard" or direction=="asgard":
         # Well done!
         print()
         print("Wow, I'm shocked!. Good Choice!")
@@ -124,7 +125,7 @@ def places_to_go():
         sleep(delay)
         print("Thor deems you worthy to fight by his side! Welcome to Asgard")
         sleep(delay)
-    elif direction == "Gotham City":
+    elif direction == "Gotham City" or direction=="gotham city":
         # oh.. bad choice
         print()
         sleep(delay*2)
@@ -138,7 +139,7 @@ def places_to_go():
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
 
 
-    elif direction=="Wakanda":
+    elif direction=="Wakanda" or direction=="wakanda":
         # interesting choice
         print()
         name = input("Are you a Wakanda citizen ?")
