@@ -231,8 +231,57 @@ def team_15_adv():
 
 
 def team_16_adv():
-    pass
-    # TODO Add your code here
+    '''
+    This code gives user three options when user found a little crying girl and define what is gonna happen if user selects one of the options.
+
+    One of the options is good choice and if user chooses it,
+
+https://docs.google.com/document/d/16R-KA0PvMLgTYy4DjvFSHpCJNWzw6fgGkAn_TYCmlr0/edit?usp=sharing
+
+    '''
+
+    # Originally by Team 6
+    # Refactored by Sahet Dovranov
+def dovranovs():
+    print()
+print("Deeper in the cave, you hear the sound of someone crying!")
+sleep(delay)
+print("As you investigate the noise, you discover that it is coming from a little girl in a pink dress.")
+sleep(delay)
+
+choice = input("She looks up at you tearfully, huddled against the wall. What do you do? [Pick her up/Interrogate her/Back away slowly]")
+
+if choice =="Interrogate her":
+    print("Frankly you find this to be a bit suspect. What's a little kid doing in some kind of creepy magic cave?")
+    sleep(delay)
+    print("You point an accusatory finger at her and ask what her deal is")
+    print("she immediately stops crying and looks grumpy instead. She sticks her tongue out at you and turns into a bat, flying away")
+    print("Welp. guess you dodged that bullet.")
+
+elif choice =="Back away slowly":
+    print("Ok you never signed up to be a childcare service. This is someone else's problem. You turn and leave")
+    sleep(delay)
+    print("The little girl looks at you incredulously but doesn't stop you")
+
+
+elif choice =="Pick her up":
+    print("Despite your best efforts to calm her, the girl keeps crying. ...but after a moment, her cries begin to change.")
+    sleep(delay)
+    print("you realize she is laughing just as sharp fangs pierce your neck. You fall to the ground in surprise")
+    print("As you look up, you realize that her eyes have turned deep red! Vampire!")
+    dead = True
+
+else:
+    print("Before you can decide what to do about the little kid, the ground collapses beneath you")
+    sleep(delay)
+    print("You find yourself in a totally different tunnel. A bit startled, but miraculously unhurt.")
+
+if dead == True:
+    print("As your consiousness fades away, her giggles continue.")
+    print("This is what you get for trying to help kids lost in caves apparently")
+    print("Better luck next time! Try again by hitting the green play button.")
+    quit()
+
 
 
 def team_17_adv():
@@ -267,7 +316,7 @@ def main():
              team_6_adv, team_7_adv, team_8_adv,
              team_9_adv, team_10_adv, team_11_adv,
              team_12_adv, team_13_adv, team_14_adv,
-             team_15_adv, team_16_adv, team_17_adv,
+             team_15_adv, dovranovs, team_17_adv,
              team_18_adv, team_19_adv, team_20_adv]
     random.shuffle(paths)                               # Shuffles the order of paths, so each adventure is different
 
