@@ -229,6 +229,7 @@ def team_15_prattw_vankirkj():
     """
     Team 15's refactored chapter.
     Originally by stetzera and whitfordr, refactored by prattw and vankirkj.
+    https://docs.google.com/document/d/15Vn_ovikxYFLnAGB2R_f8-kFiFdRDe6teK0p_NSIZzo/edit?usp=sharing
     :return: none
     """
     # stetzera and whitfordr
