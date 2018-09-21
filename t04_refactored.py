@@ -110,7 +110,7 @@ def team_1_adv():
     # TODO Add your code here
 
 
-def team_2_adv():                   #LOOK AT EMAIL!!!!!!!!!!!
+def team_2_adv():
     """
     Google Doc: https://docs.google.com/document/d/19jYjDRX_WR4pPynsAYmeglDpQWDvNVMDgYvd4EUWqm8/edit?usp=sharing
     Goes through the berea section of the story. Asks if you want to go to dining or go do homework.
