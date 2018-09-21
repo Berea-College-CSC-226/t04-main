@@ -220,7 +220,7 @@ def team_13_adv():
 
     print()
     print("You find yourself on a cliff. There doesn't seem to be a path down. You chance a glance over the edge")
-    print("Seems like a long way down...")
+    print("Seems like a long way...")
     print()
 
     jump = input("What would you like to do?[jump/stay/parachute]")
