@@ -217,6 +217,7 @@ def team_12_adv():
 
 def team_13_adv():
     # tori and jessie
+    # https://docs.google.com/document/d/1oPzq92-44tG37zoKnEG_hnjtZtgnz1UUe1kYTGTp81A/edit?usp=sharing
 
     print()
     print("You find yourself on a cliff. There doesn't seem to be a path down. You chance a glance over the edge")
