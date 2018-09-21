@@ -1,5 +1,5 @@
 ######################################################################
-# Author: Brian and Ben
+# Author: The Fall 2018 226 Class!
 #
 # Assignment: T04: Adventure in Gitland
 #
@@ -113,7 +113,9 @@ def team_1_adv():
 def team_2_adv():                   #LOOK AT EMAIL!!!!!!!!!!!
     """
     Google Doc: https://docs.google.com/document/d/19jYjDRX_WR4pPynsAYmeglDpQWDvNVMDgYvd4EUWqm8/edit?usp=sharing
-    :return:
+    Goes through the berea section of the story. Asks if you want to go to dining or go do homework.
+    Choosing either will take you to two possibilities of being "dead" or being asked how much money you have.
+    This choice then will make you "dead" or will continue on the "story" to the next function
     """
     global dead
     print()
