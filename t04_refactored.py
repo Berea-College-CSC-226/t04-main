@@ -127,7 +127,7 @@ def team_4_adv():
 
 def team_5_adv():
     """
-    https://docs.google.com/document/d/1BzQqW9mFzMhzRlAyL1DkV31Ps5QJOwXgqQtEBJ4gJAI/edit?usp=sharing
+    Google doc: https://docs.google.com/document/d/1BzQqW9mFzMhzRlAyL1DkV31Ps5QJOwXgqQtEBJ4gJAI/edit?usp=sharing
     Team 5's refactored chapter
     Originally by Dunn & Dovranov , refactored by Jacob Hill, Bryan Epperson, Susan Coreas
     :return: None
@@ -139,7 +139,7 @@ def team_5_adv():
 
     direction = input("Where do you want to go?  [North/South/East/West]")
 
-    if direction == "East":
+    if direction == "East" or direction == "east":
         # Bad Choice
         print("You followed the light and it led to another person that was lost.")
         print("Slowly approaching the other person you fall and they now know they are not alone.")
@@ -158,12 +158,12 @@ def team_5_adv():
             print("You hit the bear and it runs off.")
         elif userinput == "No":
             print("The bear ate you.")
-        else :
+        else:
             print("The bear ate you.")
 
         dead = True
 
-    elif direction == "West":
+    elif direction == "West" or direction == "west":
         # Good choice
         print("You are walking in the dark and you stumble across something on the ground.")
         print("You bend over and pick it up.")
@@ -171,10 +171,19 @@ def team_5_adv():
         print("However, you are still in the dark but now you have a flashlight to see more with so you do not fall.")
         sleep(delay)
 
-    else:
+    elif direction == "North" or direction == "north":
         # Neutral choice
         print("You found a place to stay for the night until daytime.")
         sleep(delay)
+
+    elif direction == "South" or direction == "south":
+        # Neutral choice
+        print("You found a place to stay for the night until daytime.")
+        sleep(delay)
+
+    else:
+        print("That is not a direction! Please input a direction")
+        team_5_adv()
 
     if dead == True:
         print("Oh no! You died. Try again by hitting the green play button.")
