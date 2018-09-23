@@ -343,10 +343,53 @@ def team_10_adv():
     # TODO Add your code here
 
 
-def team_11_adv():
-    pass
-    # TODO Add your code here
+def cullomn_whitfordr(): # Refactored by Team 11
+    """
+    Journey to a house.
+    https://docs.google.com/document/d/1trPAy_4RAI__kv4UXJYL8SUDABny1Yp-sSZgqdX9sFE/edit?usp=sharing
+    :return:
+    Print statements.  No return. None.
+    """
+    print()
+    print("To your left, you notice a house. Curious,... Looking around more, you see a cat behind you.")
+    print("The cat has seven tails and a missing eye. You ponder for a moment. You feel sleepy.")
+    sleep(delay * 2)
+    print()
+    direction = input("What will you do? [House/Cat/Sleep]")
 
+    if direction == "House" or direction == "house":
+        # bad choice
+        print("You decide that you need help and make your way towards the house. The path is a bit rocky though...")
+        sleep(delay)
+        print("...")
+        sleep(delay)
+        print("......")
+        sleep(delay)
+        print(".........")
+        sleep(delay * 2)
+        print("Oh no! You tripped on a rock! It was so shocking, you die before you hit the ground.")
+        dead = True
+
+    elif direction == "Cat" or direction == "cat":
+        # neutral choice
+        print("The cat is just so damn intriguing, you can't help but examine it.")
+        print("You stretch out your hand, and the cat nuzzles you, its several tails twitching affectionately.")
+        print("This is nice, but accomplishes nothing.")
+        sleep(delay)
+        print()
+        print("You waste time loving the cat, but nothing gets done.")
+        sleep(delay)
+        dead = False
+
+    else:
+        print("You disregard that because you fell asleep.")
+        sleep(delay * 5)
+        print("You awake feeling refreshed.")
+        dead=False
+
+    if dead:
+        print("What a sad way to die.")
+        quit()
 
 def westth_benningfield():
     """ inputs the room we were asked to refactor.
@@ -485,7 +528,7 @@ def main():
     paths = [scott_adventure, team_1_adv, team_2_adv,
              team_3_adv, team_4_adv, team_5_adv,
              team_6_adv, team_7_adv, team_8_adv,
-             team_9_adv, team_10_adv, team_11_adv,
+             team_9_adv, team_10_adv, cullomn_whitfordr,
              westth_benningfield, team_13_adv, team_14_adv,
              team_15_adv, team_16_adv, team_17_adv,
              team_18_adv, team_19_adv, team_20_adv]
