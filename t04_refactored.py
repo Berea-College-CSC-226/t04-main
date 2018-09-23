@@ -105,9 +105,64 @@ def scott_adventure():
     kill_if_dead(dead)
 
 
-def team_1_adv():
-    pass
-    # TODO Add your code here
+def places_to_go():
+    """
+    https://docs.google.com/document/d/1ydkRlcWI9bj7BYYdBTKScwrTixQgIL6u_Hl1hY28p98/edit?usp=sharing
+    The docstring is linked to the Google Doc for the Teamo4 Assignment of toktobaeva and alfaro
+    The function places_to_go() you are faced with a decision to choose between cities: Wakanda, Asgard, New You or Gotham City
+    :return: None
+    """
+
+    global dead
+    direction = input("Where do you want to go today?. Choose carefully hahaahhaha [Wakanda, New York, Asgard, Gotham City]")
+
+    if direction == "Asgard" or direction=="asgard":
+        # Well done!
+        print()
+        print("Wow, I'm shocked!. Good Choice!")
+        print()
+        print()
+        sleep(delay)
+        print("Thor deems you worthy to fight by his side! Welcome to Asgard")
+        sleep(delay)
+    elif direction == "Gotham City" or direction=="gotham city":
+        # oh.. bad choice
+        print()
+        sleep(delay*2)
+        print("You find yourself in an dark alley, you hear two gunshots *bang, bang*")
+        sleep(delay*2)
+        print("A man runs past you, no witnesses he says...")
+        sleep(delay*2)
+        print("*Bang*")
+        print("You're Dead")
+        dead = True
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+
+
+    elif direction=="Wakanda" or direction=="wakanda":
+        # interesting choice
+        print()
+        name = input("Are you a Wakanda citizen ?")
+        if name == "Yes":
+            sleep (delay *2)
+            print("Welcome back, your family missed you")
+        else:
+            sleep (delay*2)
+            print ("You can't find Wakanda. You only see a rhino here")
+            print("He looks friendly but this is boring")
+            sleep (delay*2)
+    else:
+        # neutral choice
+        print("You are in New York. Not much for you to do here")
+        sleep (delay*2)
+        print("Press the green button so you can see if you have better luck next time")
+        sleep(delay*2)
+
+    kill_if_dead(dead)
+
+
+
+
 
 
 def team_2_adv():
@@ -525,7 +580,7 @@ def main():
     """
 
     user = start_story()
-    paths = [scott_adventure, team_1_adv, team_2_adv,
+    paths = [scott_adventure, places_to_go(), team_2_adv,
              team_3_adv, team_4_adv, team_5_adv,
              team_6_adv, team_7_adv, team_8_adv,
              team_9_adv, team_10_adv, cullomn_whitfordr,
