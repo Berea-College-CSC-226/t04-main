@@ -247,8 +247,32 @@ def team_2_adv():
         quit()
 
 def team_3_adv():
-    pass
-    # TODO Add your code here
+    """
+    This branch was created by Guillermo and Adam.
+    Google Doc Link: https://docs.google.com/document/d/1B75UoewLi3qD1kfC3ptPuWox-RwT00VteOleVjZUbro/edit?usp=sharing
+    :return:
+    """
+
+    decision = input("The stranger tells you that he knows the way out, but you have to follow his every word. What is your decision? [I trust you/No way, No thank you] ")
+    global dead
+    if decision == "I trust you":
+        # Good choice! This will reward the user, and keep the user alive.
+        print("The stranger is overcome with joy, and hands you flashlight and a ham sandwich.")
+        sleep(delay)
+
+    elif decision == "No way":
+        # Bad choice... This will kill the user, and terminate the code.
+        print("Your unwillingness to trust the stranger angers him. He begins to chase you through the dark cave, and you find a place to hide. You hide there for several days.")
+        sleep(delay)
+        print("After several days of hiding, you begin to fell fatigued. You lose consciousness, and the stranger is able to find your body and he dismembers you.")
+        dead = True
+        print("You died, oh no! Try again by hitting the green button.")
+        quit()
+
+    else:
+        # Neutral choice, this choice will not help or hurt the user, and will keep them alive.
+        print("You respectfully decline his offer, and decide to wonder around in the dark by yourself. You wonder in the dark for hours, and make no progress. ")
+        sleep(delay)
 
 
 def team_4_adv():
