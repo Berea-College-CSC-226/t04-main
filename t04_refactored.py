@@ -336,8 +336,46 @@ def westth_benningfield():
 
 
 def team_13_adv():
-    pass
-    # TODO Add your code here
+    # tori and jessie
+    # https://docs.google.com/document/d/1oPzq92-44tG37zoKnEG_hnjtZtgnz1UUe1kYTGTp81A/edit?usp=sharing
+
+    print()
+    print("You find yourself on a cliff. There doesn't seem to be a path down. You chance a glance over the edge")
+    print("Seems like a long way...")
+    print()
+
+    jump = input("What would you like to do?[jump/stay/parachute]")
+
+    if jump == "jump" or jump == "Jump" or jump == "j" or jump == "J" or jump == " jump" or jump == " Jump" or jump == " j" or jump == "J":
+        # bad choice
+        print("You fall from the sky and land on your head...")
+        sleep(delay)
+        print("Your skull burst open and your brains spread everywhere")
+        sleep(delay)
+        print("Your chances of survival are zero.")
+        sleep(delay * 2)
+        print("You're dead meat.")
+        print()
+        dead = True
+        if dead is True:
+            print("You died, but at least you don't have to take 226 anymore. :)")
+            quit()
+
+    elif jump == "parachute" or jump == "Parachute" or jump == "p" or jump == "P" or jump == " parachute" or jump == " Parachute" or jump == " p" or jump == " P":
+        # good choice
+        print("You open your parachute at approximately 1000 feet and you avoid injury.")
+        sleep(delay * 2)
+        print("Congratulations, you passed your parachute test!")
+        print()
+
+    elif jump == "stay" or jump == "Stay" or jump == "s" or jump == "S" or jump == " stay" or jump == " Stay" or jump == " s" or jump == " S":
+        print("You decided to stay. The wind is pretty fierce this high up.")
+
+    else:
+        print("What was that?")
+        print()
+
+
 
 
 def team_14_adv():
