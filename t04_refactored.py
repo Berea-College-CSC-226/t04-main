@@ -221,6 +221,13 @@ def team_13_adv():
 
 
 def team_14_adv():
+    """
+    Team 14's refactored chapter.
+    https://docs.google.com/document/d/165eAoj1XNMW9XfruJp3p0qiJc1H9ZdS3PNCT9htqiPQ/edit?usp=sharing
+
+
+    """
+
     global dead
 
     direction = input("As you enter a new part of the cave you see a ladder in fron of you, you hear water to your right,"
