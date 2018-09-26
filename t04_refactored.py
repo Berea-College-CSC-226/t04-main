@@ -189,7 +189,7 @@ def team_7_adv():
     """
     Team 7's refactored chapter.
     Originally done by EppersonB and BarnettH, refactored by BarnettH and DunnA
-
+    google doc link: https://docs.google.com/document/d/1PeAwI9PZtPMI5_4KJMAsPv3blZDpBLS_9ZuFGaBhayg/edit?usp=sharing
     :return: None
     """
     global dead
