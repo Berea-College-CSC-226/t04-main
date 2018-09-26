@@ -1,11 +1,9 @@
 # T04: Adventures in Gitland
 
-Name 1: ____________
+Name 1: _____________
 
 Name 2: ____________
 
-Name 3 (if needed): ____________
+Repository Link: ______________________________
 
-Repository Link: ______________
-
-Google Document Link: ______________
+Google Document Link: _______________________
