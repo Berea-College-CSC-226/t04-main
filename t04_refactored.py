@@ -469,9 +469,58 @@ def team_9_adv():
 
 
 def team_10_adv():
-    pass
-    # TODO Add your code here
+    # jamalie & juem
+    # Refactored by nashab, stetzera
+    #https://docs.google.com/document/d/17Yz7-0dx2HY8ysxpR5TYoAwOJzgdK63a0maeYIfQ8hM/edit?usp=sharing
 
+    global dead           # You'll need this to be able to modify the dead variable
+
+    direction = input("There is a river in your path, what would you do to cross the river? (Swim, Make a bridge,etc)")
+    #this prompts user to pick a direction
+    sleep(delay)
+    if direction == "Make a bridge" or direction == "make a bridge":
+    # this is the best choice!
+        print("Well done, you have made a wise choice!")
+        print("Your reward is that you will survive and explore more of the jungle!")
+        sleep(delay)
+    elif direction == "Swim" or direction == "swim":
+    # surprisingly, this is a bad choice!
+        print("Oh,no!! Just like Goblet of Fire, there are deadly mermaids looking for fresh blood!")
+        print("You will be dragged down the ocean to be eaten at a feast!")
+        sleep(delay*3)
+        print("Now you're in their territory, you see some Gillyweeds just next to where you're trapped!")
+        sleep(delay*3)
+        print("You should be careful with eating Gillyweed")
+        direction = int(input("You have the option to eat between 1-3 strands of Gillyweed, what will you do?"))
+        if direction <= 2:
+            # Good idea
+            print("Good job! Now you have more strength and you can breath under water!")
+            sleep(delay*3)
+            print("Fight them and survive!")
+        elif direction > 2 and direction <= 3:
+            # this is a bad idea
+            print("Too much Gillyweed will cause suffocation!")
+            dead = True
+            sleep(delay*5)
+        else:
+            # We would like the user to use whole number
+            print("Since you did not choose from the given numbers, your only chance is to fight and survive.")
+    else:
+        # this is a neutral choice!
+        print("Well done for the creativity! You crossed the river!")
+        sleep(delay*3)
+        print("But...")
+        sleep(delay*3)
+        print("You got injured for the hard work, so you can't move on and you need to rest by the river!")
+        sleep(delay)
+
+    if dead == True:
+        print("oops.. I guess that's all for you!")
+        sleep(delay*3)
+        print("you were not very successful this time")
+        sleep(delay*3)
+        print("see you in your next journey")
+        #This choice kills you
 
 def cullomn_whitfordr(): # Refactored by Team 11
     """
