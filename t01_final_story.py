@@ -1,6 +1,5 @@
 ######################################################################
-# Author: Emily Lovell & Scott Heggen       TODO: Change this to your names
-# Username: lovelle & heggens               TODO: Change this to your usernames
+# Author: The Fall 2018 226 Class!
 #
 # Assignment: T01: Choose Your Own Adventure
 #
