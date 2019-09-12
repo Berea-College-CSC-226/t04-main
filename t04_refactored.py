@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Emily Lovell & Scott Heggen      TODO: Change this to your names
-# Username: lovelle & heggens             TODO: Change this to your usernames
+# Author: Scott Heggen      TODO: Change this to your names
+# Username: heggens             TODO: Change this to your usernames
 #
 # Assignment: T04: Adventure in Gitland
 #
@@ -104,6 +104,8 @@ def scott_adventure():
         sleep(delay)
 
     kill_if_dead(dead)
+
+###################################################################################
 
 
 def team_1_adv():
