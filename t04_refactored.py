@@ -129,8 +129,38 @@ def team_4_adv():
 
 
 def team_5_adv():
-    pass
-    # TODO Add your code here
+    """
+    Authors: Bryar Frank
+            Shawn Villahermosa
+    Google Doc: https://docs.google.com/document/d/1icOBu4PV5DDGkWtmThEnmaj2JaOW1aoW9Yujh0_caLo/edit?usp=sharing
+    :return:
+    """
+    flavor = input("Which flavor would you like? [Strawberry/Pistachio/Chocolate]")
+    flavor.lower()
+    if flavor[0] == "s" and flavor[9] == 'y' and len(flavor) == 10:
+        # Good choice!
+        print("Good choice!This makes you feel a lot better")
+        print("considering your friend disappeared mysteriously the other day.")
+        sleep(delay)
+
+    elif flavor[0] == "c" and flavor[9] == 'e' and len(flavor) == 9:
+        # Neutral choice
+        print("You feel a tingling sensation in your throat, and you start puking blood and pistachios.")
+        print("As everything starts going black, you vaguely hear evil laughter. ")
+        print("The ice cream van starts up and a merry song starts playing and slowly fades away"
+
+    elif flavor[0] == "p" and flavor[9] == 'o' and len(flavor) == 10:
+        # Oh... Bad choice
+        print("Here you go, this is a van favorite!")
+        sleep(delay)
+        print("Oh it tastes so familiar but not in a good way")
+        print("At first you don't realize it but then you start feeling nauseous")
+        print("You start vomiting and ask 'What the hell was that?'")
+        print("The ice cream people tells you: Don't worry! It's just your friend!")
+        kill_if_dead(True)
+
+    else:
+
 
 
 def team_6_adv():
