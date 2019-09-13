@@ -21,7 +21,7 @@
 import random
 from time import sleep
 
-delay = 1.0          # change to 0.0 for testing/speed runs; larger for dramatic effect!
+delay = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
 dead = False
 
 
@@ -53,11 +53,12 @@ def end_story(user):
     :param user: the user's name
     :return: None
     """
-    print("Congratulations, " + user + ", you have made it to the end of this... strange... adventure. I hope you feel accomplished.")
+    print(
+        "Congratulations, " + user + ", you have made it to the end of this... strange... adventure. I hope you feel accomplished.")
     print()
     print()
     print()
-    sleep(delay*5)
+    sleep(delay * 5)
     print("Now go play again.")
 
 
@@ -71,6 +72,7 @@ def kill_if_dead(dead):
     if dead:
         quit()
 
+
 ###################################################################################
 
 
@@ -80,7 +82,7 @@ def scott_adventure():
 
     :return: None
     """
-    global dead             # You'll need this to be able to modify the dead variable
+    global dead  # You'll need this to be able to modify the dead variable
     direction = input("Which direction would you like to go? [North/South/East/West]")
 
     if direction == "North":
@@ -95,15 +97,17 @@ def scott_adventure():
         print("Running seems like a good idea now. But... it's really, really dark.")
         print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
         print()
-        sleep(delay*2)
+        sleep(delay * 2)
         print("He eats you. You are delicious.")
         dead = True
     else:
         # Neutral choice
-        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+        print(
+            "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
         sleep(delay)
 
     kill_if_dead(dead)
+
 
 ###################################################################################
 
@@ -146,6 +150,58 @@ def team_7_adv():
 def team_8_adv():
     pass
     # TODO Add your code here
+
+
+#######################################################################################
+# eubanksn and mualcinp
+# T04
+# Fixing code
+######################################################################################
+# TODO Team 8
+
+
+sleep(delay)
+
+print()
+print("Thum.. Thum.. Thum.. You hear footsteps approaching.")
+sleep(delay * 2)
+print("Hello,", username, "I am the spirit of this cave. Here, take some food to help you with your journey.")
+
+choice = input("Take the food? [yes/no]")
+choice = choice.lower()
+
+if choice == "yes":
+    print("You took the food and ate it. Now you have enough energy to continue on your journey.")
+    sleep(delay)
+    print("Congratulations! You made a wise choice.")
+elif choice == "no":
+    second_choice = int(input(
+        "\nOkay, you don't have to eat all the food but you must take some bites. How many bites are you going to "
+        "take? [0-200]"))
+    while True:
+        if second_choice >= 0:
+            if second_choice > 100:
+                print("\nYou ate too much and exploded!!")
+                dead = True
+            elif second_choice == 0:
+                print("\nYou get hungry and your energy level drops. You pass out.")
+                dead = True
+            elif 100 >= second_choice > 0:
+                print("\nYou took the food and ate it. Now, you have enough energy to continue on your journey.")
+                print("Congratulations! You made a wise choice.")
+            break
+        second_choice = int(input(
+            "That is not possible. Now, lets try again. How many bites would you like to take? Input a number from "
+            "0-200 this time. "))
+
+else:
+    print("Enter either 'yes' or 'no'. The spirit of the cave would not take any other answers.")
+if dead:
+    print("Oh no, when you are passed out, a bear came across your body and YOU WERE EATEN. You wake up dead.")
+    quit()
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
+
 
 
 def team_9_adv():
@@ -222,10 +278,10 @@ def main():
              team_12_adv, team_13_adv, team_14_adv,
              team_15_adv, team_16_adv, team_17_adv,
              team_18_adv, team_19_adv, team_20_adv]
-    random.shuffle(paths)                               # Shuffles the order of paths, so each adventure is different
+    random.shuffle(paths)  # Shuffles the order of paths, so each adventure is different
 
     for i in range(len(paths)):
-        paths[i]()                                      # Runs each function in the paths list
+        paths[i]()  # Runs each function in the paths list
 
     end_story(user)
 
