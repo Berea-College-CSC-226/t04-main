@@ -186,7 +186,7 @@ print("You stumble into the woods. There are three paths in front of you.")
 print()
 answer = input("Which direction do you want to go? [North/East/West] ")
 print()
-if answer == "North":
+if answer == "North" or "north":
     # Bad choice
     print("You are being chased by wolves.")
     print("Try to run away! Good luck!")
