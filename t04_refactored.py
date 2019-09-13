@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Scott Heggen      TODO: Change this to your names
-# Username: heggens             TODO: Change this to your usernames
+# Author: Samantha Schweinsberg Bertrina Iransi
+# Username: schweinsbergs iransi
 #
 # Assignment: T04: Adventure in Gitland
 #
@@ -139,8 +139,32 @@ def team_6_adv():
 
 
 def team_7_adv():
-    pass
-    # TODO Add your code here
+    direction = input("Which direction would you like to go? [Right/Forward/Backward/Left]")
+    direction = direction.lower()
+    if direction == "right":
+        # Good Choice!
+        print("You rush into the nearby trees for cover. There you find a mystical coconut that will slay the dragon.")
+        sleep(delay)
+    elif direction == "forward":
+        # Bad Choice
+        integer = int(
+            input(
+                "You have made a bad choice! You have one more chance to avoid being burnt alive. Pick a number."))
+        if integer <= 50:
+            print("You have saved yourself and spared yourself from the dragon!")
+        elif integer >= 49:
+            print("You failed to make a better decision and gave the dragon time to get the BBQ sauce.")
+            print("You have decided to run towards the dragon. The dragon scoffs and burns you to a crisp.")
+            kill_if_dead(dead)
+            sleep(delay)
+    else:
+        pass
+        # Oh...Bad Choice
+        print("You just got eaten by man-eating roaches!")
+        sleep(delay)
+        print("Try to pick another direction to follow!")
+
+
 
 
 def team_8_adv():
