@@ -137,6 +137,7 @@ def team_5_adv():
     """
     flavor = input("Which flavor would you like? [Strawberry/Pistachio/Chocolate]")
     flavor.lower()
+
     if flavor[0] == "s" and flavor[9] == 'y' and len(flavor) == 10:
         # Good choice!
         print("Good choice!This makes you feel a lot better")
@@ -147,7 +148,7 @@ def team_5_adv():
         # Neutral choice
         print("You feel a tingling sensation in your throat, and you start puking blood and pistachios.")
         print("As everything starts going black, you vaguely hear evil laughter. ")
-        print("The ice cream van starts up and a merry song starts playing and slowly fades away"
+        print("The ice cream van starts up and a merry song starts playing and slowly fades away")
 
     elif flavor[0] == "p" and flavor[9] == 'o' and len(flavor) == 10:
         # Oh... Bad choice
