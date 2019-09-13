@@ -114,8 +114,40 @@ def team_1_adv():
 
 
 def team_2_adv():
-    pass
-    # TODO Add your code here
+    """Google Document Link:
+    https://docs.google.com/document/d/1N2BXxH4VsnbuLDMHqq_gNpbawFb-_D3vbwr5oPuuR8g/edit?usp=sharing"""
+    global dead
+    print("Congratulations! \n"
+          "You have survived so far. But the journey does not end for the gold still lays undiscovered. \n ")
+    sleep(delay * 2)
+    direction = input("Which way would you like to go now? Choose wisely North, East, West or South?\n")
+    if direction == "East":
+        print("You have proven how worthy you are so the gods have decided to reward you with Gold. \n "
+              "You are rich now go home and spread your wealth! \n")
+    elif direction == "North":
+        print("This trip is only for the worthy. You have been found unworthy and the gods have sacked your soul.\n")
+        quit()
+    elif direction == "West":
+        print("Some wolves come by and urinate all over your stuff, then eat your face off. \n"
+              "Tragic, you could have been rich but now you're dead.")
+        dead = True
+        quit()
+    else:
+        print(
+            "You were found by a group of robbers. They know you have enough food and gold to last you days. \n"
+            "They loot you and leave you for the bears.")
+    sleep(delay)
+
+    print("You're in the cave, its night time and you began to hear screams from one of two paths.")
+    direction = input("Which path will you take, East or West? Choose wisely.")
+    if direction == "East":
+        print("""Congratulation! You have found the exit and have made it out with only a few scratches 
+        and maybe some broken bones, but look on the bright side, at least you're alive.""")
+    else:
+        print(
+            "You become curious of the screams and follow them. \n"
+            "You stumble upon a group of rich cave people that party and they invite you to join them")
+    quit()
 
 
 def team_3_adv():
