@@ -66,7 +66,7 @@ if dead == True:
     quit()
 
 #########################################################################################################
-
+# TODO Team 1
 sleep(delay * 2)
 print("\n\nYou continue on with your journey. You happen to stumble across a bomb.")
 print("God offers you some wirecutters. With nothing to lose, you decide to be a hero.")
@@ -94,7 +94,7 @@ else:
     print("... You decide to move on.")
 
 #########################################################################################################
-
+# TODO Team 2
 print (
     "Congratulations! You have survived so far. But the journey does not end for the gold still lays undiscovered. \n ")
 sleep(delay * 2)
@@ -123,7 +123,7 @@ else:
     quit()
 
 #########################################################################################################
-
+# TODO Team 3
 sleep(delay)
 print()
 print(
@@ -174,7 +174,7 @@ def main1():
 main1()
 
 #########################################################################################################
-
+# TODO Team 5
 direction = input("Which flavor would you like? [Strawberry/Pistachio/Chocolate]")
 
 if direction == "strawberry":
@@ -205,7 +205,7 @@ if dead == True:
     quit()
 
 #########################################################################################################
-
+# TODO Team 6
 # Introduction
 print('''Ah! So I see you're still alive ''' + username + "!")
 print('''Little did you know though, you have yet another path before you!''')
@@ -250,7 +250,7 @@ if dead == True:
     quit()
 
 #########################################################################################################
-
+# TODO Team 7
 direction = input("Which direction would you like to go? [Right/Forwards/Backwards/Left]")
 
 if direction == "Right":
@@ -281,7 +281,7 @@ if dead == True:
     quit()
 
 #########################################################################################################
-
+# TODO Team 8
 sleep(delay)
 print()
 print ("Thum.. Thum.. Thum.. You heard footsteps approaching.")
@@ -322,7 +322,7 @@ if dead == True:
     quit()
 
 #########################################################################################################
-
+# TODO Team 9
 print("You see a dim light glowing behind a loose boulder. Do you choose to "
       "investigate?")
 Choice = input("[Yes/no/leave]")
@@ -355,7 +355,7 @@ else:
     quit()
 
 #########################################################################################################
-
+# TODO Team 10
 # Beginning of the Amulet Encounter Chapter
 
 print()
@@ -433,7 +433,7 @@ print()
 print()
 
 #########################################################################################################
-
+# TODO Team 12
 choice = input("[yes/no] ")
 print("You walk into a room and see a glass of milk sitting on a table. Do you drink it?)")
 if choice == "yes":
@@ -459,7 +459,7 @@ if dead == True:
     quit()
 
 #########################################################################################################
-
+# TODO Team 13
 sleep(delay * 3)
 print("")
 print("")
@@ -487,7 +487,7 @@ if dead == True:
     quit()
 
 #########################################################################################################
-
+# TODO Team 14
 print()
 print("You stumble into the woods. There are three paths in front of you.")
 print()
@@ -526,7 +526,7 @@ if dead == True:
     quit()
 
 #########################################################################################################
-
+# TODO Team 15
 print("You come upon three doors.")
 sleep(delay * 2)
 print("The one of the left has a light glowing from underneath.")
