@@ -179,9 +179,55 @@ def team_14_adv():
 
 
 def team_15_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1vE7M-wYzNrrqdWcMP472itZB_IBkW2anDfiU1cYA3Sk/edit?usp=sharing
+    :return:
+    """
+    global dead
 
+    # TODO Add your code here
+#########################################################################################################
+    # TODO Team 15
+    messages = ["You come upon three doors.", "The one on the left has a light glowing from underneath.",
+                "The one in the middle looks old and cracked.", "The one on the right is made of rusted metal."]
+    for i in messages:
+        print(i)
+        sleep(delay * 3)
+
+    direction = input("Which door will you choose? [Left, Middle, Right]")
+    if direction.lower() == "right":
+        # Good choice
+        print(
+            "You can barely see because the room is so dark and dusty. "
+            "\nYou light your torch and see the room is filled to the brim with gold and jewels!.")
+        sleep(delay * 4)
+        print("Congratulations, you're rich!")
+        choice = 0
+
+    elif direction.lower() == "left":
+        # Worst choice
+        print(
+            "You step through the door onto a thin sheet of ice. Below the ice, electricity arcs from one electric eel to another.\nYou turn quickly to walk back out the door and...")
+        sleep(delay * 3)
+        print("A golden dragon appears, he offers to help if and only if you can guess a number between 1 to 10")
+        number = int(input("What number do you choose?"))
+        if number >= 6:
+            print("He offers you a ride to safety, you come out with no major injuries.")
+            choice = 2
+    # Death
+        else:
+            print("The ice breaks! You are electrocuted while you are drowned... ")
+            dead = True
+            choice = 1
+    else:
+        # Boring choice
+        messages = ["You open the middle door. Behind the door you find a long passage with stairs that seem to go up forever.", "...", "....", ".....", "You realize this tunnel is leading to nowhere and close your eyes, wishing for an escape."]
+        for i in messages:
+            print(i)
+            sleep(delay * 2)
+        choice = 2
+
+        kill_if_dead(dead)
 
 def team_16_adv():
     pass
