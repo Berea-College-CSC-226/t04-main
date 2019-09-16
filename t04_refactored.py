@@ -123,13 +123,12 @@ def team_2_adv():
 
 
 def team_3_adv():
-    pass
-    # TODO Add your code here
+    username = input("What do you call yourself?")
 
+    action = input_action()
+    ask_action(username, action)
 
-# TODO Team 3
-
-sleep(delay)
+    sleep(delay)
 
 
 # Pushing through code cleanup, noticed that teachers code was running after ours?
@@ -140,42 +139,33 @@ def input_action():
 
     :return:
     """
-    print(
-        "You are being chased by a group of goblins. You and your friend for some reason decide to run to a cliff. What do you do?")
+    print("You are being chased by a group of goblins.")
+    print("You and your friend for some reason decide to run to a cliff. What do you do?")
     action = input("[Sleep | Jump | Do Nothing | Fight] ")
     return action
 
 
 def ask_action(username, my_input):
-    if my_input == "sleep":
+    if my_input == "sleep" or my_input == "Sleep":
         # Good choice
         sleep(delay)
         print("Amazing! Good job, ", username, "! You have found their weakness! Goblins can't see sleeping people...")
         sleep(delay)
         print("As you awake, you notice some golden coins one of the goblins left behind.")
         sleep(delay)
-    elif my_input == "do nothing":
+    elif my_input == "do nothing" or my_input == "Do nothing":
         # Bad choice
         print("Do nothing? YOU DIE!!!!")
-        dead = True
         sleep(delay)
-        if dead == True:
+        if dead:
             print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-            quit()
-    elif my_input == "fight":
-        print("You have proved so brave. Go on with your journey!")
-    elif my_input == "jump":
+            kill_if_dead(dead)
+    elif my_input == "fight" or my_input == "Fight":
+        print("You have proved so brave", username, ". Go on with your journey!")
+    elif my_input == "jump" or my_input == "Jump":
         print("At the bottom of this cliff lies waves of fast flowing water. Jumping was not a good choice!")
     else:
         print("The choice you entered is not available. Please enter a valid choice.")
-
-
-def main():
-    username = input("What do you call yourself?")
-    ask_action(username, input_action())
-
-
-main()
 
 
 def team_4_adv():
