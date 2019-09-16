@@ -133,20 +133,18 @@ def team_2_adv():
         dead = True
         quit()
     else:
-        print(
-            "You were found by a group of robbers. They know you have enough food and gold to last you days. \n"
-            "They loot you and leave you for the bears.")
+        print("You were found by a group of robbers. They know you have enough food and gold to last you days. \n"
+              "They loot you and leave you for the bears.")
     sleep(delay)
 
     print("You're in the cave, its night time and you began to hear screams from one of two paths.")
     direction = input("Which path will you take, East or West? Choose wisely.")
     if direction == "East":
-        print("""Congratulation! You have found the exit and have made it out with only a few scratches 
+        print("""Congratulations! You have found the exit and have made it out with only a few scratches 
         and maybe some broken bones, but look on the bright side, at least you're alive.""")
     else:
-        print(
-            "You become curious of the screams and follow them. \n"
-            "You stumble upon a group of rich cave people that party and they invite you to join them")
+        print("You become curious of the screams and follow them. \n"
+              "You stumble upon a group of rich cave people that party and they invite you to join them")
     quit()
 
 
