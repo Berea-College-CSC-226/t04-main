@@ -157,6 +157,7 @@ def team_10_adv():
     # TODO Team 10
     # Beginning of the Amulet Encounter Chapter
 
+    global dead
     print()
     print("You are in a room with strange symbols all over the walls.")
     print("Looking at the eldritch markings makes your head hurt just by looking at them.")
@@ -164,10 +165,7 @@ def team_10_adv():
     print()
 
     amuletAction = input("What do you want to do? [Wear/Ignore/Destroy]")
-
-
     print()
-
     if amuletAction == "Wear" or "wear" or "WEAR":
         # Bad choice
         print("Nothing happens... ")
@@ -189,7 +187,7 @@ def team_10_adv():
             print("Your body starts responding again.")
             print("You seem to have shaken off the evil manipulation.")
             print("Harrowed by your brush with death, you carry on, deeper into the labyrinth")
-        elif int(amuletSave) >= 41 and int(amuletSave) <= 43:
+        elif 41 <= int(amuletSave) <= 43:
             print()
             print("Close enough!")
             print("You shake off the control with moments to spare and come to your senses.")
@@ -199,15 +197,13 @@ def team_10_adv():
             print("NOW DIE FOR YOUR IGNORANCE!")
             dead = True
 
-    elif amuletAction == "Destroy":
+    elif amuletAction == "Destroy" or "destroy" or "DESTROY":
         # Good option
         print("As you cast the amulet into some previously un-narrated lava, you feel watched by a giant eye.")
         print("As the amulet disintegrated, you feel a cursed being lifted from the Median-Earth.")
         print("Satisfied with your good deed for the day you carry on deeper into the labyrinth...")
         print()
-
-
-    elif amuletAction == "Ignore":
+    elif amuletAction == "Ignore" or "ignore" or "IGNORE":
         # Boring option
         print("So you ignore the floating mystical artifact in the middle of the room.")
         print(
