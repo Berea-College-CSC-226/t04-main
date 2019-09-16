@@ -95,30 +95,30 @@ else:
 
 #########################################################################################################
 # TODO Team 2
-print (
+print(
     "Congratulations! You have survived so far. But the journey does not end for the gold still lays undiscovered. \n ")
 sleep(delay * 2)
 direction = input("Which way would you like to go now? Choose wisely North, East, West or South?\n")
 if direction == "East":
-    print (
+    print(
         "You have proven how worthy you are so the gods have decided to reward you with Gold. \n You are rich now go home and spread your wealth! \n")
 elif direction == "North":
     print("This trip is only for the worthy. You have been found unworthy and the gods have sacked your soul.\n")
     quit()
 elif direction == "West":
-    print (
+    print(
         "Some wolves come by and urinate all over your stuff, then eat your face off. Tragic, you could have been rich but now you're dead.")
 else:
-    print (
+    print(
         "You were found by a group of robbers. They know you have enough food and gold to last you days. They loot you and leave you for the bears.")
 sleep(delay)
-print ("You're in the cave, its night time and you began to hear screams from one of two paths.")
+print("You're in the cave, its night time and you began to hear screams from one of two paths.")
 direction = input("Which path will you take, East or West? Choose wisely.")
 if direction == "East":
-    print ("""Congratulation! You have found the exit and havce made it out with only a few scratches and maybe some broken bones, but look on the bright side, atleast you're alive.
+    print("""Congratulation! You have found the exit and havce made it out with only a few scratches and maybe some broken bones, but look on the bright side, atleast you're alive.
      Look on the bright side, you have experienced the deadly cave and came out with your life. Yay!""")
 else:
-    print (
+    print(
         "You become curious of the screams and follow them. You stumble upon a group of rich cave partiers and they invite you to join them")
     quit()
 
@@ -284,15 +284,15 @@ if dead == True:
 # TODO Team 8
 sleep(delay)
 print()
-print ("Thum.. Thum.. Thum.. You heard footsteps approaching.")
+print("Thum.. Thum.. Thum.. You heard footsteps approaching.")
 sleep(delay * 2)
-print ("Hello,", username, "I am the spirit of the cave, here take some of these food to help you with you journey.")
+print("Hello,", username, "I am the spirit of the cave, here take some of these food to help you with you journey.")
 
 choice = input("Take the food? [yes/no]")
 choice = choice.lower()
 
 if choice == "yes":
-    print ("You took the food and ate it. Now you have enough energy to continue on you journey.")
+    print("You took the food and ate it. Now you have enough energy to continue on you journey.")
     sleep(delay)
     print("Congratulations! You made a wise choice.")
 elif choice == "no":
@@ -301,24 +301,24 @@ elif choice == "no":
     while True:
         if second_choice >= 0:
             if second_choice > 100:
-                print ("\nYou ate too much, and exploded!!")
+                print("\nYou ate too much, and exploded!!")
                 dead = True
             elif second_choice == 0:
-                print ("\nYou get hungry and your energy level dropped. You passed out.")
+                print("\nYou get hungry and your energy level dropped. You passed out.")
                 dead = True
             elif second_choice <= 100 and second_choice > 0:
-                print ("\nYou took the food and ate it. Now you have enough energy to continue on you journey.")
+                print("\nYou took the food and ate it. Now you have enough energy to continue on you journey.")
                 print("Congratulations! You made a wise choice.")
             break
         second_choice = int(input(
             "That is not possible. Now, lets try again. How many bites would you like to take? Input a number from 0-200 this time. "))
 
 else:
-    print ("Enter either 'yes' or 'no'. The spirit of the cave would not take any other answers.")
+    print("Enter either 'yes' or 'no'. The spirit of the cave would not take any other answers.")
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 if dead == True:
-    print ("Oh no, when you are passed out, a bear came accross your body and YOU WERE EATEN.")
+    print("Oh no, when you are passed out, a bear came accross your body and YOU WERE EATEN.")
     quit()
 
 #########################################################################################################
@@ -329,8 +329,8 @@ Choice = input("[Yes/no/leave]")
 sleep(delay)
 
 if Choice == "Yes":
-    print ("You place your hand against the boulder and it dissipates into the air like fine mist. Behind it you see "
-           "a giant sword bigger than most men.")
+    print("You place your hand against the boulder and it dissipates into the air like fine mist. Behind it you see "
+          "a giant sword bigger than most men.")
     sleep(delay)
     print("A giant humanoid creature enters your view and begins to grab the sword.")
     sleep(delay * 2)
@@ -447,14 +447,14 @@ else:
 
 print("In the dark hall you see a libra scale. You have to set the scale equal to a bar of silver.")
 choice = int(input("Pick a number"))
-if choice > 0 and choice <= 10:
+if 0 < choice <= 10:
     print("A door opens")
 elif choice > 10:
     print(" You fall to your death")
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 
-if dead == True:
+if dead:
     print("Oh no! you died. Better luck next time! Try again by hitting the green play button")
     quit()
 
