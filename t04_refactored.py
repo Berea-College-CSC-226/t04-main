@@ -100,7 +100,7 @@ def scott_adventure():
         dead = True
     else:
         # Neutral choice
-        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!!")
+        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
         sleep(delay)
 
     kill_if_dead(dead)
@@ -114,24 +114,27 @@ def team_1_adv():
 
 
 def team_2_adv():
-    """Google Document Link:
+    """
+    Names: Jose Zapata & Ben Maynard
+    Google Document Link:
     https://docs.google.com/document/d/1N2BXxH4VsnbuLDMHqq_gNpbawFb-_D3vbwr5oPuuR8g/edit?usp=sharing"""
     global dead
     print("Congratulations! \n"
           "You have survived so far. But the journey does not end for the gold still lays undiscovered. \n ")
     sleep(delay * 2)
     direction = input("Which way would you like to go now? Choose wisely North, East, West or South?\n")
+    direction = direction.lower()
     if direction == "East":
         print("You have proven how worthy you are so the gods have decided to reward you with Gold. \n "
               "You are rich now go home and spread your wealth! \n")
     elif direction == "North":
         print("This trip is only for the worthy. You have been found unworthy and the gods have sacked your soul.\n")
-        quit()
+        dead = True
     elif direction == "West":
         print("Some wolves come by and urinate all over your stuff, then eat your face off. \n"
               "Tragic, you could have been rich but now you're dead.")
         dead = True
-        quit()
+
     else:
         print("You were found by a group of robbers. They know you have enough food and gold to last you days. \n"
               "They loot you and leave you for the bears.")
