@@ -130,8 +130,8 @@ def team_4_adv():
 
 def team_5_adv():
     """
-    Authors: Bryar Frank
-            Shawn Villahermosa
+    Editors: Bryar Frank
+             Shawn Villahermosa
     Google Doc: https://docs.google.com/document/d/1icOBu4PV5DDGkWtmThEnmaj2JaOW1aoW9Yujh0_caLo/edit?usp=sharing
     :return:
     """
@@ -161,6 +161,7 @@ def team_5_adv():
         kill_if_dead(True)
 
     else:
+        pass
 
 
 
