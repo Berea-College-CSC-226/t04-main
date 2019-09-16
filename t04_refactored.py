@@ -164,8 +164,31 @@ def team_11_adv():
 
 
 def team_12_adv():
-    pass
-    #hello from the other side
+    choice = input("[yes/no] ")
+    print("You walk into a room and see a glass of milk sitting on a table. Do you drink it?)")
+    if choice == "yes":
+        print("Great you refilled your health ")
+    elif choice == "no":
+        print("you die from starvation?!")
+        sleep(delay)
+    else:
+        # neutral choice
+        print("you later found berries in the dark hall")
+
+    print("In the dark hall you see a libra scale. You have to set the scale equal to a bar of silver.")
+    choice = int(input("Pick a number"))
+    if choice > 0 and choice <= 10:
+        print("A door opens")
+    elif choice > 10:
+        print(" You fall to your death")
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+
+    if dead == True:
+        print("Oh no! you died. Better luck next time! Try again by hitting the green play button")
+        quit()
+
+    #########################################################################################################
     # TODO Add your code here
 
 
