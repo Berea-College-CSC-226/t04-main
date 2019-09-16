@@ -109,6 +109,7 @@ def scott_adventure():
 
 
 def team_1_adv():
+    global dead
     sleep(delay * 2)
     print("\n\nYou continue on with your journey. You happen to stumble across a bomb.")
     print("God offers you some wirecutters. With nothing to lose, you decide to be a hero.")
@@ -116,24 +117,21 @@ def team_1_adv():
     sleep(delay * 2)
     print("Which wire will you choose, dude?")
     color = input("Red, Blue, or Yellow?")
-    while color.lower not in ["red", "red ", "blue", "blue ", "yellow", "yellow "]:
-        if color.lower() == "red" or "red ":
-            # The good choice
-            print("You suck in a breath and then cut the wire. The LEDs flicker, then shut off. You did it!")
-            break
-        elif color.lower() == "blue" or " blue":
-            # The bad choice
-            print("You suck in a breath and then cut the wire. ")
-            print("The bomb explodes into a white light. You die instantly.")
-            break
-        elif color.lower() == "yellow" or "yellow ":
-            print("You suck in a breath and cut the yellow wire.")
-            print("")
-            print("Nothing explicitly happens, but suddenly you have a loaf of banana nut bread in your pocket.")
-            print("... You decide to move on.")
-            break
-        else:
-            color = input("I didn't understand that, choose again: Red, Blue, or Yellow?")
+    if color.lower() == "red" or "red ":
+        # The good choice
+        print("You suck in a breath and then cut the wire. The LEDs flicker, then shut off. You did it!")
+    elif color.lower() == "blue" or " blue":
+        # The bad choice
+        print("You suck in a breath and then cut the wire. ")
+        print("The bomb explodes into a white light. You die instantly.")
+        dead = True
+    else:
+        print("You suck in a breath and cut the yellow wire.")
+        print("")
+        print("Nothing explicitly happens, but suddenly you have a loaf of banana nut bread in your pocket.")
+        print("... You decide to move on.")
+    kill_if_dead(dead)
+
 
 
 
