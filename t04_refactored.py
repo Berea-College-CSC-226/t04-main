@@ -190,10 +190,10 @@ def team_8_adv():
             if second_choice >= 0:
                 if second_choice > 100:
                     print("\nYou ate too much and exploded, you gluttonous fiend!")
-                    dead = True
+                    deceased = True
                 elif second_choice == 0:
                     print("\nYou get hungry and your energy level drops. You pass out.")
-                    dead = True
+                    deceased = True
                 elif 100 >= second_choice > 0:
                     print("\nYou took the food and ate it. Now, you have enough energy to continue on your journey.")
                     print("Congratulations! You made a wise choice.")
@@ -204,7 +204,7 @@ def team_8_adv():
 
     else:
         print("Enter either 'yes' or 'no'. The spirit of the cave would not take any other answers.")
-    if dead:
+    if deceased:
         print("A bear comes across your mangled, exploded body. You wake up dead.")
         quit()
 
