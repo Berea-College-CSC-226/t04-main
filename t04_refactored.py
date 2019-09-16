@@ -123,7 +123,8 @@ def team_1_adv():
             break
         elif color.lower() == "blue" or color.lower() == " blue":
             # The bad choice
-            print("You suck in a breath and then cut the wire. The bomb explodes into a white light. You die instantly.")
+            print("You suck in a breath and then cut the wire. ")
+            print("The bomb explodes into a white light. You die instantly.")
             dead = True
             break
         elif color.lower() == "yellow" or color.lower() == "yellow ":
