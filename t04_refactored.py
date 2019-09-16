@@ -173,14 +173,16 @@ def team_13_adv():
     # TODO Add your code here
 
 ####################################################################################################################
-def team_14_adv():
 
+
+def team_14_adv():
     """
     Google Drive:   https://docs.google.com/document/d/1hVrBRHrbbXxCU74zEOyzQhHAzuYbB5O3eAddp6hoWnw/edit?usp=sharing
     Partner 1: Thy Nguyen
     Partner 2: Jenifer Fidelia
     :return:
     """
+
 
     global dead
     print("\nYou stumble into the woods. \nThere are three paths in front of you.\n")
