@@ -211,8 +211,12 @@ def team_15_adv():
             "electric eel to another.\nYou turn quickly to walk back out the door and...")
         sleep(delay * 3)
         print("A golden dragon appears, he offers to help if and only if you can guess a number between 1 to 10")
-        number = int(input("What number do you choose?"))
-        if number >= 6:
+        number = input("What number do you choose?")
+        dragon_guess = False
+        for i in range(5):
+            if ord(number[0]) == (54 + i) or (ord(number[0]) == 49 and (ord(number[-1]) == 48)):
+                dragon_guess = True
+        if dragon_guess:
             print("He offers you a ride to safety, you come out with no major injuries.")
             choice = 2
     # Death
