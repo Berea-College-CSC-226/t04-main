@@ -174,49 +174,52 @@ def team_13_adv():
 
 ####################################################################################################################
 def team_14_adv():
+
     """
     Google Drive:   https://docs.google.com/document/d/1hVrBRHrbbXxCU74zEOyzQhHAzuYbB5O3eAddp6hoWnw/edit?usp=sharing
     Partner 1: Thy Nguyen
     Partner 2: Jenifer Fidelia
     :return:
     """
-    # TODO Team 14
-print()
-print("You stumble into the woods. There are three paths in front of you.")
-print()
-answer = input("Which direction do you want to go? [North/East/West] ")
-print()
-if answer == "North" or "north":
-    # Bad choice
-    print("You are being chased by wolves.")
-    print("Try to run away! Good luck!")
-    print()
-    safe = input("How long do want to run? [1-10]")
-    try:
-        a = int(safe)
-        if int(safe) >= 7:
-            print()
-            print("The wolves get tired of chasing you.")
-    except ValueError:
-        print()
-        print("Oh no. They caught you.")
+
+    global dead
+    print("\nYou stumble into the woods. \nThere are three paths in front of you.\n")
+
+    answer = input( "Which direction do you want to go? [North (N) /East (E) /West(W)] ")
+
+    if answer.lower() == "north" or answer.lower() == "n":
+        # Bad choice
+        print("\n You are being chased by wolves.")
+        sleep(1)
+        print("Try to run away! Good luck!")
+        sleep(1)
+        safe = input("How long do want to run? [1-10]")
+        try:
+            a = int(safe)
+            if int(safe) >= 7:
+                print("\nThe wolves get tired of chasing you.")
+            else:
+                print("Oh no. They caught you.")
+        except ValueError:
+                print("\nOh no. They caught you.")
+                dead = True
+    elif answer.lower() == "west" or answer.lower() =="w":
+        # Good choice
+        print("You stumbled into a clearing. \nYou escape the woods.")
+
+    elif answer.lower() == "east" or answer.lower() == "e":
+        # Neutral choice
+        print("The path leads you deeper into the woods. \nYou are now lost.")
+    else:
+        print("You can't think clearly. \nYou sit there for eternity.")
         dead = True
-elif answer == "West":
-    # Good choice
-    print("You stumbled into a clearing. \n You escape the woods.")
 
-elif answer == "East":
-    # Neutral choice
-    print("The path leads you deeper into the woods.")
-    print("You are now lost.")
-else:
-    print("You can't think clearly. \n You sit there for eternity.")
-    dead = True
+    if dead:
+        print("Seems like you made a poor decision. \nYou have died!")
+        quit()
 
-if dead == True:
-    print("Seems like you made a poor decision.")
-    print("You have died!")
-    quit()
+    else:
+        print("Keep going. You are still alive.")
 
 ############################################################################################################
 def team_15_adv():
