@@ -100,7 +100,7 @@ def scott_adventure():
         dead = True
     else:
         # Neutral choice
-        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!!")
         sleep(delay)
 
     kill_if_dead(dead)
