@@ -117,17 +117,16 @@ def team_1_adv():
     print("Which wire will you choose, dude?")
     color = input("Red, Blue, or Yellow?")
     while color.lower not in ["red", "red ", "blue", "blue ", "yellow", "yellow "]:
-        if color.lower() == "red" or color == "red ":
+        if color.lower() == "red" or "red ":
             # The good choice
             print("You suck in a breath and then cut the wire. The LEDs flicker, then shut off. You did it!")
             break
-        elif color.lower() == "blue" or color.lower() == " blue":
+        elif color.lower() == "blue" or " blue":
             # The bad choice
             print("You suck in a breath and then cut the wire. ")
             print("The bomb explodes into a white light. You die instantly.")
-            dead = True
             break
-        elif color.lower() == "yellow" or color.lower() == "yellow ":
+        elif color.lower() == "yellow" or "yellow ":
             print("You suck in a breath and cut the yellow wire.")
             print("")
             print("Nothing explicitly happens, but suddenly you have a loaf of banana nut bread in your pocket.")
@@ -135,6 +134,7 @@ def team_1_adv():
             break
         else:
             color = input("I didn't understand that, choose again: Red, Blue, or Yellow?")
+
 
 
 def team_2_adv():
