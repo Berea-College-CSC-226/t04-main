@@ -149,6 +149,15 @@ def team_8_adv():
 
 
 def team_9_adv():
+    ######################################################################
+    # Author: Taran Wells & Dakota Miller
+    # Username: Wellst & Millerd2
+    #
+    # Assignment: T04: Adventure in Gitland
+    #
+    # Google docs: https://docs.google.com/document/d/1tQqF_Y0WmdpPVzTq3wAzf5_kX4x5tzHtdvdRv92qHp8/edit?usp=sharing
+    ######################################################################
+
     death = False
     print("You see a dim light glowing behind a loose boulder. Do you choose to investigate?")
     choice = input("[Yes/no/leave]")
