@@ -207,7 +207,8 @@ def team_15_adv():
     elif direction.lower() == "left":
         # Worst choice
         print(
-            "You step through the door onto a thin sheet of ice. Below the ice, electricity arcs from one electric eel to another.\nYou turn quickly to walk back out the door and...")
+            "You step through the door onto a thin sheet of ice. Below the ice, electricity arcs from one "
+            "electric eel to another.\nYou turn quickly to walk back out the door and...")
         sleep(delay * 3)
         print("A golden dragon appears, he offers to help if and only if you can guess a number between 1 to 10")
         number = int(input("What number do you choose?"))
@@ -215,13 +216,16 @@ def team_15_adv():
             print("He offers you a ride to safety, you come out with no major injuries.")
             choice = 2
     # Death
+
         else:
             print("The ice breaks! You are electrocuted while you are drowned... ")
             dead = True
             choice = 1
     else:
         # Boring choice
-        messages = ["You open the middle door. Behind the door you find a long passage with stairs that seem to go up forever.", "...", "....", ".....", "You realize this tunnel is leading to nowhere and close your eyes, wishing for an escape."]
+        messages = ["You open the middle door. Behind the door you find a long passage with stairs that seem to go up"
+                    " forever.", "...", "....", ".....",
+                    "You realize this tunnel is leading to nowhere and close your eyes, wishing for an escape."]
         for i in messages:
             print(i)
             sleep(delay * 2)
