@@ -178,8 +178,46 @@ def team_8_adv():
 
 
 def team_9_adv():
+    ######################################################################
+    # Author: Taran Wells & Dakota Miller
+    # Username: Wellst & Millerd2
+    #
+    # Assignment: T04: Adventure in Gitland
+    #
+    # Google docs: https://docs.google.com/document/d/1tQqF_Y0WmdpPVzTq3wAzf5_kX4x5tzHtdvdRv92qHp8/edit?usp=sharing
+    ######################################################################
+
+    death = False
+    print("You see a dim light glowing behind a loose boulder. Do you choose to investigate?")
+    choice = input("[Yes/no/leave]")
+    sleep(delay)
+
+    if choice == "Yes":
+        print("You place your hand against the boulder and it dissipates into the air like fine mist. Behind it you")
+        print("see a giant sword bigger than most men.")
+        sleep(delay)
+        print("A giant humanoid creature enters your view and begins to grab the sword.")
+        sleep(delay * 2)
+        print("He swings the sword in your direction causing the timid ceiling to collapse in between you saving ")
+        print("yourself from the giant beast. ")
+        print("You are safe for now, and you begin to search for a way out..")
+        #
+        #
+        sleep(delay)
+    elif choice == "no":
+        print("You choose to hastily run away from the boulder and you begin to lose your footing.")
+        sleep(delay)
+        print("You trip and fall forward breaking your neck in the most boring possible fashion")
+        death = True
+    else:
+        print("You decide against your gut and move away from the glowing boulder.")
+        sleep(delay)
+        print("You leave the cave by following the sounds of wilderness outside. You begin to hear some disgruntled")
+        print("shuffling in the cave as you leave.")
+
+    kill_if_dead(death)
+
     pass
-    # TODO Add your code here
 
 
 def team_10_adv():
