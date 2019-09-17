@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Samantha Schweinsberg Bertrina Iransi
-# Username: schweinsbergs iransi
+# Author: Scott Heggen      TODO: Change this to your names
+# Username: heggens             TODO: Change this to your usernames
 #
 # Assignment: T04: Adventure in Gitland
 #
