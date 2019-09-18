@@ -154,7 +154,10 @@ def team_9_adv():
 
 
 def team_10_adv():
+
+  #  Google Doc: https://docs.google.com/document/d/1XwjthTBbExLqfs_fXTbGp70kUGsyPTzwsMwP5XOjrJ4/edit?usp=sharing
     # TODO Team 10
+
     # Beginning of the Amulet Encounter Chapter
 
     global dead
@@ -224,7 +227,7 @@ def team_10_adv():
         print("Congratulations! You've been possessed by an ancient evil!")
         print("Don't mess with cursed objects kids!")
         print("Better luck next time! Try again by hitting the green play button in the top right. ")
-        quit()
+        kill_if_dead()
 
     print()
     print()
