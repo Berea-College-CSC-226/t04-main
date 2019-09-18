@@ -188,6 +188,26 @@ def team_15_adv():
     # TODO Add your code here
 #########################################################################################################
     # TODO Team 15
+    ######################################################################
+    # Author: Vidya Mastriyana, Alex Meadors
+    # Username: mastriyanag, AlexMeadors
+    #
+    # Assignment: T04: Adventure in Gitland
+    #
+    # Purpose: To recreate a choose-your-own-adventure style game
+    # by refactoring T01.
+    #
+    # Each "twist" in the story is from a different group. The resulting story
+    # will either be incoherently random, or entertainingly "Mad Lib" like.
+    # Either way, it should be fun!
+    #
+    # This new version will take advantage of functions, as well as
+    # demonstrate the value of git as a tool for collaborating.
+    ######################################################################
+    # Acknowledgements:
+    #   Original Author: Scott Heggen
+    #
+    ######################################################################
     messages = ["You come upon three doors.", "The one on the left has a light glowing from underneath.",
                 "The one in the middle looks old and cracked.", "The one on the right is made of rusted metal."]
     for i in messages:
@@ -214,7 +234,7 @@ def team_15_adv():
         number = input("What number do you choose?")
         dragon_guess = False
         for i in range(5):
-            if ord(number[0]) == (54 + i) or (ord(number[0]) == 49 and (ord(number[-1]) == 48)):
+            if ord(number[0]) == (54 + i) or (ord(number[0]) == 49 and (ord(number[-1]) == 48) and (len(number) == 2)):
                 dragon_guess = True
         if dragon_guess:
             print("He offers you a ride to safety, you come out with no major injuries.")
@@ -235,7 +255,14 @@ def team_15_adv():
             sleep(delay * 2)
         choice = 2
 
-        kill_if_dead(dead)
+    choicestrings = ["You collect your treasure and you move on to the next part of the cave",
+                     "You die, try again to test your fate again!",
+                "You open your eyes and you are in a new place. You are alive, but somewhat bored and disappointed."]
+
+    print(choicestrings[choice])
+
+
+    kill_if_dead(dead)
 
 def team_16_adv():
     pass
