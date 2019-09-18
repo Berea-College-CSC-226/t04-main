@@ -217,8 +217,7 @@ def team_14_adv():
         dead = True
 
     if dead:
-        print("Seems like you made a poor decision. \nYou have died!")
-        quit()
+        kill_if_dead(dead)
 
     else:
         print("Keep going. You are still alive.")
