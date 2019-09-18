@@ -128,9 +128,63 @@ def team_4_adv():
     # TODO Add your code here
 
 
+def test_the_rainbow(flavor):
+    """
+    Editors: Bryar Frank
+             Shawn Villahermosa
+     Function takes the input given by the user and checks to see if it is similar to one of the three options given.
+     If it isn't, it returns "True" so the question can be repeated.
+    :return: True
+    """
+    if len(flavor) == 9 and flavor[0] == "s" and flavor[8] == 'y':
+        # Good choice!
+        print("Good choice!This makes you feel a lot better")
+        print("considering your friend disappeared mysteriously the other day.\n")
+        sleep(delay)
+
+    elif len(flavor) == 10 and flavor[0] == "p" and flavor[9] == 'o':
+        # Neutral choice
+        print("You feel a tingling sensation in your throat, and you start puking blood and pistachios.")
+        print("As everything starts going black, you vaguely hear evil laughter. ")
+        print("The ice cream van starts up and a merry song starts playing and slowly fades away \n")
+
+    elif len(flavor) == 9 and flavor[0] == "c" and flavor[8] == 'e':
+        # Oh... Bad choice
+        print("Here you go, this is a van favorite!")
+        sleep(delay)
+        print("Oh it tastes so familiar but not in a good way")
+        print("At first you don't realize it but then you start feeling nauseous")
+        print("You start vomiting and ask 'What the hell was that?'")
+        print("The ice cream people tells you: Don't worry! It's just your friend! \n")
+
+        # Kill the player and end the program if this choice is made
+        kill_if_dead(True)
+
+    else:
+        return True
+
+
 def team_5_adv():
-    pass
-    # TODO Add your code here
+    """
+    ######################################################################
+    # Assignment: T04: Adventure in Gitland
+    #    Editors: Bryar Frank
+    #         Shawn Villahermosa
+    #    Google Doc: https://docs.google.com/document/d/1icOBu4PV5DDGkWtmThEnmaj2JaOW1aoW9Yujh0_caLo/edit?usp=sharing
+    ######################################################################
+    :return:
+    """
+    typo = True
+
+    while typo == True:
+        flavor = input("Which flavor would you like? [Strawberry/Pistachio/Chocolate]")
+        print()
+        flavor.lower()
+        typo = test_the_rainbow(flavor)
+        if typo == True:
+            print("Looks like the answer you provided isn't close to your choices")
+            sleep(delay)
+            print("Please try again unless you want to be stuck here forever... \n")
 
 
 def team_6_adv():
