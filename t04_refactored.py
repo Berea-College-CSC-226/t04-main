@@ -175,6 +175,7 @@ def ask_action(username, my_input):
         print("At the bottom of this cliff lies waves of fast flowing water. Jumping was not a good choice!")
     else:
         print("The choice you entered is not available. Please enter a valid choice.")
+# Finished, yay!
 
 
 def team_4_adv():
