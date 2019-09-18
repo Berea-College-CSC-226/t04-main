@@ -167,21 +167,9 @@ def team_11_adv():
     # TODO Add your code here
 
 
-def team_12_adv():
-    """ Making code better"""
-
-    # def choosing(choice):
-
-
-def dead():
-    quit()
-
-
-print("You walk into a room and see a glass of milk sitting on a table. Do you drink it?)")
-choice1 = input("[yes/no] ")
-
-
 def choosing(choice2):
+    """ this function present the user with the yes or no choice. Yes: progress, No:dead
+    """
     if choice2 == "yes":
         print("Great you refilled your health ")
     elif choice2 == "no":
@@ -193,13 +181,9 @@ def choosing(choice2):
         print("you later found berries in the dark hall")
 
 
-choosing(choice1)
-sleep(1)
-print("In the dark hall you see a libra scale. You have to set the scale equal to a bar of silver.")
-choice = int(input("Pick a number"))
-
-
 def choosing1(choice3):
+    """This function gives you two choices, one opens the door, the other is death
+    """
     if 0 < choice3 <= 10:
         print("A door opens")
     elif choice3 > 10:
@@ -207,13 +191,28 @@ def choosing1(choice3):
         dead()
 
 
-choosing1(choice)
+def team_12_adv():
+    """ This is Imma and Sama's part of the adventure. Enjoy!
+    """
 
+    # def choosing(choice):
 
-# TODO Don't forget to check if your user is dead at the end of your chapter!
+    # def dead():
+    #       quit()
 
-#########################################################################################################
-# TODO Add your code here
+    print("You walk into a room and see a glass of milk sitting on a table. Do you drink it?)")
+    choice1 = input("[yes/no] ")
+
+    choosing(choice1)
+    sleep(1)
+    print("In the dark hall you see a libra scale. You have to set the scale equal to a bar of silver.")
+    choice = int(input("Pick a number"))
+    choosing1(choice)
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+
+    #########################################################################################################
+    # TODO Add your code here
 
 
 def team_13_adv():
