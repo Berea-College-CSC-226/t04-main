@@ -132,7 +132,9 @@ def test_the_rainbow(flavor):
     """
     Editors: Bryar Frank
              Shawn Villahermosa
-    :return:
+     Function takes the input given by the user and checks to see if it is similar to one of the three options given.
+     If it isn't, it returns "True" so the question can be repeated.
+    :return: True
     """
     if len(flavor) == 9 and flavor[0] == "s" and flavor[8] == 'y':
         # Good choice!
@@ -181,7 +183,7 @@ def team_5_adv():
         typo = test_the_rainbow(flavor)
         if typo == True:
             print("Looks like the answer you provided isn't close to your choices")
-            delay
+            sleep(delay)
             print("Please try again unless you want to be stuck here forever... \n")
 
 
