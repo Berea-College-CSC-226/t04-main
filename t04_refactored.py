@@ -170,33 +170,50 @@ def team_11_adv():
 def team_12_adv():
     """ Making code better"""
 
-    def choosing(choice):
-        choice = input('yes/no')
-        print("You walk into a room and see a glass of milk sitting on a table. Do you drink it?)")
-        if choice == "yes":
-            print("Great you refilled your health ")
-        elif choice == "no":
-            print("you die from starvation?!")
-            sleep(delay)
-        else:
-            # neutral choice
-            print("you later found berries in the dark hall")
+    # def choosing(choice):
 
-    print("In the dark hall you see a libra scale. You have to set the scale equal to a bar of silver.")
-    choice = int(input("Pick a number"))
-    if 0 < choice <= 10:
+
+def dead():
+    quit()
+
+
+print("You walk into a room and see a glass of milk sitting on a table. Do you drink it?)")
+choice1 = input("[yes/no] ")
+
+
+def choosing(choice2):
+    if choice2 == "yes":
+        print("Great you refilled your health ")
+    elif choice2 == "no":
+        print("you die from starvation?!")
+        sleep(delay)
+        dead()
+    else:
+        # neutral choice
+        print("you later found berries in the dark hall")
+
+
+choosing(choice1)
+sleep(1)
+print("In the dark hall you see a libra scale. You have to set the scale equal to a bar of silver.")
+choice = int(input("Pick a number"))
+
+
+def choosing1(choice3):
+    if 0 < choice3 <= 10:
         print("A door opens")
-    elif choice > 10:
+    elif choice3 > 10:
         print(" You fall to your death")
+        dead()
 
-    # TODO Don't forget to check if your user is dead at the end of your chapter!
 
-    if dead:
-        print("Oh no! you died. Better luck next time! Try again by hitting the green play button")
-        quit()
+choosing1(choice)
 
-    #########################################################################################################
-    # TODO Add your code here
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
+
+#########################################################################################################
+# TODO Add your code here
 
 
 def team_13_adv():
