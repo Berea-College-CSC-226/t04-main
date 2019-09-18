@@ -114,8 +114,16 @@ def team_1_adv():
 
 
 def team_2_adv():
+    ######################################################################
+    # Author: Jose Zapata & Ben Maynard
+    # Username: zapatamezaj & maynardb
+    #
+    # Assignment: T04: Adventure in Gitland
+    #
+    # Purpose: To recreate a choose-your-own-adventure style game
+    # by refactoring T01.
+    ######################################################################
     """
-    Names: Jose Zapata & Ben Maynard
     Google Document Link:
     https://docs.google.com/document/d/1N2BXxH4VsnbuLDMHqq_gNpbawFb-_D3vbwr5oPuuR8g/edit?usp=sharing"""
     global dead
@@ -123,14 +131,16 @@ def team_2_adv():
           "You have survived so far. But the journey does not end for the gold still lays undiscovered. \n ")
     sleep(delay * 2)
     direction = input("Which way would you like to go now? Choose wisely North, East, West or South?\n")
-    direction = direction.lower()
     if direction == "East":
+        # Good choice
         print("You have proven how worthy you are so the gods have decided to reward you with Gold. \n "
               "You are rich now go home and spread your wealth! \n")
     elif direction == "North":
+        # Bad choice
         print("This trip is only for the worthy. You have been found unworthy and the gods have sacked your soul.\n")
         dead = True
     elif direction == "West":
+        # Bad choice
         print("Some wolves come by and urinate all over your stuff, then eat your face off. \n"
               "Tragic, you could have been rich but now you're dead.")
         dead = True
@@ -138,7 +148,9 @@ def team_2_adv():
     else:
         print("You were found by a group of robbers. They know you have enough food and gold to last you days. \n"
               "They loot you and leave you for the bears.")
+        dead = True
     sleep(delay)
+    kill_if_dead(dead)
 
     print("You're in the cave, its night time and you began to hear screams from one of two paths.")
     direction = input("Which path will you take, East or West? Choose wisely.")
@@ -148,7 +160,7 @@ def team_2_adv():
     else:
         print("You become curious of the screams and follow them. \n"
               "You stumble upon a group of rich cave people that party and they invite you to join them")
-    quit()
+    kill_if_dead(dead)
 
 
 def team_3_adv():
