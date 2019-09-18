@@ -130,7 +130,8 @@ def team_4_adv():
 
 def test_the_rainbow(flavor):
     """
-
+    Editors: Bryar Frank
+             Shawn Villahermosa
     :return:
     """
     if len(flavor) == 9 and flavor[0] == "s" and flavor[8] == 'y':
@@ -163,9 +164,12 @@ def test_the_rainbow(flavor):
 
 def team_5_adv():
     """
-    Editors: Bryar Frank
-             Shawn Villahermosa
-    Google Doc: https://docs.google.com/document/d/1icOBu4PV5DDGkWtmThEnmaj2JaOW1aoW9Yujh0_caLo/edit?usp=sharing
+    ######################################################################
+    # Assignment: T04: Adventure in Gitland
+    #    Editors: Bryar Frank
+    #         Shawn Villahermosa
+    #    Google Doc: https://docs.google.com/document/d/1icOBu4PV5DDGkWtmThEnmaj2JaOW1aoW9Yujh0_caLo/edit?usp=sharing
+    ######################################################################
     :return:
     """
     typo = True
