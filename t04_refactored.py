@@ -184,8 +184,70 @@ def team_15_adv():
 
 
 def team_16_adv():
-    pass
-    # TODO Add your code here
+
+######################################################################################################
+# Author: Zyshavia Garrett and Abe Moreno
+
+# Username: garrettz and morenoa
+
+# Assignment: T04_Adventures in Gitland
+
+# Google Drive Link: smallyourl.appspot.com/B5odmlCDM
+
+# Acknowledgements:
+
+######################################################################################################
+    global dead                                                             # If user chooses wrong direction they will die
+
+    available_inputs = ["right", "left", "backwards", "forwards"]           # Directions the user can choose
+
+    def check_if_exist(string):
+        global dead
+        given_input = string.lower()
+
+        if given_input in available_inputs:
+            if given_input == "right":
+                # Good Choice!
+                print("You rush into the nearby trees for cover. There you find a mystical coconut that will slay the"
+                      + " dragon.")
+                sleep(delay)
+
+            elif given_input == "forwards":
+                # Bad Choice
+                # print("You almost made a bad choice! The dragon hasn't seen you yet! Pick a number.")
+                integer = int(
+                    input(
+                        "You have made a bad choice! You have one more chance to avoid being burnt alive. Pick a "
+                        + "number. [1,2]"))
+                if integer == 1:
+                    print("You have saved yourself and spared yourself from the dragon!")
+                elif integer == 2:
+                    print("You failed to make a better decision and gave the dragon time to get the BBQ sauce.")
+                    print("You have decided to run towards the dragon. The dragon scoffs and burns you to a crisp.")
+                    dead = True
+                    sleep(delay * 2)
+                    # Finished!
+            else:
+                # Oh...Bad Choice
+                print("You just got eaten by man-eating roaches!")
+                sleep(delay * 2)
+                print("Try to pick another direction to follow next time!")
+                dead = True
+                # Finished the user has died!
+        else:
+            print("I do not exist, choose another direction...")
+            ask()
+
+    def ask():
+        x = input("Which direction would you like to go? [Right/Forwards/Backwards/Left]")
+        check_if_exist(x)
+
+    ask()
+    print("You have moved along.")
+
+    if dead:
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button.")
+        quit()
 
 
 def team_17_adv():
