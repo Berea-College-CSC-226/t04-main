@@ -150,7 +150,7 @@ def input_action():
 
 def ask_action(username, my_input):
     """
-
+    This function will generate a set list of prompts based upon the my_input variable.
     :param username: Utilizes the users name in the print functions.
     :param my_input: Allows the user to input a finite selection of options to further the program.
     :return: N/A
