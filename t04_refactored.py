@@ -170,6 +170,7 @@ def team_12_adv():
 
 def team_13_adv():
     sleep(delay * 3)
+    global dead
     print("")
     print("")
     print("It seems like you will be here a while.")
@@ -191,9 +192,13 @@ def team_13_adv():
         print("You discover a chest. You open the chest and find food and water in the chest!.")
         print("After eating, you continue to walk on and eventually find the Exit. ")
         print("You are free!")
-    if dead == True:
+
+    if dead:
         print("You have been eaten by the polar bear!")
-        quit()
+
+    kill_if_dead(dead)
+
+
 
     pass
     # TODO Add your code here
