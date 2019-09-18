@@ -167,6 +167,7 @@ def team_11_adv():
     # TODO Add your code here
 
 
+# This is the start of team twelve's work.
 def choosing(choice2):
     """ this function present the user with the yes or no choice. Yes: progress, No:dead
     """
