@@ -123,6 +123,11 @@ def team_2_adv():
 
 
 def team_3_adv():
+    """
+    Authors: Jeremy, Concepta
+    Google Link: https://docs.google.com/document/d/1OFzXphHUyPa6YQpFq5rVqsW-1NFc8JwoCqsTKO79Lbw/edit?usp=sharing
+    :return: N/A
+    """
     username = input("What do you call yourself?")
 
     action = input_action()
@@ -131,13 +136,11 @@ def team_3_adv():
     sleep(delay)
 
 
-# Pushing through code cleanup, noticed that teachers code was running after ours?
+
 def input_action():
     """
-    Names: Concepta Njolima, Jeremy Campbell
-    Google Link: https://docs.google.com/document/d/1OFzXphHUyPa6YQpFq5rVqsW-1NFc8JwoCqsTKO79Lbw/edit?usp=sharing
-
-    :return:
+    Starts the story, asks user to select an option.
+    :return: Returns the result of the variable 'action'.
     """
     print("You are being chased by a group of goblins.")
     print("You and your friend for some reason decide to run to a cliff. What do you do?")
@@ -146,6 +149,12 @@ def input_action():
 
 
 def ask_action(username, my_input):
+    """
+
+    :param username: Utilizes the users name in the print functions.
+    :param my_input: Allows the user to input a finite selection of options to further the program.
+    :return: N/A
+    """
     if my_input == "sleep" or my_input == "Sleep":
         # Good choice
         sleep(delay)
