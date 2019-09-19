@@ -117,10 +117,10 @@ def team_1_adv():
     sleep(delay * 2)
     print("Which wire will you choose, dude?")
     color = input("Red, Blue, or Yellow?")
-    if color.lower() == "red" or "red ":
+    if color == "red":
         # The good choice
         print("You suck in a breath and then cut the wire. The LEDs flicker, then shut off. You did it!")
-    elif color.lower() == "blue" or " blue":
+    elif color == "blue":
         # The bad choice
         print("You suck in a breath and then cut the wire. ")
         print("The bomb explodes into a white light. You die instantly.")
