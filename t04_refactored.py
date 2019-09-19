@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Scott Heggen      TODO: Change this to your names
-# Username: heggens             TODO: Change this to your usernames
+# Author: Mason Richardson Joey Martin
+# Username: richardsonmas martinj2
 #
 # Assignment: T04: Adventure in Gitland
 #
@@ -13,6 +13,7 @@
 #
 # This new version will take advantage of functions, as well as
 # demonstrate the value of git as a tool for collaborating.
+# https://docs.google.com/document/d/12AqOblfS_IRP24dKtyJrNh9a8E8JcmrvfzseTkbixyU/edit#
 ######################################################################
 # Acknowledgements:
 #   Original Author: Scott Heggen
@@ -131,7 +132,7 @@ def team_1_adv():
         print("Nothing explicitly happens, but suddenly you have a loaf of banana nut bread in your pocket.")
         print("... You decide to move on.")
     kill_if_dead(dead)
-
+    """This function runs one room where you have to choose which wire to cut in a bomb. Choose wisely!"""
 
 
 
