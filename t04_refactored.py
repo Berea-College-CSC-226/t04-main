@@ -194,6 +194,7 @@ def choosing1(choice3):
 
 def team_12_adv():
     """ This is Imma and Sama's part of the adventure. Enjoy!
+    here's our google doc: https://docs.google.com/document/d/1vQBVi9MWeufUl-xCIQGYaNfP7oAsKXdWE0a3dMO0pmo/edit?usp=sharing
     """
 
     # def choosing(choice):
