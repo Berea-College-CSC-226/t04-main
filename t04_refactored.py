@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Scott Heggen      TODO: Change this to your names
-# Username: heggens             TODO: Change this to your usernames
+# Author: Mason Richardson Joey Martin
+# Username: richardsonmas martinj2
 #
 # Assignment: T04: Adventure in Gitland
 #
@@ -13,6 +13,7 @@
 #
 # This new version will take advantage of functions, as well as
 # demonstrate the value of git as a tool for collaborating.
+# https://docs.google.com/document/d/12AqOblfS_IRP24dKtyJrNh9a8E8JcmrvfzseTkbixyU/edit#
 ######################################################################
 # Acknowledgements:
 #   Original Author: Scott Heggen
@@ -113,8 +114,30 @@ def scott_adventure():
 
 
 def team_1_adv():
-    pass
-    # TODO Add your code here
+    global dead
+    sleep(delay * 2)
+    print("\n\nYou continue on with your journey. You happen to stumble across a bomb.")
+    print("God offers you some wirecutters. With nothing to lose, you decide to be a hero.")
+    print("You unscrew the bomb. In front of you are three wires: red, blue, and yellow.")
+    sleep(delay * 2)
+    print("Which wire will you choose, dude?")
+    color = input("Red, Blue, or Yellow?")
+    if color == "red":
+        # The good choice
+        print("You suck in a breath and then cut the wire. The LEDs flicker, then shut off. You did it!")
+    elif color == "blue":
+        # The bad choice
+        print("You suck in a breath and then cut the wire. ")
+        print("The bomb explodes into a white light. You die instantly.")
+        dead = True
+    else:
+        print("You suck in a breath and cut the yellow wire.")
+        print("")
+        print("Nothing explicitly happens, but suddenly you have a loaf of banana nut bread in your pocket.")
+        print("... You decide to move on.")
+    kill_if_dead(dead)
+    """This function runs one room where you have to choose which wire to cut in a bomb. Choose wisely!"""
+
 
 
 def team_2_adv():
