@@ -593,6 +593,37 @@ def team_12_adv():
 
 
 def team_13_adv():
+    sleep(delay * 3)
+    global dead
+    print("")
+    print("")
+    print("It seems like you will be here a while.")
+    print("You see two doors in front of you. One is made of wood. It looks like it is about to fall off.")
+    print("The other door is just plants. All you gotta do is walk through and you're on the other side. ")
+    print("There is also a doorway with no door. ")
+    choice = input("Where will you go? [Wood/Plant/No door]   ")
+    if choice == "Wood":
+        print("As you push the door open, it falls off. ")
+        print("The loud noise wakes up the polar bear sleeping inside. It then proceeds to devour you with salt.")
+        dead = True
+    elif choice == "Plant":
+        print("You brush the plants to the side and walk through the doorway.")
+        print("This opens up a secret path. You follow this path for hours.")
+        print(" You somehow ended up at the same doorways that you encountered earlier.")
+
+    elif choice == "No door":
+        print(" You walk through the doorway and you see a faint light in the distance. You run to this light.")
+        print("You discover a chest. You open the chest and find food and water in the chest!.")
+        print("After eating, you continue to walk on and eventually find the Exit. ")
+        print("You are free!")
+
+    if dead:
+        print("You have been eaten by the polar bear!")
+
+    kill_if_dead(dead)
+
+
+
     pass
     # TODO Add your code here
 
