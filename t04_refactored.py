@@ -169,9 +169,24 @@ def team_12_adv():
     # TODO Add your code here
 
 
-def team_13_adv():
-    pass
+def team_13_adv(direction):
+    direction = input("Which cave tunnel do you want to go down? [Left/Right/Straight]")
+    if direction == "left" or "Left":
+        print("you have found a baby dragon.It's fire can keep you warm and it can lead you out of the cave. ")
+    elif direction == "Right" or "right":
+        print("Oh no. You have run into 100 duck-sized horses.")
+    else:
+
+
+
+
+
+
+
+
+
     # TODO Add your code here
+
 
 
 def team_14_adv():
