@@ -145,9 +145,35 @@ def team_7_adv():
 
 
 def team_8_adv():
+    """
+    https://docs.google.com/document/d/16zNYxRmG9FfWZs4yEuWvZWQFkVdXyBjzm4I6xY0lO1M/edit?usp=sharing
+    """
     pass
     # TODO Add your code here
 
+
+username = input("What is your name, idiot?")
+print("Welcome ", username, "to the portal.")
+direction = input("Before you stand two doors, pick your destiny, door 1 or door 2, what's it gonna be, stupid?")
+
+if direction == "door 1":
+    print("You ended up in an old shack infested with rabid raccoons.")
+    sleep(delay)
+
+    print("You were mauled, but you bravely fended them off.")
+    sleep(delay*2)
+    print("Losing a lot of blood and a finger in the process.")
+
+elif direction == "door 2":
+    print("You are in the house of sins, The Ladies of the Night")
+    sleep(delay)
+    print("You could not pay for the services")
+    sleep(delay*5)
+    print("Too bad, you got yourself killed")
+    dead = True
+if dead:
+    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+    quit()
 
 def team_9_adv():
     pass
