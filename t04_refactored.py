@@ -140,15 +140,18 @@ def team_6_adv():
     Refactored by Michale Hohl and Robert Dabbs
     :return:
     """
-    pass
     # TODO Add your code here
-    doors = input("which doors you want to open? [A/B/C/D]")
+    global dead
     import time
+    doors = input("which doors you want to open? [A/B/C/D]")
+
     if doors == "A":
         # this is a very bad choice
         print("There is Samara standing with a Axe and she is not friendly")  # Samara Morgan is a scary character from the ring movie
         print("seems she is very angry and start running towards you")
         sleep(delay)
+        print("You have been axed a question.")
+        dead = True
     elif doors == "B":
         # this a good choice
         print("There is a treasure hidden in one of the thousand boxes")
@@ -162,18 +165,18 @@ def team_6_adv():
         print("Congratulations!! you got the treasure")
     elif doors == "C":
         # this door is another bad choice
-        print("This door doesnot seem to be safe, because there are groups of hungry zombies in the room ready for attack")
+        print("This door does not seem to be safe, because there are groups of hungry zombies in the room ready for attack")
         print("The door is closed and there is no way out, you are trapped!!")
         print("You try to fight the zombies with the broom stick, the only weapon in the room to fight the zombies")
         print("They eat you, you are gone! They are still hungry. ")
         print("Nice try though. try next time wisely!!")
+        print("You have been sucked dry by the hungry zombies. Try again by hitting the green play button")
         dead = True
     else:
         # This the exit
         print("This is your way out of this haunted house. Well done.")
-    if dead == True:
-        print("You have been sucked dry by the hungry zombies. Try again by hitting the green play button")
 
+    kill_if_dead(dead)
 
 
 def team_7_adv():
