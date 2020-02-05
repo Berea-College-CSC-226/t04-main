@@ -135,8 +135,45 @@ def team_5_adv():
 
 
 def team_6_adv():
+    """
+    Google Doc Link: https://docs.google.com/document/d/1w6XU_suOBSL9st5yvms3vZHbd9hZg8RCAYztqJXqp_E/edit#
+    Refactored by Michale Hohl and Robert Dabbs
+    :return:
+    """
     pass
     # TODO Add your code here
+    doors = input("which doors you want to open? [A/B/C/D]")
+    import time
+    if doors == "A":
+        # this is a very bad choice
+        print("There is Samara standing with a Axe and she is not friendly")  # Samara Morgan is a scary character from the ring movie
+        print("seems she is very angry and start running towards you")
+        sleep(delay)
+    elif doors == "B":
+        # this a good choice
+        print("There is a treasure hidden in one of the thousand boxes")
+        sleep(delay)
+        print("There are danger warning signs on some of the boxes")
+        print("seems the best option is not to open the boxes and stay in the room for safety or go back to the main area to choose another door to find the exit")
+
+
+        print("You select one of the random boxes.")
+        time.sleep(4)
+        print("Congratulations!! you got the treasure")
+    elif doors == "C":
+        # this door is another bad choice
+        print("This door doesnot seem to be safe, because there are groups of hungry zombies in the room ready for attack")
+        print("The door is closed and there is no way out, you are trapped!!")
+        print("You try to fight the zombies with the broom stick, the only weapon in the room to fight the zombies")
+        print("They eat you, you are gone! They are still hungry. ")
+        print("Nice try though. try next time wisely!!")
+        dead = True
+    else:
+        # This the exit
+        print("This is your way out of this haunted house. Well done.")
+    if dead == True:
+        print("You have been sucked dry by the hungry zombies. Try again by hitting the green play button")
+
 
 
 def team_7_adv():
