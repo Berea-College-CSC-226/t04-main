@@ -165,9 +165,33 @@ def team_11_adv():
 
 
 def team_12_adv():
-    pass
+    """
+    Give options and ask users to pick one each time
+    :return: none
+    """
     # TODO Add your code here
+    instrument = input("Which instrument would you like to play? [Piano/Guitar/Bass/Drums]")
 
+    if instrument == "Piano":
+        # Correct choice
+        print("You have chosen the beautiful melodic instrument of Beethoven.")
+        print("You will be able to seduce any woman or mans as soon as you play...")
+        sleep(delay)
+    elif instrument == "Bass":
+        # Wrong choice
+        print("You have chosen a demonic instrument. Begin to play the instrument you have chosen")
+        sleep(delay)
+        print("BOOM!!!!! As soon as you begin to play, the strings un-wire and wrap themselves around your neck")
+        print("I bet you can't breathe now, can you? ah!")
+        sleep(delay)
+    else:
+        # Regular choice
+        print("The musician Gods have granted you passage to continue. Play on!")
+        sleep(delay)
+
+    if dead:
+        print("Wow you suck! Too bad buddy. Next time don't die")
+        quit()
 
 def team_13_adv():
     pass
