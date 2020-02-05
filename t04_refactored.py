@@ -150,9 +150,22 @@ def team_8_adv():
 
 
 def team_9_adv():
-    pass
+
     # TODO Add your code here
 
+    print("You decided to go grave robbing and ran encounter a corridor with multiple directions")
+    sleep(delay)
+    direction = input("Which path will lead you to wealth untold? [North/South/East/West]")
+
+    if direction == "West" or direction == "west":
+        print("You stumble upon a pile of treasure")
+        question = input("Do you take all the treasure? (Yes/No")
+        if question == "Yes":
+            print("You are greedy and get attacked by a mob of mummies.")
+        if question == "No":
+            print("You are encountered by a mummy that allows you to take as much gold as you can fit in your pockets. "
+                  "Good job for not being greedy.")
+    if direction == "North" or direction ==
 
 def team_10_adv():
     pass
