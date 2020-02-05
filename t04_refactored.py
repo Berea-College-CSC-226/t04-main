@@ -185,8 +185,24 @@ def team_15_adv():
 
 
 def team_16_adv():
-    pass
-    # TODO Add your code here
+
+    # FIXME: TEAM 16
+
+    wait = 2.0
+
+    username = input("Who dares to enter this holy place?")
+    print()
+    print("Welcome,", username, "to Wakanda.")
+    sleep(wait / 2)
+    choice = input("What are you here for?")
+    print()
+    print("Oh!", username, " you are in luck, we happen to have", choice, "in Wakanda.")
+    sleep(wait * 2)
+    print("But before we attend to you, you must drink from these bowls.")
+    print("The red bowl, the blue bowl, and the green bowl.")
+    print("But beware!! One of these bowls will kill you. So, choose wisely!")
+    print()
+    sleep(wait)
 
 
 def team_17_adv():
