@@ -185,8 +185,13 @@ def team_15_adv():
 
 
 def team_16_adv():
+    """
+    Roshan Adhikari, Anna Carrillo
+    https://docs.google.com/document/d/1LqZGqpFp4Vl6KKXVov0_Osly4TciV_j3qubyKZJmhWw/edit?usp=sharing
+    """
 
     # FIXME: TEAM 16
+
 
     wait = 2.0
 
