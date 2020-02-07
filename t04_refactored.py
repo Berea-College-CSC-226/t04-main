@@ -21,7 +21,7 @@
 ######################################################################
 import random
 from time import sleep
-
+from random import *  # Code needed to import randomness. Group 5
 delay = 1.0          # change to 0.0 for testing/speed runs; larger for dramatic effect!
 dead = False
 
@@ -130,8 +130,105 @@ def team_4_adv():
 
 
 def team_5_adv():
-    pass
-    # TODO Add your code here
+
+    sleep(3)
+    print("You close your eyes for a brief second. As you do, you feel the wind swirl violently around you.")
+    sleep(4)
+    print("You open your eyes to find yourself in the middle of a dark forest.")
+    sleep(3)
+    escape = False  # Used to check if the player has escaped yet
+    while not dead and not escape:
+        doora = randint(1, 3)  # Assigns a random number to DoorA
+        doorb = randint(1, 3)  # Assigns a random number to DoorB
+        doorc = randint(1, 3)  # Assigns a random number to DoorC
+        while ((doora == doorb) or (doorb == doorc) or (
+                doorc == doora)):  # Re-rolls all values of the doors until they aren't equal.
+            doora = randint(1, 3)
+            doorb = randint(1, 3)
+            doorc = randint(1, 3)
+            # print("Another Iteration" + "\n")
+        # print(str(DoorA) + str(DoorB) + str(DoorC))
+        print("Every instinct you have is telling you to get out.")
+        print("You start walking through the forest until you spot something in the distance.")
+        sleep(5)
+        print("You see a row of doors in the bark of trees that could lead you out of the forest." +
+              " Which door do you enter (Door A, B, or C)?")
+        choice = input("Pick one ")
+        if choice.upper() == "A":
+            print("You go through Door A")
+            sleep(2)
+            if doora == 1:
+                print("You find a long windy path and decide to follow it.")
+                sleep(delay * 3)
+                print("You've died of starvation")
+                sleep(3)
+                dead = True
+            elif doora == 2:
+                print(
+                    "You can't seem to find an exit from the forest, however you do stumble upon a small picnic basket.")
+                sleep(3)
+                print("You open the basket and find a warm sandwich and a red and white blanket to hold you over "
+                      "until the morning.")
+                sleep(5)
+                print("You wake up to find yourself in the middle of a dark forest.")
+                sleep(1)
+            else:
+                sleep(1)
+                print("You follow a long tunnel")
+                sleep(2)
+                escape = True
+        elif choice.upper() == "B":
+            print("You go through Door B")
+            sleep(2)
+            if doorb == 1:
+                print("You find a long windy path and decide to follow it.")
+                sleep(delay * 3)
+                print("You've died of starvation")
+                dead = True
+            elif doorb == 2:
+                print(
+                    "You can't seem to find an exit from the forest, however you do stumble upon a small picnic basket.")
+                sleep(3)
+                print("You open the basket and find a warm sandwich and a red and white blanket to hold you over "
+                      "until the morning.")
+                sleep(5)
+                print("You wake up to find yourself in the middle of a dark forest.")
+                sleep(1)
+            else:
+                sleep(1)
+                print("You follow a long tunnel")
+                sleep(2)
+                escape = True
+        elif choice.upper() == "C":
+            print("You go through Door C")
+            sleep(2)
+            if doorc == 1:
+                print("You find a long windy path and decide to follow it.")
+                sleep(delay * 3)
+                print("You've died of starvation")
+                dead = True
+            elif doorc == 2:
+                print(
+                    "You can't seem to find an exit from the forest, however you do stumble upon a small picnic basket.")
+                sleep(3)
+                print("You open the basket and find a warm sandwich and a red and white blanket to hold you over "
+                      "until the morning.")
+                sleep(5)
+                print("You wake up to find yourself in the middle of a dark forest.")
+                sleep(1)
+            else:
+                sleep(1)
+                print("You follow a long tunnel")
+                sleep(2)
+                escape = True
+        else:
+            print("You pass out from thinking too hard. Good job.")
+            sleep(2)
+            print("You wake up to find yourself in the middle of a dark forest.")
+            sleep(2)
+    if not dead:
+        sleep(1)
+        print("Yay you Escaped!")
 
 
 def team_6_adv():
