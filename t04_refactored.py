@@ -175,21 +175,19 @@ def team_13_adv():
 
 
 def team_14_adv():
-    pass
 
     # FIXME: TEAM 14
 
-    doors = input("You come across three doors. Which door will you open? The left, middle, or right door?")
+    doors = input("You come across three doors. Which door will you open? The Left, Middle, or Right door?")
     print()
-    if doors == "Left":
+    if doors == "Left" or doors == "left" or doors == " Left" or doors == " left":
         print("As you walk, you trip on a rock.")
         print("In front of you, there was a water well.")
         print("You fall into the well and start calling for help.")
-        sleep(delay)
 
         print()
         dead = True
-    elif doors == "Middle":
+    elif doors == "Middle" or doors == "middle" or doors == " Middle" or doors == " middle":
         print("In front of you is a long tunnel.")
         print("You walk for hours and hours, but never come to an end.")
         print("Eventually, you pass out from exhaustion, and your world goes black.")
@@ -202,7 +200,7 @@ def team_14_adv():
         print()
         sleep(delay)
 
-    if dead == True:
+    if dead:
         print("You've died. RIP")
         print("That's the end of your story.")
         quit()
