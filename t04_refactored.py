@@ -232,8 +232,50 @@ def team_5_adv():
 
 
 def team_6_adv():
-    pass
+    """
+    Google Doc Link: https://docs.google.com/document/d/1w6XU_suOBSL9st5yvms3vZHbd9hZg8RCAYztqJXqp_E/edit#
+    Refactored by Michale Hohl and Robert Dabbs
+    :return:
+    """
     # TODO Add your code here
+    global dead
+    import time
+    doors = input("which doors you want to open? [A/B/C/D]")
+
+    if doors == "A":
+        # this is a very bad choice
+        print("Samara is standing there with an axe, and she is not friendly.")  # Samara Morgan is a scary character from the ring movie
+        print("It seems that she is very angry, and she start running towards you.")
+        sleep(delay)
+        print("You have been axed a question.")
+        dead = True
+    elif doors == "B":
+        # this a good choice
+        print("In this room there is a treasure hidden in one of a thousand boxes.")
+        sleep(delay)
+        print("Some of the boxes have warning signs on them.")
+        print("It seems the best option is not to open the boxes.")
+        print("You could stay in the room for safety or go back to the main area to choose another door.")
+        # I believe the first group intended for the ability to choose a different option here
+        print("You select a random box.")
+        time.sleep(4)
+        print("Congratulations! You have found the treasure.")
+    elif doors == "C":
+        # this door is another bad choice
+        print("This room does not seem to be safe.")
+        print("This is because there are groups of hungry zombies in with you, ready to attack.")
+        print("The door is closed. There is no way out; you are trapped!")
+        print("The only weapon in the room is a broom stick.")
+        print("You attempt to fight the zombies off, however you are swept away.")
+        print("The zombies eat you, and you are gone! However, they are still hungry.")
+        print("Nice attempt though. Try to choose wisely next time!")
+        print("You have been devoured by the zombies.")
+        dead = True
+    else:
+        # This the exit
+        print("This is the way out of this haunted house. Well done.")
+
+    kill_if_dead(dead)
 
 
 def team_7_adv():
