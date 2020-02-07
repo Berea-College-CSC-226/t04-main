@@ -147,34 +147,36 @@ def team_6_adv():
 
     if doors == "A":
         # this is a very bad choice
-        print("There is Samara standing with a Axe and she is not friendly")  # Samara Morgan is a scary character from the ring movie
-        print("seems she is very angry and start running towards you")
+        print("Samara is standing there with an axe, and she is not friendly.")  # Samara Morgan is a scary character from the ring movie
+        print("It seems that she is very angry, and she start running towards you.")
         sleep(delay)
         print("You have been axed a question.")
         dead = True
     elif doors == "B":
         # this a good choice
-        print("There is a treasure hidden in one of the thousand boxes")
+        print("In this room there is a treasure hidden in one of a thousand boxes.")
         sleep(delay)
-        print("There are danger warning signs on some of the boxes")
-        print("seems the best option is not to open the boxes and stay in the room for safety or go back to the main area to choose another door to find the exit")
-
-
-        print("You select one of the random boxes.")
+        print("Some of the boxes have warning signs on them.")
+        print("It seems the best option is not to open the boxes.")
+        print("You could stay in the room for safety or go back to the main area to choose another door.")
+        # I believe the first group intended for the ability to choose a different option here
+        print("You select a random box.")
         time.sleep(4)
-        print("Congratulations!! you got the treasure")
+        print("Congratulations! You have found the treasure.")
     elif doors == "C":
         # this door is another bad choice
-        print("This door does not seem to be safe, because there are groups of hungry zombies in the room ready for attack")
-        print("The door is closed and there is no way out, you are trapped!!")
-        print("You try to fight the zombies with the broom stick, the only weapon in the room to fight the zombies")
-        print("They eat you, you are gone! They are still hungry. ")
-        print("Nice try though. try next time wisely!!")
-        print("You have been sucked dry by the hungry zombies. Try again by hitting the green play button")
+        print("This room does not seem to be safe.")
+        print("This is because there are groups of hungry zombies in with you, ready to attack.")
+        print("The door is closed. There is no way out; you are trapped!")
+        print("The only weapon in the room is a broom stick.")
+        print("You attempt to fight the zombies off, however you are swept away.")
+        print("The zombies eat you, and you are gone! However, they are still hungry.")
+        print("Nice attempt though. Try to choose wisely next time!")
+        print("You have been devoured by the zombies.")
         dead = True
     else:
         # This the exit
-        print("This is your way out of this haunted house. Well done.")
+        print("This is the way out of this haunted house. Well done.")
 
     kill_if_dead(dead)
 
