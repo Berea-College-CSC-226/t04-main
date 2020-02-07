@@ -126,6 +126,8 @@ def team_3_adv():
 
 def team_4_adv():
     # FIXME: TEAM 4
+# google doc link: https://docs.google.com/document/d/1FgbyorEA_6xrd24AsXFPcso7X90Ht89XLVXvtqT2oAU/edit?usp=sharing
+
 
 direction = input(
         "You were walking and faced 5 portals in front of you with different colors. "
