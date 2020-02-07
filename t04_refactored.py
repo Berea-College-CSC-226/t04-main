@@ -166,7 +166,9 @@ def team_11_adv():
 
 def team_12_adv():
     """
-    Give options and ask users to pick one each time
+    https://docs.google.com/document/d/1itzDLd9k-uMVOzEaBe8qeuKqAc3WnSfrHQ2mQ50kWGc/edit?ts=5e3db5ed#heading=h.f6tumop9n7at
+    Bedjinal
+    Brandon Atu
     :return: none
     """
     # TODO Add your code here
@@ -184,6 +186,7 @@ def team_12_adv():
         print("BOOM!!!!! As soon as you begin to play, the strings un-wire and wrap themselves around your neck")
         print("I bet you can't breathe now, can you? ah!")
         sleep(delay)
+        dead = True
     else:
         # Regular choice
         print("The musician Gods have granted you passage to continue. Play on!")
