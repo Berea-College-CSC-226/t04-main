@@ -1,6 +1,6 @@
 ######################################################################
-# Author: John Sangarie and Abdul basser Mohamood # Don't change me this time!
-# Username: sangariej and mahmooda      # Don't change me this time!
+# Author: Scott Heggen  # Don't change me this time!
+# Username: heggens     # Don't change me this time!
 #
 # Assignment: T04: Adventure in Gitland
 #
@@ -13,11 +13,11 @@
 #
 # This new version will take advantage of functions, as well as
 # demonstrate the value of git as a tool for collaborating.
-# https://docs.google.com/document/d/12AqOblfS_IRP24dKtyJrNh9a8E8JcmrvfzseTkbixyU/edit#   # team 13 google doc
+# https://docs.google.com/document/d/12AqOblfS_IRP24dKtyJrNh9a8E8JcmrvfzseTkbixyU/edit#
 ######################################################################
 # Acknowledgements:
 #   Original Author: Scott Heggen
-#https://docs.google.com/document/d/17t-TbE-xSIDAhsHZjWQ9-ic5Pl7MzXLyaUHVXhLjnUE/edit?usp=sharing
+#
 ######################################################################
 import random
 from time import sleep
@@ -170,6 +170,8 @@ def team_12_adv():
 
 
 def team_13_adv():
+    # https://docs.google.com/document/d/12AqOblfS_IRP24dKtyJrNh9a8E8JcmrvfzseTkbixyU/edit#   # team 13 google doc
+    #https://docs.google.com/document/d/17t-TbE-xSIDAhsHZjWQ9-ic5Pl7MzXLyaUHVXhLjnUE/edit?usp=sharing
     global dead
     direction = input("Which cave tunnel do you want to go down? [Left/Right/Straight]")
     if direction == "left" or "Left" or "LEFT" or "L" or "l":
