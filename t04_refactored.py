@@ -115,9 +115,75 @@ def team_1_adv():
 
 
 def team_2_adv():
-    pass
-    # TODO Add your code here
+    global dead
 
+    print("\nThere is a thin beam of light coming from a hole near the top. From what you can tell, you're somewhere underground.\n")
+
+    sleep(delay)
+    print("""\n
+    You can see a river in front of you. It's wide and fast, and the current looks dangerous.
+    On the other side there is a passageway that leads to another room.
+    There are some stepping stones, but they are far apart. It would be easy to miscalculate a jump.
+    Far above your head, you see a stone bridge. You might be able to climb up to it and cross.
+    \n""")
+    sleep(delay * 3)
+    print("You can only see three options.\n")
+    sleep(delay)
+    print("\n1- Try to wade across the river\n")
+    sleep(delay)
+    print("\n2- Try your luck hopping across the stepping stones.\n")
+    sleep(delay)
+    print("\n3- Try to climb your way to reach the stone bridge\n")
+    direction = input("\nThrough which method do you wish to continue? \n[Wade/Hop/Climb]\n")
+
+    if (direction == "Hop") or (direction ==  "hop"):
+        print("You decide to cross the river to the passageway on the far side through using the stepping stones")
+        sleep(delay)
+        print("When crossing the stepping stones you are having some trouble")
+        print("The river has made the stones slick and them being spaced apart makes them difficult to cross")
+        sleep(delay * 2)
+        print("Upon the jumping from the last stone to the riverbank closest to the far passageway you slip")
+        sleep(delay * 3)
+        print("Somehow, miraculously you manage to just barely grab the edge of the riverbank but the river is strong")
+        sleep(delay * 4)
+        print("Fighting the current you are close to being swept away, but your will to survive is stronger")
+        print("You pull yourself onto the riverbank and take a deep breath knowing that you barely escaped death")
+        print("You are tired, but you continue forward into the passageway in hopes of an escape")
+        sleep(delay)
+
+    elif (direction == "Climb") or (direction == "climb"):
+        print("Knowing that it is perhaps the hardest way out you start climbing your way up to the stone bridge")
+        sleep(delay)
+        print(
+            "It is a treacherous climb but you reach the stone bridge without too much trouble when you start feeling")
+        print("A Crawling Sensation")
+        sleep(delay * 3)
+        print("A swarm of spiders starts climbs onto your hands and before you react they reach your elbows")
+        print("Out of shock, fear and pain your grip on the bridge loosens and you start fall")
+        sleep(delay)
+        print("The light in the cavern is gone, you feel cold, and the pain fades away")
+        dead = True
+        sleep(delay * 5)
+    else:
+        print("Forgoing any other thoughts you decide to charge forth and wade through the river")
+        sleep(delay)
+        print("The river tries to sweep you away, but you are pretty sure you are better than it so you go on")
+        sleep(delay * 2)
+        print("Apparently you were wrong and you start getting swept downstream while uttering a string of curses")
+        print("You pass out...")
+        sleep(delay * 2)
+        print("You wake up in a cavern full of glowing moss and only one entryway")
+        print("In the room's center there is a fire pit with a blue flame within")
+        print("You make use of the fire to dry off")
+        sleep(delay * 3)
+        print(
+            "The sight of the beautiful moss fills you with determination, and the heat of the fire gives you strength.")
+        sleep(delay * 3)
+        print("Once you are well rested and dry you leave the cave")
+
+    if dead == True:
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        quit()
 
 def team_3_adv():
     pass
