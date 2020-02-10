@@ -480,8 +480,36 @@ def team_12_adv():
         quit()
 
 def team_13_adv():
-    pass
+    # https://docs.google.com/document/d/12AqOblfS_IRP24dKtyJrNh9a8E8JcmrvfzseTkbixyU/edit#   # team 13 google doc
+    #https://docs.google.com/document/d/17t-TbE-xSIDAhsHZjWQ9-ic5Pl7MzXLyaUHVXhLjnUE/edit?usp=sharing
+    global dead
+    direction = input("Which cave tunnel do you want to go down? [Left/Right/Straight]")
+    if direction == "left" or "Left" or "LEFT" or "L" or "l":
+        print("you have found a baby dragon.It's fire can keep you warm and it can lead you out of the cave. ")
+    elif direction == "Right" or "right" or "RIGHT" or "r" or "R":
+        print("Oh no. You have run into 100 duck-sized horses.")
+        sleep(delay)
+        print("They are vicious and out for blood.")
+        print("They begin to stampede and knock you off your feet...never to be seen again.")
+        dead = True
+    else:
+        print("You find yourself in a mineshaft, not seeing a way out. While quite interesting, still not the way out.")
+        sleep(delay)
+if dead == True:
+    print("Oopsy. You made a whoopsy. Better luck next time! Play again by hitting the green play button.")
+    quit()
+        
+
+
+
+
+
+
+
+
+
     # TODO Add your code here
+
 
 
 def team_14_adv():
