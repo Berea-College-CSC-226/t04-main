@@ -221,8 +221,47 @@ def team_3_adv():
 
 
 def team_4_adv():
-    pass
-    # TODO Add your code here
+    # FIXME: TEAM 4
+# google doc link: https://docs.google.com/document/d/1FgbyorEA_6xrd24AsXFPcso7X90Ht89XLVXvtqT2oAU/edit?usp=sharing
+
+
+direction = input(
+        "You were walking and faced 5 portals in front of you with different colors. "
+        "Which portals will you choose? [Blue/Red/Yellow/Black/White]")
+
+    if direction == "Blue":
+        print("Wooww! Great choice! There is a box of GOLD waiting for you behind this portal!")
+        sleep(delay)
+
+    elif direction == "Red":
+        print("The sound of tigers deprived of food for weeks surrounds you.")
+        sleep(5)
+        print("The smallest footstep could trigger them and send them into a frenzy.")
+        sleep(5)
+        print("You try to step away but you trip and cut yourself.")
+        sleep(5)
+        print("With the smell of blood in the air, the tigers pounce, ripping apart your flesh.")
+        sleep(5)
+        print("You are dying, but you can still save your life by solving the challenge")
+        sleep(5)
+        print("If you are smart enough, you can still survive!")
+        sleep(5)
+        print("So, ready for the challenge?")
+        sleep(5)
+        logic = input("Look at this series: 80, 10, 70, 15, 60, ... What number should come next?")
+        if logic == "20":
+            print("Wonderful! With the help of your logical skills you survived!")
+            sleep(5)
+            print("You are in the farm now. Continue your journey!")
+        else:
+         dead = True
+
+    else:
+        print("You are in the farm now. Continue your journey!")
+
+if dead:
+    print("Sorry! You died and this is the end of your story////  Try again by hitting the green play button.")
+    quit()
 
 
 def team_5_adv():
@@ -380,9 +419,35 @@ def team_7_adv():
 
 
 def team_8_adv():
+    """
+    https://docs.google.com/document/d/16zNYxRmG9FfWZs4yEuWvZWQFkVdXyBjzm4I6xY0lO1M/edit?usp=sharing
+    """
     pass
     # TODO Add your code here
 
+
+username = input("What is your name, idiot?")
+print("Welcome ", username, "to the portal.")
+direction = input("Before you stand two doors, pick your destiny, door 1 or door 2, what's it gonna be, stupid?")
+
+if direction == "door 1":
+    print("You ended up in an old shack infested with rabid raccoons.")
+    sleep(delay)
+
+    print("You were mauled, but you bravely fended them off.")
+    sleep(delay*2)
+    print("Losing a lot of blood and a finger in the process.")
+
+elif direction == "door 2":
+    print("You are in the house of sins, The Ladies of the Night")
+    sleep(delay)
+    print("You could not pay for the services")
+    sleep(delay*5)
+    print("Too bad, you got yourself killed")
+    dead = True
+if dead:
+    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+    quit()
 
 def team_9_adv():
 
@@ -413,13 +478,68 @@ def team_11_adv():
 
 
 def team_12_adv():
-    pass
+    """
+    https://docs.google.com/document/d/1itzDLd9k-uMVOzEaBe8qeuKqAc3WnSfrHQ2mQ50kWGc/edit?ts=5e3db5ed#heading=h.f6tumop9n7at
+    Bedjinal
+    Brandon Atu
+    :return: none
+    """
     # TODO Add your code here
+    instrument = input("Which instrument would you like to play? [Piano/Guitar/Bass/Drums]")
 
+    if instrument == "Piano":
+        # Correct choice
+        print("You have chosen the beautiful melodic instrument of Beethoven.")
+        print("You will be able to seduce any woman or mans as soon as you play...")
+        sleep(delay)
+    elif instrument == "Bass":
+        # Wrong choice
+        print("You have chosen a demonic instrument. Begin to play the instrument you have chosen")
+        sleep(delay)
+        print("BOOM!!!!! As soon as you begin to play, the strings un-wire and wrap themselves around your neck")
+        print("I bet you can't breathe now, can you? ah!")
+        sleep(delay)
+        dead = True
+    else:
+        # Regular choice
+        print("The musician Gods have granted you passage to continue. Play on!")
+        sleep(delay)
+
+    if dead:
+        print("Wow you suck! Too bad buddy. Next time don't die")
+        quit()
 
 def team_13_adv():
-    pass
+    # https://docs.google.com/document/d/12AqOblfS_IRP24dKtyJrNh9a8E8JcmrvfzseTkbixyU/edit#   # team 13 google doc
+    #https://docs.google.com/document/d/17t-TbE-xSIDAhsHZjWQ9-ic5Pl7MzXLyaUHVXhLjnUE/edit?usp=sharing
+    global dead
+    direction = input("Which cave tunnel do you want to go down? [Left/Right/Straight]")
+    if direction == "left" or "Left" or "LEFT" or "L" or "l":
+        print("you have found a baby dragon.It's fire can keep you warm and it can lead you out of the cave. ")
+    elif direction == "Right" or "right" or "RIGHT" or "r" or "R":
+        print("Oh no. You have run into 100 duck-sized horses.")
+        sleep(delay)
+        print("They are vicious and out for blood.")
+        print("They begin to stampede and knock you off your feet...never to be seen again.")
+        dead = True
+    else:
+        print("You find yourself in a mineshaft, not seeing a way out. While quite interesting, still not the way out.")
+        sleep(delay)
+if dead == True:
+    print("Oopsy. You made a whoopsy. Better luck next time! Play again by hitting the green play button.")
+    quit()
+        
+
+
+
+
+
+
+
+
+
     # TODO Add your code here
+
 
 
 def team_14_adv():
