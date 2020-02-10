@@ -191,8 +191,47 @@ def team_3_adv():
 
 
 def team_4_adv():
-    pass
-    # TODO Add your code here
+    # FIXME: TEAM 4
+# google doc link: https://docs.google.com/document/d/1FgbyorEA_6xrd24AsXFPcso7X90Ht89XLVXvtqT2oAU/edit?usp=sharing
+
+
+direction = input(
+        "You were walking and faced 5 portals in front of you with different colors. "
+        "Which portals will you choose? [Blue/Red/Yellow/Black/White]")
+
+    if direction == "Blue":
+        print("Wooww! Great choice! There is a box of GOLD waiting for you behind this portal!")
+        sleep(delay)
+
+    elif direction == "Red":
+        print("The sound of tigers deprived of food for weeks surrounds you.")
+        sleep(5)
+        print("The smallest footstep could trigger them and send them into a frenzy.")
+        sleep(5)
+        print("You try to step away but you trip and cut yourself.")
+        sleep(5)
+        print("With the smell of blood in the air, the tigers pounce, ripping apart your flesh.")
+        sleep(5)
+        print("You are dying, but you can still save your life by solving the challenge")
+        sleep(5)
+        print("If you are smart enough, you can still survive!")
+        sleep(5)
+        print("So, ready for the challenge?")
+        sleep(5)
+        logic = input("Look at this series: 80, 10, 70, 15, 60, ... What number should come next?")
+        if logic == "20":
+            print("Wonderful! With the help of your logical skills you survived!")
+            sleep(5)
+            print("You are in the farm now. Continue your journey!")
+        else:
+         dead = True
+
+    else:
+        print("You are in the farm now. Continue your journey!")
+
+if dead:
+    print("Sorry! You died and this is the end of your story////  Try again by hitting the green play button.")
+    quit()
 
 
 def team_5_adv():
