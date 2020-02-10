@@ -22,7 +22,7 @@
 import random
 from time import sleep
 
-delay = 0.0          # change to 0.0 for testing/speed runs; larger for dramatic effect!
+delay = 1.0          # change to 0.0 for testing/speed runs; larger for dramatic effect!
 dead = False
 
 
