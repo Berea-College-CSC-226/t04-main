@@ -21,7 +21,7 @@
 ######################################################################
 import random
 from time import sleep
-
+from random import *  # Code needed to import randomness. Group 5
 delay = 1.0          # change to 0.0 for testing/speed runs; larger for dramatic effect!
 dead = False
 
@@ -145,9 +145,75 @@ def team_1_adv():
 
 
 def team_2_adv():
-    pass
-    # TODO Add your code here
+    global dead
 
+    print("\nThere is a thin beam of light coming from a hole near the top. From what you can tell, you're somewhere underground.\n")
+
+    sleep(delay)
+    print("""\n
+    You can see a river in front of you. It's wide and fast, and the current looks dangerous.
+    On the other side there is a passageway that leads to another room.
+    There are some stepping stones, but they are far apart. It would be easy to miscalculate a jump.
+    Far above your head, you see a stone bridge. You might be able to climb up to it and cross.
+    \n""")
+    sleep(delay * 3)
+    print("You can only see three options.\n")
+    sleep(delay)
+    print("\n1- Try to wade across the river\n")
+    sleep(delay)
+    print("\n2- Try your luck hopping across the stepping stones.\n")
+    sleep(delay)
+    print("\n3- Try to climb your way to reach the stone bridge\n")
+    direction = input("\nThrough which method do you wish to continue? \n[Wade/Hop/Climb]\n")
+
+    if (direction == "Hop") or (direction ==  "hop"):
+        print("You decide to cross the river to the passageway on the far side through using the stepping stones")
+        sleep(delay)
+        print("When crossing the stepping stones you are having some trouble")
+        print("The river has made the stones slick and them being spaced apart makes them difficult to cross")
+        sleep(delay * 2)
+        print("Upon the jumping from the last stone to the riverbank closest to the far passageway you slip")
+        sleep(delay * 3)
+        print("Somehow, miraculously you manage to just barely grab the edge of the riverbank but the river is strong")
+        sleep(delay * 4)
+        print("Fighting the current you are close to being swept away, but your will to survive is stronger")
+        print("You pull yourself onto the riverbank and take a deep breath knowing that you barely escaped death")
+        print("You are tired, but you continue forward into the passageway in hopes of an escape")
+        sleep(delay)
+
+    elif (direction == "Climb") or (direction == "climb"):
+        print("Knowing that it is perhaps the hardest way out you start climbing your way up to the stone bridge")
+        sleep(delay)
+        print(
+            "It is a treacherous climb but you reach the stone bridge without too much trouble when you start feeling")
+        print("A Crawling Sensation")
+        sleep(delay * 3)
+        print("A swarm of spiders starts climbs onto your hands and before you react they reach your elbows")
+        print("Out of shock, fear and pain your grip on the bridge loosens and you start fall")
+        sleep(delay)
+        print("The light in the cavern is gone, you feel cold, and the pain fades away")
+        dead = True
+        sleep(delay * 5)
+    else:
+        print("Forgoing any other thoughts you decide to charge forth and wade through the river")
+        sleep(delay)
+        print("The river tries to sweep you away, but you are pretty sure you are better than it so you go on")
+        sleep(delay * 2)
+        print("Apparently you were wrong and you start getting swept downstream while uttering a string of curses")
+        print("You pass out...")
+        sleep(delay * 2)
+        print("You wake up in a cavern full of glowing moss and only one entryway")
+        print("In the room's center there is a fire pit with a blue flame within")
+        print("You make use of the fire to dry off")
+        sleep(delay * 3)
+        print(
+            "The sight of the beautiful moss fills you with determination, and the heat of the fire gives you strength.")
+        sleep(delay * 3)
+        print("Once you are well rested and dry you leave the cave")
+
+    if dead == True:
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        quit()
 
 def team_3_adv():
     pass
@@ -160,13 +226,152 @@ def team_4_adv():
 
 
 def team_5_adv():
-    pass
-    # TODO Add your code here
+
+    sleep(3)
+    print("You close your eyes for a brief second. As you do, you feel the wind swirl violently around you.")
+    sleep(4)
+    print("You open your eyes to find yourself in the middle of a dark forest.")
+    sleep(3)
+    escape = False  # Used to check if the player has escaped yet
+    while not dead and not escape:
+        doora = randint(1, 3)  # Assigns a random number to DoorA
+        doorb = randint(1, 3)  # Assigns a random number to DoorB
+        doorc = randint(1, 3)  # Assigns a random number to DoorC
+        while ((doora == doorb) or (doorb == doorc) or (
+                doorc == doora)):  # Re-rolls all values of the doors until they aren't equal.
+            doora = randint(1, 3)
+            doorb = randint(1, 3)
+            doorc = randint(1, 3)
+            # print("Another Iteration" + "\n")
+        # print(str(DoorA) + str(DoorB) + str(DoorC))
+        print("Every instinct you have is telling you to get out.")
+        print("You start walking through the forest until you spot something in the distance.")
+        sleep(5)
+        print("You see a row of doors in the bark of trees that could lead you out of the forest." +
+              " Which door do you enter (Door A, B, or C)?")
+        choice = input("Pick one ")
+        if choice.upper() == "A":
+            print("You go through Door A")
+            sleep(2)
+            if doora == 1:
+                print("You find a long windy path and decide to follow it.")
+                sleep(delay * 3)
+                print("You've died of starvation")
+                sleep(3)
+                dead = True
+            elif doora == 2:
+                print(
+                    "You can't seem to find an exit from the forest, however you do stumble upon a small picnic basket.")
+                sleep(3)
+                print("You open the basket and find a warm sandwich and a red and white blanket to hold you over "
+                      "until the morning.")
+                sleep(5)
+                print("You wake up to find yourself in the middle of a dark forest.")
+                sleep(1)
+            else:
+                sleep(1)
+                print("You follow a long tunnel")
+                sleep(2)
+                escape = True
+        elif choice.upper() == "B":
+            print("You go through Door B")
+            sleep(2)
+            if doorb == 1:
+                print("You find a long windy path and decide to follow it.")
+                sleep(delay * 3)
+                print("You've died of starvation")
+                dead = True
+            elif doorb == 2:
+                print(
+                    "You can't seem to find an exit from the forest, however you do stumble upon a small picnic basket.")
+                sleep(3)
+                print("You open the basket and find a warm sandwich and a red and white blanket to hold you over "
+                      "until the morning.")
+                sleep(5)
+                print("You wake up to find yourself in the middle of a dark forest.")
+                sleep(1)
+            else:
+                sleep(1)
+                print("You follow a long tunnel")
+                sleep(2)
+                escape = True
+        elif choice.upper() == "C":
+            print("You go through Door C")
+            sleep(2)
+            if doorc == 1:
+                print("You find a long windy path and decide to follow it.")
+                sleep(delay * 3)
+                print("You've died of starvation")
+                dead = True
+            elif doorc == 2:
+                print(
+                    "You can't seem to find an exit from the forest, however you do stumble upon a small picnic basket.")
+                sleep(3)
+                print("You open the basket and find a warm sandwich and a red and white blanket to hold you over "
+                      "until the morning.")
+                sleep(5)
+                print("You wake up to find yourself in the middle of a dark forest.")
+                sleep(1)
+            else:
+                sleep(1)
+                print("You follow a long tunnel")
+                sleep(2)
+                escape = True
+        else:
+            print("You pass out from thinking too hard. Good job.")
+            sleep(2)
+            print("You wake up to find yourself in the middle of a dark forest.")
+            sleep(2)
+    if not dead:
+        sleep(1)
+        print("Yay you Escaped!")
 
 
 def team_6_adv():
-    pass
+    """
+    Google Doc Link: https://docs.google.com/document/d/1w6XU_suOBSL9st5yvms3vZHbd9hZg8RCAYztqJXqp_E/edit#
+    Refactored by Michale Hohl and Robert Dabbs
+    :return:
+    """
     # TODO Add your code here
+    global dead
+    import time
+    doors = input("which doors you want to open? [A/B/C/D]")
+
+    if doors == "A":
+        # this is a very bad choice
+        print("Samara is standing there with an axe, and she is not friendly.")  # Samara Morgan is a scary character from the ring movie
+        print("It seems that she is very angry, and she start running towards you.")
+        sleep(delay)
+        print("You have been axed a question.")
+        dead = True
+    elif doors == "B":
+        # this a good choice
+        print("In this room there is a treasure hidden in one of a thousand boxes.")
+        sleep(delay)
+        print("Some of the boxes have warning signs on them.")
+        print("It seems the best option is not to open the boxes.")
+        print("You could stay in the room for safety or go back to the main area to choose another door.")
+        # I believe the first group intended for the ability to choose a different option here
+        print("You select a random box.")
+        time.sleep(4)
+        print("Congratulations! You have found the treasure.")
+    elif doors == "C":
+        # this door is another bad choice
+        print("This room does not seem to be safe.")
+        print("This is because there are groups of hungry zombies in with you, ready to attack.")
+        print("The door is closed. There is no way out; you are trapped!")
+        print("The only weapon in the room is a broom stick.")
+        print("You attempt to fight the zombies off, however you are swept away.")
+        print("The zombies eat you, and you are gone! However, they are still hungry.")
+        print("Nice attempt though. Try to choose wisely next time!")
+        print("You have been devoured by the zombies.")
+        dead = True
+    else:
+        # This the exit
+        print("This is the way out of this haunted house. Well done.")
+
+    kill_if_dead(dead)
 
 
 def team_7_adv():
@@ -180,9 +385,22 @@ def team_8_adv():
 
 
 def team_9_adv():
-    pass
+
     # TODO Add your code here
 
+    print("You decided to go grave robbing and ran encounter a corridor with multiple directions")
+    sleep(delay)
+    direction = input("Which path will lead you to wealth untold? [North/South/East/West]")
+
+    if direction == "West" or direction == "west":
+        print("You stumble upon a pile of treasure")
+        question = input("Do you take all the treasure? (Yes/No")
+        if question == "Yes":
+            print("You are greedy and get attacked by a mob of mummies.")
+        if question == "No":
+            print("You are encountered by a mummy that allows you to take as much gold as you can fit in your pockets. "
+                  "Good job for not being greedy.")
+    if direction == "North" or direction ==
 
 def team_10_adv():
     pass
@@ -215,8 +433,29 @@ def team_15_adv():
 
 
 def team_16_adv():
-    pass
-    # TODO Add your code here
+    """
+    Roshan Adhikari, Anna Carrillo
+    https://docs.google.com/document/d/1LqZGqpFp4Vl6KKXVov0_Osly4TciV_j3qubyKZJmhWw/edit?usp=sharing
+    """
+
+    # FIXME: TEAM 16
+
+
+    wait = 2.0
+
+    username = input("Who dares to enter this holy place?")
+    print()
+    print("Welcome,", username, "to Wakanda.")
+    sleep(wait / 2)
+    choice = input("What are you here for?")
+    print()
+    print("Oh!", username, " you are in luck, we happen to have", choice, "in Wakanda.")
+    sleep(wait * 2)
+    print("But before we attend to you, you must drink from these bowls.")
+    print("The red bowl, the blue bowl, and the green bowl.")
+    print("But beware!! One of these bowls will kill you. So, choose wisely!")
+    print()
+    sleep(wait)
 
 
 def team_17_adv():
