@@ -14,6 +14,8 @@
 # This new version will take advantage of functions, as well as
 # demonstrate the value of git as a tool for collaborating.
 # https://docs.google.com/document/d/12AqOblfS_IRP24dKtyJrNh9a8E8JcmrvfzseTkbixyU/edit#
+https://docs.google.com/document/d/10pPuYIQyzvUHcUOLCjlP7qWjj2qGqdNFRzZIwPNPCWw/edit?usp=sharing
+
 ######################################################################
 # Acknowledgements:
 #   Original Author: Scott Heggen
@@ -543,8 +545,35 @@ if dead == True:
 
 
 def team_14_adv():
-    pass
-    # TODO Add your code here
+
+    # FIXME: TEAM 14
+
+    doors = input("You come across three doors. Which door will you open? The Left, Middle, or Right door?")
+    print()
+    if doors == "Left" or doors == "left" or doors == " Left" or doors == " left":
+        print("As you walk, you trip on a rock.")
+        print("In front of you, there was a water well.")
+        print("You fall into the well and start calling for help.")
+
+        print()
+        dead = True
+    elif doors == "Middle" or doors == "middle" or doors == " Middle" or doors == " middle":
+        print("In front of you is a long tunnel.")
+        print("You walk for hours and hours, but never come to an end.")
+        print("Eventually, you pass out from exhaustion, and your world goes black.")
+        print()
+        sleep(delay)
+    else:
+        print("You walk into a grass field, and as you walk, you see a farm off into the distance.")
+        print("You see people milling about near the farm, and decide to walk towards it.")
+        print("Your journey takes a little bit of time.")
+        print()
+        sleep(delay)
+
+    if dead:
+        print("You've died. RIP")
+        print("That's the end of your story.")
+        quit()
 
 
 def team_15_adv():
