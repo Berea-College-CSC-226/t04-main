@@ -109,7 +109,6 @@ def scott_adventure():
 ###################################################################################
 
 
-
 def team_1_adv():
     pass
     # TODO Add your code here
