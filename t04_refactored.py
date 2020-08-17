@@ -17,7 +17,6 @@
 ######################################################################
 # Acknowledgements:
 #   Original Author: Scott Heggen
-#
 ######################################################################
 import random
 from time import sleep
