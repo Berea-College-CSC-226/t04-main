@@ -19,7 +19,6 @@ https://docs.google.com/document/d/10pPuYIQyzvUHcUOLCjlP7qWjj2qGqdNFRzZIwPNPCWw/
 ######################################################################
 # Acknowledgements:
 #   Original Author: Scott Heggen
-#
 ######################################################################
 import random
 from time import sleep
