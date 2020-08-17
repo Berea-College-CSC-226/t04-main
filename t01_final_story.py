@@ -66,7 +66,7 @@ if dead == True:
     quit()
 
 #########################################################################################################
-#FIXME: TEAM 1
+# TODO Add your part of the story here. Keep in mind you may NOT be coming right after the example above.
 
 print("\nYou have found a room that appears to be some goblin's kitchen.")
 print("Inside the kitchen are some strange meats, and a kiwi.")
@@ -89,7 +89,6 @@ else:
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 #########################################################################################################
-#FIXME: TEAM 2
 
 print(
     "There is a thin beam of light coming from a hole near the top. From what you can tell, you're somewhere underground.")
@@ -162,8 +161,6 @@ if dead == True:
     quit()
 
 #########################################################################################################
-#FIXME: TEAM 3
-
 direction2 = input("Which direction would you like to go this time? [UP/DOWN/LEFT/RIGHT]")
 
 if direction2 == "RIGHT":
@@ -193,7 +190,6 @@ if dead == True:
     quit( )
 
 #########################################################################################################
-#FIXME: TEAM 4
 
 direction = input("You were walking and faced 5 portals in front of you with different colors. Which portals will you choose? [Blue/Red/Yellow/Black/White]")
 
@@ -232,8 +228,6 @@ if dead == True:
     quit()
 
 #########################################################################################################
-#FIXME: TEAM 5
-
 sleep(3)
 print("You close your eyes for a brief second. As you do, you feel the wind swirl violently around you.")
 sleep(4)
@@ -330,8 +324,6 @@ if(dead== False):
     sleep(1)
     print("Yay you Escaped!")
 #########################################################################################################
-#FIXME: TEAM 6
-
 doors = input("which doors you want to open? [A/B/C/D]")
 import time
 if doors == "A":
@@ -365,7 +357,6 @@ if dead == True:
     print("You have been sucked dry by the hungry zombies. Try again by hitting the green play button")
 
 #########################################################################################################
-#FIXME: TEAM 7
 
 username = input("What's your name?")
 
@@ -393,7 +384,6 @@ else:
 if dead == True:
     quit()
 #########################################################################################################
-#FIXME: TEAM 8
 
 delay = 1.0
 username= input("what is your name, idiot?")
@@ -420,8 +410,6 @@ if dead == True:
     quit()
 
 #########################################################################################################
-#FIXME: TEAM 9
-
 if direction  == "West":
     print("You stumble upon a pile of treasure ")
 
@@ -433,8 +421,6 @@ if question == "No":
     print("")
 
 #########################################################################################################
-#FIXME: TEAM 10
-
 door_options = input("do you want find a treasure?Enter[door1/door2/door3/door4]")
 # oh..lucky choice
 if door_options == "door1":
@@ -459,8 +445,6 @@ if dead == True:
     print("you are dead, click on the green play button to resurrect. if you want to play again.")
     quit()
 #########################################################################################################
-#FIXME: TEAM 11
-
 if direction == "North":
     print("The stranger recognises this part of the cave. They could come in handy. ")
     sleep(delay)
@@ -505,8 +489,6 @@ if dead == True:
     quit()
 
 #########################################################################################################
-#FIXME: TEAM 12
-
 instrument = input("Which instrument would you like to play? [Piano/Guitar/Bass/Drums]")
 
 if instrument == "Piano":
@@ -530,8 +512,6 @@ if dead == True:
     quit()
 
 #########################################################################################################
-#FIXME: TEAM 13
-
 direction = input("Which cave tunnel do you want to go down? [Left/Right/Straight]")
 if direction == "Left":
     # Good choice!
@@ -552,8 +532,6 @@ if dead == True:
     print("Oopsy. You made a whoopsy. Better luck next time! Play again by hitting the green play button.")
     quit()
 #########################################################################################################
-#FIXME: TEAM 14
-
 doors = input("You come across three doors. Which door will you open? The left, middle, or right door?")
 print()
 if doors == "Left":
@@ -583,8 +561,6 @@ if dead==True:
     quit()
 
 #########################################################################################################
-#FIXME: TEAM 15
-
 print("You are walking through a field, and seemingly out of nowhere a forest appears before you.\n")
 sleep(delay * 2)
 print("You know that you have a few options, but one must be made.")
@@ -619,8 +595,6 @@ if dead == True:
     print("Whoops, you died in the forest. Start over by clicking the green play button. ")
     quit()
 #########################################################################################################
-#FIXME: TEAM 16
-
 wait = 2.0
 dead = False
 username = input("Who dares to enter this holy place?")
@@ -637,8 +611,6 @@ print("But beware!! One of these bowls will kill you. So, choose wisely!")
 print()
 sleep(wait)
 #########################################################################################################
-#FIXME: TEAM 17
-
 chosen = input("Which bowl do you wanna drink from? [Red/Blue/Green]")
 
 if chosen == "Red":
@@ -662,7 +634,6 @@ if dead:
     print("Oh no! Better luck next time! Try again by hitting the green button")
     quit()
 #########################################################################################################
-
 # The following is the end of the story. Don't change this section, unless you really want to
 # (though it may not be used in the final story. Or will it...)
 print("Look at that! You made it to the end of the story without dying! ")
