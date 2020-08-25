@@ -66,573 +66,601 @@ if dead == True:
     quit()
 
 #########################################################################################################
-# TODO Add your part of the story here. Keep in mind you may NOT be coming right after the example above.
-
-print("\nYou have found a room that appears to be some goblin's kitchen.")
-print("Inside the kitchen are some strange meats, and a kiwi.")
-choice = input("Do you eat something, or continue on?[meat/kiwi/continue] ")
-if choice == "kiwi":
-    print("\nYou feel revitalized. ")
-elif choice == "meat":
-    print("\nDaring aren't you? You do understand goblins haven't invented refrigeration yet right?")
-    choice = input("That meat looks rather spoiled, are you sure about eating it? [0=no, 1=yes] ")
-    if int(choice) > 0:
-        sleep(delay * 3)
-        dead = True
-        print("\nYou have died of dysentery. ")
-        quit()
-    else:
-        print("Good call. You continue into the labyrinth.")
+# TEAM 1
+direction = input("Which direction are you thinking to take now? [North, South, East, West]")
+if direction == "East":
+    print("You meet up with a Mariachi band who then starts following you")
+    sleep(delay)
+    print("They begin to play and it's so loud that your location is compromised")
+    print("You are approached by a rogue team of explorers.")
+    print("They rob you of your resources and leave you for dead")
+    dead = True
+elif direction =="West":
+    print("You stumble into a pit of mutated venomous snakes")
+    sleep(delay)
+    print("Your chances of survival = 0")
+    dead = True
 else:
-    print("\nThat was probably wise. You continue into the labyrinth\n")
+    #lucky choice
+    print("You somehow manage to make it out alive and land on a cotton candy trampoline that leads you to a mysterious place.")
+    sleep(delay)
+    print("Good luck")
+if dead == True:
+    print("Tough luck. Enjoy the afterlife.:)")
+    quit()
+
+#########################################################################################################
+# TEAM 2
+Name = input(" What is you are name, warrior? ")
+Choice = (input(" What is your choice of sword today, warrior? [Cane or Claymore ] "))
+dead = False
+if Choice == "Claymore":
+    print(" Good choice! " + Name)
+    sleep(delay)
+    print(" You ready to begin your day ")
+    sleep(delay)
+    print(" This sword is known to be one of the deadliest ")
+    quit()
+elif Choice == "Cane":
+    print(" Every warrior who have chosen this sword has died ")
+    sleep(delay)
+    print(" and that will be your fate ")
+    print(" You have one more chance to make the right decision ")
+    sleep(delay)
+    Choice2 = int(input(" pick a number between 10 and 100 "))
+    if Choice2 < 20:
+        print(" You have lived to see another day ")
+        print(" You ready to begin the day ")
+    else:
+        print(" you have made the wrong decision twice ")
+        sleep(delay)
+        sleep(delay(print(" you deserve to die in unimaginable way")))
+        print(" You are no warrior, you shall be hang ")
+        dead = True
+
+
+else:
+    print(" I guess you are not ready for an adventure today...")
+
+if dead == True:
+    print(" Just like the ones before you, your fate has been chosen ")
+    quit()
+
+
+else:
+    print(" I guess you are not ready for an adventure today...")
+
+if dead == True:
+    print(" Just like the ones before you, your fate has been chosen ")
+    quit()
+
+#########################################################################################################
+# TEAM 3
+print("You continue along...")
+sleep(delay*2)
+print("You encounter a Thief mid-robbery, but he's having some trouble")
+sleep(delay)
+action = input("What do you do? [Stop/Run/Help]")
+if action == "Stop": #good choice
+    print("You attempt to stop the thief...")
+    sleep(delay)
+    print("You tackle the thief and pin him to the ground, and wait for the police.")
+    sleep(delay)
+    print("When the police arrive, they thank you for your service with a pink-sprinkled donut")
+elif action == "Help": #bad choice
+    print("You decide to help the thief...")
+    sleep(delay)
+    choice = int(input("Choose how much money you hold [whole number]"))
+    if choice >= 1000000:
+        sleep(delay*2)
+        print("As the you run away, you are to slow and are shot down by the police")
+        print("As you lie there dying you regret being greedy and taking too much money")
+        dead = True
+    else:
+        print("You are quick enough to get away from the police")
+        sleep(delay)
+        print("Good Job, you weren't greedy and got away with some money")
+        sleep(delay*2)
+else: #neutral choice
+    print("You run away from the scene not wanting to get involved, and continue on your journey")
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 
-#########################################################################################################
-
-print(
-    "There is a thin beam of light coming from a hole near the top. From what you can tell, you're somewhere underground.")
-print()
-sleep(delay)
-print("You can see a river in front of you. It's wide and fast, and the current looks dangerous.")
-print("On the other side there is a passageway that leads to another room.")
-print("There are some stepping stones, but they are far apart. It would be easy to miscalculate a jump.")
-print("Far above your head, you see a stone bridge. You might be able to climb up to it and cross.")
-sleep(delay*3)
-print()
-print("You can only see three options.")
-print()
-sleep(delay)
-print("1- Try to wade across the river")
-sleep(delay)
-print()
-print("2- Try your luck hopping across the stepping stones.")
-sleep(delay)
-print()
-print("3- Try to climb your way to reach the stone bridge")
-direction = input("Through which method do you wish to continue? [Wade/Hop/Climb]")
-
-if direction == "Hop"" Hop"" Hop ""Hop ""hop"" hop""hop "" hop ":
-    print("You decide to cross the river to the passageway on the far side through using the stepping stones")
-    sleep(delay)
-    print("When crossing the stepping stones you are having some trouble")
-    print("The river has made the stones slick and them being spaced apart makes them difficult to cross")
-    sleep(delay*2)
-    print("Upon the jumping from the last stone to the riverbank closest to the far passageway you slip")
-    sleep(delay*3)
-    print("Somehow, miraculously you manage to just barely grab the edge of the riverbank but the river is strong")
-    sleep(delay*4)
-    print("Fighting the current you are close to being swept away, but your will to survive is stronger")
-    print("You pull yourself onto the riverbank and take a deep breath knowing that you barely escaped death")
-    print("You are tired, but you continue forward into the passageway in hopes of an escape")
-    sleep(delay)
-
-elif direction == "Climb"" Climb""Climb "" Climb ""climb""climb "" climb"" climb ":
-    print("Knowing that it is perhaps the hardest way out you start climbing your way up to the stone bridge")
-    sleep(delay)
-    print("It is a treacherous climb but you reach the stone bridge without too much trouble when you start feeling")
-    print("A Crawling Sensation")
-    sleep(delay*3)
-    print("A swarm of spiders starts climbs onto your hands and before you react they reach your elbows")
-    print("Out of shock, fear and pain your grip on the bridge loosens and you start fall")
-    sleep(delay)
-    print("The light in the cavern is gone, you feel cold, and the pain fades away")
-    dead = True
-    sleep(delay*5)
-else:
-    print("Forgoing any other thoughts you decide to charge forth and wade through the river")
-    sleep(delay)
-    print("The river tries to sweep you away, but you are pretty sure you are better than it so you go on")
-    sleep(delay*2)
-    print("Apparently you were wrong and you start getting swept downstream while uttering a string of curses")
-    print("You pass out...")
-    sleep(delay*2)
-    print("You wake up in a cavern full of glowing moss and only one entryway")
-    print("In the room's center there is a fire pit with a blue flame within")
-    print("You make use of the fire to dry off")
-    sleep(delay*3)
-    print("The sight of the beautiful moss fills you with determination, and the heat of the fire gives you strength.")
-    sleep(delay*3)
-    print("Once you are well rested and dry you leave the cave")
-
-
-if dead == True:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+if dead:
+    print("Oh no you died, you should have tried harder")
+    print("press the green button to try again")
     quit()
-
 #########################################################################################################
-direction2 = input("Which direction would you like to go this time? [UP/DOWN/LEFT/RIGHT]")
-
-if direction2 == "RIGHT":
-    # The worse choice possible
-    print("I don't think you wanted to go deeper into the cave did you?")
-    print("You will surely get eaten by bats...eeekkk!")
-    print("...and snakes too...hssssss!")
-    print("I pity you!")
-    dead = True
+# TEAM 4
+direction=input ("Which pathway would you like to take? [Rocky/Bumpy/Smooth/Round]")
+if direction == "Rocky":
+   #Good choice
+    print("You see an open door and can see sunlight shining through.")
     sleep(delay)
-elif direction2 == "LEFT":
-    # Good Choice
-    print("Can you see the sun?")
-    print("You found your way out!")
-    print("Food and water are awaiting for you at the exit!")
-
-else:
-    #Neutral
-    print("You are not going anywhere!")
-    print("You are going to bump your head and crack it open or break your tailbone if you do this.")
-    print("Ouch!")
-    print("You are stuck here forever and ever!")
+elif direction == "Bumpy":
+    #Neutral choice
+    print("You run into a wall with a creepy painting.")
+    sleep(delay)
+if direction == "Smooth":
+    #Bad choice
+    print("As you walk through the pathway you see an valuable gemstone.")
+    sleep(delay)
+    print("Once you grab it the floor opens and you fall through.")
+    print("Beneath you there is a sea of hungry piranhas.")
+    dead= True
+elif direction == "Round":
+    #Neutral choice
+    print("You stumble upon a locked door.")
     sleep(delay)
 
 if dead == True:
-    print("Oh no! You kicked the bucket without making a bucketlist!")
-    quit( )
-
+    print("You are now dead, better luck next time. Maybe you should have chose another path.")
+    quit()
 #########################################################################################################
-
-direction = input("You were walking and faced 5 portals in front of you with different colors. Which portals will you choose? [Blue/Red/Yellow/Black/White]")
-
-if direction == "Blue":
-    print("Wooww! Great choice! There is a box of GOLD waiting for you behind this portal!")
+# TEAM 5
+print("Within the cave there are blood thirsty vampire bats that are sleeping.")
+sleep(delay)
+print("You must make the choice to sliver into one of the many parts of the cave")
+sleep(delay)
+choose = input("Where do you choose to go? [left/center/right]")
+if choose == "left":
+    #Good choice!
+    print("You move through the dark depths of the cave safely without waking the bats")
     sleep(delay)
-
-elif direction == "Red":
-    print("The sound of tigers deprived of food for weeks surrounds you.")
-    sleep(5)
-    print("The smallest footstep could trigger them and send them into a frenzy.")
-    sleep(5)
-    print("You try to step away but you trip and cut yourself.")
-    sleep(5)
-    print("With the smell of blood in the air, the tigers pounce, ripping apart your flesh.")
-    sleep(5)
-    print("You are dying, but you can still save your life by solving the challenge")
-    sleep(5)
-    print("If you are smart enough, you can still survive!")
-    sleep(5)
-    print("So, ready for the challenge?")
-    sleep(5)
-    logic = input("Look at this series: 80, 10, 70, 15, 60, ... What number should come next?")
-    if logic == "20":
-        print("Wonderful! With the help of your logical skills you survived!")
-        sleep(5)
-        print("You are in the farm now. Continue your journey!")
-    else:
+    print("You see a light at the end of the treacherous cave")
+    print("You've escaped!")
+elif choose == "center":
+    #Bad choice :(
+    print("You trip over rocks and cut your knee open!")
+    sleep(delay)
+    print("You awaken the bats with the smell of your blood")
+    sleep(delay)
+    weapon=input("You pick up a sharp stick. How many bats can you take on at once?")
+    weapon=int(weapon)
+    if weapon < 2:
+        print("You were attacked from behind and the bats ate you")
+        dead = True
+    elif weapon >= 2 and weapon <=5:
+        print("You have managed to fight off the blood thirsty bats and you have survived")
+    elif weapon > 5:
+        print("You take on more bats than you can handle and become overwhelmed and die")
         dead = True
 
-else:
-    print("You are in the farm now. Continue your journey!")
 
+else:
+    #Neutral choice
+    print("Down this path, you get lost within the dark depths of the cave")
 if dead == True:
-    print("Sorry! You died and this is the end of your story////  Try again by hitting the green play button.")
+    print("You've died :(")
     quit()
-
 #########################################################################################################
-sleep(3)
-print("You close your eyes for a brief second. As you do, you feel the wind swirl violently around you.")
-sleep(4)
-print("You open your eyes to find yourself in the middle of a dark forest.")
-sleep(3)
-from random import* #Code needed to import randomness
-Escape = False #Used to check if the player has escaped yet
-while(Escape == False and dead == False):
-    DoorA = randint(1, 3) #Assigns a random number to DoorA
-    DoorB = randint(1, 3) #Assigns a random number to DoorB
-    DoorC = randint(1, 3) #Assigns a random number to DoorC
-    while ((DoorA == DoorB) or (DoorB == DoorC) or (DoorC == DoorA)): #Rerolls all values of the doors until they aren't equal.
-        DoorA = randint(1, 3)
-        DoorB = randint(1, 3)
-        DoorC = randint(1, 3)
-        #print("Another Iteration" + "\n")
-    #print(str(DoorA) + str(DoorB) + str(DoorC))
-    print("Every instinct you have is telling you to get out.")
-    print("You start walking through the forest until you spot something in the distance.")
-    sleep(5)
-    print("You see a row of doors in the bark of trees that could lead you out of the forest." +
-          " Which door do you enter (Door A, B, or C)?")
-    Choice = input("Pick one ")
-    if(Choice.upper() == "A"):
-        print("You go through Door A")
-        sleep(2)
-        if(DoorA == 1):
-            print("You find a long windy path and decide to follow it.")
-            sleep(delay * 3)
-            print("You've died of starvation")
-            sleep(3)
-            dead = True
-        elif(DoorA == 2):
-            print("You can't seem to find an exit from the forest, however you do stumble upon a small picnic basket.")
-            sleep(3)
-            print("You open the basket and find a warm sandwich and a red and white blanket to hold you over "
-                  "until the morning.")
-            sleep(5)
-            print("You wake up to find yourself in the middle of a dark forest.")
-            sleep(1)
-        else:
-            sleep(1)
-            print("You follow a long tunnel")
-            sleep(2)
-            Escape = True
-    elif(Choice.upper()=="B"):
-        print("You go through Door B")
-        sleep(2)
-        if(DoorB == 1):
-            print("You find a long windy path and decide to follow it.")
-            sleep(delay * 3)
-            print("You've died of starvation")
-            dead = True
-        elif(DoorB == 2):
-            print("You can't seem to find an exit from the forest, however you do stumble upon a small picnic basket.")
-            sleep(3)
-            print("You open the basket and find a warm sandwich and a red and white blanket to hold you over "
-                  "until the morning.")
-            sleep(5)
-            print("You wake up to find yourself in the middle of a dark forest.")
-            sleep(1)
-        else:
-            sleep(1)
-            print("You follow a long tunnel")
-            sleep(2)
-            Escape = True
-    elif(Choice.upper()=="C"):
-        print("You go through Door C")
-        sleep(2)
-        if(DoorC == 1):
-            print("You find a long windy path and decide to follow it.")
-            sleep(delay*3)
-            print("You've died of starvation")
-            dead = True
-        elif(DoorC == 2):
-            print("You can't seem to find an exit from the forest, however you do stumble upon a small picnic basket.")
-            sleep(3)
-            print("You open the basket and find a warm sandwich and a red and white blanket to hold you over "
-                  "until the morning.")
-            sleep(5)
-            print("You wake up to find yourself in the middle of a dark forest.")
-            sleep(1)
-        else:
-            sleep(1)
-            print("You follow a long tunnel")
-            sleep(2)
-            Escape = True
-    else:
-        print("You pass out from thinking too hard. Good job.")
-        sleep(2)
-        print("You wake up to find yourself in the middle of a dark forest.")
-        sleep(2)
-if(dead== False):
-    sleep(1)
-    print("Yay you Escaped!")
-#########################################################################################################
-doors = input("which doors you want to open? [A/B/C/D]")
-import time
-if doors == "A":
-    # this is a very bad choice
-    print("There is Samara standing with a Axe and she is not friendly")  # Samara Morgan is a scary character from the ring movie
-    print("seems she is very angry and start running towards you")
-    sleep(delay)
-elif doors == "B":
-    # this a good choice
-    print("There is a treasure hidden in one of the thousand boxes")
-    sleep(delay)
-    print("There are danger warning signs on some of the boxes")
-    print("seems the best option is not to open the boxes and stay in the room for safety or go back to the main area to choose another door to find the exit")
-
-
-    print("You select one of the random boxes.")
-    time.sleep(4)
-    print("Congratulations!! you got the treasure")
-elif doors == "C":
-    # this door is another bad choice
-    print("This door doesnot seem to be safe, because there are groups of hungry zombies in the room ready for attack")
-    print("The door is closed and there is no way out, you are trapped!!")
-    print("You try to fight the zombies with the broom stick, the only weapon in the room to fight the zombies")
-    print("They eat you, you are gone! They are still hungry. ")
-    print("Nice try though. try next time wisely!!")
-    dead = True
-else:
-    # This the exit
-    print("This is your way out of this haunted house. Well done.")
+# TEAM 6
+my_destination = input("Which destination would you like to go? [Beach/McDonald's/Carnival]")
+if my_destination == "McDonald's" or my_destination == "The Beach" or my_destination == "Amusement Park":
+    if my_destination == "McDonald's":
+        # if they choose McDonald's!
+        # Bad choice...
+        print("You discover there's a terribly long line. Oh well you'll wait!")
+        print('')
+        print("You accidentally shove someone in line...")
+        print('')
+        print("That person is a KAREN!!")
+        print('')
+        print("She starts yelling in your face!! SHE'S GETTING THE MANAGER!!")
+        print("The manager bans you from McDonald's...FOR LIFE")
+        print('')
+        print("YOU GO ON STRIKE!")
+        print('')
+        print("McDonald's unfortunately doesn't care...")
+        print('')
+        print("You die of starvation...:(")
+        dead = True
+    elif my_destination == "Amusement Park":
+        # if they choose amusement park!
+        # Bad choice...
+        print("You've arrived at the Amusement Park and it's BEAUTIFUL!!")
+        print('')
+        print("You see a crowd of people...what's going on??")
+        print('')
+        print("OH MAN! There's a kid and an old man fighting!!!")
+        print('')
+        my_choice = input("Do you want to stop them??")
+        if my_choice == 'yes' or 'no':
+            if my_choice == 'yes':
+                print("You try to save the boy!")
+                print("OH NO! THE OLD MAN HIT YOU IN THE HEAD WITH HIS CANE!!")
+                print("You die from a concussion...")
+                dead = True
+            else:
+                print("Guess that's none of your business...")
+                print('')
+                print("You need to use the restroom!")
+                print('')
+                print("You go into the nearest porta potty.")
+                # Cue omninous music...
+                print('')
+                print("Oh no...you hear thunder while doing your business!!")
+                print('')
+                print("OH MY GOODNESS! THE DOOR WON'T OPEN!!")
+                print('')
+                print("OOHH NOO! THE WIND IS MOVING THE PORTA POTTY!!")
+                print('')
+                print("DEAR GOD!!! IT'S A HURRICANE!!!")
+                print('')
+                print("YOU'RE BEING LIFTED INTO THE AIR!!!")
+                print('')
+                print("YOU'RE FALLING!!!")
+                print('')
+                print("You tragically died from the impact")
+                print('')
+    elif my_destination == "the beach" or my_destination == "The Beach" or my_destination == "beach":
+        # good Choice!!!
+        #
+        print("YOU FINALLY GOT OUT!")
 if dead == True:
-    print("You have been sucked dry by the hungry zombies. Try again by hitting the green play button")
-
+    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+    quit()
 #########################################################################################################
+# TEAM 7
+print("\n")
+print("""Suddenly the earth beneath you rumbles..out of thin air three radiant portals emerge""")
+print("\n")
+sleep(delay *2)
 
-username = input("What's your name?")
-
-print()
-print("Welcome,",username,)
+print("""The light from the portals illuminates the cave but you reflexively close your eyes 
+      in response to the harsh light.""")
+print("\n")
+print("""Few minutes pass and attempt again to get a better look at the portals. Light permeates through your
+      partially opened eyes. To your surprise, the portals each lead to luxury stores""")
+sleep(delay*2)
+print("\n")
+print("A voice bellows to you, leaving you slightly shaken")
 sleep(delay)
-print("You have now randomly teleported to a village")
-print("There are two people approaching you")
-print("Someone who seems to want to sell you something and someone who wants to ask for money")
-choice = input("Who do you want to talk to? [Seller or Beggar]: ")
-
-if choice == "Seller":
-    print("The Seller tackles you and steals all your money")
-    sleep(delay)
-    print("You are now a beggar and can no longer feed yourself properly; therefore, you die of starvation")
-    dead = True
-
-elif choice == "Beggar":
-    print("You have chosen the generous route. Good Karma comes your way.")
-    print("You leave the village in good spirits")
-
-else:
-    print("Please choose who you would like to talk to")
-
-if dead == True:
-    quit()
-#########################################################################################################
-
-delay = 1.0
-username= input("what is your name, idiot?")
-print("welcome ",username,"to the portal" )
-direction= input("Before you stand two doors, pick your destiny, door 1 or door 2, what's it gonna be, stupid?")
-
-if direction == "door 1":
-    print("You ended up in an old shack infested with rabid raccoons.")
-    sleep(delay)
-
-    print("You were mauled, but you bravely fended them off")
-    sleep(delay*2)
-    print("losing a lot of blood and a finger in the process.")
-
-elif direction== "door 2":
-    print ("You are in the house of sins, The Ladies of the Night")
-    sleep(delay)
-    print("you could not pay for the services")
-    sleep(delay*5)
-    print("too bad, you got yourself killed")
-    dead= True
-if dead == True:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-    quit()
-
-#########################################################################################################
-if direction  == "West":
-    print("You stumble upon a pile of treasure ")
-
-    question = input("Do you take all the treasure? (Yes/No")
-if question == "Yes":
-    print("You are greedy and get attacked by a mob of mummies.")
-if question == "No":
-    print("You are encountered by a mummy that allows you to take as much gold as you can fit in your pockets. Good job for not being greedy.")
-    print("")
-
-#########################################################################################################
-door_options = input("do you want find a treasure?Enter[door1/door2/door3/door4]")
-# oh..lucky choice
-if door_options == "door1":
-    print(" you find a box full of pirate lost treasure, Congratulations for being brave..")
-    sleep(delay)
-# bad option
-elif door_options == "door2":
-    print("wrong destination, you saw a lion sleeping  and  you  fake dead. ")
-    sleep(delay)
-    print(" lion think  you are a bad meat to eat but want to know you are dead.")
-    print(" oh! the lion is approaching you and waking up s not a good idea.")
-    print("the lion find out you are breathing, Goodbye my friend the lion eats you.")
-    dead = True
-
-else:
-    # Neutral choice
-    print("Oh! you opened a wrong door and you fall into a pit, you are crying that you need help.")
-    sleep(delay)
-
-
-if dead == True:
-    print("you are dead, click on the green play button to resurrect. if you want to play again.")
-    quit()
-#########################################################################################################
-if direction == "North":
-    print("The stranger recognises this part of the cave. They could come in handy. ")
-    sleep(delay)
-    print()
-    print("You have come across another split in the cave. The other person is starting to act weird. ")
-    print("You can go East or West. The stranger seems to want to go West, but do you trust them? Choose wisely. ")
-    sleep(delay)
-    print()
-
-trustworthy = input("Do you find them trustworthy enough to trust their advice to go West? [Yes/No]")
-
-# Good choice
-if trustworthy == "Yes":
-    print("Lets hope this is the right thing to do...")
-    sleep(delay)
-    print("You find a chest")
-    sleep(delay)
-    print()
-    print("You open it. It's filled with treasure!")
-    sleep(delay)
-    print()
-    print("When you open the treasure, a boulder moves and reveals another path with light at the end.")
-    print()
-    sleep(delay * 3)
-# Bad Choice
-if trustworthy == "No":
-    print("You decide to not trust the stranger and head East instead. ")
-    sleep(delay * 2)
-    print("The cave seems to be unstable and weak compared to the previous part of the cave.")
-    sleep(delay * 2)
-    print("The stranger sees a pretty rock in the cave side and decides to try and pull it loose. ")
-    print()
-    sleep(delay * 3)
-    print("The rock comes loose. Suddenly rocks start coming loose from the ceiling of the cave. The stranger started "
-          "a collapse in the cave system.")
-    print("You can't move fast enough to escape the falling rocks and get crushed. ")
-    print()
-    dead = True
-
-if dead == True:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-    quit()
-
-#########################################################################################################
-instrument = input("Which instrument would you like to play? [Piano/Guitar/Bass/Drums]")
-
-if instrument == "Piano":
-    #Correct choice
-    print("You have chosen the beautiful melodic instrument of Beethoven. You will be able to seduce any woman or mans as soon as you play...")
-    sleep(delay)
-elif instrument == "Bass":
-    #Wrong choice
-    print("You have chosen a demonic instrument. Begin to play the instrument you have chosen")
-    sleep(delay)
-    print("BOOM!!!!! As soon as you begin to play, the strings un-wire and wrap themselves around your neck")
-    print("I bet you can't breathe now, can you? HAHAHAHAHA")
-    sleep(delay)
-else:
-    #Regular choice
-    print("The musician Gods have granted you passage to continue. Play on!")
-    sleep(delay)
-
-if dead == True:
-    print("Wow you suck! Too bad buddy. Next time don't die")
-    quit()
-
-#########################################################################################################
-direction = input("Which cave tunnel do you want to go down? [Left/Right/Straight]")
-if direction == "Left":
-    # Good choice!
-    print("You have found a baby dragon. It's fire can keep you warm and it can lead you out of the cave.")
-    sleep(delay)
-elif direction == "Right":
-    # Oh no...BAD CHOICE!
-    print("Oh no. You have run into 100 duck-sized horses.")
-    sleep(delay)
-    print("They are vicious and out for blood.")
-    print("They begin to stampede and knock you off your feet...never to be seen again.")
-    dead = True
-else:
-    # Neutral choice
-    print("You find yourself in a mineshaft, not seeing a way out. While quite interesting, still not the way out.")
-    sleep(delay)
-if dead == True:
-    print("Oopsy. You made a whoopsy. Better luck next time! Play again by hitting the green play button.")
-    quit()
-#########################################################################################################
-doors = input("You come across three doors. Which door will you open? The left, middle, or right door?")
-print()
-if doors == "Left":
-    print("As you walk, you trip on a rock.")
-    print("In front of you, there was a water well.")
-    print("You fall into the well and start calling for help.")
-    sleep(delay)
-
-    print()
-    dead = True
-elif doors == "Middle":
-    print("In front of you is a long tunnel.")
-    print("You walk for hours and hours, but never come to an end.")
-    print("Eventually, you pass out from exhaustion, and your world goes black.")
-    print()
-    sleep(delay)
-else:
-    print("You walk into a grass field, and as you walk, you see a farm off into the distance.")
-    print("You see people milling about near the farm, and decide to walk towards it.")
-    print("Your journey takes a little bit of time.")
-    print()
-    sleep(delay)
-
-if dead==True:
-    print("You've died. RIP")
-    print("That's the end of your story.")
-    quit()
-
-#########################################################################################################
-print("You are walking through a field, and seemingly out of nowhere a forest appears before you.\n")
-sleep(delay * 2)
-print("You know that you have a few options, but one must be made.")
-print("Would you like to... \nA: Go around the outskirts of the forest, B: Go into the forest, or C: Just stand there")
-forest_choice = input("[A,B,C]")
-
-if forest_choice == "A":
-    # Good Choice
-    print("You make it around the forest with no consequence.")
-    sleep(delay)
-elif forest_choice == "B":
-    # A very bad choice
-    print("As you enter the forest you realize that something seems a little off.")
-    sleep(delay)
-    print("As you make your way deeper into the woods you find that it becomes progressively harder to breathe in the\n"
-          "air.")
-    sleep(delay)
-    print("Suddenly as if all at once you realize that you are suffocating. You fall to the ground clasping at your \n"
-          "throat.")
-    dead = True
-else:
-    # Neutral choice that makes your character look stupid
-    print("You stand there... ")
-    sleep(delay * 3)
-    print("Boredom fills your mind...")
-    sleep(delay * 3)
-    print("Eons pass by as you wait at the edge of the woods. Eventually you forget why you are standing there.")
-    sleep(delay * 3)
-    print("You blink, and suddenly the forest disappears. \n")
-    sleep(delay)
-if dead == True:
-    print("Whoops, you died in the forest. Start over by clicking the green play button. ")
-    quit()
-#########################################################################################################
-wait = 2.0
-dead = False
-username = input("Who dares to enter this holy place?")
-print()
-print("Welcome,", username, "to Wakanda.")
-sleep(wait/2)
-choice = input("What are you here for?")
-print()
-print("Oh!", username, " you are in luck, we happen to have", choice, "in Wakanda.")
-sleep(wait*2)
-print("But before we attend to you, you must drink from these bowls.")
-print("The red bowl, the blue bowl, and the green bowl.")
-print("But beware!! One of these bowls will kill you. So, choose wisely!")
-print()
-sleep(wait)
-#########################################################################################################
-chosen = input("Which bowl do you wanna drink from? [Red/Blue/Green]")
-
-if chosen == "Red":
+print("\n")
+print("Choose your luxury store wisely, unworthy adversary!")
+store = input("Which store would you like to go?[Gucci / Chanel / Prada]")
+if store == "Gucci":
     # Bad choice
-    print("Sorry but we are gonna make you a good funeral.")
-    sleep(wait)
-    dead = True
-elif chosen == "Blue":
-    # Not a good choice.
-    print("Sorry but we cannot get you what you want")
-    print("You must leave this place at once!")
-elif chosen == "Green":
-    # Good choice
-    print("Congratulations! You have the chance to see the king of Wakanda.")
-    print("He has the power to give you the", choice, ".")
+    print("Welcome to the Gucci store,",username,"!")
+    print("You begin to seach for your wallet ")
+    wallet_location = input("Where is your wallet?[Pocket/Purse/Hand]")
+    if wallet_location == "Pocket" or wallet_location == "Purse":
+        print("Tough luck! You do not have any money, Please leave the store!")
+    elif wallet_location == "Hand":
+        print("You just spent $100,000 at Gucci...Your mom is going to kill you!!")
+        dead = True
+        if dead == True:
+            print("Your mom killed you, please wear black at the funeral.")
+            quit()
+elif store == "Chanel":
+    sale = input("Chanel is having a massive sale! Which items are you buying?[Shirts/Purses/Perfumes]")
+    if sale == "Shirts" or sale == "Purses" or sale == "Perfume":
+        print("You got over $40,000 worth of luxury items, for only $10,000")
+        print("You are so Lucky!!!")
 else:
-    # Good Choice
-    print("Sorry, we do not have your request.")
-    print("However, thank you for your interest.")
-if dead:
-    print("Oh no! Better luck next time! Try again by hitting the green button")
+    print("You have entered Prada ")
+if store == "Prada":
+    print("Welcome to Prada,",username,",Let me check to see if you have a membership with us?")
+    print("\n")
+    sleep(delay *2 )
+    print("It appears that you do not have a membership with us..")
+    sleep(delay)
+enroll = input("Would you like to enroll?[Yes/No]")
+if enroll == ("Yes"):
+    print("The entry fee is $3000 and we have many on sale")
+    print("\n")
+    print("Thank you for your membership!")
+    print("You shop around the store and gather your items and prepare to pay..")
+    sleep(delay)
+    print("\n")
+    print("Welcome 50th customer, as a reward all of your items are free of charge!")
+elif enroll == ("No"):
+    print("Thank you for your time.")
+    print("\n")
+    sleep(delay)
+    print("""As you make your way out of the store, a loose the ceiling of slap breaks apart from the topmost floor
+    and it instantly flattens you""")
+    print('\n')
+    dead == True
+    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
     quit()
+#########################################################################################################
+# TEAM 8
+path = input("Where would you like to go now that you've escaped the cave? [Bridge/Tower/Forest/River]")
+
+if path == "Bridge":
+    # Good Choice!
+    print("Over the bridge is a cabin. Nobody's home but you find food!")
+    sleep(delay)
+elif path == "Tower":
+    # Neutral Choice
+    print("There is nothing in the tower, but maybe this would be a good place to rest.")
+    sleep(delay)
+elif path == "Forest":
+    # Bad Choice
+    print("You walk aimlessly for what feels like hours. Maybe now would be a good time to rest...")
+    sleep(delay)
+    print("You wake up face to face with a snake!")
+    print("Whew! You made it away just in time.")
+    print("But, you're starving... And you come across a bush with blue berries! (That's blue berries, not blueberries.")
+    berry_number = input("How many berries would you like to eat?")
+    if berry_number > 10:
+        print("Great! You're not starving and you continue your path through the forest unharmed.")
+    else:
+        print("Oops! Too many... berries... You start to... feel... dizzy.")
+        dead = True
+else:
+    # Neutral Choice
+    print("You don't find anything, but now might be a good time to rest.")
+    sleep (delay)
+
+if dead == True:
+    print("Oh no, you died. Try again by hitting the green play button.")
+    quit()
+#########################################################################################################
+# TEAM 9
+print("")
+print("")
+print("You wake up on the top of a very tall mountain"
+)
+print("A storm is approaching and you have to get down as soon as possible")
+print("In front of you there is a motorcycle and jeep")
+sleep(delay)
+print("You quickly have to make the decison if you would rather walk and slowly but safely get to safety,"
+      "take the motorcycle that would be quicker but more dangerous or take the jeep that will travel slowly over the "
+      "terrain but can probably withstand the storm")
+print("")
+print("")
+transportation = input("What form of transportation would you prefer? [walk/motorcyle/car]")
+if transportation == "walk":
+    print("You start your walk and everything seems okay, but you can see the storm catching up rapidly")
+    print("After a few minutes the rain catches up to you but you don't start to worry because you may be able to "
+          "find shelter before the lightning commences")
+    sleep(delay)
+    print("Lightening starts and you are dead")
+    dead = True
+    print("After the storm is over you're still stuck and you have to wait for help")
+elif transportation == "motorcycle":
+    print("As the storm approaches rapidly, you quickly hop on the fastest vehicle")
+    print("You have a couple close calls but you outpace the storm and make it to safety")
+else:
+    print("You're traveling down the mountain")
+    print("It's been hours but you don't seem to be getting anywhere")
+    print("You decide you are lost")
+    print("You need to find help quick!")
+    print("")
+    sleep(delay)
+if dead == True:
+    sleep(delay)
+    print("Unfortunately the storms rough conditions were too much for you")
+    quit()
+#########################################################################################################
+# TEAM 10
+print()
+print("welcome", username, "to the forest leading to Grandmothers house.")
+sleep(delay)
+print("You are walking to grandmas house, in front of you lies three paths")
+print("There are three paths infront of you. One leads you safely, one takes you through a shortcut, one is a new path that youve never explored before")
+print("Choose wisely")
+sleep(delay * 2)
+print("It is getting dark so she wants you to hurry")
+sleep(delay)
+direction = input("Which path do you choose to get to grandmas house? [1,2,3]")
+if direction == "1":
+    # Correct choice!
+    print("You made it to grandmas house safely, and you managed to miss the hungry werewolf")
+    sleep(delay)
+elif direction == "2":
+    # Wrong path
+    print("Along the path you encounter something that blurs your vision.")
+    sleep(delay)
+    print("You try to react in time but you hear a growl and snarling getting closer behind you.")
+    print("You see its a werewolf and try to run but he grabs you and eats you whole")
+    dead = True
+else:
+    # neutral choice
+    print("Still walking on the path, yet to encounter the wolf.")
+    sleep(delay)
+
+if dead == True:
+    print("The wolf ate you, Better luck next time. Click the green button to try again")
+    quit()
+#########################################################################################################
+# TEAM 11
+dead = False
+direction = input( "Would you like to continue Forward into the cave, or better Back?")
+if direction == "Forward":
+    print('')
+    sleep(delay *3)
+    print("Oh No!")
+    sleep(delay * 4)
+    print('')
+    print("While you were walking forward into the cave, you fell to an endless hole")
+    sleep(delay *3)
+    print("You keep falling and falling...!!!")
+    sleep(delay *3)
+    print("Years went by, until you died. \n")
+    dead = True
+elif direction == "Back":
+    sleep(delay * 4)
+    print("You start walking on the direction that you followed to come in the cave")
+    sleep(delay * 3)
+    print("Suddenly you see a door on your left side")
+    door_decision = input("Would you like to open the door?Yes or No?")
+    if door_decision == "Yes":
+        sleep(delay * 4)
+        print("You found the treasuuree!!!")
+        sleep(delay * 2)
+        print("Suddenly you see there is another room!")
+        sleep(delay * 2)
+        print("You go into the room and you find yourself into a beautiful garden.")
+    else:
+        sleep(delay * 4)
+        print("You keep walking to the direction that you came from, and you end up outside.")
+else:
+    sleep(delay * 2)
+    print("Please answer the question with either Forward or Back in order to continue the story. Thank you!")
+    direction = input()
+    if direction == "Forward":
+        print('')
+        sleep(delay * 3)
+        print("Oh No!")
+        sleep(delay * 4)
+        print('')
+        print("While you were walking forward into the cave, you fell to an endless hole")
+        sleep(delay * 3)
+        print("You keep falling and falling...!!!")
+        sleep(delay * 3)
+        print("Years went by, until you died. \n")
+        dead = True
+    elif direction == "Back":
+        sleep(delay * 4)
+        print("You start walking on the direction that you followed to come in the cave")
+        sleep(delay * 3)
+        print("Suddenly you see a door on your left side")
+        door_decision = input("Would you like to open the door?Yes or No?")
+        if door_decision == "Yes":
+            sleep(delay * 4)
+            print("You found the treasuuree!!!")
+            sleep(delay * 2)
+            print("Suddenly you see there is another room!")
+            sleep(delay * 2)
+            print("You go into the room and you find yourself into a beautiful garden.")
+        else:
+            sleep(delay * 4)
+            print("You keep walking to the direction that you came from, and you end up outside.")
+
+if dead == True:
+    quit()
+#########################################################################################################
+# TEAM 12
+print("OH NO! There's a sudden horrible screeching sound from up above!")
+sleep(delay)
+print("It's a massive CAVE BAT!!!")
+sleep(delay)
+print("And it's heading straight for you!!!")
+sleep(delay)
+choice = input("What will you do? [Run/Duck/Snatch]")
+
+if choice == "Snatch": # the good choice
+    print("SICK! You snatched that bat! It is now your sidekick.")
+    sleep(delay)
+
+if choice == "Run": # the bad choice
+    print("that is a wrong choice, you were about to die. You will get one more chance to survive.")
+    sleep(delay)
+    Numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+    Second_choice= input("pick a number between 1 and 10")
+
+    if Second_choice > "5":
+        print(" right choice, you survived for now ")
+    else:
+
+         print("The bat caught you with it's weird long talons and scratched your eyes out. You died from your injuries.")
+    sleep(delay * 2)
+    dead = True
+
+else:
+# the neutral
+    print("Hmm...you survived the beast. Carry on...")
+    sleep(delay)
+
+if dead == True:
+    print("Bruh.")
+    sleep(delay)
+    print("Hit the green run button to try again.")
+    quit()
+
+#########################################################################################################
+# TEAM 13
+print()
+print("You continue through the cave, light begins to creep through the ceiling")
+print("you notice a strange smell but a pile of wood and matches nearby catches your attention.")
+print()
+action = input("What would you like to do? [light/inspect/ignore]")
+
+if action == "light":
+    # Bad Choice!
+    print("You light the match, everything goes bright, now you realize what the smell was...Gas-BOOM!")
+    print()
+    dead = True
+
+
+elif action == "inspect":
+    # Good Choice.
+    print("You inspect the supplies, you go to light the fire but remember the smell in the room.. ")
+    print("you decide to keep moving and take the supplies with you.")
+    sleep(3)
+    print()
+    print("As you keep moving you walk upon a sign on the wall that warns of a Gas Leak.")
+    print("You laugh realising how close you were to getting out of here...the wrong way.")
+    print()
+
+else:
+    # Neutral Choice.
+    print("You're in another section of the cave, you begin the shiver wishing you had a fire")
+    print("but at least the smell is gone...")
+    print()
+
+if dead == True:
+    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+    quit()
+#########################################################################################################
+# TEAM 14
+dead = False
+print("")
+print("You wake up to several sounds...")
+print("One coming from behind, one from something running to your right, and the other from a blazing fire to your left.")
+print("")
+sound = input("Which sound do you choose to follow? [Behind/Left/Right] ")
+
+if sound == "Behind" or sound == "behind":
+    # Neutral Choice
+    print("You're running away from your fears...this will not get you far in life.")
+    print("")
+    sleep(delay)
+elif sound == "Left" or sound == "left":
+    # Bad Choice...
+    print("")
+    print("You arrive at a Devil Convention.")
+    sleep(delay*2.5)
+    print("")
+    print("Part of the celebration is to roast you...")
+    print("")
+    sleep(delay*2.5)
+    print("First by roasting you with offensive jokes about your life, then literally roasting you.")
+    sleep(delay*3)
+    print("")
+    print("In order to survive, you have one option...")
+    sleep(delay*3.5)
+    print("")
+    print("")
+    print("Join their cult.")
+    print("")
+    print("")
+    sleep(delay*2.5)
+    choice = input("Would you like to accept the invitation to join th cult? [yes/no] ")
+    if choice == "yes" or choice == "Yes":
+        print("")
+        print("Congratulations, you have a new family.")
+        print("You're officially a devil.")
+        print("")
+        sleep(delay)
+    else:
+        print("")
+        print("Congratulations, you died.")
+        dead = True
+else:
+    # Great choice
+    print("You see your deceased Grandma running...")
+    sleep(delay*3.5)
+    print("You then embrace each other and talk about the days when you sucked your thumb.")
+    print("")
+    print("You are so happy.")
+    sleep(delay*3)
+    print("")
+    sleep(delay)
+
 #########################################################################################################
 # The following is the end of the story. Don't change this section, unless you really want to
 # (though it may not be used in the final story. Or will it...)
