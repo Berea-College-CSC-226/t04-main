@@ -13,7 +13,6 @@
 #
 # This new version will take advantage of functions, as well as
 # demonstrate the value of git as a tool for collaborating.
-# https://docs.google.com/document/d/12AqOblfS_IRP24dKtyJrNh9a8E8JcmrvfzseTkbixyU/edit#
 ######################################################################
 # Acknowledgements:
 #   Original Author: Scott Heggen
