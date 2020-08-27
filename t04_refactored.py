@@ -33,7 +33,7 @@ def start_story():
     """
     user = input("What do they call you, unworthy adversary? ")
     print()
-    print("Welcome,", user, ", to the labyrinth")
+    print("Welcome,", user, ", to the labyrinth!")
     sleep(delay)
     print("Before you lies two paths. One path leads to treasures of unimaginable worth.")
     print("The other, certain death. Choose wisely.")
@@ -53,7 +53,8 @@ def end_story(user):
     :param user: the user's name
     :return: None
     """
-    print("Congratulations, " + user + ", you have made it to the end of this... strange... adventure. I hope you feel accomplished.")
+    print("Congratulations, " + user + ", you have made it to the end of this... strange... adventure. "
+                                       "I hope you feel accomplished.")
     print()
     print()
     print()
@@ -100,7 +101,8 @@ def scott_adventure():
         dead = True
     else:
         # Neutral choice
-        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+        print("You're in another part of the cave. "
+              "It is equally dark, and equally uninteresting. Please get me out of here!")
         sleep(delay)
 
     kill_if_dead(dead)
@@ -141,6 +143,58 @@ def team_6_adv():
 def team_7_adv():
     pass
     # TODO Add your code here
+    """user gets to choose between different stores and see where it takes them"""
+    user = input("What do they call you, unworthy adversary? \n")
+    print("Welcome,", user, ", to the labyrinth!")
+    print("Suddenly the earth beneath you rumbles..out of thin air three radiant portals emerge. \n")
+    sleep(delay*2)
+    print("The light from the portals illuminates the cave"
+          ",but you reflexively close your eyes in response to the harsh light. \n")
+    print("Few minutes pass and attempt again to get a better look at the portals."
+          "Light permeates through your partially opened eyes."
+          "To your surprise, the portals each lead to luxury stores. \n")
+    sleep(delay*2)
+    print("A voice bellows to you, leaving you slightly shaken. \n")
+    sleep(delay*2)
+    print("Choose your luxury store wisely, unworthy adversary! \n")
+    store = input("Which store would you like to go? [Gucci / Chanel / Prada]")
+    if store == "Gucci" or "gucci" or "GUCCI":
+        # Bad choice
+        print("Welcome to the Gucci store,", user, "!")
+        print("You begin to search for your wallet...")
+        wallet_location = input("Where is your wallet? [Pocket/Purse/Hand]")
+        if wallet_location == "Pocket" or "Purse" or "pocket" or "purse" or "POCKET" or "PURSE":
+            print("Tough luck! You do not have any money! Please leave the store!")
+        elif wallet_location == "Hand":
+            print("You just spent $100,000 at Gucci...Your mom killed you!"
+                  "Please wear black at the funeral.")
+            quit()
+    elif store == "Chanel" or "chanel" or "CHANEL":
+        sale = input("Chanel is having a massive sale! Which items are you buying? [Shirts/Purses/Perfumes]")
+        if sale == "Shirts" or "shirts" or "SHIRTS" or "Purses" or "purses" or "PURSES" or "Perfumes" or "perfumes" or \
+                "PERFUMES":
+            print("You got over $40,000 worth of luxury items, for only $10,000. \n You are so lucky!!!")
+    else:
+        print("You have entered Prada.")
+    if store == "Prada" or "PRADA" or "prada":
+        print("Welcome to Prada,", user, "!" "Let me check to see if you have a membership with us? \n")
+        sleep(delay*2)
+        print("It appears that you do not have a membership with us..")
+        sleep(delay*2)
+    enroll = input("Would you like to enroll?[Yes/No]")
+    if enroll == "Yes" or "yes" or "YES":
+        print("The entry fee is $3000 and we have many on sale.\n")
+        print("Thank you for your membership!")
+        print("You shop around the store and gather your items and prepare to pay.. \n")
+        sleep(delay*2)
+        print("Welcome 50th customer, as a reward all of your items are free of charge!")
+    elif enroll == "No" or "no" or "NO":
+        print("Thank you for your time. \n")
+        sleep(delay)
+        print("As you make your way out of the store, a loose the ceiling of slap breaks apart from the topmost floor"
+              "and it instantly flattens you. \n")
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        quit()
 
 
 def team_8_adv():
@@ -231,4 +285,3 @@ def main():
 
 
 main()
-
