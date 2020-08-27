@@ -169,9 +169,46 @@ def team_12_adv():
 
 
 def team_13_adv():
-    pass
+    """
+    https://docs.google.com/document/d/12B_ZB4AfvERDoiExACvnUPc96CUFAVZu9MydgHBHr88/edit?ts=5f47a426#
+    Karina Agliullova
+    Jakob Bister
+    :return: none
+    """
     # TODO Add your code here
+    global dead
+    dead = False
+    print()
+    print("You continue through the cave, light begins to creep through the ceiling")
+    print("you notice a strange smell but a pile of wood and matches nearby catches your attention.")
+    print()
+    action = input("What would you like to do? [light/inspect/ignore]")
 
+    if action == "light":
+        # Bad Choice!
+        print("You light the match, everything goes bright, now you realize what the smell was...Gas-BOOM!")
+        print()
+        dead = True
+
+    elif action == "inspect":
+        # Good Choice.
+        print("You inspect the supplies, you go to light the fire but remember the smell in the room.. ")
+        print("you decide to keep moving and take the supplies with you.")
+        sleep(3)
+        print()
+        print("As you keep moving you walk upon a sign on the wall that warns of a Gas Leak.")
+        print("You laugh realising how close you were to getting out of here...the wrong way.")
+        print()
+
+    else:
+        # Neutral Choice.
+        print("You're in another section of the cave, you begin the shiver wishing you had a fire")
+        print("but at least the smell is gone...")
+        print()
+
+    if dead:
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        quit()
 
 def team_14_adv():
     """
