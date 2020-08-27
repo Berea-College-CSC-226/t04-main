@@ -129,8 +129,45 @@ def team_4_adv():
 
 
 def team_5_adv():
-    pass
-    # TODO Add your code here
+    """
+    google docs: https://docs.google.com/document/d/1fCEj4kbOZqeZgzxPEVBn__-nbkaEqMKdCoscA5RDhbY/edit?usp=sharing
+    Alina Cooper
+    Ndizeye Tschesquis
+    :return: none
+    """
+    print("Within the cave there are blood thirsty vampire bats that are sleeping.")
+    sleep(delay)
+    print("You must make the choice to sliver into one of the many parts of the cave")
+    sleep(delay)
+    choose = input("Where do you choose to go? [left/center/right]")
+    if choose == "left":
+        # Good choice!
+        print("You move through the dark depths of the cave safely without waking the bats")
+        sleep(delay)
+        print("You see a light at the end of the treacherous cave")
+        print("You've escaped!")
+    elif choose == "center":
+        # Bad choice :(
+        print("You trip over rocks and cut your knee open!")
+        sleep(delay)
+        print("You awaken the bats with the smell of your blood")
+        sleep(delay)
+        weapon = input("You pick up a sharp stick. How many bats can you take on at once?")
+        weapon = int(weapon)
+        if weapon < 2:
+            print("You were attacked from behind and the bats ate you")
+            dead = True
+        elif 2 <= weapon <= 5:
+            print("You have managed to fight off the blood thirsty bats and you have survived")
+        elif weapon > 5:
+            print("You take on more bats than you can handle and become overwhelmed and die")
+            dead = True
+    else:
+        # Neutral choice
+        print("Down this path, you get lost within the dark depths of the cave")
+    if dead == True:
+        print("You've died :(")
+        quit()
 
 
 def team_6_adv():
