@@ -147,7 +147,7 @@ def team_2_adv():
             print("Better luck in your next life.")
             dead = True
     else:   # neutral
-        print(" I guess you are not ready for an adventure today...")
+        print(" I guess you are not ready for an adventure today....")
         print("")
         sleep(delay)
 
