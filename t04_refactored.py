@@ -124,9 +124,36 @@ def team_3_adv():
 
 
 def team_4_adv():
-    pass
-    # TODO Add your code here
+    '''https://docs.google.com/document/d/10x_uJfVX33fnu9rpqR4PTmpJyVsYfWm1fiIuUsRnPNs/edit?usp=sharing
+    Darius Morton
+    David Olorunpoju-Esssang
+    :return:none
+    '''
+    global dead
+    terrain = input("Which pathway would you like to take? [Rocky/Bumpy/Smooth/Round]")
+    if terrain == "Smooth":
+        # Good choice
+        print("You see an open door and can see sunlight shining through.")
+        sleep(delay)
+    elif terrain == "Bumpy":
+        # Neutral choice
+        print("You run into a wall with a creepy painting.")
+        sleep(delay)
+    if terrain == "Rocky":
+        # Bad choice
+        print("As you walk through the pathway you see an valuable gemstone.")
+        sleep(delay)
+        print("Once you grab it the floor opens and you fall through.")
+        print("Beneath you there is a sea of hungry piranhas.")
+        dead = True
+    elif terrain == "Round":
+        # Neutral choice
+        print("You stumble upon a locked door.")
+        sleep(delay)
 
+    if dead == True:
+        print("You are now dead, better luck next time. Maybe you should have chose another path.")
+        quit()
 
 def team_5_adv():
     pass
