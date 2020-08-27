@@ -295,9 +295,49 @@ def team_11_adv():
 
 
 def team_12_adv():
-    pass
+    """
+    https://docs.google.com/document/d/1KFmb0taSBgypm81r4ZO01vJLmb7bNNXZ2lI9EXUgOrc/edit?usp=sharing
+    Destiney Mccoy and Nancy Landeros
+    """
     # TODO Add your code here
+    global dead
+    print("OH NO! There's a sudden horrible screeching sound from up above!")
+    sleep(delay)
+    print("It's a massive CAVE BAT!!!")
+    sleep(delay)
+    print("And it's heading straight for you!!!")
+    sleep(delay)
+    choice = input("What will you do? [Run/Duck/Snatch]")
 
+    if choice == "Snatch":             # the good choice
+        print("SICK! You snatched that bat! It is now your sidekick.")
+        sleep(delay)
+
+    elif choice == "Run":                   # the bad choice
+        print("that is a wrong choice, you were about to die. You will get one more chance to survive.")
+        sleep(delay)
+        numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        second_choice = input("pick a number between 1 and 10")
+
+        if second_choice > "5":
+            print(" right choice, you survived for now ")
+        else:
+            print("The bat caught you with it's weird long talons and scratched your eyes out.")
+            print("You died from your injuries.")
+            dead = True
+
+    else:
+        print("Hmm...you survived the beast. Carry on...")
+        sleep(delay)
+
+
+if dead:
+    print("Bruh.")
+    sleep(delay)
+    print("Hit the green run button to try again.")
+    quit()
+
+pass
 
 def team_13_adv():
     """
