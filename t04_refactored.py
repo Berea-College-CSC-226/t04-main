@@ -146,7 +146,47 @@ def team_7_adv():
 def team_8_adv():
     pass
     # TODO Add your code here
+    """"
+     https: // docs.google.com / document / d / 1
+    baJIWVUbm7os6gvjg_jRNmMuBTdsrLglumFw5zSe6zc / edit?usp = sharing
+    Sierra Deitsch
+    Aja
+    :return: none
+    """
+    dead = False
 
+    path = input("Where would you like to go now that you've escaped the cave? [Bridge/Tower/Forest/River] ")
+
+    if path == "Bridge":
+        # Good Choice!
+        print("Over the bridge is a cabin. Nobody's home but you find food!")
+        sleep(delay)
+    elif path == "Tower":
+        # Neutral Choice
+        print("There is nothing in the tower, but maybe this would be a good place to rest.")
+        sleep(delay)
+    elif path == "Forest":
+        # Bad Choice
+        print("You walk aimlessly for what feels like hours. Maybe now would be a good time to rest...")
+        sleep(delay)
+        print("You wake up face to face with a snake!")
+        print("Whew! You made it away just in time.")
+        print("But, you're starving... And you come across a bush with blue berries! "
+              "(That's blue berries, not blueberries.")
+        berry_number = int(input("How many berries would you like to eat? "))
+        if berry_number > 10:
+            print("Great! You're not starving and you continue your path through the forest unharmed.")
+        else:
+            print("Oops! Too few... berries... You start to... feel... dizzy.")
+            dead = True
+    else:
+        # Neutral Choice
+        print("You don't find anything, but now might be a good time to rest.")
+        sleep(delay)
+
+    if dead == True:
+        print("Oh no, you died. Try again by hitting the green play button.")
+        quit()
 
 def team_9_adv():
     pass
