@@ -143,7 +143,8 @@ def team_6_adv():
 def team_7_adv():
     pass
     # TODO Add your code here
-    """user gets to choose between different stores and see where it takes them"""
+    """https://docs.google.com/document/d/10pEc9bcpgOZhSS1SZtIzj-PTrpJctsmpJ8HEyq_491I/edit?usp=sharing, 
+        nakajk, stewartd"""
     user = input("What do they call you, unworthy adversary? \n")
     print("Welcome,", user, ", to the labyrinth!")
     print("Suddenly the earth beneath you rumbles..out of thin air three radiant portals emerge. \n")
