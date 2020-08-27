@@ -119,8 +119,41 @@ def team_2_adv():
 
 
 def team_3_adv():
-    pass
-    # TODO Add your code here
+    global dead
+    print("You continue along...")
+    sleep(delay * 2)
+    print("You encounter a Thief mid-robbery, but he's having some trouble")
+    sleep(delay)
+    action = input("What do you do? [stop/help]")
+    if action == "stop" or action == "Stop":  # good choice
+        print("You attempt to stop the thief...")
+        sleep(delay)
+        print("You tackle the thief and pin him to the ground, and wait for the police.")
+        sleep(delay)
+        print("When the police arrive, they thank you for your service with a pink-sprinkled donut")
+    elif action == "help" or action == "Help":  # bad choice (You chose to help the thief)
+        print("You decide to help the thief...")
+        sleep(delay)
+        choice = int(input("Choose how much money you hold [whole number]"))
+        if choice >= 1000000:
+            sleep(delay * 2)
+            print("As the you run away, you are too slow and are shot down by the police")
+            print("As you lie there dying you regret being greedy and taking too much money")
+            dead = True
+        else: # You chose a number less than 1000000 dollars
+            print("You are quick enough to get away from the police")
+            sleep(delay)
+            print("Good Job, you weren't greedy and got away with some money")
+            sleep(delay * 2)
+    else:  # neutral choice You ran from the scene
+        print("You avoid the situation, not wanting to get involved, and continue on your journey")
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+
+    if dead:
+        print("Oh no you died, you should have tried harder")
+        print("press the green button to try again") # green button = start button
+        quit()
 
 
 def team_4_adv():
