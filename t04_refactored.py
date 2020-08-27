@@ -114,8 +114,42 @@ def team_1_adv():
 
 
 def team_2_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/13oN12oZgBLbtxg2XFv_iQheZ6v5G8izLmzkvZ3CCxtg/edit?ts=5f47a42b#
+    Lydia Bodine and Caleb Handley
+    """
+    dead = False
+    print("")
+    Choice = input("What is your choice of sword today, warrior? [Iron/Diamond] ")
+
+    if Choice == "Iron":    # good choice
+        print("Good choice! ")
+        sleep(delay)
+        print("This sword is known to be one of the most powerful. ")
+        sleep(delay)
+        print("The journey continues, good luck.")
+        sleep(delay * 3)
+        print("")
+        sleep(delay)
+    elif Choice == "Diamond":  # bad choice
+        print(" Every warrior who has chosen this sword has lost their battle. ")
+        sleep(delay)
+        print(" And that will be your fate. ")
+        sleep(delay)
+        print(" However...you have one more chance to make the right decision ")
+        sleep(delay)
+        Choice2 = int(input(" pick a number between 10 and 100 "))
+        if Choice2 < 20:
+            print("You have lived to see another day. ")
+        else:
+            print("That is the wrong decision, my friend.")
+            sleep(delay)
+            print("Better luck in your next life.")
+            dead = True
+    else:   # neutral
+        print(" I guess you are not ready for an adventure today...")
+        print("")
+        sleep(delay)
 
 
 def team_3_adv():
