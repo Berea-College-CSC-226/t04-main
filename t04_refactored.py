@@ -174,9 +174,52 @@ def team_13_adv():
 
 
 def team_14_adv():
-    pass
+    """
+    https://docs.google.com/document/d/1Ax0pfBALRhBNzidAtm-vubEhNZnjqW2tGaor7gEjW2c/edit?usp=sharing
+    Genevieve McWilliams
+    Jhonny Sontay
+    :return: none
+    """
     # TODO Add your code here
+    global dead
+    print("You wake up to several sounds...")
+    print(
+        "One coming from behind, one from something running to your right, "
+        "and the other from a blazing fire to your left.")
+    print("")
+    sound = input("Which sound do you choose to follow? [Behind/Left/Right] ")
 
+    if sound == "Behind" or sound == "behind":
+        # Neutral Choice
+        print("You're running away from your fears...this will not get you far in life.")
+        sleep(delay)
+    elif sound == "Left" or sound == "left":
+        # Bad Choice...
+        print("You arrive at a Devil Convention.")
+        sleep(delay * 2.5)
+        print("Part of the celebration is to roast you...")
+        sleep(delay * 2.5)
+        print("First by roasting you with offensive jokes about your life, then literally roasting you.")
+        sleep(delay * 3)
+        print("In order to survive, you have one option...")
+        sleep(delay * 3.5)
+        print("Join their cult.")
+        sleep(delay * 2.5)
+        choice = input("Would you like to accept the invitation to join the cult? [yes/no] ")
+        if choice == "yes" or choice == "Yes":
+            print("Congratulations, you have a new family.")
+            print("You're officially a devil.")
+            sleep(delay)
+        else:
+            print("Congratulations, you died.")
+            dead = True
+    else:
+        # Great choice
+        print("You see your deceased Grandma running...")
+        sleep(delay * 3.5)
+        print("You then embrace each other and talk about the days when you sucked your thumb.")
+        print("You are so happy.")
+        sleep(delay * 3)
 
 def team_15_adv():
     pass
