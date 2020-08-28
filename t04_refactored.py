@@ -384,10 +384,43 @@ def team_9_adv():
 
 
 def team_10_adv():
-    pass
     # TODO Add your code here
+    """
+    Introduction text for the story. Don't modify this function.
 
+    :return: the user's name, captured from user input
+    """
+    dead = False
+    username = input("What do they call you?")
+    print()
+    print("welcome", username, "to the forest leading to Grandmothers house.")
+    sleep(delay)
+    print("You are walking to grandmas house, in front of you lies three paths")
+    print("In front of you there are three paths. One leads you safely, one is a shortcut, one is undiscovered")
+    print("Choose wisely")
+    sleep(delay * 2)
+    print("It is getting dark so she wants you to hurry")
+    sleep(delay)
+    direction = input("Which path do you choose to get to grandmas house? [1,2,3]")
+    if direction == "1":
+        # Correct choice!
+        print("You made it to grandmas house safely, and you managed to miss the hungry werewolf")
+        sleep(delay)
+    elif direction == "2":
+        # Wrong path
+        print("Along the path you encounter something that blurs your vision.")
+        sleep(delay)
+        print("You try to react in time but you hear a growl and snarling getting closer behind you.")
+        print("You see its a werewolf and try to run but he grabs you and eats you whole")
+        dead = True
+    else:
+        # neutral choice
+        print("Still walking on the path, yet to encounter the wolf.")
+        sleep(delay)
 
+    if dead:
+        print("The wolf ate you, Better luck next time. Click the green button to try again")
+        quit()
 def team_11_adv():
     pass
     # TODO Add your code here
