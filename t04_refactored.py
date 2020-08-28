@@ -141,7 +141,6 @@ def team_6_adv():
 
 
 def team_7_adv():
-
     # TODO Add your code here
     """https://docs.google.com/document/d/10pEc9bcpgOZhSS1SZtIzj-PTrpJctsmpJ8HEyq_491I/edit?usp=sharing, 
         nakajk, stewartd"""
