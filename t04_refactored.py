@@ -134,8 +134,72 @@ def team_5_adv():
 
 
 def team_6_adv():
-    pass
-    # TODO Add your code here
+    """
+   https://docs.google.com/document/d/1ddpxUQ-6Qg1vtmu0X20TJ0seO8tpDTFwMT3WaqXEXbY/edit?usp=sharing
+   Collins Kandongwe
+   Caleb Seward
+    """
+    global dead
+    my_destination = input("Which destination would you like to go? [Beach/McDonald's/Carnival]")
+    if my_destination == "McDonald's":
+        # if they choose McDonald's!
+        # Bad choice...
+        print("You discover there's a terribly long line. Oh well you'll wait!")
+        print('')
+        print("You accidentally shove someone in line...")
+        print('')
+        print("That person is a KAREN!!")
+        print('')
+        print("She starts yelling in your face!! SHE'S GETTING THE MANAGER!!")
+        print("The manager bans you from McDonald's...FOR LIFE")
+        print('')
+        print("YOU GO ON STRIKE!")
+        print('')
+        print("McDonald's unfortunately doesn't care...")
+        print('')
+        print("You die of starvation...:(")
+        dead = True
+    elif my_destination == "Carnival":
+        # if they choose amusement park!
+        # Bad choice...
+        print("You've arrived at the Carnival and it's BEAUTIFUL!!")
+        print('')
+        print("You see a crowd of people...what's going on??")
+        print('')
+        print("OH MAN! There's a kid and an old man fighting!!!")
+        print('')
+        my_choice = input("Do you want to stop them??: yes/no")
+        if my_choice == 'yes':
+            print("You try to save the boy!")
+            print("OH NO! THE OLD MAN HIT YOU IN THE HEAD WITH HIS CANE!!")
+            print("You die from a concussion...")
+            dead = True
+        else:
+            print("You need to use the restroom!")
+            print('')
+            print("You go into the nearest port-a potty.")
+            # Cue ominous music...
+            print('')
+            print("Oh no...you hear thunder while doing your business!!")
+            print('')
+            print("OH MY GOODNESS! THE DOOR WON'T OPEN!!")
+            print('')
+            print("OOH NOO! THE WIND IS MOVING THE PORT-A POTTY!!")
+            print('')
+            print("DEAR GOD!!! IT'S A HURRICANE!!!")
+            print('')
+            print("YOU'RE BEING LIFTED INTO THE AIR!!!")
+            print('')
+            print("YOU'RE FALLING!!!")
+            print('')
+            print("You tragically died from the impact")
+            print('')
+            dead = True
+    else:
+        # good Choice!!!
+        print("YOU FINALLY GOT OUT!")
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        kill_if_dead(dead)
 
 
 def team_7_adv():
