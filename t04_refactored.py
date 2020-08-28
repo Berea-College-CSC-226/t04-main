@@ -471,8 +471,47 @@ def team_8_adv():
         quit()
 
 def team_9_adv():
-    pass
-    # TODO Add your code here
+    global dead
+
+    '''https://docs.google.com/document/d/1bg_pi6Ppelk9sGmtS5xqqHhjRkDXVK-UUTnPVsqcTa8/edit?ts=5f47a454# 
+    Tyler and Dimond'''
+
+    print("")
+    print("")
+    print("You wake up on the top of a very tall mountain")
+    print("A storm is approaching and you have to get down as soon as possible")
+    print("In front of you there is a motorcycle and jeep")
+    sleep(delay)
+    print("")
+    print("")
+    print("You quickly have to make the decision if you would rather walk and slowly but safely get to safety")
+    print("take the motorcycle that would be quicker but more dangerous or take the jeep that will travel slowly")
+    print("over the terrain but can probably withstand the storm")
+    print("")
+    print("")
+    transportation = input("What form of transportation would you prefer? [walk/motorcycle]")
+    if transportation == "walk" or transportation == "Walk":
+        print("You start your walk and everything seems okay, but you can see the storm catching up rapidly")
+        print("After a few minutes the rain catches up to you but you don't start to worry because you may be able to "
+              "find shelter before the lightning commences")
+        sleep(delay)
+        print("Lightening starts and you are dead")
+        print("After the storm is over you're still stuck and you have to wait for help")
+        dead = True
+    elif transportation == "motorcycle" or transportation == "Motorcycle":
+        print("As the storm approaches rapidly, you quickly hop on the fastest vehicle")
+        print("You have a couple close calls but you outpace the storm and make it to safety")
+    else:
+        print("You're traveling down the mountain")
+        print("It's been hours but you don't seem to be getting anywhere")
+        print("You decide you are lost")
+        print("You need to find help quick!")
+        print("")
+        sleep(delay)
+    if dead:
+        sleep(delay)
+        print("Unfortunately the storms rough conditions were too much for you")
+        quit()
 
 
 def team_10_adv():
