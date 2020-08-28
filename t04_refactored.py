@@ -149,23 +149,154 @@ def team_1_adv():
 
 
 def team_2_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/13oN12oZgBLbtxg2XFv_iQheZ6v5G8izLmzkvZ3CCxtg/edit?ts=5f47a42b#
+    Lydia Bodine and Caleb Handley
+    """
+    dead = False
+    print("")
+    Choice = input("What is your choice of sword today, warrior? [Iron/Diamond] ")
+
+    if Choice == "Iron":    # good choice
+        print("Good choice! ")
+        sleep(delay)
+        print("This sword is known to be one of the most powerful. ")
+        sleep(delay)
+        print("The journey continues, good luck.")
+        sleep(delay * 3)
+        print("")
+        sleep(delay)
+    elif Choice == "Diamond":  # bad choice
+        print(" Every warrior who has chosen this sword has lost their battle. ")
+        sleep(delay)
+        print(" And that will be your fate. ")
+        sleep(delay)
+        print(" However...you have one more chance to make the right decision ")
+        sleep(delay)
+        Choice2 = int(input(" pick a number between 10 and 100 "))
+        if Choice2 < 20:
+            print("You have lived to see another day. ")
+        else:
+            print("That is the wrong decision, my friend.")
+            sleep(delay)
+            print("Better luck in your next life.")
+            dead = True
+    else:   # neutral
+        print(" I guess you are not ready for an adventure today....")
+        print("")
+        sleep(delay)
 
 
 def team_3_adv():
-    pass
-    # TODO Add your code here
+    global dead
+    print("You continue along...")
+    sleep(delay * 2)
+    print("You encounter a Thief mid-robbery, but he's having some trouble")
+    sleep(delay)
+    action = input("What do you do? [stop/help]")
+    if action == "stop" or action == "Stop":  # good choice
+        print("You attempt to stop the thief...")
+        sleep(delay)
+        print("You tackle the thief and pin him to the ground, and wait for the police.")
+        sleep(delay)
+        print("When the police arrive, they thank you for your service with a pink-sprinkled donut")
+    elif action == "help" or action == "Help":  # bad choice (You chose to help the thief)
+        print("You decide to help the thief...")
+        sleep(delay)
+        choice = int(input("Choose how much money you hold [whole number]"))
+        if choice >= 1000000:
+            sleep(delay * 2)
+            print("As the you run away, you are too slow and are shot down by the police")
+            print("As you lie there dying you regret being greedy and taking too much money")
+            dead = True
+        else: # You chose a number less than 1000000 dollars
+            print("You are quick enough to get away from the police")
+            sleep(delay)
+            print("Good Job, you weren't greedy and got away with some money")
+            sleep(delay * 2)
+    else:  # neutral choice You ran from the scene
+        print("You avoid the situation, not wanting to get involved, and continue on your journey")
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+
+    if dead:
+        print("Oh no you died, you should have tried harder")
+        print("press the green button to try again") # green button = start button
+        quit()
 
 
 def team_4_adv():
-    pass
-    # TODO Add your code here
+    '''https://docs.google.com/document/d/10x_uJfVX33fnu9rpqR4PTmpJyVsYfWm1fiIuUsRnPNs/edit?usp=sharing
+    Darius Morton
+    David Olorunpoju-Esssang
+    :return:none
+    '''
+    global dead
+    terrain = input("Which pathway would you like to take? [Rocky/Bumpy/Smooth/Round]")
+    if terrain == "Smooth":
+        # Good choice
+        print("You see an open door and can see sunlight shining through.")
+        sleep(delay)
+    elif terrain == "Bumpy":
+        # Neutral choice
+        print("You run into a wall with a creepy painting.")
+        sleep(delay)
+    if terrain == "Rocky":
+        # Bad choice
+        print("As you walk through the pathway you see an valuable gemstone.")
+        sleep(delay)
+        print("Once you grab it the floor opens and you fall through.")
+        print("Beneath you there is a sea of hungry piranhas.")
+        dead = True
+    elif terrain == "Round":
+        # Neutral choice
+        print("You stumble upon a locked door.")
+        sleep(delay)
 
+    if dead == True:
+        print("You are now dead, better luck next time. Maybe you should have chose another path.")
+        quit()
 
 def team_5_adv():
-    pass
-    # TODO Add your code here
+    """
+    google docs: https://docs.google.com/document/d/1fCEj4kbOZqeZgzxPEVBn__-nbkaEqMKdCoscA5RDhbY/edit?usp=sharing
+    Alina Cooper
+    Ndizeye Tschesquis
+    :return: none
+    """
+    print("Within the cave there are blood thirsty vampire bats that are sleeping.")
+    sleep(delay)
+    print("You must make the choice to sliver into one of the many parts of the cave")
+    sleep(delay)
+    choose = input("Where do you choose to go? [left/center/right]")
+    if choose == "left":
+        # Good choice!
+        print("You move through the dark depths of the cave safely without waking the bats")
+        sleep(delay)
+        print("You see a light at the end of the treacherous cave")
+        print("You've escaped!")
+    elif choose == "center":
+        # Bad choice :(
+        print("You trip over rocks and cut your knee open!")
+        sleep(delay)
+        print("You awaken the bats with the smell of your blood")
+        sleep(delay)
+        weapon = input("You pick up a sharp stick. How many bats can you take on at once?")
+        weapon = int(weapon)
+        if weapon < 2:
+            print("You were attacked from behind and the bats ate you")
+            dead = True
+        elif 2 <= weapon <= 5:
+            print("You have managed to fight off the blood thirsty bats and you have survived")
+        elif weapon > 5:
+            print("You take on more bats than you can handle and become overwhelmed and die")
+            dead = True
+    else:
+        # Neutral choice
+        print("Down this path, you get lost within the dark depths of the cave")
+    if dead == True:
+        print("You've died :(")
+        quit()
 
 
 def team_6_adv():
@@ -199,19 +330,139 @@ def team_11_adv():
 
 
 def team_12_adv():
-    pass
+    """
+    https://docs.google.com/document/d/1KFmb0taSBgypm81r4ZO01vJLmb7bNNXZ2lI9EXUgOrc/edit?usp=sharing
+    Destiney Mccoy and Nancy Landeros
+    """
     # TODO Add your code here
+    global dead
+    print("OH NO! There's a sudden horrible screeching sound from up above!")
+    sleep(delay)
+    print("It's a massive CAVE BAT!!!")
+    sleep(delay)
+    print("And it's heading straight for you!!!")
+    sleep(delay)
+    choice = input("What will you do? [Run/Duck/Snatch]")
 
+    if choice == "Snatch":             # the good choice
+        print("SICK! You snatched that bat! It is now your sidekick.")
+        sleep(delay)
+
+    elif choice == "Run":                   # the bad choice
+        print("that is a wrong choice, you were about to die. You will get one more chance to survive.")
+        sleep(delay)
+        numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+        second_choice = input("pick a number between 1 and 10")
+
+        if second_choice > "5":
+            print(" right choice, you survived for now ")
+        else:
+            print("The bat caught you with it's weird long talons and scratched your eyes out.")
+            print("You died from your injuries.")
+            dead = True
+
+    else:
+        print("Hmm...you survived the beast. Carry on...")
+        sleep(delay)
+
+
+if dead:
+    print("Bruh.")
+    sleep(delay)
+    print("Hit the green run button to try again.")
+    quit()
+
+pass
 
 def team_13_adv():
-    pass
+    """
+    https://docs.google.com/document/d/12B_ZB4AfvERDoiExACvnUPc96CUFAVZu9MydgHBHr88/edit?ts=5f47a426#
+    Karina Agliullova
+    Jakob Bister
+    :return: none
+    """
     # TODO Add your code here
+    global dead
+    dead = False
+    print()
+    print("You continue through the cave, light begins to creep through the ceiling")
+    print("you notice a strange smell but a pile of wood and matches nearby catches your attention.")
+    print()
+    action = input("What would you like to do? [light/inspect/ignore]")
 
+    if action == "light":
+        # Bad Choice!
+        print("You light the match, everything goes bright, now you realize what the smell was...Gas-BOOM!")
+        print()
+        dead = True
+
+    elif action == "inspect":
+        # Good Choice.
+        print("You inspect the supplies, you go to light the fire but remember the smell in the room.. ")
+        print("you decide to keep moving and take the supplies with you.")
+        sleep(3)
+        print()
+        print("As you keep moving you walk upon a sign on the wall that warns of a Gas Leak.")
+        print("You laugh realising how close you were to getting out of here...the wrong way.")
+        print()
+
+    else:
+        # Neutral Choice.
+        print("You're in another section of the cave, you begin the shiver wishing you had a fire")
+        print("but at least the smell is gone...")
+        print()
+
+    if dead:
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        quit()
 
 def team_14_adv():
-    pass
+    """
+    https://docs.google.com/document/d/1Ax0pfBALRhBNzidAtm-vubEhNZnjqW2tGaor7gEjW2c/edit?usp=sharing
+    Genevieve McWilliams
+    Jhonny Sontay
+    :return: none
+    """
     # TODO Add your code here
+    global dead
+    print("You wake up to several sounds...")
+    print(
+        "One coming from behind, one from something running to your right, "
+        "and the other from a blazing fire to your left.")
+    print("")
+    sound = input("Which sound do you choose to follow? [Behind/Left/Right] ")
 
+    if sound == "Behind" or sound == "behind":
+        # Neutral Choice
+        print("You're running away from your fears...this will not get you far in life.")
+        sleep(delay)
+    elif sound == "Left" or sound == "left":
+        # Bad Choice...
+        print("You arrive at a Devil Convention.")
+        sleep(delay * 2.5)
+        print("Part of the celebration is to roast you...")
+        sleep(delay * 2.5)
+        print("First by roasting you with offensive jokes about your life, then literally roasting you.")
+        sleep(delay * 3)
+        print("In order to survive, you have one option...")
+        sleep(delay * 3.5)
+        print("Join their cult.")
+        sleep(delay * 2.5)
+        choice = input("Would you like to accept the invitation to join the cult? [yes/no] ")
+        if choice == "yes" or choice == "Yes":
+            print("Congratulations, you have a new family.")
+            print("You're officially a devil.")
+            sleep(delay)
+        else:
+            print("Congratulations, you died.")
+            dead = True
+    else:
+        # Great choice
+        print("You see your deceased Grandma running...")
+        sleep(delay * 3.5)
+        print("You then embrace each other and talk about the days when you sucked your thumb.")
+        print("You are so happy.")
+        sleep(delay * 3)
 
 def team_15_adv():
     pass
