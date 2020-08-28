@@ -422,8 +422,58 @@ def team_10_adv():
         print("The wolf ate you, Better luck next time. Click the green button to try again")
         quit()
 def team_11_adv():
-    pass
+    """
+    https://docs.google.com/document/d/1v83lJRU74lZzMNxzVc4nde8knyPJXT86-anQnVaxyns/edit?usp=sharing
+        Ala Qasem
+        Ahmed Abdulahi
+
+        :return: None
+    """
     # TODO Add your code here
+    global dead
+    if direction == "North":
+        print("The stranger recognises this part of the cave. They could come in handy. ")
+        sleep(delay)
+        print()
+        print("You have come across another split in the cave. The other person is starting to act weird. ")
+        print("You can go East or West. The stranger seems to want to go West, but do you trust them? Choose wisely. ")
+        sleep(delay)
+        print()
+
+    trustworthy = input("Do you find them trustworthy enough to trust their advice to go West? [Yes/No]")
+
+    # Good choice
+    if trustworthy == "Yes":
+        print("Lets hope this is the right thing to do...")
+        sleep(delay)
+        print("You find a chest")
+        sleep(delay)
+        print()
+        print("You open it. It's filled with treasure!")
+        sleep(delay)
+        print()
+        print("When you open the treasure, a boulder moves and reveals another path with light at the end.")
+        print()
+        sleep(delay * 3)
+    # Bad Choice
+    if trustworthy == "No":
+        print("You decide to not trust the stranger and head East instead. ")
+        sleep(delay * 2)
+        print("The cave seems to be unstable and weak compared to the previous part of the cave.")
+        sleep(delay * 2)
+        print("The stranger sees a pretty rock in the cave side and decides to try and pull it loose. ")
+        print()
+        sleep(delay * 3)
+        print(
+            "The rock comes loose. Suddenly rocks start coming loose from the ceiling of the cave. The stranger started "
+            "a collapse in the cave system.")
+        print("You can't move fast enough to escape the falling rocks and get crushed. ")
+        print()
+        dead = True
+
+    if dead:
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        quit()
 
 
 def team_12_adv():
