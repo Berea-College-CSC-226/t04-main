@@ -180,9 +180,47 @@ def team_14_adv():
 
 
 def team_15_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1bVDaDKwXmcbTNOW46uQGhc4a2Pgc4pIsxa2Wqp4heaU/edit?usp=sharing
+    Beth Mason
+    Monica Amaya Hernandez
+    """
+    global dead
 
+    print()
+    opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander) ")
+    print()
+
+    sleep(2)
+
+    if opponent == "Scott":
+        # bad choice
+        print("As he steps into the ring he make nervous eye contact with you.")
+        print(''' He says "I was hoping no one would choose me, I didn't want it to come to this".''')
+        sleep(3)
+        print("Within a millisecond he teleports behind you wrapped around your waist and suplexes you,")
+        print("snapping your neck on the hard cold unforgiving concrete floor.")
+        print("Dr.Scott has killed you!")
+        print("Hopefully there is no wrestling in the afterlife!")
+        dead = True
+
+    elif opponent == "Tojo":
+        # good choice
+        print("You get in the ring with Tojo. You notice he's moving a little slow and creaky.")
+        print("Turns out he overdid it on the bench press before the fight. You easily throw him to the ground.")
+        print("Unable to properly use his arms, he can't get up and is tapped out.")
+        sleep(1)
+
+
+    else:
+        # neutral choice
+        print("The fellow student you fight happens to be on the exact same level as you, so you tie.")
+        print("You have to try fighting them again at the next BWT!")
+        sleep(1)
+
+    print()
+
+    kill_if_dead(dead)
 
 def team_16_adv():
     pass
