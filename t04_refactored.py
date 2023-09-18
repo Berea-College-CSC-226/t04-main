@@ -121,7 +121,56 @@ def team_2_adv():
 
 def team_3_adv():
     pass
-    # TODO Add your code here
+    # https://docs.google.com/document/d/1cCI6qJccAZ0a4aUYRP5WJ6cyT9KNFdgn6KnQnzzbKg8/edit?usp=sharing
+    # Nancy Alvarado
+    # Katherine Ayala
+    global dead
+    print("\n")
+    print("You find a room that contains two gold statues.")
+    sleep(delay)
+    statues = input("Do you take the left or right statue, or don't pick up the statue?: ")
+    print("\n")
+
+    if statues == "left":
+        # good choice
+        print("You pick up the statue on the left.")
+        sleep(delay)
+        print("A passageway opens and you see outside.")
+        print("Congrats! You escaped the cave!")
+        sleep(delay)
+    elif statues == "right":
+        # bad choice
+        print("You pick up the statue on the right.")
+        sleep(delay)
+        print("A passageway opens above you.")
+        sleep(delay)
+        print("A bunch of snakes and spiders fall on you!")
+        dead = True
+        sleep(delay)
+    else:
+        # neutral choice
+        print("You don't pick up either of the statues.")
+        sleep(delay)
+        print("Nothing happens... You are still stuck in the cave.")
+        sleep(delay)
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+    if dead:
+        print("\n")
+        print("One of the snakes asks you to pick a number 1 through 20.")
+        sleep(delay)
+        number = int(float(input("Which number do you pick? (only put whole numbers): ")))
+        sleep(delay)
+        if number >= 13:
+            print("Congrats! The snake decided to spare you!")
+            dead = False
+            sleep(delay)
+        else:
+            print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+    if dead:
+        print("Oh no! You died! Try again by hitting the green play button.")
 
 
 def team_4_adv():
