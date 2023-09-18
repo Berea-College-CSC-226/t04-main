@@ -123,6 +123,7 @@ def team_1_adv():
     print("one will give you fortune, one will lead to death, and one is just a normal fruit")
     sleep(delay * 2)
 
+
     Fruit = input("which fruit would you like? [Banana, Orange, Apple] ")
 
     if Fruit == "Banana":
