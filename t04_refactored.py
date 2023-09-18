@@ -200,9 +200,31 @@ def team_18_adv():
 
 
 def team_19_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1OEkYdYu1uXsIGk77mEY_yK1mmmlWFkW2xxwdVSZasCI/edit
+    Sam Edelman
+    Destiny White
+    """
 
+    username = input("What is your name? ")
+    print()
+    sleep(delay * 2)
+    print("Welcome", username, "to Fruit Land!")
+    print("You will be given the choice of three fruits and you can only choose one...")
+    print("Be careful the choice you make!")
+    print("One will give you fortune, one will lead to death, and one is just a normal fruit.")
+    sleep(delay * 2)
+
+    fruit = input("Which fruit would you like? [Banana, Orange, Apple] ")
+
+    if fruit == "Banana":
+        print("Unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
+        dead = True
+    elif fruit == "Orange":
+        print("You've chosen the special fruit, you've earned long-lasting prosperity!")
+    else:
+        print("Yummy! But not few and far between in these lands.")
+    kill_if_dead(dead)
 
 def team_20_adv():
     pass
