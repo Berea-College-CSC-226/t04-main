@@ -150,7 +150,32 @@ def team_8_adv():
 
 
 def team_9_adv():
-    pass
+    """
+    https://docs.google.com/document/d/16JKlfHHU099gqHi_H4jkxpVHTIAot5AIVQJffD4_23Q/edit?usp=sharing
+    Remi White
+    Lizzie Manabat
+    :return: none
+    """
+    dead = False
+    direction = input("Which direction would you like to go? [North/South]")
+
+    if direction == "North":
+        print("Now you have to complete three treacherous trials with the other person in the cave. Each more arduous than the last.")
+        kill = input("The first trial is you must befriend and then destroy a sneaky salamander. [Yes, No]")
+
+        if kill == "Yes":
+            print("Congratulations you can proceed to the next trial. The next trial you have to go find the other person in the cave with you and make them poke a grizzly bear. [Yes, No]")
+
+        elif kill == "No":
+            print("Due to your declination, you will now be forced to leave the labyrinth.")
+            dead = True
+
+    # picking the neutral choice
+    else:
+        # neutral choice
+        print("Now you are presented with two choices. One direction could lead to your death and the other solution is unknown")
+
+    kill_if_dead(dead)
     # TODO Add your code here
 
 
