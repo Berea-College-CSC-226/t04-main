@@ -155,8 +155,55 @@ def team_9_adv():
 
 
 def team_10_adv():
-    pass
-    # TODO Add your code here
+
+    is_dead = False
+    print("A cave guard appears at the cave entrance")
+    sleep(delay)
+    action = input("Should you: [Talk/Ignore/Punch] him? ")
+    print("\n")
+
+    if action == "Talk":
+        # good choice
+        print("Greeting Traveler, didn't see you there.\nIt's awfully dark in there.\nIf you want to reach the "
+              'treasure,\nyou must answer my riddles and there will be light to guide you.')
+
+    elif action == "Ignore":
+        # first neutral choice
+        print("You ignore the cave guard and walk past him.")
+        print("You're still lost and it's still dark. Maybe he knows how to fix that.")
+
+    elif action == "Punch":
+        # bad choice
+        print("Uh oh. The cave guard didn't appreciate that...")
+        sleep(delay)
+        print("You hear a sword unsheath.")
+        sleep(delay)
+        print("Before you can even think about running, you're sliced and diced into pieces. Ouch.")
+        sleep(delay)
+        is_dead = True
+
+    else:
+        # idk what the user typed in but it was definitely not a choice
+        print("Nothing happens. That wasn't even an option. Try again.")
+
+    kill_if_dead(is_dead)
+
+    if is_dead != True:
+        print("The cave guard asks you the riddle: I am thinking of a number "
+              "1 through 10. If you guess correctly, you are on your way to the treasure!")
+        number = input("What number am I thinking of? [int>0]")
+        if int(number) >= 5:
+            print("You answered correctly. The cave guard gives you flashlight.")
+
+        elif int(number) <= 5:
+            print("That is incorrect.")
+            print("The cave guard unsheaths his sword and slices you.")
+            is_dead = True
+    kill_if_dead(is_dead)
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 
 def team_11_adv():
