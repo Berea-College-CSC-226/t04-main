@@ -130,9 +130,64 @@ def team_4_adv():
 
 
 def team_5_adv():
-    pass
+    """
+    Bryanna Erickson
+    Joyce Mukalamusi
+    https://docs.google.com/document/d/1an5cbwsTIszH1yi1xa67ASP3e2HQ64IzTn83y70kgzI/edit?usp=sharing
+    """
     # TODO Add your code here
+    print("\n")
 
+    dead = False
+    print("Hello intrepid explorer! You have stumbled upon The Flying Dutchman's lost treasure!")
+    print("Before you lie 4 colored chalices, however, you can only choose one.")
+    chalice = input("Choose wisely![Gold/Silver/Bronze/Brass]")
+
+    if chalice == "Bronze":
+        # Good choice!
+        print("Excellent choice, wise explorer!")
+        print("The Bronze chalice grants you a life filled with resilience and courage.")
+        print("You have proven to have a heart as unyielding as bronze!")
+        print("May you forge onwards with the spirit of a warrior.")
+        sleep(delay)
+
+    elif chalice == "Gold":
+        # Oh... Bad choice
+        print("As you reach out and touch the gold chalice, a chilling breeze fills the cavern.")
+        sleep(delay)
+        print("Suddenly, the cavern trembles and the chalice levitates, emitting a blinding light.")
+        print("A voice booms, 'Dare you to tempt fate? Roll the dice and let destiny decide your path.'")
+
+        roll = int(input("Roll the dice (enter a number between 1 and 20): "))
+
+        if roll <= 5:
+            print("You roll the dice... it's a low number.")
+            sleep(delay)
+            print("The ground shakes violently as the cave begins to collapse.")
+            print("Unfortunately, you are unable to escape in time, meeting a tragic end. ")
+            print("The treasure remains unclaimed, lying amidst the ruins of the cavern.")
+            dead = True
+        elif roll <= 10:
+            print("You roll the dice... it's a moderate number.")
+            sleep(delay)
+            print("The cavern stops trembling and the path you came from reopens, allowing you a gracious escape.")
+            print("It appears you've been given a second chance, but the golden chalice remains elusive.")
+        else:
+            print("You roll the dice... it's a high number!")
+            sleep(delay)
+            print("A hidden pathway illuminated by golden light suddenly appears.")
+            print("This leads you to a secret chamber filled with unimaginable treasures.")
+            print("It seems luck is on your side, brave explorer!")
+
+    else:
+        # Neutral choice
+        print("You find yourself wandering into a hidden cove within the cave.")
+        print("The ground here is covered in sand and you can hear the distant sound of lost souls.")
+        sleep(delay)
+        print("You see remnants of old pirate camps.")
+        print("There are signs of many stories that are untold in this isolated refuge of the Flying Dutchman's cavern.")
+
+    kill_if_dead(dead)
 
 def team_6_adv():
     pass
