@@ -166,7 +166,105 @@ def team_11_adv():
 
 def team_12_adv():
     pass
-    # TODO Add your code here
+    # TEAM 12
+    """"
+    https: // docs.google.com / document / d / 1
+    EMslJjPk - r_QKwfR1_Ipu - zlEJcsSvobid9GAsLtMaE / edit?usp = sharing
+    """
+
+    hasSword = True
+    goblindead = True
+    ######Intro
+    print("You stand in your makeshift campsite, a pitiful fire smoulders, sending black smoke to the sky.")
+    sleep(delay)
+    print("To the North: The Mystic Wood lies, fabeled to hold a great treasure.")
+    sleep(delay)
+    print("To the South: The Mouth of a cave, you can hear noises creep from within.")
+    sleep(delay)
+    print("To the West: A long road that you came from.")
+    sleep(delay)
+    print("To the East: A vast meadow of yellow flowers.")
+    sleep(delay)
+    ############
+    direction = input("Choose a direction or action[Search the camp/North/South/East/West]: ")
+    ###CHECK FOR VALID INPUT###
+    while direction != "north" and direction != "south" and direction != "east" and direction != "west" and direction != "search camp":
+        print("Now that wasn't a valid option.")
+        direction = input("Choose a direction or action[Search the camp/North/South/East/West]: ")
+
+    ###Print string based on input###
+    if direction == "north":
+
+        if goblindead == False:
+            print("You go north.")
+            sleep(delay)
+            print("The trees tower over you almost nearly blocking out the sun.")
+            sleep(delay)
+            print("Suddenly a large goblin bandit jumps from the bushes roaring")
+            sleep(delay * 3)
+            ##check if user has sword
+            if hasSword == True:
+                print("The goblin lunges at you, your swords clash.")
+                sleep(delay)
+                print("You best the goblin, stabbing him in the chest.")
+                print("You step over the goblins corpse, procceding deeper into the forest.")
+                goblindead = True
+                sleep(delay * 3)
+
+            elif hasSword == False:
+                print("The goblin rushes you, pulling back his arm for a mighty swing.")
+                print("His sword makes contact with your neck, chopping it clean off.")
+        elif goblindead == True:
+            print("You go north.")
+            sleep(delay)
+            print("The trees tower over you almost nearly blocking out the sun.")
+            sleep(delay * 2)
+
+
+    elif direction == "south":
+        print("You go south.")
+        sleep(delay)
+        print("You approach the cave, and as you enter you here a loud growl.")
+        print("A vicious bear appreaches from the darkness.")
+        sleep(delay * 3)
+        if hasSword == True:
+            print("You swing your sword, plunging it into the bear.")
+            print("The bear screams in pain as it swats you like a fly, slinging against the cave wall.")
+            print("Your head makes first contact with the wall, the blow kills you instantly")
+            sleep(delay * 4)
+            death()
+        elif hasSword == False:
+            print("The bear roars and swats you like a fly, slinging against the cave wall.")
+            print("Your head makes first contact with the wall, the blow kills you instantly")
+            death()
+    elif direction == "east":
+        print("You go east")
+
+
+
+    elif direction == "west":
+        print("You look at the road to the west, this is where you came from.")
+        sleep(delay)
+        print("There's no turning back now. You must find the treasure hidden in the forest")
+        sleep(delay)
+
+
+    elif direction == "search camp":
+        print("You look around the camp for anything of interest.")
+
+        sleep(delay)
+        if hasSword == True:
+            print("You don't see anything of interest - there's nothing here.")
+            sleep(delay * 3)
+
+        elif hasSword == False:
+            print("You find your sword laying on a rock near the fire.")
+            print(">>sword obtained!<<")
+            hasSword = True
+            sleep(delay * 3)
+
+
+
 
 
 def team_13_adv():
