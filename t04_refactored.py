@@ -21,7 +21,7 @@
 import random
 from time import sleep
 
-delay = 1.0          # change to 0.0 for testing/speed runs; larger for dramatic effect!
+delay = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
 dead = False
 
 
@@ -53,11 +53,12 @@ def end_story(user):
     :param user: the user's name
     :return: None
     """
-    print("Congratulations, " + user + ", you have made it to the end of this... strange... adventure. I hope you feel accomplished.")
+    print(
+        "Congratulations, " + user + ", you have made it to the end of this... strange... adventure. I hope you feel accomplished.")
     print()
     print()
     print()
-    sleep(delay*5)
+    sleep(delay * 5)
     print("Now go play again.")
 
 
@@ -71,6 +72,7 @@ def kill_if_dead(dead):
     if dead:
         quit()
 
+
 ###################################################################################
 ###################################################################################
 
@@ -80,7 +82,7 @@ def scott_adventure():
 
     :return: None
     """
-    global dead             # You'll need this to be able to modify the dead variable
+    global dead  # You'll need this to be able to modify the dead variable
     direction = input("Which direction would you like to go? [North/South/East/West]")
 
     if direction == "North":
@@ -95,15 +97,17 @@ def scott_adventure():
         print("Running seems like a good idea now. But... it's really, really dark.")
         print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
         print()
-        sleep(delay*2)
+        sleep(delay * 2)
         print("He eats you. You are delicious.")
         dead = True
     else:
         # Neutral choice
-        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+        print(
+            "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
         sleep(delay)
 
     kill_if_dead(dead)
+
 
 ###################################################################################
 ###################################################################################
@@ -170,7 +174,41 @@ def team_12_adv():
 
 
 def team_13_adv():
-    pass
+    from time import sleep
+
+    slow = 1.5
+    pieface = False
+    username = input("What shall we call you? ")  # asking for user's name
+    print("\n\n")
+    print("Welcome,", username, ", to our yearly raffle!")
+    sleep(slow)
+    print("In front of you, we have presented you with five tickets. Choose a number from 1 to 5.")
+    print("Choose carefully!")
+    sleep(slow)
+
+    ticket = input("Which ticket shall you choose? [1/2/3/4/5] ")
+
+    if ticket == "3":
+        # Good Choice
+        print("Congrats! You picked the golden ticket!")
+        print("You have won a delicious chocolate pie! Enjoy!")
+        sleep(slow)
+    elif ticket == "5":
+        # Bad Choice
+        print("Oh, no! Someone is out of luck today. Watch out for the flying whipped cream pie!")
+        pieface = True
+
+    if pieface:
+        print(
+            "This year was not your year. Come back next time. Try again by hitting the green play button.")
+    else:
+        # Neutral Choice
+        print("Oh, no! You picked one of the right tickets, but we ran out of pies :( ")
+        print("But lucky you, we still have some cupcakes! Enjoy!")
+        sleep(slow)
+    quit()
+pass
+
     # TODO Add your code here
 
 
@@ -245,13 +283,12 @@ def main():
              team_18_adv, team_19_adv, team_20_adv,
              team_21_adv, team_22_adv, team_23_adv,
              team_24_adv]
-    random.shuffle(paths)                               # Shuffles the order of paths, so each adventure is different
+    random.shuffle(paths)  # Shuffles the order of paths, so each adventure is different
 
     for i in range(len(paths)):
-        paths[i]()                                      # Runs each function in the paths list
+        paths[i]()  # Runs each function in the paths list
 
     end_story(user)
 
 
 main()
-
