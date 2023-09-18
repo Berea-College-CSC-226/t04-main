@@ -21,7 +21,7 @@
 import random
 from time import sleep
 
-delay = 1.0          # change to 0.0 for testing/speed runs; larger for dramatic effect!
+delay = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
 dead = False
 
 
@@ -53,11 +53,12 @@ def end_story(user):
     :param user: the user's name
     :return: None
     """
-    print("Congratulations, " + user + ", you have made it to the end of this... strange... adventure. I hope you feel accomplished.")
+    print(
+        "Congratulations, " + user + ", you have made it to the end of this... strange... adventure. I hope you feel accomplished.")
     print()
     print()
     print()
-    sleep(delay*5)
+    sleep(delay * 5)
     print("Now go play again.")
 
 
@@ -71,6 +72,7 @@ def kill_if_dead(dead):
     if dead:
         quit()
 
+
 ###################################################################################
 ###################################################################################
 
@@ -80,7 +82,7 @@ def scott_adventure():
 
     :return: None
     """
-    global dead             # You'll need this to be able to modify the dead variable
+    global dead  # You'll need this to be able to modify the dead variable
     direction = input("Which direction would you like to go? [North/South/East/West]")
 
     if direction == "North":
@@ -95,15 +97,17 @@ def scott_adventure():
         print("Running seems like a good idea now. But... it's really, really dark.")
         print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
         print()
-        sleep(delay*2)
+        sleep(delay * 2)
         print("He eats you. You are delicious.")
         dead = True
     else:
         # Neutral choice
-        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+        print(
+            "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
         sleep(delay)
 
     kill_if_dead(dead)
+
 
 ###################################################################################
 ###################################################################################
@@ -160,8 +164,69 @@ def team_10_adv():
 
 
 def team_11_adv():
-    pass
-    # TODO Add your code here
+    """https://docs.google.com/document/d/1W-UPVLjpRIZoil4edlCxl8Dkjj91P0ky9xb35G1L55g/edit?usp=sharing
+    Frederick Oguine
+    Yin Kyay Wai
+    :return: none
+    """
+    from time import sleep
+
+    delay1 = 2.0
+    dead1 = False
+
+    username = input("Hello player, why don't you start off by telling us what your favorite color is? ")
+
+    print("Ok player! You will be driving a", username, "car.")
+
+    sleep(delay1)
+
+    print("You're heading to Walmart and you're low on gas, make the right turns to the gas station to fuel up!")
+    print("\n")
+    sleep(delay1)
+    # print("You're pulling up to Main st, the light is green. Would you like to take a left or right? [Left/Right]")
+
+    direction = input(
+        "You're pulling up to Main st, the light is green. "
+        "Would you like to take a left or right? [Left/Right/Continue] ")
+
+    if direction == "Left":
+        # Correct
+        # print("Great, you just took a shortcut! You're almost near. Would you like to continue straight? [Yes/No]")
+        sleep(delay1)
+
+        direction = input(
+            "Great, you just took a shortcut! You're almost close. Would you like to continue straight? [Yes/No] ")
+        print("\n")
+
+    if direction == "Yes":
+        # Correct
+        print("Hooray! You have arrived at the gas station and were able to fuel up!")
+
+    elif direction == "No":
+        # Incorrect
+        print("You missed the entrance to the gas station and ran out of gas. Better luck next time.")
+        dead1 = True
+        sleep(delay1)
+
+    elif direction == "Right":
+        # Incorrect
+        print("Well looks like you took the wrong turn and ran out of gas sorry.")
+        sleep(delay1)
+        print("Try again next time!")
+        dead1 = True
+
+    else:
+        # Neutral Choice..
+        print("Oops, you missed the entrance and your gas is still running LOW! ")
+        sleep(delay1)
+
+        print("ALERT! You are out of gas, better luck next time taking turns correctly!")
+        dead1 = True
+
+    # elif direction == "No":
+    #     # Incorrect
+    #     print("You missed the entrance to the gas station and ran out of gas. Better luck next time.")
+    #     dead1 = True
 
 
 def team_12_adv():
@@ -245,13 +310,12 @@ def main():
              team_18_adv, team_19_adv, team_20_adv,
              team_21_adv, team_22_adv, team_23_adv,
              team_24_adv]
-    random.shuffle(paths)                               # Shuffles the order of paths, so each adventure is different
+    random.shuffle(paths)  # Shuffles the order of paths, so each adventure is different
 
     for i in range(len(paths)):
-        paths[i]()                                      # Runs each function in the paths list
+        paths[i]()  # Runs each function in the paths list
 
     end_story(user)
 
 
 main()
-
