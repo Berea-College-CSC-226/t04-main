@@ -140,9 +140,37 @@ def team_6_adv():
 
 
 def team_7_adv():
+    """
+    https://docs.google.com/document/d/1ksWilu6oBRWPoa5kZo2jyzkAOiAKqwtHYfMWGK7d27M/edit
+    Hira Karim
+    Claudia Pulido
+    :return:
+    """
     pass
-    # TODO Add your code here
+    input("Go with him further [Up, or Down]?")
+    direction = input("Go with him further [Up, or down]?")
+    if direction == "up":
+        print("You've reached a large vault... a large console stands to its right...")
+        print("The console lights up when you reach it... it asks for a passcode")
+    else:
+        if direction == "down":
+            print("you have reached the strongest creature in all of the lands..")
+            sleep(delay * 3)
+            print("It is the Teacher Assistant Silas! Do you fight or run?")
+    input("Guess the code/Ask for help")
+    answer = input("Ask for help")
+    if answer == "Ask for help":
+        print("You ask Dr. Heggen for help")
+        print("He pulls out a small electrical device and plugs it into the console")
+        print("The console glows green and the vault opens up")
+        print("you've found riches beyond your wildest dreams")
+    elif "Guess the code":
+        print("You type in '12345' and the console turns red")
+        print("The walls close in on you, crushing you like a Wookie in a trash compactor")
+    if dead == dead:
+        print("you are dead! sorry")
 
+kill_if_dead()
 
 def team_8_adv():
     pass
