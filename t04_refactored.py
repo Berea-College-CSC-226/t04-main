@@ -166,7 +166,8 @@ def team_9_adv():
 
         if kill == "Yes":
             print("Congratulations you can proceed to the next trial. ")
-            print("The next trial you have to go find the other person in the cave with you and make them poke a grizzly bear. [Yes, No]")
+            print("The next trial you have to go find the other person in the cave with you.")
+            print("You make them poke a grizzly bear. [Yes, No]")
 
         elif kill == "No":
             print("Due to your declination, you will now be forced to leave the labyrinth.")
@@ -175,7 +176,8 @@ def team_9_adv():
     # picking the neutral choice
     else:
         # neutral choice
-        print("Now you are presented with two choices. One direction could lead to your death and the other solution is unknown")
+        print("Now you are presented with two choices.")
+        print("One direction could lead to your death and the other solution is unknown")
 
     kill_if_dead(dead)
     # TODO Add your code here
