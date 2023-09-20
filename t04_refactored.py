@@ -121,18 +121,28 @@ def team_1_adv():
     print("you will be given three fruits and you can only choose one")
     print("Be careful the choice you make ")
     print("one will give you fortune, one will lead to death, and one is just a normal fruit")
+    print()
     sleep(delay * 2)
 
 
     Fruit = input("which fruit would you like? [Banana, Orange, Apple] ")
 
     if Fruit == "Banana":
+        print()
         print("unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
+        print()
         dead = True
     elif Fruit == "Orange":
-        print("you've chosen the special fruit ")
+        print()
+        print("you've chosen the special fruit, you will have fortune and fame! ")
+        print()
     elif Fruit == "Apple":
-        print("you've chosen a normal fruit ")
+        print()
+        print("you've chosen a normal fruit, you live! ")
+        print()
+
+kill_if_dead(dead)
+
     # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
     # TODO Don't forget to check if your user is dead at the end of your chapter!
