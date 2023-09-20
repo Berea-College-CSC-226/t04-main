@@ -176,6 +176,7 @@ def team_13_adv():
 
 def team_14_adv():
     pass
+    almost_dead = False
     # TODO Add your code here
     direction = input("are you going [North/East/South/West]?")
     if direction == "North":
@@ -183,22 +184,22 @@ def team_14_adv():
         sleep(delay)
     elif direction == "South":
         print("You unfortunately fell off a cliff and are about to die.")
-        dead == True
+        almost_dead = True
         sleep(delay)
     else:
         print("You're still in the cave, and no closer to being out of it. Sucks to be you.")
         sleep(delay)
-    if dead == True:
+    if almost_dead == True:
         numbertest = input("Pick a number 1-10 to try and survive." [int>0])
         numbertest = float(numbertest)
-    if numbertest > 5 and numbertest <= 10:
-       dead == False
-       print("You got lucky this time.")
+        if numbertest > 5 and numbertest <= 10:
+          almost_dead == False
+          print("You got lucky this time.")
 
-    else:
-        print("Unlucky, you're dead. Very sad")
+        else:
+            print("Unlucky, you're dead. Very sad")
 
-    quit()
+            kill_if_dead(True)
 
 
 def team_15_adv():
