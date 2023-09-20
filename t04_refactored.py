@@ -160,11 +160,13 @@ def team_9_adv():
     direction = input("Which direction would you like to go? [North/South]")
 
     if direction == "North":
-        print("Now you have to complete three treacherous trials with the other person in the cave. Each more arduous than the last.")
+        print("Now you have to complete three treacherous trials with the other person in the cave.")
+        print("Each more arduous than the last.")
         kill = input("The first trial is you must befriend and then destroy a sneaky salamander. [Yes, No]")
 
         if kill == "Yes":
-            print("Congratulations you can proceed to the next trial. The next trial you have to go find the other person in the cave with you and make them poke a grizzly bear. [Yes, No]")
+            print("Congratulations you can proceed to the next trial. ")
+            print("The next trial you have to go find the other person in the cave with you and make them poke a grizzly bear. [Yes, No]")
 
         elif kill == "No":
             print("Due to your declination, you will now be forced to leave the labyrinth.")
