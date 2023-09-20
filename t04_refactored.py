@@ -227,7 +227,7 @@ def team_20_adv():
         # bad choice
         print("You drink the blue potion, it tastes like fish, as you take the last gulp, you feel lighter, "
               "to light even.")
-        print('You float off into the sky.')
+        print('You float off into the sky like a balloon.')
         sleep(delay)
 
         drankblue = True
