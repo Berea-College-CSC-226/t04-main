@@ -244,9 +244,39 @@ def team_5_adv():
     kill_if_dead(dead)
 
 def team_6_adv():
-    pass
-    # TODO Add your code here
+    """
+    This makes the adventure choose which path they would like to embark on.
+    Authors : Su Meh, Diliara Galieva
+    Usernames : mehs, galievad
+    https://docs.google.com/document/d/1XnrVcyAhCpQKZg5ZYEVoCZxQEXxvSNOm2K7M4Emmtkc/edit?usp=sharing
+    :return:
+    """
 
+    Path = input("Which path will you take? [Left/Middle/Right]")
+
+    if Path == "Left":
+        # Wrong Path
+        print("Sss....sss...sss...")
+        sleep(delay)
+        print("You have encountered a python.")
+        print("Oh no! The python has bitten you.")
+        print("You are now slowly dying from the poison.")
+        kill_if_dead(dead)
+
+
+    elif Path == "Middle":
+        # Neutral Path
+        print("The path is never-ending.")
+        print("You continue walking through the cave.")
+
+    else:
+        # Correct Path
+        print("drip...drip...drip")
+        print("You arrived at a water faucet and met a fellow adventure!")
+        print("You can now continue your adventure.")
+        sleep(delay)
+
+    kill_if_dead(dead)
 
 def team_7_adv():
     pass
@@ -367,8 +397,32 @@ def team_17_adv():
 
 
 def team_18_adv():
-    pass
-    # TODO Add your code here
+
+    """
+    https://docs.google.com/document/d/1b4OuoXpOnB9RS-JyJPZ76MAif1p3_lXQNOYBUODDC18/edit?usp=sharing
+    Mahak Kumawat 
+    Tristian Razote
+    :return: none
+    """
+
+    username = input("What is your name?")
+    print("Welcome ", username, " to the woods.")
+    sleep(delay * 3)
+    print("Before you wait too long choose a direction that will let you escape.")
+    print("You can take one of the four directions.")
+    direction = input("Which direction in the woods would would you like to take? [North, South, East, West]")
+    if direction == "North":
+        print("You are safe, you get back home.")
+        sleep(delay)
+    elif direction == "South":
+        print("You met the cannibal tribe")
+        kill_if_dead(True)
+    elif direction == "West":
+        print("You fell off a cliff.")
+        kill_if_dead(True)
+    else:
+        print("You got bitten by a poisonous snake. ")
+        kill_if_dead(True)
 
 
 def team_19_adv():
