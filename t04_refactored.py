@@ -180,7 +180,7 @@ def team_13_adv():
     pieface = False
     username = input("What shall we call you? ")  # asking for user's name
     print("\n\n")
-    print("Welcome,", username, ", to our yearly raffle!")
+    print("Welcome," + username + ", to our yearly raffle!")
     sleep(slow)
     print("In front of you, we have presented you with five tickets. Choose a number from 1 to 5.")
     print("Choose carefully!")
@@ -193,23 +193,26 @@ def team_13_adv():
         print("Congrats! You picked the golden ticket!")
         print("You have won a delicious chocolate pie! Enjoy!")
         sleep(slow)
+        pieface = False
     elif ticket == "5":
         # Bad Choice
         print("Oh, no! Someone is out of luck today. Watch out for the flying whipped cream pie!")
         pieface = True
-
-    if pieface:
-        print(
-            "This year was not your year. Come back next time. Try again by hitting the green play button.")
+        if pieface:
+            print(
+                "This year was not your year. Come back next time. Try again by hitting the green play button.")
     else:
         # Neutral Choice
         print("Oh, no! You picked one of the right tickets, but we ran out of pies :( ")
         print("But lucky you, we still have some cupcakes! Enjoy!")
         sleep(slow)
     quit()
+
+
 pass
 
-    # TODO Add your code here
+
+# TODO Add your code here
 
 
 def team_14_adv():
