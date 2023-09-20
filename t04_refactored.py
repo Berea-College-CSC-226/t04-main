@@ -146,7 +146,6 @@ def team_7_adv():
     Claudia Pulido
     :return:
     """
-    pass
     direction = input("Go with him further [Up, or down]?")
     if direction == "up":
         print("You've reached a large vault... a large console stands to its right...")
@@ -169,7 +168,7 @@ def team_7_adv():
         print("you are dead! sorry")
 
 
-kill_if_dead(dead)
+    kill_if_dead(dead)
 
 def team_8_adv():
     pass
