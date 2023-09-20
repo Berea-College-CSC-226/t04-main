@@ -114,6 +114,7 @@ def team_1_adv():
     delay = 1.0
     dead = False
 
+
     username = input("What is your name?")
     print()
     print("welcome", username, "to fruit Land")
