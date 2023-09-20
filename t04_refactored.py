@@ -147,7 +147,6 @@ def team_7_adv():
     :return:
     """
     pass
-    input("Go with him further [Up, or Down]?")
     direction = input("Go with him further [Up, or down]?")
     if direction == "up":
         print("You've reached a large vault... a large console stands to its right...")
@@ -157,8 +156,7 @@ def team_7_adv():
             print("you have reached the strongest creature in all of the lands..")
             sleep(delay * 3)
             print("It is the Teacher Assistant Silas! Do you fight or run?")
-    input("Guess the code/Ask for help")
-    answer = input("Ask for help")
+    answer = input("Ask for help or guess the code")
     if answer == "Ask for help":
         print("You ask Dr. Heggen for help")
         print("He pulls out a small electrical device and plugs it into the console")
@@ -170,7 +168,8 @@ def team_7_adv():
     if dead == dead:
         print("you are dead! sorry")
 
-kill_if_dead()
+
+kill_if_dead(dead)
 
 def team_8_adv():
     pass
