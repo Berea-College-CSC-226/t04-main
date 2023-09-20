@@ -353,7 +353,7 @@ def team_16_adv():
         elif choice == "stay":
             print("You get attacked by the fox, he invites his friends and they all have a nice dinner.")
            dead = True
-        kill_if_dead(dead)
+        kill_if_dead(dead) # updated
 
 
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
