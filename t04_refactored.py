@@ -208,7 +208,7 @@ def team_18_adv():
     sleep(delay * 3)
     print("Before you wait too long choose a direction that will let you escape.")
     print("You can take one of the four directions.")
-    direction = input("Which direction in the woods would would you like to take? [north, south, east, west]")
+    direction = input("Which direction in the woods would would you like to take? [North, South, East, West]")
     if direction == "North":
         print("You are safe, you get back home.")
         sleep(delay)
