@@ -205,7 +205,7 @@ def team_19_adv():
     Sam Edelman
     Destiny White
     """
-
+    dead = False
     username = input("What is your name? ")
     print()
     sleep(delay * 2)
