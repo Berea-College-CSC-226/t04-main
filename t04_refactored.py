@@ -348,14 +348,12 @@ def team_16_adv():
     elif direction == "right":
         print("You step on a fox's tail.")
         choice = input("Would you run or stand still? [run/stay]")
-        if choice == "Run":
+        if choice == "run":
             print("You run into two kind strangers, who lead you out of the cave.")
         elif choice == "stay":
             print("You get attacked by the fox, he invites his friends and they all have a nice dinner.")
-            dead = True  # bad decision, set the status as dead ( because you got killed by a fox)
-            if dead:
-                print("you died!!!")
-            kill_if_dead(dead)
+           dead = True
+        kill_if_dead(dead)
 
 
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
@@ -398,7 +396,7 @@ def team_19_adv():
         print("You've chosen the special fruit, you've earned long-lasting prosperity!")
     else:
         print("Yummy! But not few and far between in these lands.")
-    kill_if_dead(dead)
+        kill_if_dead(dead)
 
 def team_20_adv():
     pass
