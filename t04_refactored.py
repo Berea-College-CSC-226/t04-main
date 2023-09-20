@@ -269,9 +269,6 @@ def team_7_adv():
     elif "Guess the code":
         print("You type in '12345' and the console turns red")
         print("The walls close in on you, crushing you like a Wookie in a trash compactor")
-    if dead == dead:
-        print("you are dead! sorry")
-
 
     kill_if_dead(dead)
 
