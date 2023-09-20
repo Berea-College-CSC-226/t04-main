@@ -155,7 +155,56 @@ def team_2_adv():
 
 def team_3_adv():
     pass
-    # TODO Add your code here
+    # https://docs.google.com/document/d/1cCI6qJccAZ0a4aUYRP5WJ6cyT9KNFdgn6KnQnzzbKg8/edit?usp=sharing
+    # Nancy Alvarado
+    # Katherine Ayala
+    global dead
+    print("\n")
+    print("You find a room that contains two gold statues.")
+    sleep(delay)
+    statues = input("Do you take the left or right statue, or don't pick up the statue?: ")
+    print("\n")
+
+    if statues == "left":
+        # good choice
+        print("You pick up the statue on the left.")
+        sleep(delay)
+        print("A passageway opens and you see outside.")
+        print("Congrats! You escaped the cave!")
+        sleep(delay)
+    elif statues == "right":
+        # bad choice
+        print("You pick up the statue on the right.")
+        sleep(delay)
+        print("A passageway opens above you.")
+        sleep(delay)
+        print("A bunch of snakes and spiders fall on you!")
+        dead = True
+        sleep(delay)
+    else:
+        # neutral choice
+        print("You don't pick up either of the statues.")
+        sleep(delay)
+        print("Nothing happens... You are still stuck in the cave.")
+        sleep(delay)
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+    if dead:
+        print("\n")
+        print("One of the snakes asks you to pick a number 1 through 20.")
+        sleep(delay)
+        number = int(float(input("Which number do you pick? (only put whole numbers): ")))
+        sleep(delay)
+        if number >= 13:
+            print("Congrats! The snake decided to spare you!")
+            dead = False
+            sleep(delay)
+        else:
+            print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+    if dead:
+        print("Oh no! You died! Try again by hitting the green play button.")
 
 
 def team_4_adv():
@@ -234,9 +283,31 @@ def team_18_adv():
 
 
 def team_19_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1OEkYdYu1uXsIGk77mEY_yK1mmmlWFkW2xxwdVSZasCI/edit
+    Sam Edelman
+    Destiny White
+    """
+    dead = False
+    username = input("What is your name? ")
+    print()
+    sleep(delay * 2)
+    print("Welcome", username, "to Fruit Land!")
+    print("You will be given the choice of three fruits and you can only choose one...")
+    print("Be careful the choice you make!")
+    print("One will give you fortune, one will lead to death, and one is just a normal fruit.")
+    sleep(delay * 2)
 
+    fruit = input("Which fruit would you like? [Banana, Orange, Apple] ")
+
+    if fruit == "Banana":
+        print("Unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
+        dead = True
+    elif fruit == "Orange":
+        print("You've chosen the special fruit, you've earned long-lasting prosperity!")
+    else:
+        print("Yummy! But not few and far between in these lands.")
+    kill_if_dead(dead)
 
 def team_20_adv():
     pass
