@@ -205,15 +205,14 @@ def team_18_adv(dead):
     """
 
     username = input("What is your name?")
-    print("Welcome ",username, " to the woods.")
-    sleep(delay *3)
+    print("Welcome ", username, " to the woods.")
+    sleep(delay * 3)
     print("Before you wait too long choose a direction that will let you escape.")
     print("You can take one of the four directions.")
-    direction = input ("Which direction in the woods would would you like to take? [north, south, east, west]")
+    direction = input("Which direction in the woods would would you like to take? [north, south, east, west]")
     if direction == "North":
         print("You are safe, you get back home.")
         sleep(delay)
-            if
     elif direction == "South":
         print("You met the cannibal tribe")
         kill_if_dead(dead)
