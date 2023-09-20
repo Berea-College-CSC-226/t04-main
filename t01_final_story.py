@@ -40,32 +40,35 @@ elif Fruit == "Orange":
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 #########################################################################################################
-# TEAM 2
+# TEAM 20
 
-print("It's Wednesday morning. You wake up at 10:30am and see the sun through your window")
-print("Suddenly, you realize that you are almost late for your CSC 226 class at 10:40am ")
-print("You know you need your morning coffee to get through the day, but you are almost late for class")
+print("It's Wednesday evening. You are walking throught the quad.")
+print("Suddenly, you realize that you are about to approach a man with a table setup and a wooden sign that says, free magic potions.")
+print("Before you sit a Red, and blue and your feeling mighty thirsty.")
+print("Which potion will you drink?")
 sleep(delay)
-decision = input("coffee or class?")
+decision = input("[red, or blue.")
 
-if decision == "coffee":
+if decision == "red":
       #good choice
-      print("you drink your coffee and run to class")
+      print("You drink the red potion, its tastes like a sour cherry and dirty socks. Your body starts making a popping noise as your muscles swell.")
+      print("The red potion made you super buff.")
       sleep (delay)
 
-elif decision == "class":
+elif decision == "blue":
 #bad choice
-      print("You manage to get in class at 10:41am")
+      print("You drink the blue potion, it tastes like fish, as you take the last gulp, you feel lighter, to light even.")
+      print('You float off into the sky.')
       sleep(delay)
 
       dead = True
 
 if dead == True:
-      print("although you made to class in time, you cannot stay awake.")
+      print("People point in concern and aw as you float off into the sky...")
       sleep(delay)
       print()
-      print("in an attempt of helping you, Nick throws coffee in your face")
-      print("accidently, he kills you")
+      print("As you get higher the air gets thinner, making it impossible to breathe.")
+      print("You suffocate, your corpse floating though space for all time.")
       quit()
 
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
@@ -151,8 +154,8 @@ else:
     print("You know you fucked up")
     sleep(delay)
     deathChoice = input("On a scale of 1-10, how much do you want to stay at Generic Fantasy College™")
-    if deathChoice == "<3"
-    print("The dean whomst happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy College™")
+    if deathChoice == True:
+        print("The dean whomst happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy College™")
     dead = True
     sleep(delay)
 

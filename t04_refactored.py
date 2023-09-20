@@ -205,8 +205,40 @@ def team_19_adv():
 
 
 def team_20_adv():
+    drankblue=False
     pass
-    # TODO Add your code here
+    print("It's Wednesday evening. You are walking through the quad.")
+    print(
+        "Suddenly, you realize that you are about to approach a man with a table setup and a wooden sign that says, free magic potions.")
+    print("Before you sit a Red, and blue and your feeling mighty thirsty.")
+    print("Which potion will you drink?")
+    sleep(delay)
+    decision = input("[red, or blue]")
+
+    if decision == "red":
+        # good choice
+        print(
+            "You drink the red potion, its tastes like a sour cherry and dirty socks. Your body starts making a "
+            "popping noise as your muscles swell.")
+        print("The red potion made you super buff.")
+        sleep(delay)
+
+    elif decision == "blue":
+        # bad choice
+        print("You drink the blue potion, it tastes like fish, as you take the last gulp, you feel lighter, "
+              "to light even.")
+        print('You float off into the sky.')
+        sleep(delay)
+
+        drankblue = True
+
+    if drankblue == True:
+        print("People point in concern and aw as you float off into the sky...")
+        sleep(delay)
+        print()
+        print("As you get higher the air gets thinner, making it impossible to breathe.")
+        print("You suffocate, your corpse floating though space for all time.")
+        kill_if_dead(True)
 
 
 def team_21_adv():
