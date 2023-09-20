@@ -251,12 +251,12 @@ def team_7_adv():
     Claudia Pulido
     :return:
     """
-    direction = input("Go with him further [Up, or down]?")
-    if direction == "up":
+    direction = input("Go with him further [Up, or Down]?")
+    if direction == "Up":
         print("You've reached a large vault... a large console stands to its right...")
         print("The console lights up when you reach it... it asks for a passcode")
     else:
-        if direction == "down":
+        if direction == "Down":
             print("you have reached the strongest creature in all of the lands..")
             sleep(delay * 3)
             print("It is the Teacher Assistant Silas! Do you fight or run?")
