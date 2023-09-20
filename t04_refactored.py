@@ -21,7 +21,7 @@
 import random
 from time import sleep
 
-delay = 1.0          # change to 0.0 for testing/speed runs; larger for dramatic effect!
+delay = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
 dead = False
 
 
@@ -53,11 +53,12 @@ def end_story(user):
     :param user: the user's name
     :return: None
     """
-    print("Congratulations, " + user + ", you have made it to the end of this... strange... adventure. I hope you feel accomplished.")
+    print(
+        "Congratulations, " + user + ", you have made it to the end of this... strange... adventure. I hope you feel accomplished.")
     print()
     print()
     print()
-    sleep(delay*5)
+    sleep(delay * 5)
     print("Now go play again.")
 
 
@@ -71,6 +72,7 @@ def kill_if_dead(dead):
     if dead:
         quit()
 
+
 ###################################################################################
 ###################################################################################
 
@@ -80,7 +82,7 @@ def scott_adventure():
 
     :return: None
     """
-    global dead             # You'll need this to be able to modify the dead variable
+    global dead  # You'll need this to be able to modify the dead variable
     direction = input("Which direction would you like to go? [North/South/East/West]")
 
     if direction == "North":
@@ -95,15 +97,17 @@ def scott_adventure():
         print("Running seems like a good idea now. But... it's really, really dark.")
         print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
         print()
-        sleep(delay*2)
+        sleep(delay * 2)
         print("He eats you. You are delicious.")
         dead = True
     else:
         # Neutral choice
-        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+        print(
+            "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
         sleep(delay)
 
     kill_if_dead(dead)
+
 
 ###################################################################################
 ###################################################################################
@@ -240,9 +244,39 @@ def team_5_adv():
     kill_if_dead(dead)
 
 def team_6_adv():
-    pass
-    # TODO Add your code here
+    """
+    This makes the adventure choose which path they would like to embark on.
+    Authors : Su Meh, Diliara Galieva
+    Usernames : mehs, galievad
+    https://docs.google.com/document/d/1XnrVcyAhCpQKZg5ZYEVoCZxQEXxvSNOm2K7M4Emmtkc/edit?usp=sharing
+    :return:
+    """
 
+    Path = input("Which path will you take? [Left/Middle/Right]")
+
+    if Path == "Left":
+        # Wrong Path
+        print("Sss....sss...sss...")
+        sleep(delay)
+        print("You have encountered a python.")
+        print("Oh no! The python has bitten you.")
+        print("You are now slowly dying from the poison.")
+        kill_if_dead(dead)
+
+
+    elif Path == "Middle":
+        # Neutral Path
+        print("The path is never-ending.")
+        print("You continue walking through the cave.")
+
+    else:
+        # Correct Path
+        print("drip...drip...drip")
+        print("You arrived at a water faucet and met a fellow adventure!")
+        print("You can now continue your adventure.")
+        sleep(delay)
+
+    kill_if_dead(dead)
 
 def team_7_adv():
     pass
@@ -434,13 +468,12 @@ def main():
              team_18_adv, team_19_adv, team_20_adv,
              team_21_adv, team_22_adv, team_23_adv,
              team_24_adv]
-    random.shuffle(paths)                               # Shuffles the order of paths, so each adventure is different
+    random.shuffle(paths)  # Shuffles the order of paths, so each adventure is different
 
     for i in range(len(paths)):
-        paths[i]()                                      # Runs each function in the paths list
+        paths[i]()  # Runs each function in the paths list
 
     end_story(user)
 
 
 main()
-
