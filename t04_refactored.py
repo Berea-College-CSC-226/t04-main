@@ -338,8 +338,32 @@ def team_17_adv():
 
 
 def team_18_adv():
-    pass
-    # TODO Add your code here
+
+    """
+    https://docs.google.com/document/d/1b4OuoXpOnB9RS-JyJPZ76MAif1p3_lXQNOYBUODDC18/edit?usp=sharing
+    Mahak Kumawat 
+    Tristian Razote
+    :return: none
+    """
+
+    username = input("What is your name?")
+    print("Welcome ", username, " to the woods.")
+    sleep(delay * 3)
+    print("Before you wait too long choose a direction that will let you escape.")
+    print("You can take one of the four directions.")
+    direction = input("Which direction in the woods would would you like to take? [North, South, East, West]")
+    if direction == "North":
+        print("You are safe, you get back home.")
+        sleep(delay)
+    elif direction == "South":
+        print("You met the cannibal tribe")
+        kill_if_dead(True)
+    elif direction == "West":
+        print("You fell off a cliff.")
+        kill_if_dead(True)
+    else:
+        print("You got bitten by a poisonous snake. ")
+        kill_if_dead(True)
 
 
 def team_19_adv():
