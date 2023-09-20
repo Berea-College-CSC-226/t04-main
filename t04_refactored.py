@@ -136,6 +136,7 @@ def team_5_adv():
     https://docs.google.com/document/d/1an5cbwsTIszH1yi1xa67ASP3e2HQ64IzTn83y70kgzI/edit?usp=sharing
     """
     # TODO Add your code here
+    global dead
     print("\n")
 
     dead = False
