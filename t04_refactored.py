@@ -191,12 +191,16 @@ def team_10_adv():
     if is_dead != True:
         print("The cave guard asks you the riddle: I am thinking of a number "
               "1 through 10. If you guess correctly, you are on your way to the treasure!")
-        number = input("What number am I thinking of? [int>0]")
-        if int(number) >= 5:
+        number = input("What number am I thinking of? ")
+        if 5 <= int(number) <= 10:
             print("You answered correctly. The cave guard gives you flashlight.")
 
-        elif int(number) <= 5:
+        elif 5 >= int(number) >= 1:
             print("That is incorrect.")
+            print("The cave guard unsheaths his sword and slices you.")
+            is_dead = True
+        else:
+            print("You clearly aren't good with numbers!")
             print("The cave guard unsheaths his sword and slices you.")
             is_dead = True
     kill_if_dead(is_dead)
