@@ -155,7 +155,7 @@ def team_8_adv():
     # TODO Add your code here
 
 print()
-username = input("what is your name?")
+username = input("what's your name?")
 print("Welcome,", username, ", to the labyrinth.")
 sleep(delay)
 print("Before you lie two paths. One path leads to treasures of unimaginable worth.")
