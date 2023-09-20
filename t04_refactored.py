@@ -140,10 +140,9 @@ def team_5_adv():
 
 def team_6_adv():
     """
-
+    This makes the adventure choose which path they would like to embark on.
     :return:
     """
-    pass
 
     Path = input("Which path will you take? [Left/Middle/Right]")
 
