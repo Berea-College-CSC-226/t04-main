@@ -219,7 +219,7 @@ def team_18_adv():
         print("You fell off a cliff.")
         kill_if_dead(True)
     else:
-        print("You got bitten by a poisonous snake.")
+        print("You got bitten by a poisonous snake. ")
         kill_if_dead(True)
 
 
