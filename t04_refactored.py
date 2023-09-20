@@ -21,7 +21,7 @@
 import random
 from time import sleep
 
-delay = 1.0          # change to 0.0 for testing/speed runs; larger for dramatic effect!
+delay = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
 dead = False
 
 
@@ -53,11 +53,12 @@ def end_story(user):
     :param user: the user's name
     :return: None
     """
-    print("Congratulations, " + user + ", you have made it to the end of this... strange... adventure. I hope you feel accomplished.")
+    print(
+        "Congratulations, " + user + ", you have made it to the end of this... strange... adventure. I hope you feel accomplished.")
     print()
     print()
     print()
-    sleep(delay*5)
+    sleep(delay * 5)
     print("Now go play again.")
 
 
@@ -71,6 +72,7 @@ def kill_if_dead(dead):
     if dead:
         quit()
 
+
 ###################################################################################
 ###################################################################################
 
@@ -80,7 +82,7 @@ def scott_adventure():
 
     :return: None
     """
-    global dead             # You'll need this to be able to modify the dead variable
+    global dead  # You'll need this to be able to modify the dead variable
     direction = input("Which direction would you like to go? [North/South/East/West]")
 
     if direction == "North":
@@ -95,15 +97,17 @@ def scott_adventure():
         print("Running seems like a good idea now. But... it's really, really dark.")
         print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
         print()
-        sleep(delay*2)
+        sleep(delay * 2)
         print("He eats you. You are delicious.")
         dead = True
     else:
         # Neutral choice
-        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+        print(
+            "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
         sleep(delay)
 
     kill_if_dead(dead)
+
 
 ###################################################################################
 ###################################################################################
@@ -155,40 +159,45 @@ def team_9_adv():
 
 
 def team_10_adv():
-
+    """
+    anglinl, mosesj2
+    Google Drive link: https://docs.google.com/document/d/1oV19AFl_-y1WwKu7dKcN7erH6y4Ih8mr95foIMamoGI/edit?usp=sharing
+    """
     is_dead = False
     print("A cave guard appears at the cave entrance")
     sleep(delay)
-    action = input("Should you: [Talk/Ignore/Punch] him? ")
+    action = " "
     print("\n")
 
-    if action == "Talk":
-        # good choice
-        print("Greeting Traveler, didn't see you there.\nIt's awfully dark in there.\nIf you want to reach the "
-              'treasure,\nyou must answer my riddles and there will be light to guide you.')
+    while action != "Talk" and action != "Ignore" and action != "Punch":
+        action = input("Should you: [Talk/Ignore/Punch] him? ")
+        if action == "Talk":
+            # good choice
+            print("Greeting Traveler, didn't see you there.\nIt's awfully dark in there.\nIf you want to reach the "
+                  'treasure,\nyou must answer my riddles and there will be light to guide you.')
 
-    elif action == "Ignore":
-        # first neutral choice
-        print("You ignore the cave guard and walk past him.")
-        print("You're still lost and it's still dark. Maybe he knows how to fix that.")
+        elif action == "Ignore":
+            # first neutral choice
+            print("You ignore the cave guard and walk past him.")
+            print("You're still lost and it's still dark. Maybe he knows how to fix that.")
 
-    elif action == "Punch":
-        # bad choice
-        print("Uh oh. The cave guard didn't appreciate that...")
-        sleep(delay)
-        print("You hear a sword unsheath.")
-        sleep(delay)
-        print("Before you can even think about running, you're sliced and diced into pieces. Ouch.")
-        sleep(delay)
-        is_dead = True
+        elif action == "Punch":
+            # bad choice
+            print("Uh oh. The cave guard didn't appreciate that...")
+            sleep(delay)
+            print("You hear a sword unsheath.")
+            sleep(delay)
+            print("Before you can even think about running, you're sliced and diced into pieces. Ouch.")
+            sleep(delay)
+            is_dead = True
 
-    else:
-        # idk what the user typed in but it was definitely not a choice
-        print("Nothing happens. That wasn't even an option. Try again.")
+        else:
+            # idk what the user typed in but it was definitely not a choice
+            print("Nothing happens. That wasn't even an option. Try again.")
 
     kill_if_dead(is_dead)
 
-    if is_dead != True:
+    if not is_dead:
         print("The cave guard asks you the riddle: I am thinking of a number "
               "1 through 10. If you guess correctly, you are on your way to the treasure!")
         number = input("What number am I thinking of? ")
@@ -296,13 +305,12 @@ def main():
              team_18_adv, team_19_adv, team_20_adv,
              team_21_adv, team_22_adv, team_23_adv,
              team_24_adv]
-    random.shuffle(paths)                               # Shuffles the order of paths, so each adventure is different
+    random.shuffle(paths)  # Shuffles the order of paths, so each adventure is different
 
     for i in range(len(paths)):
-        paths[i]()                                      # Runs each function in the paths list
+        paths[i]()  # Runs each function in the paths list
 
     end_story(user)
 
 
 main()
-
