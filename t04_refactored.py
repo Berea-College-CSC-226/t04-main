@@ -194,8 +194,7 @@ def team_17_adv():
     # TODO Add your code here
 
 
-def team_18_adv(dead):
-    pass
+def team_18_adv():
 
     """
     https://docs.google.com/document/d/1b4OuoXpOnB9RS-JyJPZ76MAif1p3_lXQNOYBUODDC18/edit?usp=sharing
@@ -215,14 +214,13 @@ def team_18_adv(dead):
         sleep(delay)
     elif direction == "South":
         print("You met the cannibal tribe")
-        kill_if_dead(dead)
+        kill_if_dead(True)
     elif direction == "West":
         print("You fell off a cliff.")
-        kill_if_dead(dead)
+        kill_if_dead(True)
     else:
         print("You got bitten by a poisonous snake.")
-        kill_if_dead(dead)
-
+        kill_if_dead(True)
 
 
 def team_19_adv():
