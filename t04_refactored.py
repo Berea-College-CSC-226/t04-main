@@ -141,6 +141,9 @@ def team_5_adv():
 def team_6_adv():
     """
     This makes the adventure choose which path they would like to embark on.
+    Authors : Su Meh, Diliara Galieva
+    Usernames : mehs, galievad
+    https://docs.google.com/document/d/1XnrVcyAhCpQKZg5ZYEVoCZxQEXxvSNOm2K7M4Emmtkc/edit?usp=sharing
     :return:
     """
 
