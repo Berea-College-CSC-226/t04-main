@@ -174,6 +174,13 @@ def team_12_adv():
 
 
 def team_13_adv():
+    """
+    Andy Hill
+    Nyan Lin Zaw
+    https://docs.google.com/document/d/1-lO7SPynvH8GxfrMS5xBYxhiu9YZs-9oWcI3YCdIKTA/edit
+    :return: none
+    """
+
     from time import sleep
 
     slow = 1.5
