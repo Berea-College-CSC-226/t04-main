@@ -416,9 +416,6 @@ def team_12_adv():
     https://docs.google.com/document/d/1EMslJjPk-r_QKwfR1_Ipu-zlEJcsSvobid9GAsLtMaE/edit?usp=sharing
     
     """
-    def death():
-        print("You died, the game is over.")
-        quit()
     hasSword = True
     goblindead = True
 
@@ -468,7 +465,7 @@ def team_12_adv():
             else:
                 print("The goblin rushes you, pulling back his arm for a mighty swing.")
                 print("His sword makes contact with your neck, chopping it clean off.")
-                death()
+                kill_if_dead(dead)
 
         elif goblindead == True:
             print("You go north.")
@@ -486,7 +483,7 @@ def team_12_adv():
             print("You swing your sword, plunging it into the bear.")
             print("The bear screams in pain as it swats you like a fly, slinging against the cave wall.")
             print("Your head makes first contact with the wall, the blow kills you instantly")
-            death()
+            kill_if_dead(dead)
 
     elif direction == "East":
         print("You go east")
