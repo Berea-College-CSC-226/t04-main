@@ -534,8 +534,14 @@ def team_19_adv():
     kill_if_dead(dead)
 
 def team_20_adv():
+    """
+    https://docs.google.com/document/d/1S9g5UNaZUaOKCq_hnPeAgMqtmWUBQH37nsFjZ3xzjxM/edit#heading=h.f6tumop9n7at
+    Josh Wakin
+    Salam Nahasi
+    :return:
+    """
     drankblue=False
-    pass
+
     print("It's Wednesday evening. You are walking through the quad.")
     print(
         "Suddenly, you realize that you are about to approach a man with a table setup and a wooden sign that says, free magic potions.")
