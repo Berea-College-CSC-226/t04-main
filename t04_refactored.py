@@ -352,8 +352,61 @@ def team_10_adv():
 
 
 def team_11_adv():
-    pass
-    # TODO Add your code here
+    """https://docs.google.com/document/d/1W-UPVLjpRIZoil4edlCxl8Dkjj91P0ky9xb35G1L55g/edit?usp=sharing
+    Frederick Oguine
+    Yin Kyay Wai
+    :return: none
+    """
+
+    delay1 = 2.0
+    dead1 = False
+
+    username = input("Hello player, why don't you start off by telling us what your favorite color is? ")
+
+    print("Ok player! You will be driving a", username, "car.")
+
+    sleep(delay1)
+
+    print("You're heading to Walmart and you're low on gas, make the right turns to the gas station to fuel up!")
+    print("\n")
+    sleep(delay1)
+
+    direction = input(
+        "You're pulling up to Main st, the light is green. "
+        "Would you like to take a left or right? [Left/Right/Continue] ")
+
+    if direction == "Left":
+        # Correct
+        sleep(delay1)
+
+        direction = input(
+            "Great, you just took a shortcut! You're almost close. Would you like to continue straight? [Yes/No] ")
+        print("\n")
+
+    if direction == "Yes":
+        # Correct
+        print("Hooray! You have arrived at the gas station and were able to fuel up!")
+
+    elif direction == "No":
+        # Incorrect
+        print("You missed the entrance to the gas station and ran out of gas. Better luck next time.")
+        dead1 = True
+        sleep(delay1)
+
+    elif direction == "Right":
+        # Incorrect
+        print("Well looks like you took the wrong turn and ran out of gas sorry.")
+        sleep(delay1)
+        print("Try again next time!")
+        dead1 = True
+
+    else:
+        # Neutral Choice..
+        print("Oops, you missed the entrance and your gas is still running LOW! ")
+        sleep(delay1)
+
+        print("ALERT! You are out of gas, better luck next time taking turns correctly!")
+        dead1 = True
 
 
 def team_12_adv():
