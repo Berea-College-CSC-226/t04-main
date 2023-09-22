@@ -182,7 +182,6 @@ def team_11_adv():
     print("You're heading to Walmart and you're low on gas, make the right turns to the gas station to fuel up!")
     print("\n")
     sleep(delay1)
-    # print("You're pulling up to Main st, the light is green. Would you like to take a left or right? [Left/Right]")
 
     direction = input(
         "You're pulling up to Main st, the light is green. "
@@ -190,7 +189,6 @@ def team_11_adv():
 
     if direction == "Left":
         # Correct
-        # print("Great, you just took a shortcut! You're almost near. Would you like to continue straight? [Yes/No]")
         sleep(delay1)
 
         direction = input(
