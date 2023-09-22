@@ -143,7 +143,9 @@ def team_1_adv():
         print()
 
     kill_if_dead(dead)
-
+    # Leke
+    #Chretien
+    #https://docs.google.com/document/d/1QXaA19nUNTicZsD25AjPtgX2wO0SwZ51sTZ3tB-nnEc/edit?usp=sharing
 
 def team_2_adv():
     pass
