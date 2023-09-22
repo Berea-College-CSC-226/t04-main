@@ -223,11 +223,6 @@ def team_11_adv():
         print("ALERT! You are out of gas, better luck next time taking turns correctly!")
         dead1 = True
 
-    # elif direction == "No":
-    #     # Incorrect
-    #     print("You missed the entrance to the gas station and ran out of gas. Better luck next time.")
-    #     dead1 = True
-
 
 def team_12_adv():
     pass
