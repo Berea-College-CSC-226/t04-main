@@ -402,10 +402,6 @@ def team_10_adv():
             is_dead = True
     kill_if_dead(is_dead)
 
-    # TODO Make sure to add the additional check if the user makes the "bad" choice!
-
-    # TODO Don't forget to check if your user is dead at the end of your chapter!
-
 
 def team_11_adv():
     """https://docs.google.com/document/d/1W-UPVLjpRIZoil4edlCxl8Dkjj91P0ky9xb35G1L55g/edit?usp=sharing
