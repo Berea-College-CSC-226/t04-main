@@ -115,9 +115,35 @@ def team_1_adv():
 
 
 def team_2_adv():
-    pass
-    # TODO Add your code here
+    """
+    Authors: Spencer and Diego
+    Usernames: jacksons26, coloradod
+    https://docs.google.com/document/d/1wtU5pkpvEic2DNExeZXcO1dvL3h85e0g9VN-VIjwodI/edit?usp=sharing
+    """
+    print("It's Wednesday morning. You wake up at 10:30am and see the sun through your window")
+    print("Suddenly, you realize that you are almost late for your CSC 226 class at 10:40am ")
+    print("You know you need your morning coffee to get through the day, but you are almost late for class")
+    sleep(delay)
+    decision = input("coffee or class")
 
+    if decision == "coffee":
+        # good choice
+        print("you drink your coffee and run to class")
+        sleep(delay)
+
+    elif decision == "class":
+        # bad choice
+        print("You manage to get in class at 10:41am")
+        sleep(delay)
+        print("although you made to class in time, you cannot stay awake.")
+        sleep(delay)
+        print("in an attempt of helping you, Nick throws coffee in your face")
+        print("accidentally, he kills you")
+        kill_if_dead(dead)
+
+    else:
+        # neutral choice
+        print("You make it to class late")
 
 def team_3_adv():
     pass
