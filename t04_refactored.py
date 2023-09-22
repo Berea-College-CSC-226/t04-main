@@ -538,7 +538,7 @@ def team_20_adv():
     https://docs.google.com/document/d/1S9g5UNaZUaOKCq_hnPeAgMqtmWUBQH37nsFjZ3xzjxM/edit#heading=h.f6tumop9n7at
     Josh Wakin
     Salam Nahasi
-    :return:
+
     """
     drankblue=False
 
