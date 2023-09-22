@@ -543,12 +543,6 @@ def team_16_adv():
            dead = True
         kill_if_dead(dead) # updated
 
-
-# TODO Make sure to add the additional check if the user makes the "bad" choice!
-
-# TODO Don't forget to check if your user is dead at the end of your chapter!
-
-
 def team_17_adv():
     pass
     # TODO Add your code here
