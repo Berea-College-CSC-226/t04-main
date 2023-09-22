@@ -124,10 +124,11 @@ def team_2_adv():
 
 
 def team_3_adv():
-    pass
-    # https://docs.google.com/document/d/1cCI6qJccAZ0a4aUYRP5WJ6cyT9KNFdgn6KnQnzzbKg8/edit?usp=sharing
-    # Nancy Alvarado
-    # Katherine Ayala
+    """
+    https://docs.google.com/document/d/1cCI6qJccAZ0a4aUYRP5WJ6cyT9KNFdgn6KnQnzzbKg8/edit?usp=sharing
+    Nancy Alvarado
+    Katherine  Ayala
+    """
     global dead
     print("\n")
     print("You find a room that contains two gold statues.")
