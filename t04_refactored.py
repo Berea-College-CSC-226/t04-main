@@ -171,13 +171,12 @@ def team_12_adv():
 
 def team_13_adv():
     pass
-    # TODO Add your code here
 
 
 def team_14_adv():
     pass
     almost_dead = False
-    # TODO Add your code here
+    """ shows the path you can pick."""
     direction = input("are you going [North/East/South/West]?")
     if direction == "North":
         print("You didn't die. In fact, you made it out of the cave and back into society. Yay.")
