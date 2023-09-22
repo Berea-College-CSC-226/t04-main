@@ -190,13 +190,13 @@ def team_16_adv():
 
 
 def team_17_adv():
-    pass
+'''
     # https://docs.google.com/document/d/1wzvUVLgCkVkhIW1KYbejiw5udFbooCO7t8RopzMEsDs/edit?usp=sharing
     # Nadia Barkovska
     # Ruben Quinonez
+'''
 
-    count = 10
-    if count == 10:
+
         print("You look at the figure and it turns out to be your best friend, Katie!")
         print("Katie wants to hand you a demonic sword.")
         sword = input("Do you accept the sword: Yes/No: ").lower()
@@ -235,7 +235,7 @@ def team_17_adv():
 
     if dead == True:
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
+        kill_if_dead()
 
 
 
