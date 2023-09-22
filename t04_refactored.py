@@ -103,6 +103,7 @@ def scott_adventure():
         print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
         sleep(delay)
 
+
     kill_if_dead(dead)
 
 ###################################################################################
