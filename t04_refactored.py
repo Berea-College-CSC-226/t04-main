@@ -124,10 +124,11 @@ def team_2_adv():
 
 
 def team_3_adv():
-    pass
-    # https://docs.google.com/document/d/1cCI6qJccAZ0a4aUYRP5WJ6cyT9KNFdgn6KnQnzzbKg8/edit?usp=sharing
-    # Nancy Alvarado
-    # Katherine Ayala
+    """
+    https://docs.google.com/document/d/1cCI6qJccAZ0a4aUYRP5WJ6cyT9KNFdgn6KnQnzzbKg8/edit?usp=sharing
+    Nancy Alvarado
+    Katherine  Ayala
+    """
     global dead
     print("\n")
     print("You find a room that contains two gold statues.")
@@ -279,9 +280,32 @@ def team_6_adv():
     kill_if_dead(dead)
 
 def team_7_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1ksWilu6oBRWPoa5kZo2jyzkAOiAKqwtHYfMWGK7d27M/edit
+    Hira Karim
+    Claudia Pulido
+    :return:
+    """
+    direction = input("Go with him further [Up, or Down]?")
+    if direction == "Up":
+        print("You've reached a large vault... a large console stands to its right...")
+        print("The console lights up when you reach it... it asks for a passcode")
+    else:
+        if direction == "Down":
+            print("you have reached the strongest creature in all of the lands..")
+            sleep(delay * 3)
+            print("It is the Teacher Assistant Silas! Do you fight or run?")
+    answer = input("Ask for help or guess the code")
+    if answer == "Ask for help":
+        print("You ask Dr. Heggen for help")
+        print("He pulls out a small electrical device and plugs it into the console")
+        print("The console glows green and the vault opens up")
+        print("you've found riches beyond your wildest dreams")
+    elif "Guess the code":
+        print("You type in '12345' and the console turns red")
+        print("The walls close in on you, crushing you like a Wookie in a trash compactor")
 
+    kill_if_dead(dead)
 
 def team_8_adv():
     pass
@@ -289,7 +313,36 @@ def team_8_adv():
 
 
 def team_9_adv():
-    pass
+    """
+    https://docs.google.com/document/d/16JKlfHHU099gqHi_H4jkxpVHTIAot5AIVQJffD4_23Q/edit?usp=sharing
+    Remi White
+    Lizzie Manabat
+    :return: none
+    """
+    dead = False
+    direction = input("Which direction would you like to go? [North/South]")
+
+    if direction == "North":
+        print("Now you have to complete three treacherous trials with the other person in the cave.")
+        print("Each more arduous than the last.")
+        kill = input("The first trial is you must befriend and then destroy a sneaky salamander. [Yes, No]")
+
+        if kill == "Yes":
+            print("Congratulations you can proceed to the next trial. ")
+            print("The next trial you have to go find the other person in the cave with you.")
+            print("You make them poke a grizzly bear. [Yes, No]")
+
+        elif kill == "No":
+            print("Due to your declination, you will now be forced to leave the labyrinth.")
+            dead = True
+
+    # picking the neutral choice
+    else:
+        # neutral choice
+        print("Now you are presented with two choices.")
+        print("One direction could lead to your death and the other solution is unknown")
+
+    kill_if_dead(dead)
     # TODO Add your code here
 
 
@@ -299,8 +352,61 @@ def team_10_adv():
 
 
 def team_11_adv():
-    pass
-    # TODO Add your code here
+    """https://docs.google.com/document/d/1W-UPVLjpRIZoil4edlCxl8Dkjj91P0ky9xb35G1L55g/edit?usp=sharing
+    Frederick Oguine
+    Yin Kyay Wai
+    :return: none
+    """
+
+    delay1 = 2.0
+    dead1 = False
+
+    username = input("Hello player, why don't you start off by telling us what your favorite color is? ")
+
+    print("Ok player! You will be driving a", username, "car.")
+
+    sleep(delay1)
+
+    print("You're heading to Walmart and you're low on gas, make the right turns to the gas station to fuel up!")
+    print("\n")
+    sleep(delay1)
+
+    direction = input(
+        "You're pulling up to Main st, the light is green. "
+        "Would you like to take a left or right? [Left/Right/Continue] ")
+
+    if direction == "Left":
+        # Correct
+        sleep(delay1)
+
+        direction = input(
+            "Great, you just took a shortcut! You're almost close. Would you like to continue straight? [Yes/No] ")
+        print("\n")
+
+    if direction == "Yes":
+        # Correct
+        print("Hooray! You have arrived at the gas station and were able to fuel up!")
+
+    elif direction == "No":
+        # Incorrect
+        print("You missed the entrance to the gas station and ran out of gas. Better luck next time.")
+        dead1 = True
+        sleep(delay1)
+
+    elif direction == "Right":
+        # Incorrect
+        print("Well looks like you took the wrong turn and ran out of gas sorry.")
+        sleep(delay1)
+        print("Try again next time!")
+        dead1 = True
+
+    else:
+        # Neutral Choice..
+        print("Oops, you missed the entrance and your gas is still running LOW! ")
+        sleep(delay1)
+
+        print("ALERT! You are out of gas, better luck next time taking turns correctly!")
+        dead1 = True
 
 
 def team_12_adv():
