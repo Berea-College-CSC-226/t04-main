@@ -169,7 +169,6 @@ def team_11_adv():
     Yin Kyay Wai
     :return: none
     """
-    from time import sleep
 
     delay1 = 2.0
     dead1 = False
