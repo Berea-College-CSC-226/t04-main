@@ -490,11 +490,11 @@ def team_20_adv():
 
 
 def team_21_adv():
-    global dead
     """
     https://docs.google.com/document/d/16WddE8AhpLg8duTmMrZPy8rBFTPxWAWdfpYzfPK1m_w/edit?usp=sharing
     Cole Collins
     """
+    global dead
 
     print("\n")
     print("You find a room that contains two gold statues.")
@@ -524,21 +524,6 @@ def team_21_adv():
         sleep(delay)
         print("Nothing happens... You are still stuck in the cave.")
         sleep(delay)
-
-    # #if dead:
-    #     print("\n")
-    #     print("One of the snakes asks you to pick a number 1 through 20.")
-    #     sleep(delay)
-    #     number = int(float(input("Which number do you pick? (only put whole numbers): ")))
-    #     sleep(delay)
-    #     if number >= 13:
-    #         print("Congrats! The snake decided to spare you!")
-    #         dead = False
-    #         sleep(delay)
-    #     elif number < 13:
-    #         print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
-    #     else:
-    #         print("Oh no! You died! Try again by hitting the green play button.")
 kill_if_dead(dead)
 
 
