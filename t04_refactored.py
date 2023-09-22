@@ -123,7 +123,7 @@ def team_3_adv():
     """
     https://docs.google.com/document/d/1cCI6qJccAZ0a4aUYRP5WJ6cyT9KNFdgn6KnQnzzbKg8/edit?usp=sharing
     Nancy Alvarado
-    Katherine Ayala
+    Katherine  Ayala
     """
     global dead
     print("\n")
