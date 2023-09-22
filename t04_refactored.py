@@ -45,7 +45,6 @@ def start_story():
     sleep(delay)
     return user
 
-
 def end_story(user):
     """
     This is the ending to the story. Don't modify this function, either.
