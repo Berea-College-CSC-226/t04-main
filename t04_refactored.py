@@ -239,9 +239,11 @@ def team_5_adv():
         print("The ground here is covered in sand and you can hear the distant sound of lost souls.")
         sleep(delay)
         print("You see remnants of old pirate camps.")
-        print("There are signs of many stories that are untold in this isolated refuge of the Flying Dutchman's cavern.")
+        print(
+            "There are signs of many stories that are untold in this isolated refuge of the Flying Dutchman's cavern.")
 
     kill_if_dead(dead)
+
 
 def team_6_adv():
     pass
@@ -331,6 +333,7 @@ def team_15_adv():
 
     kill_if_dead(dead)
 
+
 def team_16_adv():
     pass
     # TODO Add your code here
@@ -373,66 +376,64 @@ def team_19_adv():
         print("Yummy! But not few and far between in these lands.")
     kill_if_dead(dead)
 
+
 def team_20_adv():
     pass
     # TODO Add your code here
 
 
 def team_21_adv():
+    global dead
     pass
     """
     https://docs.google.com/document/d/16WddE8AhpLg8duTmMrZPy8rBFTPxWAWdfpYzfPK1m_w/edit?usp=sharing
     Cole Collins
     """
 
-
-print("\n")
-print("You find a room that contains two gold statues.")
-sleep(delay)
-statues = input("Do you take the left or right statue, or don't pick up the statue?: ")
-print("\n")
-
-if statues == "left":
-    # good choice
-    print("You pick up the statue on the left.")
-    sleep(delay)
-    print("A passageway opens and you see outside.")
-    print("Congrats! You escaped the cave!")
-    sleep(delay)
-elif statues == "right":
-    # bad choice
-    print("You pick up the statue on the right.")
-    sleep(delay)
-    print("A passageway opens above you.")
-    sleep(delay)
-    print("A bunch of snakes and spiders fall on you!")
-    dead = True
-    sleep(delay)
-else:
-    # neutral choice
-    print("You don't pick up either of the statues.")
-    sleep(delay)
-    print("Nothing happens... You are still stuck in the cave.")
-    sleep(delay)
-
-#
-if dead:
     print("\n")
-    print("One of the snakes asks you to pick a number 1 through 20.")
+    print("You find a room that contains two gold statues.")
     sleep(delay)
-    number = int(float(input("Which number do you pick? (only put whole numbers): ")))
-    sleep(delay)
-    if number >= 13:
-        print("Congrats! The snake decided to spare you!")
-        dead = False
+    statues = input("Do you take the left or right statue, or don't pick up the statue?: ")
+    print("\n")
+
+    if statues == "left":
+        # good choice
+        print("You pick up the statue on the left.")
+        sleep(delay)
+        print("A passageway opens and you see outside.")
+        print("Congrats! You escaped the cave!")
+        sleep(delay)
+    elif statues == "right":
+        # bad choice
+        print("You pick up the statue on the right.")
+        sleep(delay)
+        print("A passageway opens above you.")
+        sleep(delay)
+        print("A bunch of snakes and spiders fall on you!")
+        dead = True
         sleep(delay)
     else:
-        print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
+        # neutral choice
+        print("You don't pick up either of the statues.")
+        sleep(delay)
+        print("Nothing happens... You are still stuck in the cave.")
+        sleep(delay)
 
-#
-if dead:
-    print("Oh no! You died! Try again by hitting the green play button.")
-kill_if_dead(dead)
+    if dead:
+        print("\n")
+        print("One of the snakes asks you to pick a number 1 through 20.")
+        sleep(delay)
+        number = int(float(input("Which number do you pick? (only put whole numbers): ")))
+        sleep(delay)
+        if number >= 13:
+            print("Congrats! The snake decided to spare you!")
+            dead = False
+            sleep(delay)
+        elif number < 13:
+            print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
+        else:
+            print("Oh no! You died! Try again by hitting the green play button.")
+
 
 def team_22_adv():
     pass
