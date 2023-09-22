@@ -111,7 +111,6 @@ def scott_adventure():
 ###################################################################################
 
 def team_1_adv():
-    pass
     delay = 1.0
     dead = False
 
@@ -143,11 +142,7 @@ def team_1_adv():
         print("you've chosen a normal fruit, you live! ")
         print()
 
-kill_if_dead(dead)
-
-    # TODO Make sure to add the additional check if the user makes the "bad" choice!
-
-    # TODO Don't forget to check if your user is dead at the end of your chapter!
+    kill_if_dead(dead)
 
 
 def team_2_adv():
