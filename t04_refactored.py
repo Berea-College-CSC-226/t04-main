@@ -385,6 +385,7 @@ def team_9_adv():
             print("Due to your declination, you will now be forced to leave the labyrinth.")
             dead = True
 
+
     # picking the neutral choice
     else:
         # neutral choice
