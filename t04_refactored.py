@@ -348,7 +348,7 @@ def team_13_adv():
         print("Oh, no! You picked one of the right tickets, but we ran out of pies :( ")
         print("But lucky you, we still have some cupcakes! Enjoy!")
         sleep(slow)
-    quit()
+    kill_if_dead()
 
 
 pass
