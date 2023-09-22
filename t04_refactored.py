@@ -420,7 +420,9 @@ def team_12_adv():
 
     hasSword = True
     goblindead = True
-    ######Intro
+
+    # Intro
+
     print("You stand in your makeshift campsite, a pitiful fire smoulders, sending black smoke to the sky.")
     sleep(delay)
     print("To the North: The Mystic Wood lies, fabeled to hold a great treasure.")
