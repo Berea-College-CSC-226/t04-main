@@ -119,9 +119,35 @@ def team_1_adv():
 
 
 def team_2_adv():
-    pass
-    # TODO Add your code here
+    """
+    Authors: Spencer and Diego
+    Usernames: jacksons26, coloradod
+    https://docs.google.com/document/d/1wtU5pkpvEic2DNExeZXcO1dvL3h85e0g9VN-VIjwodI/edit?usp=sharing
+    """
+    print("It's Wednesday morning. You wake up at 10:30am and see the sun through your window")
+    print("Suddenly, you realize that you are almost late for your CSC 226 class at 10:40am ")
+    print("You know you need your morning coffee to get through the day, but you are almost late for class")
+    sleep(delay)
+    decision = input("coffee or class")
 
+    if decision == "coffee":
+        # good choice
+        print("you drink your coffee and run to class")
+        sleep(delay)
+
+    elif decision == "class":
+        # bad choice
+        print("You manage to get in class at 10:41am")
+        sleep(delay)
+        print("although you made to class in time, you cannot stay awake.")
+        sleep(delay)
+        print("in an attempt of helping you, Nick throws coffee in your face")
+        print("accidentally, he kills you")
+        kill_if_dead(dead)
+
+    else:
+        # neutral choice
+        print("You make it to class late")
 
 def team_3_adv():
     """
@@ -179,8 +205,47 @@ def team_3_adv():
 
 
 def team_4_adv():
-    pass
-    # TODO Add your code here
+    """
+    John Cox & Jaela Smith
+    https://docs.google.com/document/d/1J_U9inLAP_PxARX8GIBCmodVTS9vkfoKlvgGhH1nxDs/edit?usp=sharing
+    # TEAM 4
+    """
+    global dead
+    print("\n")
+    print("Welcome to Generic Fantasy College™.")
+    sleep(delay)
+    print("You are awoken by your alarm")
+    print("It is 8:00AM")
+    print("\n")
+    sleep(delay * 2)
+    print("Looking through your window the sky has a magenta hue")
+    print("Staying here is certainly not wise. You must find your way out.")
+    print("\n")
+    sleep(delay)
+
+    sleepChoice = input("Do you wake up, be late, or sleep?")
+
+    if sleepChoice == "wake up":
+        # Good Choice
+        print("You go to classes and are a productive member of society")
+        sleep(delay)
+    elif sleepChoice == "be late":
+        # Neutral Choice
+        print("You miss breakfast and your day is stressful")
+        sleep(delay)
+    else:
+        # Bad Choice
+        print("You here the sound of wings flapping in the distance")
+        sleep(delay)
+        print("You know you fucked up")
+        sleep(delay)
+        deathChoice = int(input("On a scale of 1-10, how much do you want to stay at Generic Fantasy College™"))
+        if deathChoice < 3:
+            print("The dean whomst happens to be a fire breathing dragon roasts you alive!")
+            print("That's what you get for not attending Generic Fantasy College™!")
+            dead = True
+        sleep(delay)
+    kill_if_dead(dead)
 
 
 def team_5_adv():
@@ -605,8 +670,46 @@ def team_19_adv():
         kill_if_dead(dead)
 
 def team_20_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1S9g5UNaZUaOKCq_hnPeAgMqtmWUBQH37nsFjZ3xzjxM/edit#heading=h.f6tumop9n7at
+    Josh Wakin
+    Salam Nahasi
+
+    """
+    drankblue=False
+
+    print("It's Wednesday evening. You are walking through the quad.")
+    print(
+        "Suddenly, you realize that you are about to approach a man with a table setup and a wooden sign that says, free magic potions.")
+    print("Before you sit a Red, and blue and your feeling mighty thirsty.")
+    print("Which potion will you drink?")
+    sleep(delay)
+    decision = input("[red, or blue]")
+
+    if decision == "red":
+        # good choice
+        print(
+            "You drink the red potion, its tastes like a sour cherry and dirty socks. Your body starts making a "
+            "popping noise as your muscles swell.")
+        print("The red potion made you super buff.")
+        sleep(delay)
+
+    elif decision == "blue":
+        # bad choice
+        print("You drink the blue potion, it tastes like fish, as you take the last gulp, you feel lighter, "
+              "to light even.")
+        print('You float off into the sky like a balloon.')
+        sleep(delay)
+
+        drankblue = True
+
+    if drankblue == True:
+        print("People point in concern and aw as you float off into the sky...")
+        sleep(delay)
+        print()
+        print("As you get higher the air gets thinner, making it impossible to breathe.")
+        print("You suffocate, your corpse floating though space for all time.")
+        kill_if_dead(True)
 
 
 def team_21_adv():
