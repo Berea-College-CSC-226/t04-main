@@ -409,9 +409,9 @@ def team_11_adv():
 
 
 def team_12_adv():
-    # TEAM 12
-    # Kevin and Nathan
     """"
+    TEAM 12
+    Kevin and Nathan
       
     https://docs.google.com/document/d/1EMslJjPk-r_QKwfR1_Ipu-zlEJcsSvobid9GAsLtMaE/edit?usp=sharing
     
