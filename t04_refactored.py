@@ -577,7 +577,7 @@ def team_21_adv():
         sleep(delay)
         print("Nothing happens... You are still stuck in the cave.")
         sleep(delay)
-kill_if_dead(dead)
+        kill_if_dead(dead)
 
 
 def team_22_adv():
