@@ -582,7 +582,7 @@ def team_15_adv():
 
     print()
 
-        kill_if_dead(dead)
+    kill_if_dead(dead)
 
 def team_16_adv():
     """
