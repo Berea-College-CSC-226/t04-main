@@ -250,7 +250,6 @@ if dead == dead:
 
 #########################################################################################################
 # TEAM 7
-
 input("Go with him further [Up, or Down]?")
 if direction == "Up":
     print("You've reached a large vault... a large console stands to its right...")
