@@ -588,9 +588,28 @@ def team_15_adv():
 
 
 def team_16_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1H7EOlS79CgYofPM-bmXkI8Mo3KQLTT5STNGsgt8UxW0/edit?usp=sharing
+    Hamiltonn, Benderm, Nagelg
+    :return: none
+    """
 
+    direction = input("Which direction would you like to go? [left/right/forward/backward]")
+
+    if direction == "left":
+        print("You stumbled on a torch, pick it up and press the button to light it.")
+        print("You will see two paths in front of you.")
+        print("You use the light from the torch you found to guide you out "
+              "of the cave into the tulip garden full of people")
+    elif direction == "right":
+        print("You step on a fox's tail.")
+        choice = input("Would you run or stand still? [run/stay]")
+        if choice == "run":
+            print("You run into two kind strangers, who lead you out of the cave.")
+        elif choice == "stay":
+            print("You get attacked by the fox, he invites his friends and they all have a nice dinner.")
+           dead = True
+        kill_if_dead(dead) # updated
 
 def team_17_adv():
     pass
@@ -651,7 +670,7 @@ def team_19_adv():
         print("You've chosen the special fruit, you've earned long-lasting prosperity!")
     else:
         print("Yummy! But not few and far between in these lands.")
-    kill_if_dead(dead)
+        kill_if_dead(dead)
 
 
 def team_20_adv():
