@@ -305,9 +305,11 @@ def team_5_adv():
         print("The ground here is covered in sand and you can hear the distant sound of lost souls.")
         sleep(delay)
         print("You see remnants of old pirate camps.")
-        print("There are signs of many stories that are untold in this isolated refuge of the Flying Dutchman's cavern.")
+        print(
+            "There are signs of many stories that are untold in this isolated refuge of the Flying Dutchman's cavern.")
 
     kill_if_dead(dead)
+
 
 def team_6_adv():
     """
@@ -584,6 +586,7 @@ def team_15_adv():
 
     kill_if_dead(dead)
 
+
 def team_16_adv():
     pass
     # TODO Add your code here
@@ -650,6 +653,7 @@ def team_19_adv():
         print("Yummy! But not few and far between in these lands.")
     kill_if_dead(dead)
 
+
 def team_20_adv():
     """
     https://docs.google.com/document/d/1S9g5UNaZUaOKCq_hnPeAgMqtmWUBQH37nsFjZ3xzjxM/edit#heading=h.f6tumop9n7at
@@ -694,8 +698,41 @@ def team_20_adv():
 
 
 def team_21_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/16WddE8AhpLg8duTmMrZPy8rBFTPxWAWdfpYzfPK1m_w/edit?usp=sharing
+    Cole Collins
+    """
+    global dead
+
+    print("\n")
+    print("You find a room that contains two gold statues.")
+    sleep(delay)
+    statues = input("Do you take the left or right statue, or don't pick up the statue?: ")
+    print("\n")
+
+    if statues == "left":
+        # good choice
+        print("You pick up the statue on the left.")
+        sleep(delay)
+        print("A passageway opens and you see outside.")
+        print("Congrats! You escaped the cave!")
+        sleep(delay)
+    elif statues == "right":
+        # bad choice
+        print("You pick up the statue on the right.")
+        sleep(delay)
+        print("A passageway opens above you.")
+        sleep(delay)
+        print("A bunch of snakes and spiders fall on you!")
+        dead = True
+        sleep(delay)
+    else:
+        # neutral choice
+        print("You don't pick up either of the statues.")
+        sleep(delay)
+        print("Nothing happens... You are still stuck in the cave.")
+        sleep(delay)
+        kill_if_dead(dead)
 
 
 def team_22_adv():
