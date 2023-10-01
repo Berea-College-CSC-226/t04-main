@@ -312,7 +312,6 @@ def team_8_adv():
     https://docs.google.com/document/d/1Dttb-MvdMrEVBiRpyjV3PY0zRhhnXeZLCwnfoAVRKoE/edit?usp=sharing
     Kichemy Dorcena
     Dylan Ben
-    :return: none
     """""
     pass
     dead = False
@@ -344,7 +343,6 @@ def team_8_adv():
         print("You are now in the middle of an island alone forever, enjoy !!!")
         sleep(delay)
 
-    # TODO Make sure to add the additional check if the user makes the "bad" choice!
     if dead == True:
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
         kill_if_dead(True)
