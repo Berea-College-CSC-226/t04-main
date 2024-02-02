@@ -18,7 +18,7 @@ from time import sleep
 #########################################################################################################
 # TEAM 1
 delay = 1.0
-dead = False
+isDead = False
 
 username = input("What is your name?")
 print()
@@ -33,7 +33,7 @@ Fruit = input("which fruit would you like? [Banana, Orange, Apple] ")
 
 if Fruit == "Banana":
     print("unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
-    dead = True
+    isDead = True
 elif Fruit == "Orange":
     print("you've chosen the special fruit, you've earned ")
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
@@ -58,9 +58,9 @@ elif decision == "class":
       print("You manage to get in class at 10:41am")
       sleep(delay)
 
-      dead = True
+      isDead = True
 
-if dead == True:
+if isDead == True:
       print("although you made to class in time, you cannot stay awake.")
       sleep(delay)
       print()
@@ -93,7 +93,7 @@ elif statues == "right":
     print("A passageway opens above you.")
     sleep(delay)
     print("A bunch of snakes and spiders fall on you!")
-    dead = True
+    isDead = True
     sleep(delay)
 else:
     #neutral choice
@@ -103,7 +103,7 @@ else:
     sleep(delay)
 
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
-if dead == True:
+if isDead == True:
     print("\n")
     print("One of the snakes asks you to pick a number 1 through 20.")
     sleep(delay)
@@ -111,14 +111,14 @@ if dead == True:
     sleep(delay)
     if number >= 13:
         print("Congrats! The snake decided to spare you!")
-        dead = False
+        isDead = False
         sleep(delay)
     else:
         print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
 
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
-if dead == True:
+if isDead == True:
     print("Oh no! You died! Try again by hitting the green play button.")
 #########################################################################################################
 # TEAM 4
@@ -153,10 +153,10 @@ else:
     deathChoice = input("On a scale of 1-10, how much do you want to stay at Generic Fantasy College™")
     if deathChoice == "<3"
     print("The dean whomst happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy College™")
-    dead = True
+    isDead = True
     sleep(delay)
 
-if dead == True:
+if isDead == True:
     print("If only you would've gone to class, Try again by hitting the green play button.")
     quit()
 #########################################################################################################
@@ -185,7 +185,7 @@ elif chalice == "Gold":
         sleep(delay)
         print(
             "The ground shakes violently as the cave begins to collapse. Unfortunately, you are unable to escape in time, meeting a tragic end. The treasure remains unclaimed, lying amidst the ruins of the cavern.")
-        dead = True
+        isDead = True
     elif roll <= 10:
         print("You roll the dice... it's a moderate number.")
         sleep(delay)
@@ -203,7 +203,7 @@ else:
     sleep(delay)
     print("You see remnants of old pirate camps, and signs of many stories that remain untold in this isolated refuge of the Flying Dutchman's cavern.")
 
-if dead == True:
+if isDead == True:
     print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
     quit()
 
@@ -238,7 +238,7 @@ else:
     print("You can now continue your adventure.")
     sleep(delay)
 
-if dead == dead:
+if isDead == isDead:
     print("You are now dead!You can try again after hitting the green play button. ")
     quit()
 
@@ -263,7 +263,7 @@ if "Ask for help":
 elif "Guess the code":
         print("You type in '12345' and the console turns red")
         print("The walls close in on you, crushing you like a Wookie in a trash compactor")
-        dead = True
+        isDead = True
 
 
 
@@ -312,18 +312,18 @@ elif cardinal == "North":
     print(luck)
     if luck <= 5:
         print("There is no escape...")
-        dead = True
+        isDead = True
     elif luck > 8:
         print("As the snake grows, the cave roof starts to collapse onto it, killing the snake, but trapping you forever...")
     else:
         print("As you press against the wall, you feel it fade away as you are transported to nothingness as you slowly become part of it...")
-        dead = True
+        isDead = True
 else:
     # I mean you're not dead
     print("You are now in the middle of an island alone forever, enjoy !!!")
     sleep(delay)
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
-if dead == True:
+if isDead == True:
     print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
     quit()
 # TODO Don't forget to check if your user is dead at the end of your chapter!
@@ -336,7 +336,7 @@ if direction == "yes":
     print("Congratulations you can proceed to the next trial. The next trial you have to go find the other person in the cave with you and make them poke a grizzly bear. [Yes, No]")
 if direction == "no":
     print("Due to your declination, you will now be forced to leave the labyrinth.")
-    dead = True
+    isDead = True
 
 # picking the neutral choice
 else :
@@ -372,13 +372,13 @@ elif action == "Punch":
     sleep(delay)
     print("Before you can even think about running, you're sliced and diced into pieces. Ouch.")
     sleep(delay)
-    dead = True
+    isDead = True
 
 else:
     #idk what the user typed in but it was definitely not a choice
     print("Nothing happens. That wasn't even an option. Try again.")
 
-    if dead == True:
+    if isDead == True:
         print("You are dead. Make a better choice next time.")
         quit()
 
@@ -390,8 +390,8 @@ if int(number) >= 5:
 elif int(number) <= 5:
     print("That is incorrect.")
     print("The cave guard unsheaths his sword and slices you.")
-    dead = True
-if dead == True:
+    isDead = True
+if isDead == True:
     print("You are dead. Make a better guess next time.")
     quit()
 
@@ -404,7 +404,7 @@ if dead == True:
 from time import sleep
 
 delay = 2.0
-dead = False
+isDead = False
 
 
 username = input("Hello player, why don't you start off by telling us what your favorite color is? ")
@@ -441,7 +441,7 @@ if direction == "Left":
     elif direction == "No":
     # Incorrect
         print("You missed the entrance to the gas station and ran out of gas. Better luck next time.")
-        dead = True
+        isDead = True
         sleep(delay)
 
 elif direction == "Right":
@@ -449,7 +449,7 @@ elif direction == "Right":
     print("Well looks like you took the wrong turn and ran out of gas sorry.")
     sleep(delay)
     print("Try again next time!")
-    dead = True
+    isDead = True
 
 else:
       # Neutral Choice..
@@ -457,7 +457,7 @@ else:
      sleep(delay)
 
      print("ALERT! You are out of gas, better luck next time taking turns correctly!")
-     dead = True
+     isDead = True
 
 
 # elif direction == "No":
@@ -612,16 +612,16 @@ if direction == "North":
     sleep(delay)
 elif direction == "South":
     print("You unfortunately fell off a cliff and are about to die.")
-    dead = True
+    isDead = True
     sleep(delay)
 else:
     print("You're still in the cave, and no closer to being out of it. Sucks to be you.")
     sleep(delay)
-if dead == True:
+if isDead == True:
     numbertest = input("Pick a number 1-10 to try and survive.")
     numbertest = float(numbertest)
     if numbertest > 5 and numbertest <= 10:
-        dead == False
+        isDead == False
         print("You got lucky this time.")
     else:
         print("Unlucky, you're dead. Very sad")
@@ -640,7 +640,7 @@ if opponent == "Scott":
     sleep(delay * 3)
     print("Within a millisecond he teleports behind you wrapped around your waist and suplexes you, snapping your neck on the hard cold unforgiving concrete floor")
     print("Dr.Scott has killed you")
-    dead = True
+    isDead = True
 
 elif opponent == "Tojo":
     #good choice
@@ -655,7 +655,7 @@ else:
     print("You have to try fighting them again  at the next BWT")
     sleep(delay)
 
-if dead == True:
+if isDead == True:
     print("oh no! You have died, hopefully there is no wrestling in the afterlife!")
     quit()
 
@@ -692,7 +692,7 @@ if count == 10:
         count = 11
     else:
         print("Katie stabs you!")
-        dead = True
+        isDead = True
 
 if count == 1:
     print("You enter into a hallway and meet a dog.")
@@ -706,7 +706,7 @@ if count == 1:
     else:
         print("The dog did not like your answer, and you got bit.")
         print("You are a terrible human.")
-        dead = True
+        isDead = True
 
 if count == 11:
     print("You go down a crevice in the wall.")
@@ -716,19 +716,19 @@ if count == 11:
     elif sword == ("yes"):
         print("Congrats! Your sword was long enough to reach the chest! You found money!")
     else:
-        dead = True
+        isDead = True
 if count == 3:
     print("The dog brought back a monster. There is no escape!")
-    dead = True
+    isDead = True
 
-if dead == True:
+if isDead == True:
     print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
     quit()
 
 
 #########################################################################################################
 # TEAM 18
-dead = False
+isDead = False
 
 username = input("What is your name? ")
 print("Welcome," ,username, ", to the woods.")
@@ -741,13 +741,13 @@ if direction == "North":
     sleep(delay)
 elif direction == "South":
     print("You met the cannibal tribe")
-    dead=True
+    isDead=True
 elif direction == "West":
     print("You fell off a cliff.")
-    dead=True
+    isDead=True
 else:
     print("You got bitten by a poisonous snake.")
-    dead=True
-if dead == True:
+    isDead=True
+if isDead == True:
      print("Oh no! you are dead. Sorry good luck next time. Hit the run button to play this game again.")
      quit()
