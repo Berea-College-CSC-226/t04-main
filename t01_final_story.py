@@ -1,5 +1,5 @@
 ######################################################################
-# Author: Spring 2020 Class
+# Author: Spring 2024 Class
 #
 # Assignment: T01: Choose Your Own Adventure
 #
@@ -12,6 +12,8 @@
 #   Original Author: Dr. Scott Heggen
 #
 #   Inspired by https://www.cs.hmc.edu/twiki/bin/view/CS5/Week0ChoiceProblem
+#
+# NOTE: Because of weather, T01 wasn't completed. You are modifying a previous classes' T01.
 ######################################################################
 from time import sleep
 
