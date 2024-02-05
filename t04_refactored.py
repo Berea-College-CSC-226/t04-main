@@ -121,6 +121,7 @@ def team_1_adv():
     delay = 1.0
     isDead = False
 
+
     username = input("What is your name?")
     print()
     sleep(delay * 2)
