@@ -120,11 +120,13 @@ def team_1_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_2_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -132,11 +134,13 @@ def team_3_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_4_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -144,11 +148,46 @@ def team_5_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_6_adv():
-    pass
-    # TODO Add your code here
+    Path = (input
+            ("Which path will you take? [Left/Middle/Right]"))
+
+    second_chance = (input
+                     ("Do you want another chance? [Yes/No]"))
+
+    if Path == "Left":
+        # Wrong Path
+        print("Sss....sss...sss...")
+        sleep(delay)
+        print("You have encountered a python.")
+        print("Oh no! The python has bitten you.")
+        print("You are now slowly dying from the poison.")
+        print("Do you want another chance?")
+
+
+    elif Path == "Middle":
+        # Neutral Path
+        print("The path is never-ending.")
+        print("You continue walking through the cave.")
+
+    else:
+        # Correct Path
+        print("drip...drip...drip")
+        print("You arrived at a water faucet and met a fellow adventure!")
+        print("You can now continue your adventure.")
+        sleep(delay)
+
+    if isDead == True:
+        print("You are now dead!You can try again after hitting the green play button. ")
+        quit()
+
+    # Make sure to add the additional check if the user makes the "bad" choice!
+
+    #  Don't forget to check if your user is dead at the end of your chapter!
+
 
 ###################################################################################
 
@@ -156,11 +195,13 @@ def team_7_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_8_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -168,11 +209,13 @@ def team_9_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_10_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -180,11 +223,13 @@ def team_11_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_12_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -192,11 +237,13 @@ def team_13_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_14_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -204,11 +251,13 @@ def team_15_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_16_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -216,11 +265,13 @@ def team_17_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_18_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -228,11 +279,13 @@ def team_19_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_20_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -240,17 +293,20 @@ def team_21_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_22_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_23_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
