@@ -231,9 +231,30 @@ def team_19_adv():
 ###################################################################################
 
 def team_20_adv():
-    pass
-    # TODO Add your code here
 
+    input(print("Go with him further [Up, or Down]? "))
+    if direction == "Up":
+        print("You've reached a large vault... a large console stands to its right...")
+        print("The console lights up when you reach it... it asks for a passcode")
+        input("Guess the code" or "Ask for help")
+        if "Ask for help":
+            print("You ask Dr. Heggen for help")
+            print("He pulls out a small electrical device and plugs it into the console")
+            print("The console glows green and the vault opens up")
+            print("you've found riches beyond your wildest dreams")
+
+        else: "Guess the code"
+        print("You type in '12345' and the console turns red")
+        print("The walls close in on you, crushing you like a Wookie in a trash compactor")
+            isDead = True
+    else direction == ("Down"):
+    print("you have reached the strongest creature in all of the lands..")
+    sleep(delay * 3)
+    print("It is the Teacher Assistant Silas! Do you fight or run?")
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
 ###################################################################################
 
 def team_21_adv():
