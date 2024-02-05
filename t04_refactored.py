@@ -225,7 +225,44 @@ def team_18_adv():
 ###################################################################################
 
 def team_19_adv():
+    from time import sleep
+
+    delay = 1.5
+    pieFace = False
+
+    print()
+    print("Welcome,, to our yearly raffle!")
+    sleep(delay)
+    print("In front of you, we have presented you with five tickets. Choose a number from 1 to 5.")
+    print("Choose carefully!")
+    sleep(delay)
+
+    raffleTicket = input("Which ticket shall you choose? [1/2/3/4/5] ")
+
+    if raffleTicket == "3":
+        # Good Choice
+        print("Congrats! You picked the golden ticket!")
+        print("You have won a delicious chocolate pie! Enjoy!")
+        sleep(delay)
+    elif raffleTicket == "5":
+        # Bad Choice
+        print("Oh, no! Someone is out of luck today. Watch out for the flying whipped cream pie!")
+        pieFace = True
+    else:
+        # Neutral Choice
+        print("Oh, no! You picked one of the right tickets, but we ran out of pies :( ")
+        print("But lucky you, we still have some cupcakes! Enjoy!")
+        sleep(delay)
+
+    if pieFace == True:
+        print("This year was not your year. Come back and test your luck next time. Try again by hitting the green play button.")
+        quit()
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
     pass
+
     # TODO Add your code here
 
 ###################################################################################
