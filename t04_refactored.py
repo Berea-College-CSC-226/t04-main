@@ -118,7 +118,27 @@ def scott_adventure():
 
 def team_1_adv():
     pass
+    delay = 1.0
+    isDead = False
+
+    username = input("What is your name?")
+    print()
+    sleep(delay * 2)
+    print("welcome", username, "to fruit Land")
+    print("you will be given three fruits and you can only choose one")
+    print("Be careful the choice you make ")
+    print("one will give you fortune, one will lead to death, and one is just a normal fruit")
+    sleep(delay * 2)
+
+    Fruit = input("which fruit would you like? [Banana, Orange, Apple] ")
+
+    if Fruit == "Banana":
+        print("unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
+        isDead = True
+    elif Fruit == "Orange":
+        print("you've chosen the special fruit, you've earned ")
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -126,11 +146,13 @@ def team_2_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_3_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -138,11 +160,13 @@ def team_4_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_5_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -150,11 +174,13 @@ def team_6_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_7_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -162,11 +188,13 @@ def team_8_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_9_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -174,11 +202,13 @@ def team_10_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_11_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -186,11 +216,13 @@ def team_12_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_13_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -198,11 +230,13 @@ def team_14_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_15_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -210,11 +244,13 @@ def team_16_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_17_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -222,11 +258,13 @@ def team_18_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_19_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -234,11 +272,13 @@ def team_20_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_21_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -246,11 +286,13 @@ def team_22_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_23_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
