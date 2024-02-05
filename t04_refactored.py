@@ -218,9 +218,39 @@ def team_17_adv():
 
 ###################################################################################
 
+
 def team_18_adv():
+    """
+    https://docs.google.com/document/d/1-5R7KLwdV7N1FziFAgpwp9FNEqIg8ez1u-0do6Knx3A/edit?usp=sharing
+    Bryce Riley
+    Sam McFarland
+    :return: none
+    """
     pass
-    # TODO Add your code here
+    isdead = False
+
+    username = input("What is your name? ")
+    print("Welcome,", username, ", to the woods.")
+    sleep(delay * 3)
+    print("Before you wait too long choose a direction that will let you escape.")
+    print("You can take one of the four directions.")
+    direction = input("Which direction in the woods would would you like to take? [north, south, east, west]")
+    if direction == "North":
+        print("You are safe, you get back home.")
+        sleep(delay)
+    elif direction == "South":
+        print("You met the cannibal tribe")
+        isdead = True
+    elif direction == "West":
+        print("You fell off a cliff.")
+        isdead = True
+    else:
+        print("You got bitten by a poisonous snake.")
+        isdead = True
+    if isdead is True:
+        print("Oh no! you are dead. Sorry good luck next time. Hit the run button to play this game again.")
+        quit()
+
 
 ###################################################################################
 
