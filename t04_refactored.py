@@ -171,10 +171,39 @@ def team_9_adv():
 ###################################################################################
 
 def team_10_adv():
-    pass
+    """
+    https://docs.google.com/document/d/1p3RkJxJYhLnXdNLjh08KZxLTcqlHuq3bDp9Op5_nHM4/edit
+    Eun Sung
+    Juno Smith
+    :return: none
+    """
     # TODO Add your code here
+    direction = input(
+        "Which direction would you like to swim in? [Underwater Cave, The lands of Seaweed, Water Stream Line]")
+    if direction == "Underwater Cave":
+        # Good option!
+        print("You found a tunnel to Atlantis!")
+        sleep(delay)
 
-###################################################################################
+    elif direction == "The lands of Seaweed":
+        # Bad Option
+        print("Oh no! You were eaten by loch nes before you could arrive.You were delicious!")
+
+        print = print(input("Loch Nes under estimated your strengths, pick a number between 1 and 20"))
+
+    else:
+
+        # Neutral option!
+
+
+
+        quit()
+
+
+
+
+
+     ###################################################################################
 
 def team_11_adv():
     pass
