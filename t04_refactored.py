@@ -179,6 +179,70 @@ def team_10_adv():
 def team_11_adv():
     pass
     # TODO Add your code here
+from time import sleep
+
+delay = 2.0
+isDead = False
+
+
+username = input("Hello player, why don't you start off by telling us what your favorite color is? ")
+
+print()
+print("Ok player! You will be driving a",username,"car.")
+
+sleep(delay)
+
+print()
+print("You're heading to Walmart and you're low on gas, make the right turns to the gas station to fuel up!")
+print("\n")
+sleep(delay)
+# print("You're pulling up to Main st, the light is green. Would you like to take a left or right? [Left/Right]")
+
+
+
+
+
+direction = input("You're pulling up to Main st, the light is green. Would you like to take a left or right? [Left/Right/Continue] ")
+
+
+if direction == "Left":
+        # Correct
+    # print("Great, you just took a shortcut! You're almost near. Would you like to continue straight? [Yes/No]")
+    sleep(delay)
+
+    direction = input("Great, you just took a shortcut! You're almost close. Would you like to continue straight? [Yes/No] ")
+    print("\n")
+    if direction == "Yes":
+        # Correct
+        print("Hooray! You have arrived at the gas station and were able to fuel up!")
+
+    elif direction == "No":
+    # Incorrect
+        print("You missed the entrance to the gas station and ran out of gas. Better luck next time.")
+        isDead = True
+        sleep(delay)
+
+elif direction == "Right":
+      # Incorrect
+    print("Well looks like you took the wrong turn and ran out of gas sorry.")
+    sleep(delay)
+    print("Try again next time!")
+    isDead = True
+
+else:
+      # Neutral Choice..
+     print("Oops, you missed the entrance and your gas is still running LOW! ")
+     sleep(delay)
+
+     print("ALERT! You are out of gas, better luck next time taking turns correctly!")
+     isDead = True
+
+
+# elif direction == "No":
+#     # Incorrect
+#     print("You missed the entrance to the gas station and ran out of gas. Better luck next time.")
+#     dead = True
+
 
 ###################################################################################
 
