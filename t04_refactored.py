@@ -179,7 +179,7 @@ def team_10_adv():
 def team_11_adv():
     pass
     # TODO Add your code here
-    from time import sleep
+from time import sleep
 
     delay = 2.0
     isDead = False
