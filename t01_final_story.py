@@ -638,7 +638,7 @@ opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander")
 
 if opponent == "Scott":
     #bad choice
-    print('''As he steps into the ring he make nervous eye contact with you. He says "I was hoping no one would choose me, I didn't want it to come to this"''')
+    print("As he steps into the ring he make nervous eye contact with you. He says ""I was hoping no one would choose me, I didn't want it to come to this"")
     sleep(delay * 3)
     print("Within a millisecond he teleports behind you wrapped around your waist and suplexes you, snapping your neck on the hard cold unforgiving concrete floor")
     print("Dr.Scott has killed you")
