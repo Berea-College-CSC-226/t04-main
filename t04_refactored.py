@@ -204,13 +204,30 @@ def team_15_adv():
     pass
     # TODO Add your code here
 
-###################################################################################
-
+#########################################################################################################
+# TEAM 16
 def team_16_adv():
-    pass
-    # TODO Add your code here
+    direction = input("Which direction would you like to go? [left/right]")
 
-###################################################################################
+    if direction == "left":
+        print("You stumbled on a torch, pick it up and press the button to light it.")
+        print("You will see two paths in front of you.")
+        print("You use the light from the torch you found to guide you out of the cave into the tulip garden full of people")
+
+    elif direction == "right":
+        print ("You step on a fox's tail.")
+        choice = input("Would you run or stand still? [run/stay]")
+        if choice == "run":
+            print("You run into two kind strangers, who lead you out of the cave.")
+        elif choice == "stay":
+            print("You get attacked by the fox, he invites his friends and they all have a nice dinner.")
+
+
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
+
+#########################################################################################################
 
 def team_17_adv():
     pass
