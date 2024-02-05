@@ -243,7 +243,7 @@ def team_21_adv():
 global HasSword
 global goblindead
 ######Intro
-print("You stand in your makeshift campsite, a pitiful fire smoulders, sending black smoke to the sky.")
+print("You stand in your makeshift campsit, a pitiful fire smoulders, sending black smoke to the sky.")
 sleep(delay)
 print("To the North: The Mystic Wood lies, fabeled to hold a great treasure.")
 sleep(delay)
