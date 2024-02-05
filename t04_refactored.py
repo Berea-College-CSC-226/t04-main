@@ -153,8 +153,43 @@ def team_6_adv():
 ###################################################################################
 
 def team_7_adv():
-    pass
-    # TODO Add your code here
+    """"
+    https://docs.google.com/document/d/16k30UI8SAnGJHR-KdZ2CAgtkM6OhWY8SjExevrOug18/edit?usp=sharing
+    Aaliyah Murphy
+    Abdul-Hakim Adam
+    """
+    # TEAM 7
+    input("Go with him further [Up, or Down]?")
+    if direction == "East":
+        print("You've reached a large vault... a large console stands to its right...")
+        print("The console lights up when you reach it... it asks for a passcode")
+    input("Guess the code/Ask for help")
+    if "Ask for help":
+        print("You ask Dr. Heggen for help")
+        print("He pulls out a small electrical device and plugs it into the console")
+        print("The console glows green and the vault opens up")
+        print("you've found riches beyond your wildest dreams")
+    elif "Guess the code":
+        print("You type in '12345' and the console turns red")
+        print("The walls close in on you, crushing you like a Wookie in a trash compactor")
+        isDead = True
+
+
+
+
+
+
+
+
+
+    elif direction == ("Down"):
+        print("you have reached the strongest creature in all of the lands..")
+        sleep(delay * 3)
+        print("It is the Teacher Assistant Silas! Do you fight or run?")
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+    #########################################################################################################
 
 ###################################################################################
 
