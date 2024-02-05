@@ -189,8 +189,50 @@ def team_12_adv():
 ###################################################################################
 
 def team_13_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1Dl_uUgAPFY98r5OVFB7_ctGqmgeOoFKrI5tu8xMKJ2w/edit?usp=sharing
+    Michael Vargas
+    Zach Anderson
+    :return: none
+    """
+
+    from time import sleep
+
+    stall = 1.5
+    pieface = False
+
+    username = input("What shall we call you? ")  # asking for user's name
+    print("\n")
+
+    print()
+    print("Welcome,", username, ", to our yearly raffle!")
+    sleep(stall)
+    print("In front of you, we have presented you with five tickets. Choose a number from 1 to 5.")
+    print("Choose carefully!")
+    sleep(stall)
+
+    raffle_ticket = input("Which ticket shall you choose? [1/2/3/4/5] ")
+
+    if raffle_ticket == "3":
+        # Good Choice
+        print("Congrats! You picked the golden ticket!")
+        print("You have won a delicious chocolate pie! Enjoy!")
+        sleep(stall)
+    elif raffle_ticket == "5":
+        # Bad Choice
+        print("Oh, no! Someone is out of luck today. Watch out for the flying whipped cream pie!")
+        pieface = True
+    else:
+        # Neutral Choice
+        print("Oh, no! You picked one of the right tickets, but we ran out of pies :( ")
+        print("But lucky you, we still have some cupcakes! Enjoy!")
+        sleep(stall)
+
+    if pieface:
+        print(
+            "This year was not your year. Come back and test your luck next time. Try again by hitting the green play "
+            "button.")
+        quit()
 
 ###################################################################################
 
