@@ -129,8 +129,44 @@ def team_2_adv():
 ###################################################################################
 
 def team_3_adv():
-    pass
-    # TODO Add your code here
+    print("\n")
+    print("You find a room that contains two gold statues.")
+    statues = input("Do you take the left or right statue, or don't pick up the statue?: ")
+    print("\n")
+
+    if statues == "left":
+        # good choice
+        print("You pick up the statue on the left.")
+        print("A passageway opens and you see outside.")
+        print("Congrats! You escaped the cave!")
+    elif statues == "right":
+        # bad choice
+        print("You pick up the statue on the right.")
+        print("A passageway opens above you.")
+        print("A bunch of snakes and spiders fall on you!")
+        is_dead = True
+    else:
+        # neutral choice
+        print("You don't pick up either of the statues.")
+        print("Nothing happens... You are still stuck in the cave.")
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+    if is_dead:
+        print("\n")
+        print("One of the snakes asks you to pick a number 1 through 20.")
+        number = int(float(input("Which number do you pick? (only put whole numbers): ")))
+        if number >= 13:
+            print("Congrats! The snake decided to spare you!")
+            is_dead = False
+        else:
+            print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+    if is_dead:
+        print("Oh no! You died! Try again by hitting the green play button.")
+
+
+
 
 ###################################################################################
 
