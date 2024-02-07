@@ -241,8 +241,15 @@ def team_18_adv():
         print("You are safe, you get back home.")
         sleep(delay)
     elif direction == "South":
+
         print("You met the cannibal tribe")
-        is_dead = True
+        pick_number = int(input("They ask you to pick a number between 1 and 10. Choose now [1-10]"))
+
+        if pick_number < 6:
+            print("You chose wisely. They let you live.")
+        else:
+            is_dead = True
+
     elif direction == "West":
         print("You fell off a cliff.")
         is_dead = True
@@ -250,10 +257,11 @@ def team_18_adv():
         print("You got bitten by a poisonous snake.")
         is_dead = True
 
-    if is_dead is True:
+    if is_dead == True:
         print("Oh no! you are dead. Sorry good luck next time. Hit the run button to play this game again.")
-        quit()
+        kill_if_dead(is_dead)
     else:
+        print("You win!")
         quit()
 
 ###################################################################################
