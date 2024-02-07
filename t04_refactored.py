@@ -140,7 +140,7 @@ def team_3_adv():
     print("You find a room that contains two gold statues.")
     statues = input("Do you take the left or right statue, or don't pick up the statue? [left/right/none]: ")
     print("\n")
-
+    is_dead = False
     if statues == "left":
         # good choice
         print("You pick up the statue on the left.")
