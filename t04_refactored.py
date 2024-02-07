@@ -231,9 +231,15 @@ def team_19_adv():
 ###################################################################################
 
 def team_20_adv():
-
-    input(print("Go with him further [Up, or Down]? "))
-    if direction == "Up":
+    """
+    https://docs.google.com/document/d/1aO8daq4WLqOsChlhvmClBHNZEx4faJcmsvGXPyOU990/edit?usp=sharing
+    :return:
+    America Gaona Borges
+    Jessica Douthit
+    """
+    global isDead
+    input("Go with him further Up, or Down? ")
+    if input == "Up":
         print("You've reached a large vault... a large console stands to its right...")
         print("The console lights up when you reach it... it asks for a passcode")
         input("Guess the code" or "Ask for help")
@@ -242,15 +248,15 @@ def team_20_adv():
             print("He pulls out a small electrical device and plugs it into the console")
             print("The console glows green and the vault opens up")
             print("you've found riches beyond your wildest dreams")
+        if isDead:
+            print("You type in '12345' and the console turns red")
+            print("The walls close in on you, crushing you like a Wookie in a trash compactor")
+        kill_if_dead(isDead)
 
-        else: "Guess the code"
-        print("You type in '12345' and the console turns red")
-        print("The walls close in on you, crushing you like a Wookie in a trash compactor")
-            isDead = True
-    else direction == ("Down"):
-    print("you have reached the strongest creature in all of the lands..")
-    sleep(delay * 3)
-    print("It is the Teacher Assistant Silas! Do you fight or run?")
+    else:
+        print("you have reached the strongest creature in all of the lands..")
+        sleep(delay * 3)
+        print("It is the Teacher Assistant Silas! Do you fight or run?")
 
     # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
