@@ -187,6 +187,7 @@ def team_9_adv():
         elif direction == "no":
             print("Due to your declination, you will now be forced to leave the labyrinth.")
             isDead = True
+            kill_if_dead(isDead)
         else:
             print(
                 """Playful stubborn little boy, I was once like you""")
@@ -195,7 +196,6 @@ def team_9_adv():
         print(
             """Now you are presented with two choices. 
             "One direction could lead to your death and the other solution is unknown""")
-        kill_if_dead(isDead)
 ###################################################################################
 
 def team_10_adv():
