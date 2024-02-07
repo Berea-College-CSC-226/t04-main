@@ -195,6 +195,7 @@ def team_9_adv():
         print(
             """Now you are presented with two choices. 
             "One direction could lead to your death and the other solution is unknown""")
+        kill_if_dead(isDead)
 ###################################################################################
 
 def team_10_adv():
