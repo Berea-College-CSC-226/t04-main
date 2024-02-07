@@ -204,7 +204,7 @@ def team_14_adv():
     """
 
     global isDead
-    direction = input("Which direction would you like to go? [North/South/East/West]")
+    direction = int(input("Which direction would you like to go? [North/South/East/West]"))
 
     if direction == "North":
         print("You didn't die. In fact, you made it out of the cave and back into society. Yay.")
