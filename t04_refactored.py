@@ -128,7 +128,14 @@ def team_2_adv():
 
 ###################################################################################
 
+
 def team_3_adv():
+    """
+    https://docs.google.com/document/d/1Dia-EWKe0B6cUXtTikF31o4zMbq7qywwdQU7uX0No8k/edit\
+    Malak Mohamed
+    Eric Sparks
+    :return: none
+    """
     print("\n")
     print("You find a room that contains two gold statues.")
     statues = input("Do you take the left or right statue, or don't pick up the statue?: ")
