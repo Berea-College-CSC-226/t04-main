@@ -120,11 +120,13 @@ def team_1_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_2_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -132,11 +134,13 @@ def team_3_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_4_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -144,11 +148,13 @@ def team_5_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_6_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -156,11 +162,13 @@ def team_7_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_8_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -168,11 +176,13 @@ def team_9_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_10_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -180,11 +190,13 @@ def team_11_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_12_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -192,46 +204,71 @@ def team_13_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_14_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_15_adv():
     pass
 
+
+from time import sleep
+
+
 def choose_opponent():
-    delay
-opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander") #make a function
+    return input("Who will you choose for your opponent? (Scott/Tojo/Bystander")  # make a function
 
-if opponent == "Scott":
-    #bad choice
-    print("As he steps into the ring he make nervous eye contact with you. He says ""I was hoping no one would choose me, I didn't want it to come to this"")
-    print()
+
+def opponent_scott():
+    print("As he steps into the ring he make nervous eye contact with you.")
+    print("He says ""I was hoping no one would choose me, I didn't want it to come to this")
     sleep(delay * 3)
-    print("Within a millisecond he teleports behind you wrapped around your waist and suplexes you, snapping your neck on the hard cold unforgiving concrete floor")
+    print("Within a millisecond he teleports behind you wrapped around your waist.")
+    print("He suplexes you, snapping your neck on the hard cold unforgiving concrete floor")
     print("Dr.Scott has killed you")
-    isDead = True
+    return True
 
-elif opponent == "Tojo":
-    #good choice
+
+def opponent_tojo():
+    # good choice
     print("You get in the ring with Tojo. You notice he's moving a little slow and creaky.")
     print("Turns out he overdid it on the bench press before the fight. You easily throw him to the ground.")
     print("Unable to properly use his arms, he can't get up and is tapped out.")
     sleep(delay)
 
-else:
-    #nutral choes
+
+def opponent_bystander():
+    # neutral choice
     print("The fellow student you fight happens to be on the exact same level as you so you tie.")
     print("You have to try fighting them again  at the next BWT")
     sleep(delay)
 
-if isDead == True:
+
+def main():
+    opponent = choose_opponent()
+
+    if opponent == "scott":
+        isDead = opponent_scott()
+    elif opponent == "tojo":
+        opponent_tojo()
+    else:
+        opponent_bystander()
+        isDead = False
+
+
+if isDead:
     print("oh no! You have died, hopefully there is no wrestling in the afterlife!")
     quit()
+
+delay = 1
+
+main()
 
 
 ###################################################################################
@@ -240,11 +277,13 @@ def team_16_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_17_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -252,11 +291,13 @@ def team_18_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_19_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -264,11 +305,13 @@ def team_20_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_21_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -276,11 +319,13 @@ def team_22_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_23_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
