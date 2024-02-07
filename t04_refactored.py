@@ -238,8 +238,8 @@ def team_20_adv():
     Jessica Douthit
     """
     global isDead
-    input("Go with him further Up, or Down? ")
-    if input == "Up":
+    direction = input("Go with him further Up, or Down? ")
+    if direction == "Up":
         print("You've reached a large vault... a large console stands to its right...")
         print("The console lights up when you reach it... it asks for a passcode")
         input("Guess the code" or "Ask for help")
