@@ -227,8 +227,8 @@ def team_18_adv():
 
 def team_19_adv():
     """
-Raffle ticket section of adventure. Try to win a pie!
-"""
+    Raffle ticket section of adventure. Try to win a pie!
+    """
 
     delay = 1.5
     pieFace = False
