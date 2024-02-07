@@ -178,8 +178,8 @@ def team_9_adv():
     if direction == "North":
         print("""Now you have to complete three treacherous trials with the other person in the cave. 
                 Each more arduous than the last.""")
-        print("The first trial is you must befriend and then destroy a sneaky salamander. [Yes, No]")
-        direction = input("""yes/ no, see its lowercase""")
+        direction = input("""The first trial is you must befriend and then destroy a sneaky salamander. 
+        Choose yes / no , give attention these two are lowercase""")
         if direction == "yes":
             print("""Congratulations you can proceed to the next trial. 
             The next trial you have to go find the other person in the cave with you and make them poke a grizzly bear. 
@@ -195,7 +195,6 @@ def team_9_adv():
         print(
             """Now you are presented with two choices. 
             "One direction could lead to your death and the other solution is unknown""")
-    pass
 ###################################################################################
 
 def team_10_adv():
