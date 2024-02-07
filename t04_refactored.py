@@ -219,7 +219,7 @@ def team_17_adv():
     If they do not accept the dog, they die, but the sword is optional.
     """
     # Set the default of whether Katie is chasing
-    Katie = False
+    isChasing = False
 
     # Start of the first condition for sword
     print("You look at the figure and it turns out to be your best friend, Katie!")
@@ -230,7 +230,7 @@ def team_17_adv():
     elif sword == "no":
         print("Katie wants to use the sword. She is chasing you.")
         isDead = True
-        Katie = True
+        isChasing = True
     else:
         print("Katie didn't understand the request. She walks off")
 
@@ -239,7 +239,7 @@ def team_17_adv():
     dog = input("Would you like a companion? Yes/No ").lower()
     if dog == "yes":
         print("Congratulations! You have earned a doggy pet!")
-        if Katie:
+        if isChasing:
             print("Katie is scared of dogs, she runs off.")
             isDead = False
         sleep(delay)
