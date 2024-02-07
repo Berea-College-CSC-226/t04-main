@@ -224,8 +224,8 @@ def team_18_adv():
 
 ###################################################################################
 
+
 def team_19_adv():
-    from time import sleep
 
     delay = 1.5
     pieFace = False
@@ -256,14 +256,11 @@ def team_19_adv():
 
     if pieFace == True:
         print("This year was not your year. Come back and test your luck next time. Try again by hitting the green play button.")
-        quit()
+        kill_if_dead(pieFace)
 
-    # TODO Make sure to add the additional check if the user makes the "bad" choice!
-
-    # TODO Don't forget to check if your user is dead at the end of your chapter!
     pass
 
-    # TODO Add your code here
+
 
 ###################################################################################
 
