@@ -226,31 +226,35 @@ def team_18_adv():
     Sam McFarland
     :return: none
     """
-    pass
-    isdead = False
+
+    is_dead = False
 
     username = input("What is your name? ")
     print("Welcome,", username, ", to the woods.")
     sleep(delay * 3)
     print("Before you wait too long choose a direction that will let you escape.")
     print("You can take one of the four directions.")
-    direction = input("Which direction in the woods would would you like to take? [north, south, east, west]")
+
+    direction = input("Which direction in the woods would would you like to take? [North, South, East, West]")
+
     if direction == "North":
         print("You are safe, you get back home.")
         sleep(delay)
     elif direction == "South":
         print("You met the cannibal tribe")
-        isdead = True
+        is_dead = True
     elif direction == "West":
         print("You fell off a cliff.")
-        isdead = True
+        is_dead = True
     else:
         print("You got bitten by a poisonous snake.")
-        isdead = True
-    if isdead is True:
+        is_dead = True
+
+    if is_dead is True:
         print("Oh no! you are dead. Sorry good luck next time. Hit the run button to play this game again.")
         quit()
-
+    else:
+        quit()
 
 ###################################################################################
 
