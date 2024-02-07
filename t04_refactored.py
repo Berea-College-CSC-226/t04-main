@@ -231,7 +231,7 @@ def team_19_adv():
     pieFace = False
 
     print()
-    print("Welcome,, to our yearly raffle!")
+    print("Welcome to our yearly raffle!")
     sleep(delay)
     print("In front of you, we have presented you with five tickets. Choose a number from 1 to 5.")
     print("Choose carefully!")
