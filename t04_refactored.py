@@ -257,12 +257,12 @@ def team_18_adv():
         print("You got bitten by a poisonous snake.")
         is_dead = True
 
-    if is_dead == True:
+    if is_dead:
         print("Oh no! you are dead. Sorry good luck next time. Hit the run button to play this game again.")
         kill_if_dead(is_dead)
     else:
-        print("You win!")
-        quit()
+        print("You made it out alive!")
+
 
 ###################################################################################
 
