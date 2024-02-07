@@ -117,8 +117,32 @@ def scott_adventure():
 ###################################################################################
 
 def team_1_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1dwngOzY2by2UswxMqfDDPMn0JzpNa-6NVfz9a3UlpLo/edit#heading=h.s63nswwf8y2z
+    :return: none
+    """
+
+    d = 1.0
+    is_dead = False
+
+    username = input("What is your name?")
+    print()
+    sleep(d * 2)
+    print("welcome", username, "to fruit Land")
+    print("you will be given three fruits and you can only choose one")
+    print("Be careful the choice you make ")
+    print("one will give you fortune, one will lead to death, and one is just a normal fruit")
+    sleep(d * 2)
+
+    fruit = input("which fruit would you like? [Banana, Orange, Apple] ")
+
+    if fruit == "Banana":
+        print("unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
+        is_dead = True
+    elif fruit == "Orange":
+        print("you've chosen the special fruit, you've earned ")
+
+
 
 ###################################################################################
 
