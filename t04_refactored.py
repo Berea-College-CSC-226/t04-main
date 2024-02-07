@@ -212,52 +212,45 @@ def team_16_adv():
 
 ###################################################################################
 
-def Dead():
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-    quit()
 def team_17_adv():
-    count == 10:
     print("You look at the figure and it turns out to be your best friend, Katie!")
     print("Katie wants to hand you a demonic sword.")
     sword = input("Do you accept the sword: Yes/No: ").lower()
     if sword == "yes":
         print("You unlock a special power: Super Strength!")
-        count = 11
     else:
         print("Katie stabs you!")
-       Dead()
+        isDead = True
+        kill_if_dead(isDead)
 
 
-if count == 1:
     print("You enter into a hallway and meet a dog.")
-    dog = int(input("Would you like a companion? Use 1 or 2, with 1 being correct and 2 as wrong: "))
-    if dog == (1):
+    dog = input("Would you like a companion? Yes/No ")
+    if dog == "yes" and sword == "no":
         print("Congratulations! You have earned a doggy pet!")
-        count = 11
-    elif dog == "2":
+    elif dog == "no":
         print("The dog got sad and ran away crying.")
-        count = 3
     else:
         print("The dog did not like your answer, and you got bit.")
         print("You are a terrible human.")
         isDead = True
+        kill_if_dead(isDead)
 
-if count == 11:
     print("You go down a crevice in the wall.")
     print("You found a treasure chest in a hole, but you can't reach your arm in.")
-    if dog == (1):
+    if dog == "yes":
         print("Congrats! The dog opened the chest and found money!")
-    elif sword == ("yes"):
+    elif sword == "yes":
         print("Congrats! Your sword was long enough to reach the chest! You found money!")
     else:
         isDead = True
-if count == 3:
-    print("The dog brought back a monster. There is no escape!")
-    isDead = True
+        kill_if_dead(isDead)
+    if dog == "no":
+        print("The dog brought back a monster. There is no escape!")
+        isDead = True
+        kill_if_dead(isDead)
 
-if isDead:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-    quit()
+    kill_if_dead(isDead)
 
 
 ###################################################################################
