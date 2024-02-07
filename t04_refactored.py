@@ -194,6 +194,7 @@ def team_13_adv():
 
 ###################################################################################
 
+
 def team_14_adv():
     # TEAM 14
     """
@@ -201,25 +202,34 @@ def team_14_adv():
     gavin leach
     elijah babayemi
     """
+
+    global isDead
+    direction = input("Which direction would you like to go? [North/South/East/West]")
+
     if direction == "North":
         print("You didn't die. In fact, you made it out of the cave and back into society. Yay.")
         sleep(delay)
+
     elif direction == "South":
         print("You unfortunately fell off a cliff and are about to die.")
         isDead = True
         sleep(delay)
+
     else:
         print("You're still in the cave, and no closer to being out of it. Sucks to be you.")
         sleep(delay)
-    if isDead == True:
+
+    if isDead:
         numbertest = input("Pick a number 1-10 to try and survive.")
         numbertest = float(numbertest)
-        if numbertest > 5 and numbertest <= 10:
-            isDead == False
-            print("You got lucky this time.")
-        else:
-            print("Unlucky, you're dead. Very sad")
-            quit()
+
+    if 5 < numbertest <= 10:
+        not isDead
+        print("You got lucky this time.")
+
+    else:
+        print("Unlucky, you're dead. Very sad")
+        quit()
 
     # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
