@@ -268,6 +268,7 @@ def team_19_adv():
         print("Oh, no! You picked one of the right tickets, but we ran out of pies :( ")
         print("But lucky you, we still have some cupcakes! Enjoy!")
         sleep(delay)
+        pieFace = False
 
     if pieFace == True:
         print("This year was not your year. Come back and test your luck next time. Try again by hitting the green play button.")
