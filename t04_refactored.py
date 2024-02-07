@@ -213,8 +213,6 @@ def team_16_adv():
     bahenar2
     :return: none
     """
-
-
     direction = input("Which direction would you like to go? [left/right]")
 
     if direction == "left":
