@@ -183,12 +183,13 @@ def team_11_adv():
 
 ###################################################################################
 
+
 def team_12_adv():
     """https://docs.google.com/document/d/13xlcbGqW_CVr6wpsi9CH2nEjf8Qk6_S0cyVs3417i_I/edit?usp=sharing
     Baella Morgan, Ariana Meatchem, Jaren Vessels"""
     global HasSword
     global goblindead
-    ######Intro
+    # Intro
     print("You stand in your makeshift campsite, a pitiful fire smoulders, sending black smoke to the sky.")
     sleep(delay)
     print("To the North: The Mystic Wood lies, fabeled to hold a great treasure.")
@@ -201,36 +202,36 @@ def team_12_adv():
     sleep(delay)
     ############
     direction = input("Choose a direction or action[Search the camp/North/South/East/West]: ")
-    ###CHECK FOR VALID INPUT###
+    # CHECK FOR VALID INPUT###
     while direction != "north" and direction != "south" and direction != "east" and direction != "west" and direction != "search camp":
         print("Now", username, " That wasn't a valid option.")
         direction = input("Choose a direction or action[Search the camp/North/South/East/West]: ")
 
-    ###Print string based on input###
+    # Print string based on input###
     if direction == "north":
 
-            if goblindead == False:
-               print("You go north.")
-               sleep(delay)
-               print("The trees tower over you almost nearly blocking out the sun.")
-               sleep(delay)
-               print("Suddenly a large goblin bandit jumps from the bushes roaring")
+        if not goblindead:
+            print("You go north.")
+            sleep(delay)
+            print("The trees tower over you almost nearly blocking out the sun.")
+            sleep(delay)
+            print("Suddenly a large goblin bandit jumps from the bushes roaring")
             sleep(delay * 3)
-            ##check if user has sword
-            if HasSword == True:
-                print("The goblin lunges at you, your swords clash.")
-                sleep(delay)
-                print("You best the goblin, stabbing him in the chest.")
-                print("You step over the goblins corpse, procceding deeper into the forest.")
-                goblindead = True
-                sleep(delay * 3)
-                room2()
+            # check if user has sword
+        if HasSword:
+            print("The goblin lunges at you, your swords clash.")
+            sleep(delay)
+            print("You best the goblin, stabbing him in the chest.")
+            print("You step over the goblins corpse, procceding deeper into the forest.")
+            goblindead = True
+            sleep(delay * 3)
+            room2()
 
-            elif HasSword == False:
-                print("The goblin rushes you, pulling back his arm for a mighty swing.")
-                print("His sword makes contact with your neck, chopping it clean off.")
-                death()
-        elif goblindead == True:
+        elif HasSword:
+            print("The goblin rushes you, pulling back his arm for a mighty swing.")
+            print("His sword makes contact with your neck, chopping it clean off.")
+            death()
+        elif goblindead:
             print("You go north.")
             sleep(delay)
             print("The trees tower over you almost nearly blocking out the sun.")
@@ -243,20 +244,19 @@ def team_12_adv():
         print("You approach the cave, and as you enter you here a loud growl.")
         print("A vicious bear appreaches from the darkness.")
         sleep(delay * 3)
-        if HasSword == True:
+        if HasSword:
             print("You swing your sword, plunging it into the bear.")
             print("The bear screams in pain as it swats you like a fly, slinging against the cave wall.")
             print("Your head makes first contact with the wall, the blow kills you instantly")
             sleep(delay * 4)
             death()
-        elif HasSword == False:
+        elif HasSword:
             print("The bear roars and swats you like a fly, slinging against the cave wall.")
             print("Your head makes first contact with the wall, the blow kills you instantly")
             death()
     elif direction == "east":
         print("You go east")
         room3()
-
 
     elif direction == "west":
         print("You look at the road to the west, this is where you came from.")
@@ -269,11 +269,11 @@ def team_12_adv():
         print("You look around the camp for anything of interest.")
 
         sleep(delay)
-        if HasSword == True:
+        if HasSword:
             print("You don't see anything of interest - there's nothing here.")
             sleep(delay * 3)
             room1()
-        elif HasSword == False:
+        elif not HasSword:
             print("You find your sword laying on a rock near the fire.")
             print(">>sword obtained!<<")
             HasSword = True
