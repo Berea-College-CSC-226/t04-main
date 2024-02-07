@@ -229,7 +229,7 @@ def team_16_adv():
         if choice == "run":
             print("You run into two kind strangers, who lead you out of the cave.")
         else:
-            print("You get attacked by the fox, he invites his friends and they all have a nice dinner.")
+            print("You get attacked by the fox, he invites all his friends and they all have a nice dinner.")
 #########################################################################################################
 
 def team_17_adv():
