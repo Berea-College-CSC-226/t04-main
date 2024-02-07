@@ -213,42 +213,49 @@ def team_16_adv():
 ###################################################################################
 
 def team_17_adv():
+    """
+    Creates two events that if the user replies with yes to either
+    to recieve a dog or sword, they survive and get a prize!
+    If they do not accept the dog, they die, but the sword is optional.
+    """
+    # Set the default of whether Katie is chasing
+    Katie = False
+
+    # Start of the first condition for sword
     print("You look at the figure and it turns out to be your best friend, Katie!")
     print("Katie wants to hand you a demonic sword.")
     sword = input("Do you accept the sword: Yes/No: ").lower()
     if sword == "yes":
         print("You unlock a special power: Super Strength!")
-    else:
-        print("Katie stabs you!")
+    elif sword == "no":
+        print("Katie wants to use the sword. She is chasing you.")
         isDead = True
-        kill_if_dead(isDead)
+        Katie = True
+    else:
+        print("Katie didn't understand the request. She walks off")
 
+    # Asking the second condition for dog
     print("You enter into a hallway and meet a dog.")
-    dog = input("Would you like a companion? Yes/No ")
-    if dog == "yes" and sword == "no":
+    dog = input("Would you like a companion? Yes/No ").lower()
+    if dog == "yes":
         print("Congratulations! You have earned a doggy pet!")
+        if Katie:
+            print("Katie is scared of dogs, she runs off.")
+            isDead = False
+        sleep(delay)
+        print("You go down a crevice in the wall.")
+        print("You found a treasure chest in a hole, but you can't reach your arm in.")
+        print("Congrats! The dog opened the chest and found money!")
     elif dog == "no":
         print("The dog got sad and ran away crying.")
-    else:
-        print("The dog did not like your answer, and you got bit.")
-        print("You are a terrible human.")
-        isDead = True
-        kill_if_dead(isDead)
-
-    print("You go down a crevice in the wall.")
-    print("You found a treasure chest in a hole, but you can't reach your arm in.")
-    if dog == "yes":
-        print("Congrats! The dog opened the chest and found money!")
-    elif sword == "yes":
-        print("Congrats! Your sword was long enough to reach the chest! You found money!")
-    else:
-        isDead = True
-        kill_if_dead(isDead)
-    if dog == "no":
+        sleep(delay)
         print("The dog brought back a monster. There is no escape!")
         isDead = True
-        kill_if_dead(isDead)
+    else:
+        print("The dog did not like your answer, and you got bit.")
+        print("With no sword or dog, you are even more lonely.")
 
+    # Checking for Death boolean
     kill_if_dead(isDead)
 ###################################################################################
 
