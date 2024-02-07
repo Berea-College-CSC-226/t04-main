@@ -132,30 +132,45 @@ def team_2_adv():
 
     print("It's Wednesday morning. You wake up at 10:30am and see the sun through your window")
     print("Suddenly, you realize that you are almost late for your CSC 226 class at 10:40am ")
-    print("You know you need your morning coffee to get through the day, but you are almost late for class")
+    print("You know you need your morning coffee to get through the day, but you are almost late for class, "
+          "you could also just sleep in")
     sleep(delay)
-    decision = input("coffee or class?")
+    decision = input("Choose coffee, sleep, or class ")
 
-    if decision == "coffee":
+    if decision == "coffee" or decision == "Coffee":
         # good choice
-        print("you drink your coffee and run to class")
+        print("You drink your coffee and run to class...")
         sleep(delay)
 
         isAlive = True
-
-    elif decision == "class":
+    elif decision == "class" or decision == "Class":
         # bad choice
         print("You manage to get in class at 10:41am")
         sleep(delay)
-
         isAlive = False
+    elif decision == "sleep" or decision == "Sleep":
+        # neutral choice
+        print("You decide to sleep in, you miss class and you live")
+        quit()
+    else:
+        print("You can't do that, try again!")
+        sleep(3)
+        print()
+        team_2_adv()
 
-    if isAlive == False:
-        print("although you made to class in time, you cannot stay awake.")
+    if isAlive is False:
+        print("Although you made to class in time, you cannot stay awake.")
         sleep(delay)
         print()
-        print("in an attempt of helping you, Nick throws coffee in your face")
-        print("accidently, he kills you")
+        print("In an attempt of helping you, Nick throws coffee in your face.")
+        print("Accidently, he kills you")
+        quit()
+
+    elif isAlive is True:
+        print('You stayed awake in class, you have never felt more alive.')
+        sleep(delay)
+        print()
+        print('The notes you took have never been better.')
         quit()
 
 
