@@ -120,11 +120,13 @@ def team_1_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_2_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -132,11 +134,13 @@ def team_3_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_4_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -144,11 +148,13 @@ def team_5_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_6_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -156,11 +162,13 @@ def team_7_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_8_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -168,11 +176,13 @@ def team_9_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_10_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -180,11 +190,13 @@ def team_11_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_12_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -198,8 +210,7 @@ def team_13_adv():
 
     from time import sleep
 
-    stall = 1.5
-    pieface = False
+    stall = 2
 
     username = input("What shall we call you? ")  # asking for user's name
     print("\n")
@@ -221,18 +232,20 @@ def team_13_adv():
     elif raffle_ticket == "5":
         # Bad Choice
         print("Oh, no! Someone is out of luck today. Watch out for the flying whipped cream pie!")
-        pieface = True
-    else:
+        sleep(stall)
+        print(
+            "This year was not your year. Come back and test your luck next time. Try again by hitting the green play "
+            "button.")
+    elif raffle_ticket == "1" or raffle_ticket == "2" or raffle_ticket == "4":
         # Neutral Choice
         print("Oh, no! You picked one of the right tickets, but we ran out of pies :( ")
         print("But lucky you, we still have some cupcakes! Enjoy!")
         sleep(stall)
+    else:
+        print("That wasn't a choice, have a pie to the face. Follow the rules next time!")
 
-    if pieface:
-        print(
-            "This year was not your year. Come back and test your luck next time. Try again by hitting the green play "
-            "button.")
-        quit()
+    quit()
+
 
 ###################################################################################
 
@@ -240,11 +253,13 @@ def team_14_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_15_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -252,11 +267,13 @@ def team_16_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_17_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -264,11 +281,13 @@ def team_18_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_19_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -276,11 +295,13 @@ def team_20_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_21_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -288,11 +309,13 @@ def team_22_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_23_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
