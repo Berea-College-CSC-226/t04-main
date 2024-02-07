@@ -151,24 +151,28 @@ def team_5_adv():
 
 ###################################################################################
 
+
 def team_6_adv():
-    Path = (input
+    path = (input
             ("Which path will you take? [Left/Middle/Right]"))
 
     second_chance = (input
                      ("Do you want another chance? [Yes/No]"))
+    if second_chance == "Yes":
+        path = input(
+            'Which path will you take? [Left/Middle/Right]')
 
-    if Path == "Left":
+    if path == "Left":
         # Wrong Path
         print("Sss....sss...sss...")
         sleep(delay)
         print("You have encountered a python.")
         print("Oh no! The python has bitten you.")
         print("You are now slowly dying from the poison.")
-        print("Do you want another chance?")
+        dead = True
+        kill_if_dead(dead)
 
-
-    elif Path == "Middle":
+    elif path == "Middle":
         # Neutral Path
         print("The path is never-ending.")
         print("You continue walking through the cave.")
@@ -180,11 +184,8 @@ def team_6_adv():
         print("You can now continue your adventure.")
         sleep(delay)
 
-    if isDead == True:
-        print("You are now dead!You can try again after hitting the green play button. ")
-        quit()
 
-    # Make sure to add the additional check if the user makes the "bad" choice!
+# Make sure to add the additional check if the user makes the "bad" choice!
 
     #  Don't forget to check if your user is dead at the end of your chapter!
 
