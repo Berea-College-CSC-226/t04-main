@@ -148,11 +148,15 @@ def team_5_adv():
 
 
 def team_6_adv():
+    '''
+    Function that continues on which path to take in the cave!
+    '''
+
     path = (input
             ("Which path will you take? [Left/Middle/Right]"))
 
     second_chance = (input
-                     ("Do you want another chance? [Yes/No]"))
+                     ("Are you sure? [Yes/No]"))
     if second_chance == "Yes":
         path = input(
             'Which path will you take? [Left/Middle/Right]')
@@ -178,12 +182,6 @@ def team_6_adv():
         print("You arrived at a water faucet and met a fellow adventure!")
         print("You can now continue your adventure.")
         sleep(delay)
-
-
-# Make sure to add the additional check if the user makes the "bad" choice!
-
-    #  Don't forget to check if your user is dead at the end of your chapter!
-
 
 ###################################################################################
 
