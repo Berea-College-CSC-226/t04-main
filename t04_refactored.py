@@ -226,6 +226,9 @@ def team_18_adv():
 
 
 def team_19_adv():
+    """
+Raffle ticket section of adventure. Try to win a pie!
+"""
 
     delay = 1.5
     pieFace = False
@@ -235,9 +238,10 @@ def team_19_adv():
     sleep(delay)
     print("In front of you, we have presented you with five tickets. Choose a number from 1 to 5.")
     print("Choose carefully!")
+    raffleTicket = input("Which ticket shall you choose? [1/2/3/4/5] ")
     sleep(delay)
 
-    raffleTicket = input("Which ticket shall you choose? [1/2/3/4/5] ")
+
 
     if raffleTicket == "3":
         # Good Choice
@@ -248,6 +252,17 @@ def team_19_adv():
         # Bad Choice
         print("Oh, no! Someone is out of luck today. Watch out for the flying whipped cream pie!")
         pieFace = True
+        lastChance = input("If you wisely pick a number between 1 and 10, we will give you a second chance to win a pie.(Enter your number)")
+        lastChance = float(lastChance)
+        if lastChance > 8 and lastChance < 10:
+            sleep(delay)
+            print("You just won a chocolate pie!")
+            pieFace = False
+        else:
+            sleep(delay)
+            print("Well that's too bad. No pie for you. You lose!")
+            pieFace = True
+            kill_if_dead(pieFace)
     else:
         # Neutral Choice
         print("Oh, no! You picked one of the right tickets, but we ran out of pies :( ")
@@ -257,11 +272,7 @@ def team_19_adv():
     if pieFace == True:
         print("This year was not your year. Come back and test your luck next time. Try again by hitting the green play button.")
         kill_if_dead(pieFace)
-
     pass
-
-
-
 ###################################################################################
 
 def team_20_adv():
