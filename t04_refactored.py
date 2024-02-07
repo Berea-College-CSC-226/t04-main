@@ -159,35 +159,32 @@ def team_7_adv():
     Abdul-Hakim Adam
     """
     # TEAM 7
-    input("Go with him further [Up, or Down]?")
-    if direction == "East":
+    global isDead
+    direction = input("Go with him further [Up, or Down]?")
+    if direction == "Up":
         print("You've reached a large vault... a large console stands to its right...")
         print("The console lights up when you reach it... it asks for a passcode")
-    input("Guess the code/Ask for help")
-    if "Ask for help":
-        print("You ask Dr. Heggen for help")
-        print("He pulls out a small electrical device and plugs it into the console")
-        print("The console glows green and the vault opens up")
-        print("you've found riches beyond your wildest dreams")
-    elif "Guess the code":
-        print("You type in '12345' and the console turns red")
-        print("The walls close in on you, crushing you like a Wookie in a trash compactor")
-        isDead = True
+        user_input = input("Guess the code/Ask for help")
+        if user_input == "Ask for help":
+            print("You ask Dr. Heggen for help")
+            print("He pulls out a small electrical device and plugs it into the console")
+            print("The console glows green and the vault opens up")
+            print("you've found riches beyond your wildest dreams")
+        elif user_input == "Guess the code":
+            print("You type in '12345' and the console turns red")
+            print("The walls close in on you, crushing you like a Wookie in a trash compactor")
+            isDead = True
 
-
-
-
-
-
-
-
-
-    elif direction == ("Down"):
+    elif direction == "Down":
         print("you have reached the strongest creature in all of the lands..")
         sleep(delay * 3)
-        print("It is the Teacher Assistant Silas! Do you fight or run?")
+        print("You tried to run...")
+        isDead = True
     # TODO Make sure to add the additional check if the user makes the "bad" choice!
-
+    else:
+        print("You tried to run...")
+        isDead = True
+        kill_if_dead(isDead)
     # TODO Don't forget to check if your user is dead at the end of your chapter!
     #########################################################################################################
 
