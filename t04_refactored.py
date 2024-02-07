@@ -138,18 +138,18 @@ def team_2_adv():
     decision = input("Choose coffee, sleep, or class ")
 
     if decision == "coffee" or decision == "Coffee":
-        # good choice
+        # the good choice
         print("You drink your coffee and run to class...")
         sleep(delay)
 
         isAlive = True
     elif decision == "class" or decision == "Class":
-        # bad choice
+        # the bad choice
         print("You manage to get in class at 10:41am")
         sleep(delay)
         isAlive = False
     elif decision == "sleep" or decision == "Sleep":
-        # neutral choice
+        # the neutral choice
         print("You decide to sleep in, you miss class and you live")
         quit()
     else:
