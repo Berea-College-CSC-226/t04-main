@@ -228,15 +228,8 @@ def team_16_adv():
         choice = input("Would you run or stand still? [run/stay]")
         if choice == "run":
             print("You run into two kind strangers, who lead you out of the cave.")
-        elif choice == "stay":
+        else:
             print("You get attacked by the fox, he invites his friends and they all have a nice dinner.")
-
-
-
-# TODO Make sure to add the additional check if the user makes the "bad" choice!
-
-# TODO Don't forget to check if your user is dead at the end of your chapter!
-
 #########################################################################################################
 
 def team_17_adv():
