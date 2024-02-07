@@ -167,6 +167,7 @@ def team_3_adv():
             print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
     if is_dead:
         print("Oh no! You died! Try again by hitting the green play button.")
+        kill_if_dead(True)
 ###################################################################################
 
 def team_4_adv():
