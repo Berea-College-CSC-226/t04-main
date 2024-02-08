@@ -163,23 +163,21 @@ def team_8_adv():
     pass
     global isDead  # You'll need this to be able to modify the dead variable
 
-
-    print()
     sleep(delay * 2)
-
-    print("\n")
-    sleep(delay)
+    print()
 
     print("Up ahead is a lit chamber with 3 doors, one to the West, one to the North, and one to the East.")
     cardinal = input("Which door will you choose? [West/North/East]")
+    print()
     if cardinal == "East":
         # GOOD !!!
         print("Fortune favors you!")
         print("The door you have chosen is filled to the brim with treasures unimaginable in this world!")
         print("You take what you can and continue your adventure. What else will you find?")
+        print()
         sleep(delay)
     elif cardinal == "North":
-        # Not A Good Choice
+        # Bad choice, feeling lucky?
         print("Behind the door lies a small snake that upon seeing you starts to grow!")
         print("As you run away, the snake chases you as it continues to grow")
         print("The snake expands to fill everything behind you as your path ahead leads to a dead end...")
@@ -189,10 +187,12 @@ def team_8_adv():
         if luck <= 5:   # Worst Luck
             print("There is no escape...")
             isDead = True
-        elif luck > 8:  # Good Luck
+        elif luck >= 8:  # Good Luck
             print("As the snake grows, the cave roof starts to collapse onto it")
             print("this kills the snake, but you are without the riches promised to you on this adventure")
+            print("You pull the snakes fang from its maw as a small prize for your troubles ")
             print("You decide to press on")
+            print()
 
         else:  # Bad Luck
             print("As you press against the wall, you feel it fade away")
@@ -203,14 +203,18 @@ def team_8_adv():
         print("You enter the door and see the light of the bright sun beaming down on you")
         print("As you walk out and feel the warmth on your face, the cave behind you collapses")
         print("Unfortunately, you are in a closed off area.")
-        print("you are surrounded on all sides with tall,impassable walls of dirt and stone")
+        print("you are surrounded on all sides with tall, impassable walls of dirt and stone")
         print("All that lies ahead is... an entrance to another cave...")
+        print()
         print("The light of the warm sun has only strengthened your resolve and you decide to press on")
-        print("You enter the second dark cave...")
+        print("You enter the second dark cave only to find yourself lost once again")
+        print()
         sleep(delay)
+
     # TODO Make sure to add the additional check if the user makes the "bad" choice!
     if isDead == True:
-        print("Oh no! You died.Better luck next time! Try again by hitting the green play button. ")
+        print()
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
         kill_if_dead(isDead)
 
     # TODO Don't forget to check if your user is dead at the end of your chapter!
