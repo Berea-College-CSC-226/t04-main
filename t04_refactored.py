@@ -158,28 +158,25 @@ def team_7_adv():
 
 ###################################################################################
 
+
 def team_8_adv():
-    #pass
-    # TODO Add your code here
+    pass
+    global isDead  # You'll need this to be able to modify the dead variable
+
 
     print()
-    print("Welcome,", user, ", to the labyrinth")
-    sleep(delay)
-    print("Before you lie two paths. One path leads to treasures of unimaginable worth.")
-    print("The other, certain death. Choose wisely.")
-    print()
     sleep(delay * 2)
-    print("You are in a dark cave. You can see nothing.")
-    print("Staying here is certainly not wise. You must find your way out.")
+
     print("\n")
     sleep(delay)
 
-    print("Up ahead is a lit chamber with 3 doors, one to the East, one to the North, and one to the West.")
-    cardinal = input("Which door will you choose?")
+    print("Up ahead is a lit chamber with 3 doors, one to the West, one to the North, and one to the East.")
+    cardinal = input("Which door will you choose? [West/North/East]")
     if cardinal == "East":
         # GOOD !!!
         print("Fortune favors you!")
         print("The door you have chosen is filled to the brim with treasures unimaginable in this world!")
+        print("You take what you can and continue your adventure. What else will you find?")
         sleep(delay)
     elif cardinal == "North":
         # Not A Good Choice
@@ -187,25 +184,35 @@ def team_8_adv():
         print("As you run away, the snake chases you as it continues to grow")
         print("The snake expands to fill everything behind you as your path ahead leads to a dead end...")
         sleep(delay)
-        luck = random.randint(0,10)
-        print(luck)
-        if luck <= 5:
+        luck = random.randint(0, 10)
+
+        if luck <= 5:   # Worst Luck
             print("There is no escape...")
             isDead = True
-        elif luck > 8:
+        elif luck > 8:  # Good Luck
             print("As the snake grows, the cave roof starts to collapse onto it")
-            print("this kills the snake, but traps you forever...")
-        else:
-            print("As you press against the wall, you feel it fade away as you are transported to nothingness as you slowly become part of it...")
+            print("this kills the snake, but you are without the riches promised to you on this adventure")
+            print("You decide to press on")
+
+        else:  # Bad Luck
+            print("As you press against the wall, you feel it fade away")
+            print("you are transported to nothingness as you slowly become part of it...")
             isDead = True
     else:
-        # I mean you're not dead
-        print("You are now in the middle of an island alone forever, enjoy !!!")
+        # Neutral
+        print("You enter the door and see the light of the bright sun beaming down on you")
+        print("As you walk out and feel the warmth on your face, the cave behind you collapses")
+        print("Unfortunately, you are in a closed off area.")
+        print("you are surrounded on all sides with tall,impassable walls of dirt and stone")
+        print("All that lies ahead is... an entrance to another cave...")
+        print("The light of the warm sun has only strengthened your resolve and you decide to press on")
+        print("You enter the second dark cave...")
         sleep(delay)
     # TODO Make sure to add the additional check if the user makes the "bad" choice!
     if isDead == True:
-        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
+        print("Oh no! You died.Better luck next time! Try again by hitting the green play button. ")
+        kill_if_dead(isDead)
+
     # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 ###################################################################################
