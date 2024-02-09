@@ -208,10 +208,9 @@ def team_13_adv():
     :return: none
     """
 
-    from time import sleep
-
     stall = 2
 
+    global isDead
     username = input("What shall we call you? ")  # asking for user's name
     print("\n")
 
@@ -236,6 +235,7 @@ def team_13_adv():
         print(
             "This year was not your year. Come back and test your luck next time. Try again by hitting the green play "
             "button.")
+        isDead = True
     elif raffle_ticket == "1" or raffle_ticket == "2" or raffle_ticket == "4":
         # Neutral Choice
         print("Oh, no! You picked one of the right tickets, but we ran out of pies :( ")
@@ -243,8 +243,8 @@ def team_13_adv():
         sleep(stall)
     else:
         print("That wasn't a choice, have a pie to the face. Follow the rules next time!")
+        isDead = True
 
-    quit()
 
 
 ###################################################################################
