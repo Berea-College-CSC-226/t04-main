@@ -64,7 +64,7 @@ def end_story(user):
     print("Now go play again.")
 
 
-def kill_if_dead(dead):
+def kill_if_dead(dead: object) -> object:
     """
     Simple function to check if you're dead
 
@@ -171,59 +171,61 @@ def team_9_adv():
 ###################################################################################
 
 def team_10_adv():
-"""
-https://docs.google.com/document/d/1p3RkJxJYhLnXdNLjh08KZxLTcqlHuq3bDp9Op5_nHM4/edit
-Eun Sung
-Juno Smith
-:return: none
-"""
-print("A cave guard appears at the cave entrance")
-sleep(delay)
-action = input("Should you: [Talk/Ignore/Punch] him?")
-print("\n")
+    """
+    https://docs.google.com/document/d/1p3RkJxJYhLnXdNLjh08KZxLTcqlHuq3bDp9Op5_nHM4/edit
+    Eun Sung
+    Juno Smith
+    :return: none
+    """
+    global isDead
+    print("A cave guard appears at the cave entrance")
+    sleep(delay)
+    action = input("Should you: [Talk/Ignore/Punch] him?")
+    print("\n")
 
-if action == "Talk":
-    # good choice
-    print("Greeting Traveler, didn't see you there.\nIt's awfully dark in there.\nIf you want to reach the "
+    if action == "Talk":
+        # good choice
+        print("Greeting Traveler, didn't see you there.\nIt's awfully dark in there.\nIf you want to reach the "
           'treasure,\nyou must answer my riddles and there will be light to guide you.')
 
-elif action == "Ignore":
-    # first neutral choice
-    print("You ignore the cave guard and walk past him.")
-    print("You're still lost and it's still dark. Maybe he knows how to fix that.")
+    elif action == "Ignore":
+        # first neutral choice
+        print("You ignore the cave guard and walk past him.")
+        print("You're still lost and it's still dark. Maybe he knows how to fix that.")
 
-elif action == "Punch":
-    # bad choice
-    print("Uh oh. The cave guard didn't appreciate that...")
-    sleep(delay)
-    print("You hear a sword unsheath.")
-    sleep(delay)
-    print("Before you can even think about running, you're sliced and diced into pieces. Ouch.")
-    sleep(delay)
-    isDead = True
+    elif action == "Punch":
+        # bad choice
+        print("Uh oh. The cave guard didn't appreciate that...")
+        sleep(delay)
+        print("You hear a sword unsheath.")
+        sleep(delay)
+        print("Before you can even think about running, you're sliced and diced into pieces. Ouch.")
+        sleep(delay)
+        isDead = True
 
- else:
-     # idk what the user typed in but it was definitely not a choice
-    print("Nothing happens. That wasn't even an option. Try again.")
+    else:
+         # idk what the user typed in but it was definitely not a choice
+        print("Nothing happens. That wasn't even an option. Try again.")
 
-    if isDead:
+        if isDead:
         print("You are dead. Make a better choice next time.")
-        quit()
+        kill_if_dead(isDead)
 
-if not isDead:
-    print("The cave guard asks you the riddle: I am thinking of a number 1 through 10. If you guess correctly, you are on your way to the treasure!")
-    number = input("What number am I thinking of? [int > 0]")
-    if number == 5:
-        print("You answered correctly. The cave guard gives you flashlight.")
+    if not isDead:
+        print("The cave guard asks you the riddle: I am thinking of a number 1 through 10. If you guess correctly, you are on your way to the treasure!")
+        number = input("What number am I thinking of? [int > 0]")
+        if int(number) == 5:
+            print("You answered correctly. The cave guard gives you flashlight.")
 
     else:
         print("That is incorrect.")
         print("The cave guard unsheaths his sword and slices you.")
         isDead = True
 
-if isDead:
-    print("You are dead. Make a better guess next time.")
-    quit()
+    if isDead:
+        print("You are dead. Make a better guess next time.")
+        kill_if_dead(isDead)
+
 
      ###################################################################################
 
