@@ -153,8 +153,8 @@ else:
     print("You know you fucked up")
     sleep(delay)
     deathChoice = input("On a scale of 1-10, how much do you want to stay at Generic Fantasy College™")
-    if deathChoice == "<3"
-    print("The dean whomst happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy College™")
+    if deathChoice == "<3":
+     print("The dean whomst happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy College™")
     isDead = True
     sleep(delay)
 

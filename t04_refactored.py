@@ -87,13 +87,13 @@ def scott_adventure():
     :return: None
     """
     global isDead  # You'll need this to be able to modify the dead variable
-    direction = input("Which direction would you like to go? [North/South/East/West]")
+    directions = input("Which direction would you like to go? [North/South/East/West]")
 
-    if direction == "North":
+    if directions == "North":
         # Good choice!
         print("You are still trapped in the dark, but someone else is there with you now! I hope they're friendly...")
         sleep(delay)
-    elif direction == "South":
+    elif directions == "South":
         # Oh... Bad choice
         print("You hear a growl. Not a stomach growl. More like a big nasty animal growl.")
         sleep(delay)
@@ -259,15 +259,20 @@ def team_20_adv():
 ###################################################################################
 
 def team_21_adv():
-    pass
-
-    # TODO Add your code here VALENTIN GIOVANNY
-
-
+    """
+    Google Doc Link:
+    https://docs.google.com/document/d/1MB925LglMMjqeWR7iYBjWjDLWbQ7snFy0tcNS30uLJY/edit?usp=sharing
+    Valentin Rama
+    Giovanny Ortiz
+    :return: none
+    """
 # TEAM 12
+
+
 global HasSword
+
 global goblinDead
-######Intro
+# Intro
 print("You stand in your makeshift campsite, a pitiful fire smoulders, sending black smoke to the sky.")
 sleep(delay)
 print("To the North: The Mystic Wood lies, fabeled to hold a great treasure.")
@@ -284,11 +289,29 @@ direction = input("Choose a direction or action[Search the camp/North/South/East
 # CHECK FOR VALID INPUT
 
 
-while direction != "north" and direction != "south" and direction != "east" and direction != "west" and direction != "search camp":
+while (direction != "north" and direction != 'south' and direction != 'east' and direction != 'west' and
+       direction != 'search camp'):
     print("Now", username, " That wasn't a valid option.")
     direction = input("Choose a direction or action[Search the camp/North/South/East/West]: ")
 
+
 # Print string based on input
+def room1():
+    pass
+
+
+def room3():
+    pass
+
+
+def death():
+    pass
+
+
+def room2():
+    pass
+
+
 if direction == "north":
 
     if not goblinDead:
@@ -310,15 +333,17 @@ if direction == "north":
             sleep(delay * 3)
             room3()
 
-        elif HasSword == False:
+        elif not HasSword:
             print("The goblin rushes you, pulling back his arm for a mighty swing.")
             print("His sword makes contact with your neck, chopping it clean off.")
             death()
-    elif goblinDead == True:
-        print("You go north.")
+
+        elif goblinDead:
+            print("You go north.")
         sleep(delay)
         print("The trees tower over you almost nearly blocking out the sun.")
         sleep(delay * 2)
+
         room2()
 
 elif direction == "south":
@@ -327,13 +352,14 @@ elif direction == "south":
     print("You approach the cave, and as you enter you here a loud growl.")
     print("A vicious bear appreaches from the darkness.")
     sleep(delay * 3)
-    if HasSword == True:
+    if HasSword:
         print("You swing your sword, plunging it into the bear.")
         print("The bear screams in pain as it swats you like a fly, slinging against the cave wall.")
         print("Your head makes first contact with the wall, the blow kills you instantly")
         sleep(delay * 4)
         death()
-    elif HasSword == False:
+
+    elif not HasSword:
         print("The bear roars and swats you like a fly, slinging against the cave wall.")
         print("Your head makes first contact with the wall, the blow kills you instantly")
         death()
@@ -355,11 +381,12 @@ elif direction == "search camp":
     print("You look around the camp for anything of interest.")
     sleep(delay)
 
-    if HasSword == True:
+    if HasSword:
         print("You don't see anything of interest - there's nothing here.")
         sleep(delay * 3)
         room1()
-    elif HasSword == False:
+
+    elif not HasSword:
         print("You find your sword laying on a rock near the fire.")
         print(">>sword obtained!<<")
         HasSword = True
