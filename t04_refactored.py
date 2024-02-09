@@ -206,6 +206,8 @@ def team_13_adv():
     Michael Vargas
     Zach Anderson
     :return: none
+    The code is a raffle that will reward a chocolate pie or cupcakes for the right choice or a pie to the
+    face for the wrong choices.
     """
 
     stall = 2
