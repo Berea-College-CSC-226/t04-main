@@ -180,12 +180,12 @@ def team_7_adv():
         sleep(delay * 3)
         print("You tried to run...")
         isDead = True
-    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
     else:
         print("You tried to run...")
         isDead = True
-        kill_if_dead(isDead)
-    # TODO Don't forget to check if your user is dead at the end of your chapter!
+    kill_if_dead(isDead)
+
     #########################################################################################################
 
 ###################################################################################
