@@ -177,6 +177,12 @@ def team_10_adv():
 ###################################################################################
 
 def team_11_adv():
+    """
+    https://docs.google.com/document/d/1rTEbUA9NKfnuN9DHqBeGXwRGHNDFHsnFCMP7FpX_34M/edit?usp=sharing
+    Nauryzbek Berdi
+    Kervens Hilaire
+    :return: none
+    """
     pass
     # TODO Add your code here
     from time import sleep
