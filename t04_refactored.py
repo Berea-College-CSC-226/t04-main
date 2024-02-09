@@ -237,12 +237,22 @@ def team_20_adv():
 ###################################################################################
 
 def team_21_adv():
+    """
+    The function team_21_adv holds the code for the storyline of a camping adventure. In the following code there are
+    global variables. The intro of the code inside this function displays text to guide the user for the paths of the game.
+    https://docs.google.com/document/d/1MB925LglMMjqeWR7iYBjWjDLWbQ7snFy0tcNS30uLJY/edit?usp=sharing
+    Valentin Roma
+    Giovanny Ortiz
+    :return: none
+    """
+    from t01_final_story import username
     global HasSword
     global goblindead
-    ######Intro
-    print("You stand in your makeshift campsite, a pitiful fire smoulders, sending black smoke to the sky.")
+
+    # Intro of the story
+    print("You stand in your makeshift campsite, a pitiful fire smolders, sending black smoke to the sky.")
     sleep(delay)
-    print("To the North: The Mystic Wood lies, fabeled to hold a great treasure.")
+    print("To the North: The Mystic Wood lies, fabled to hold a great treasure.")
     sleep(delay)
     print("To the South: The Mouth of a cave, you can hear noises creep from within.")
     sleep(delay)
@@ -252,62 +262,84 @@ def team_21_adv():
     sleep(delay)
     ############
     direction = input("Choose a direction or action[Search the camp/North/South/East/West]: ")
-    ###CHECK FOR VALID INPUT###
-    while direction != "north" and direction != "south" and direction != "east" and direction != "west" and direction != "search camp":
+
+    # CHECK FOR VALID INPUT FROM THE USER
+
+    while (direction != "north" and direction != "south" and direction != "east" and direction != "west" and
+           direction != "search camp"):
         print("Now", username, " That wasn't a valid option.")
         direction = input("Choose a direction or action[Search the camp/North/South/East/West]: ")
 
-    ###Print string based on input###
+    # Print string based on input
+    # The functions of the rooms to which can differ from the choices made from the user.
+    def room1():
+        pass
+
+    def room3():
+        pass
+
+    def death():
+        pass
+
+    def room2():
+        pass
+# If user chooses to go north
     if direction == "north":
 
-        if goblindead == False:
+        if not goblindead:
             print("You go north.")
             sleep(delay)
             print("The trees tower over you almost nearly blocking out the sun.")
             sleep(delay)
             print("Suddenly a large goblin bandit jumps from the bushes roaring")
             sleep(delay * 3)
-            ##check if user has sword
-            if HasSword == True:
+
+            # check if user has sword
+
+            if HasSword:
                 print("The goblin lunges at you, your swords clash.")
                 sleep(delay)
                 print("You best the goblin, stabbing him in the chest.")
-                print("You step over the goblins corpse, procceding deeper into the forest.")
+                print("You step over the goblins corpse, proceeding deeper into the forest.")
                 goblindead = True
                 sleep(delay * 3)
-                room2()
-
-            elif HasSword == False:
+                room3()
+# checks if the uer does not have a sword.
+            elif not HasSword:
                 print("The goblin rushes you, pulling back his arm for a mighty swing.")
                 print("His sword makes contact with your neck, chopping it clean off.")
                 death()
-        elif goblindead == True:
-            print("You go north.")
+
+            elif goblindead:
+                print("You go north.")
             sleep(delay)
             print("The trees tower over you almost nearly blocking out the sun.")
             sleep(delay * 2)
+
             room2()
 
     elif direction == "south":
         print("You go south.")
         sleep(delay)
         print("You approach the cave, and as you enter you here a loud growl.")
-        print("A vicious bear appreaches from the darkness.")
+        print("A vicious bear approaches from the darkness.")
         sleep(delay * 3)
-        if HasSword == True:
+# If the user has the sword.
+        if HasSword:
             print("You swing your sword, plunging it into the bear.")
             print("The bear screams in pain as it swats you like a fly, slinging against the cave wall.")
             print("Your head makes first contact with the wall, the blow kills you instantly")
             sleep(delay * 4)
             death()
-        elif HasSword == False:
+        # If the user does not have a sword.
+        elif not HasSword:
             print("The bear roars and swats you like a fly, slinging against the cave wall.")
             print("Your head makes first contact with the wall, the blow kills you instantly")
             death()
+
     elif direction == "east":
         print("You go east")
         room3()
-
 
     elif direction == "west":
         print("You look at the road to the west, this is where you came from.")
@@ -318,13 +350,14 @@ def team_21_adv():
 
     elif direction == "search camp":
         print("You look around the camp for anything of interest.")
-
         sleep(delay)
-        if HasSword == True:
+        # If the user does not have a sword.
+        if HasSword:
             print("You don't see anything of interest - there's nothing here.")
             sleep(delay * 3)
             room1()
-        elif HasSword == False:
+# If the user does not have a sword.
+        elif not HasSword:
             print("You find your sword laying on a rock near the fire.")
             print(">>sword obtained!<<")
             HasSword = True
@@ -333,7 +366,6 @@ def team_21_adv():
 
     else:
         room1()
-
 
 ###################################################################################
 
