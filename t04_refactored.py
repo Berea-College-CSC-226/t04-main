@@ -135,19 +135,13 @@ def team_3_adv():
 ###################################################################################
 
 def team_4_adv():
-    pass
-    # TODO Add your code here
-    # """
-    # https://docs.google.com/document/d/1BT_3NDURoZ_V-Ztx1OQcLPjn5krxuLOk8cLPmETCF2c/edit
-    # Kafui Gle
-    # Samundra Adhikari
-    # :return: none
-    # """
-from time import sleep
+    """
+    https://docs.google.com/document/d/1BT_3NDURoZ_V-Ztx1OQcLPjn5krxuLOk8cLPmETCF2c/edit
+    Kafui Gle
+    Samundra Adhikari
+    :return: none
+    """
 
-delay = 1.0
-
-def main():
     username = input("What is your username?: ")
     print("Welcome,", username, ",to Generic Fantasy College")
 
@@ -155,46 +149,48 @@ def main():
     sleep(delay)
     print("Staying here is certainly not wise. You must find your way out")
 
+    sleepChoice = input("Do you wake up, be late, or sleep? ").lower()
+
+    if sleepChoice == "wake up":
+        print("Good Choice")
+        print("You go to classes and are a productive member of society")
+
+    elif sleepChoice == "be late":
+        print("Neutral choice")
+        print("You miss breakfast and your day is stressful")
+        sleep(delay)
+
+    else:
+        print("Bad choice")
+        print("You hear the sound of wings flapping in the distance")
+        sleep(delay)
+        print("You know you messed up")
+        sleep(delay)
+        sleep(delay * 1)
+        deathChoice = int(input("On a scale of 1-10, how much do you want to be at Generic Fantasy College? "))
+        if deathChoice < 3:
+            print(
+                "The dean who happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy")
+            isDead = True
+            sleep(delay)
+
+        else:
+            print("The dean who happens to be a fire breathing dragon just almost....just almost cooked you!")
+
+    if "isDead" in locals() and isDead == True:
+        print("If only you would've gone to class. Try again by hitting the green play button.")
+
+    quit()
+
 def print_intro():
     print("You are awoken by your alarm")
     print("It is 8:00AM")
     sleep(delay * 2)
 
-main()
+team_4_adv()
 print_intro()
 
-sleepChoice = input("Do you wake up, be late, or sleep? ").lower()
 
-if sleepChoice == "wake up":
-    print("Good Choice")
-    print("You go to classes and are a productive member of society")
-
-elif sleepChoice == "be late":
-    print("Neutral choice")
-    print("You miss breakfast and your day is stressful")
-    sleep(delay)
-
-else:
-    print("Bad choice")
-    print("You hear the sound of wings flapping in the distance")
-    sleep(delay)
-    print("You know you messed up")
-    sleep(delay)
-    sleep(delay * 3)
-    deathChoice = int(input("On a scale of 1-10, how much do you want to be at Generic Fantasy College? "))
-    if deathChoice < 3:
-        print("The dean who happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy")
-        isDead = True
-        sleep(delay)
-
-    else:
-        print("The dean who happens to be a fire breathing dragon just almost....just almost cooked you!")
-
-
-if "isDead" in locals() and isDead == True:
-    print("If only you would've gone to class. Try again by hitting the green play button.")
-
-quit()
 
 
 
