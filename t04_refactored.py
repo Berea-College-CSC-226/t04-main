@@ -214,8 +214,12 @@ def team_16_adv():
 
 def team_17_adv():
     """
+    Google Doc: https://docs.google.com/document/d/1mM_Gag_m3LsuC6usAbL5O_UjAB4J5MeD1UrDhvURXfA/edit?usp=sharing
+    Github: https://github.com/Berea-College-CSC-226/t04-main.git
+    Group members: Steven Lintelman-Nader & Carmelo Villanuevac
+
     Creates two events that if the user replies with yes to either
-    to recieve a dog or sword, they survive and get a prize!
+    to receive a dog or sword, they survive and get a prize!
     If they do not accept the dog, they die, but the sword is optional.
     """
     # Set the default of whether Katie is chasing
