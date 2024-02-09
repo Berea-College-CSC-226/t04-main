@@ -272,17 +272,7 @@ def team_21_adv():
 
     # Print string based on input
     # The functions of the rooms to which can differ from the choices made from the user.
-    def room1():
-        pass
 
-    def room3():
-        pass
-
-    def death():
-        pass
-
-    def room2():
-        pass
 # If user chooses to go north
     if direction == "north":
 
@@ -303,20 +293,17 @@ def team_21_adv():
                 print("You step over the goblins corpse, proceeding deeper into the forest.")
                 goblindead = True
                 sleep(delay * 3)
-                room3()
+
 # checks if the uer does not have a sword.
             elif not HasSword:
                 print("The goblin rushes you, pulling back his arm for a mighty swing.")
                 print("His sword makes contact with your neck, chopping it clean off.")
-                death()
 
             elif goblindead:
                 print("You go north.")
             sleep(delay)
             print("The trees tower over you almost nearly blocking out the sun.")
             sleep(delay * 2)
-
-            room2()
 
     elif direction == "south":
         print("You go south.")
@@ -330,23 +317,21 @@ def team_21_adv():
             print("The bear screams in pain as it swats you like a fly, slinging against the cave wall.")
             print("Your head makes first contact with the wall, the blow kills you instantly")
             sleep(delay * 4)
-            death()
+            kill_if_dead(isDead)
         # If the user does not have a sword.
         elif not HasSword:
             print("The bear roars and swats you like a fly, slinging against the cave wall.")
             print("Your head makes first contact with the wall, the blow kills you instantly")
-            death()
+            kill_if_dead(isDead)
 
     elif direction == "east":
         print("You go east")
-        room3()
 
     elif direction == "west":
         print("You look at the road to the west, this is where you came from.")
         sleep(delay)
         print("There's no turning back now. You must find the treasure hidden in the forest")
         sleep(delay)
-        room1()
 
     elif direction == "search camp":
         print("You look around the camp for anything of interest.")
@@ -355,18 +340,13 @@ def team_21_adv():
         if HasSword:
             print("You don't see anything of interest - there's nothing here.")
             sleep(delay * 3)
-            room1()
+
 # If the user does not have a sword.
         elif not HasSword:
             print("You find your sword laying on a rock near the fire.")
             print(">>sword obtained!<<")
             HasSword = True
             sleep(delay * 3)
-            room1()
-
-    else:
-        room1()
-
 ###################################################################################
 
 def team_22_adv():
