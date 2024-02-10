@@ -227,54 +227,55 @@ def team_18_adv():
 
 def team_19_adv():
     """
+    Google doc: https://docs.google.com/document/d/1-a4odz0r4aN5ZXcgCsucZUrp_bXGA8iLFKofK6amL3M/edit?usp=sharing
     Raffle ticket section of adventure. Try to win a pie!
     """
 
     delay = 1.5
-    pieFace = False
+    pieface = False
 
     print()
     print("Welcome to our yearly raffle!")
     sleep(delay)
     print("In front of you, we have presented you with five tickets. Choose a number from 1 to 5.")
     print("Choose carefully!")
-    raffleTicket = input("Which ticket shall you choose? [1/2/3/4/5] ")
+    raffleticket = input("Which ticket shall you choose? [1/2/3/4/5] ")
     sleep(delay)
 
-
-
-    if raffleTicket == "3":
+    if raffleticket == "3":
         # Good Choice
         print("Congrats! You picked the golden ticket!")
         print("You have won a delicious chocolate pie! Enjoy!")
         sleep(delay)
-    elif raffleTicket == "5":
+    elif raffleticket == "5":
         # Bad Choice
         print("Oh, no! Someone is out of luck today. Watch out for the flying whipped cream pie!")
-        pieFace = True
-        lastChance = input("If you wisely pick a number between 1 and 10, we will give you a second chance to win a pie.(Enter your number)")
-        lastChance = float(lastChance)
-        if lastChance > 8 and lastChance < 10:
+        pieface = True
+        lastchance = input("If you wisely pick a number between 1 and 10, "
+                           "we will give you a second chance to win a pie.(Enter your number)")
+        lastchance = int(lastchance)
+        if lastchance == 9:
             sleep(delay)
             print("You just won a chocolate pie!")
-            pieFace = False
+            pieface = False
         else:
             sleep(delay)
             print("Well that's too bad. No pie for you. You lose!")
-            pieFace = True
-            kill_if_dead(pieFace)
+            pieface = True
+            kill_if_dead(pieface)
     else:
         # Neutral Choice
         print("Oh, no! You picked one of the right tickets, but we ran out of pies :( ")
         print("But lucky you, we still have some cupcakes! Enjoy!")
         sleep(delay)
-        pieFace = False
+        pieface = False
 
-    if pieFace == True:
-        print("This year was not your year. Come back and test your luck next time. Try again by hitting the green play button.")
-        kill_if_dead(pieFace)
+    if pieface == True:
+        print("This year was not your year. Come back and test your luck next time."
+              " Try again by hitting the green play button.")
+        kill_if_dead(pieface)
     pass
-###################################################################################
+
 
 def team_20_adv():
     pass
