@@ -217,10 +217,10 @@ def team_10_adv():
         if int(number) == 5:
             print("You answered correctly. The cave guard gives you flashlight.")
 
-    else:
-        print("That is incorrect.")
-        print("The cave guard unsheaths his sword and slices you.")
-        isDead = True
+        else:
+            print("That is incorrect.")
+            print("The cave guard unsheaths his sword and slices you.")
+            isDead = True
 
     if isDead:
         print("You are dead. Make a better guess next time.")
