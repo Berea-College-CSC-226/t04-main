@@ -160,6 +160,13 @@ def team_7_adv():
 
 
 def team_8_adv():
+    """
+      https://docs.google.com/document/d/1_Mulz2V_XX3iT_2uww3kEXaV_afgQuEou-YcxEW0sHo/edit?usp=sharing
+      Langston Hill
+      Eric Cruz-Mendez
+
+      starts/ continues the story
+    """
     pass
     global isDead  # You'll need this to be able to modify the dead variable
 
@@ -211,13 +218,12 @@ def team_8_adv():
         print()
         sleep(delay)
 
-    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
     if isDead == True:
         print()
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
         kill_if_dead(isDead)
 
-    # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 ###################################################################################
 
