@@ -141,17 +141,19 @@ def team_2_adv():
         # the good choice
         print("You drink your coffee and run to class...")
         sleep(delay)
-
         isAlive = True
+
     elif decision == "class" or decision == "Class":
         # the bad choice
         print("You manage to get in class at 10:41am")
         sleep(delay)
         isAlive = False
+
     elif decision == "sleep" or decision == "Sleep":
         # the neutral choice
         print("You decide to sleep in, you miss class and you live")
-        quit()
+        isAlive = 'sleep'
+
     else:
         print("You can't do that, try again!")
         sleep(3)
@@ -164,16 +166,20 @@ def team_2_adv():
         print()
         print("In an attempt of helping you, Nick throws coffee in your face.")
         print("Accidently, he kills you")
-        quit()
+        print('Try again!')
+        kill_if_dead(True)
 
     elif isAlive is True:
         print('You stayed awake in class, you have never felt more alive.')
         sleep(delay)
         print()
         print('The notes you took have never been better.')
-        quit()
+        kill_if_dead(False)
 
-
+    else:
+        print()
+        sleep(2)
+        print('You wake up an 2 hours later feeling refreshed')
 
 ###################################################################################
 
