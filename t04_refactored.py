@@ -127,6 +127,7 @@ def team_2_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 
@@ -169,11 +170,14 @@ def team_3_adv():
     if is_dead:
         print("Oh no! You died! Try again by hitting the green play button.")
         kill_if_dead(True)
+
+
 ###################################################################################
 
 def team_4_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -181,17 +185,20 @@ def team_5_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_6_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_7_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -228,7 +235,7 @@ def team_8_adv():
         sleep(delay)
         luck = random.randint(0, 10)
 
-        if luck <= 5:   # Worst Luck
+        if luck <= 5:  # Worst Luck
             print("There is no escape...")
             isDead = True
         elif luck >= 8:  # Good Luck
@@ -255,7 +262,6 @@ def team_8_adv():
         print()
         sleep(delay)
 
-
     if isDead == True:
         print()
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
@@ -268,11 +274,13 @@ def team_9_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_10_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -280,15 +288,29 @@ def team_11_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_12_adv():
     """https://docs.google.com/document/d/13xlcbGqW_CVr6wpsi9CH2nEjf8Qk6_S0cyVs3417i_I/edit?usp=sharing
-    Baella Morgan, Ariana Meatchem, Jaren Vessels"""
-    global HasSword
-    global goblindead
-    ######Intro
-    print("You stand in your makeshift campsite, a pitiful fire smoulders, sending black smoke to the sky.")
+    Jaren Vessels"""
+
+    # Setting these variables to false because the user has not yet encountered them
+    goblindead = False
+    has_sword = False
+
+    def death():
+        """Defines the function that will be called if the user dies"""
+        print("Oh no, looks like you didn't make it")
+        sleep(delay*5)
+        quit()
+
+    def continue_journey():
+        """Defines the function that will be called if the user continues their journey"""
+        print("Continue on this journey adversary")
+        pass
+
+    print("You stand in your makeshift campsite, a pitiful fire smoulders, sending black smoke to the sky.")  # Intro
     sleep(delay)
     print("To the North: The Mystic Wood lies, fabeled to hold a great treasure.")
     sleep(delay)
@@ -299,90 +321,89 @@ def team_12_adv():
     print("To the East: A vast meadow of yellow flowers.")
     sleep(delay)
     ############
-    direction = input("Choose a direction or action[Search the camp/North/South/East/West]: ")
+    direction = input("Choose a direction or action[Search the Camp/North/South/East/West]: ")
+
     ###CHECK FOR VALID INPUT###
-    while direction != "north" and direction != "south" and direction != "east" and direction != "west" and direction != "search camp":
-        print("Now", username, " That wasn't a valid option.")
-        direction = input("Choose a direction or action[Search the camp/North/South/East/West]: ")
+    while direction != "North" and direction != "South" and direction != "East" and direction != "West" and direction != "Search the Camp":
+        print(" That wasn't a valid option.")
+        direction = input("Choose a direction or action[Search the Camp/North/South/East/West]: ")
 
-    ###Print string based on input###
-    if direction == "north":
+    if direction == "North":  # Print a string based on user input
 
-            if goblindead == False:
-               print("You go north.")
-               sleep(delay)
-               print("The trees tower over you almost nearly blocking out the sun.")
-               sleep(delay)
-               print("Suddenly a large goblin bandit jumps from the bushes roaring")
+        if not goblindead:
+            print("You go North.")
+            sleep(delay)
+            print("The trees tower over you almost nearly blocking out the sun.")
+            sleep(delay)
+            print("Suddenly a large goblin bandit jumps from the bushes roaring")
+        sleep(delay * 3)
+        # check if user has sword
+        if has_sword:
+            print("The goblin lunges at you, your swords clash.")
+            sleep(delay)
+            print("You best the goblin, stabbing him in the chest.")
+            print("You step over the goblins corpse, proceeding deeper into the forest.")
+            goblindead = True
             sleep(delay * 3)
-            ##check if user has sword
-            if HasSword == True:
-                print("The goblin lunges at you, your swords clash.")
-                sleep(delay)
-                print("You best the goblin, stabbing him in the chest.")
-                print("You step over the goblins corpse, procceding deeper into the forest.")
-                goblindead = True
-                sleep(delay * 3)
-                room2()
+            continue_journey()
 
-            elif HasSword == False:
-                print("The goblin rushes you, pulling back his arm for a mighty swing.")
-                print("His sword makes contact with your neck, chopping it clean off.")
-                death()
-        elif goblindead == True:
+        elif not has_sword:
+            print("The goblin rushes you, pulling back his arm for a mighty swing.")
+            print("His sword makes contact with your neck, chopping it clean off.")
+            death()
+        elif goblindead:
             print("You go north.")
             sleep(delay)
             print("The trees tower over you almost nearly blocking out the sun.")
             sleep(delay * 2)
-            room2()
+            continue_journey()
 
-    elif direction == "south":
-        print("You go south.")
+    elif direction == "South":
+        print("You go South.")
         sleep(delay)
         print("You approach the cave, and as you enter you here a loud growl.")
-        print("A vicious bear appreaches from the darkness.")
+        print("A vicious bear approaches from the darkness.")
         sleep(delay * 3)
-        if HasSword == True:
+        if has_sword:
             print("You swing your sword, plunging it into the bear.")
             print("The bear screams in pain as it swats you like a fly, slinging against the cave wall.")
             print("Your head makes first contact with the wall, the blow kills you instantly")
             sleep(delay * 4)
             death()
-        elif HasSword == False:
+        elif not has_sword:
             print("The bear roars and swats you like a fly, slinging against the cave wall.")
             print("Your head makes first contact with the wall, the blow kills you instantly")
             death()
-    elif direction == "east":
+    elif direction == "East":
         print("You go east")
-        room3()
+        continue_journey()
 
-
-    elif direction == "west":
+    elif direction == "West":
         print("You look at the road to the west, this is where you came from.")
         sleep(delay)
         print("There's no turning back now. You must find the treasure hidden in the forest")
         sleep(delay)
-        room1()
+        continue_journey()
 
-    elif direction == "search camp":
+    elif direction == "Search the Camp":
         print("You look around the camp for anything of interest.")
 
         sleep(delay)
-        if HasSword == True:
+        if has_sword:
             print("You don't see anything of interest - there's nothing here.")
             sleep(delay * 3)
-            room1()
-        elif HasSword == False:
+            continue_journey()
+        elif not has_sword:
             print("You find your sword laying on a rock near the fire.")
             print(">>sword obtained!<<")
-            HasSword = True
+            has_sword = True
             sleep(delay * 3)
-            room1()
+            continue_journey()
 
     else:
-        room1()
-    pass
+        continue_journey()
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -390,11 +411,13 @@ def team_13_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_14_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -402,11 +425,13 @@ def team_15_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_16_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -414,11 +439,13 @@ def team_17_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_18_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -426,11 +453,13 @@ def team_19_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_20_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
@@ -438,17 +467,20 @@ def team_21_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_22_adv():
     pass
     # TODO Add your code here
 
+
 ###################################################################################
 
 def team_23_adv():
     pass
     # TODO Add your code here
+
 
 ###################################################################################
 
