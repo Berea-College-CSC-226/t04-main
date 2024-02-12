@@ -260,11 +260,11 @@ def team_14_adv():
         numbertest = float(numbertest)
 
     if 5 < numbertest <= 10:
-        not isDead
+        isDead = not isDead
         print("You got lucky this time.")
 
     else:
-        print("Unlucky, you're dead. Very sad")
+        kill_if_dead(isDead)
         quit()
 
     # TODO Make sure to add the additional check if the user makes the "bad" choice!
