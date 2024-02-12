@@ -122,6 +122,8 @@ def team_1_adv():
 
 ###################################################################################
 
+
+
 def team_2_adv():
     pass
     # TODO Add your code here
@@ -142,14 +144,14 @@ def team_4_adv():
     :return: none
     """
 
-    username = input("What is your username?: ")
+    username = input("What is your username?: ")  # ask the user for their name
     print("Welcome,", username, ",to Generic Fantasy College")
 
     print("Looking through your window the sky has magenta blue")
     sleep(delay)
     print("Staying here is certainly not wise. You must find your way out")
 
-    sleepChoice = input("Do you wake up, be late, or sleep? ").lower()
+    sleepChoice = input("Do you wake up, be late, or sleep? ").lower()  # requests input from user
 
     if sleepChoice == "wake up":
         print("Good Choice")
@@ -168,7 +170,7 @@ def team_4_adv():
         sleep(delay)
         sleep(delay * 1)
         deathChoice = int(input("On a scale of 1-10, how much do you want to be at Generic Fantasy College? "))
-        if deathChoice < 3:
+        if deathChoice < 3:  # conditional that needs to be followed based on the input from the user.
             print(
                 "The dean who happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy")
             isDead = True
@@ -177,7 +179,7 @@ def team_4_adv():
         else:
             print("The dean who happens to be a fire breathing dragon just almost....just almost cooked you!")
 
-    if "isDead" in locals() and isDead == True:
+    if "isDead" in locals() and isDead == True:  # end of program
         print("If only you would've gone to class. Try again by hitting the green play button.")
 
     quit()
@@ -187,7 +189,8 @@ def print_intro():
     print("It is 8:00AM")
     sleep(delay * 2)
 
-team_4_adv()
+
+team_4_adv()          # main function being called
 print_intro()
 
 
