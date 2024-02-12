@@ -237,6 +237,8 @@ def team_14_adv():
 ###################################################################################
 
 def team_15_adv():
+    """https://docs.google.com/document/d/1dluEjTg_twR1F2eLgP39PK4u3oCkemnyrLc8WjL5N84/edit?usp=sharing"""
+    """Dalmar , Nadia"""
     from time import sleep
 
     def choose_opponent():
