@@ -338,20 +338,27 @@ def team_20_adv():
     """
     global isDead
     direction = input("Go with him further Up, or Down? ")
+    isDead = True
 
     if direction == "Up":
         print("You've reached a large vault... a large console stands to its right...")
         print("The console lights up when you reach it... it asks for a passcode")
         input("Guess the code" or "Ask for help? ")
-        if "Ask for help? ":
+        answer = input("Guess the code" or "Ask for help? ")
+        if answer == "Ask for help":
             print("You ask Dr. Heggen for help")
             print("He pulls out a small electrical device and plugs it into the console")
             print("The console glows green and the vault opens up")
             print("you've found riches beyond your wildest dreams")
+
         if isDead:
             print("You type in '12345' and the console turns red")
             print("The walls close in on you, crushing you like a Wookie in a trash compactor")
-            isDead = True
+        else:
+            input("Pick a number between 1 and 10")
+            if input == 5:
+                isDead = False
+
             if isDead:
                 kill_if_dead(isDead)
 
