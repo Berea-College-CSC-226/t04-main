@@ -120,13 +120,11 @@ def team_1_adv():
     pass
     # TODO Add your code here
 
-
 ###################################################################################
 
 def team_2_adv():
     pass
     # TODO Add your code here
-
 
 ###################################################################################
 
@@ -141,13 +139,11 @@ def team_4_adv():
     pass
     # TODO Add your code here
 
-
 ###################################################################################
 
 def team_5_adv():
     pass
     # TODO Add your code here
-
 
 ###################################################################################
 
@@ -155,13 +151,11 @@ def team_6_adv():
     pass
     # TODO Add your code here
 
-
 ###################################################################################
 
 def team_7_adv():
     pass
     # TODO Add your code here
-
 
 ###################################################################################
 
@@ -169,13 +163,11 @@ def team_8_adv():
     pass
     # TODO Add your code here
 
-
 ###################################################################################
 
 def team_9_adv():
     pass
     # TODO Add your code here
-
 
 ###################################################################################
 
@@ -183,13 +175,11 @@ def team_10_adv():
     pass
     # TODO Add your code here
 
-
 ###################################################################################
 
 def team_11_adv():
     pass
     # TODO Add your code here
-
 
 ###################################################################################
 
@@ -197,57 +187,11 @@ def team_12_adv():
     pass
     # TODO Add your code here
 
-
 ###################################################################################
 
 def team_13_adv():
-    """
-    https://docs.google.com/document/d/1Dl_uUgAPFY98r5OVFB7_ctGqmgeOoFKrI5tu8xMKJ2w/edit?usp=sharing
-    Michael Vargas
-    Zach Anderson
-    :return: none
-    The code is a raffle that will reward a chocolate pie or cupcakes for the right choice or a pie to the
-    face for the wrong choices.
-    """
-
-    stall = 2
-
-    global isDead
-    username = input("What shall we call you? ")  # asking for user's name
-    print("\n")
-
-    print()
-    print("Welcome,", username, ", to our yearly raffle!")
-    sleep(stall)
-    print("In front of you, we have presented you with five tickets. Choose a number from 1 to 5.")
-    print("Choose carefully!")
-    sleep(stall)
-
-    raffle_ticket = input("Which ticket shall you choose? [1/2/3/4/5] ")
-
-    if raffle_ticket == "3":
-        # Good Choice
-        print("Congrats! You picked the golden ticket!")
-        print("You have won a delicious chocolate pie! Enjoy!")
-        sleep(stall)
-    elif raffle_ticket == "5":
-        # Bad Choice
-        print("Oh, no! Someone is out of luck today. Watch out for the flying whipped cream pie!")
-        sleep(stall)
-        print(
-            "This year was not your year. Come back and test your luck next time. Try again by hitting the green play "
-            "button.")
-        isDead = True
-    elif raffle_ticket == "1" or raffle_ticket == "2" or raffle_ticket == "4":
-        # Neutral Choice
-        print("Oh, no! You picked one of the right tickets, but we ran out of pies :( ")
-        print("But lucky you, we still have some cupcakes! Enjoy!")
-        sleep(stall)
-    else:
-        print("That wasn't a choice, have a pie to the face. Follow the rules next time!")
-        isDead = True
-
-
+    pass
+    # TODO Add your code here
 
 ###################################################################################
 
@@ -255,13 +199,11 @@ def team_14_adv():
     pass
     # TODO Add your code here
 
-
 ###################################################################################
 
 def team_15_adv():
     pass
     # TODO Add your code here
-
 
 ###################################################################################
 
@@ -269,13 +211,11 @@ def team_16_adv():
     pass
     # TODO Add your code here
 
-
 ###################################################################################
 
 def team_17_adv():
     pass
     # TODO Add your code here
-
 
 ###################################################################################
 
@@ -283,13 +223,11 @@ def team_18_adv():
     pass
     # TODO Add your code here
 
-
 ###################################################################################
 
 def team_19_adv():
     pass
     # TODO Add your code here
-
 
 ###################################################################################
 
@@ -297,13 +235,11 @@ def team_20_adv():
     pass
     # TODO Add your code here
 
-
 ###################################################################################
 
 def team_21_adv():
     pass
     # TODO Add your code here
-
 
 ###################################################################################
 
@@ -311,13 +247,11 @@ def team_22_adv():
     pass
     # TODO Add your code here
 
-
 ###################################################################################
 
 def team_23_adv():
     pass
     # TODO Add your code here
-
 
 ###################################################################################
 
