@@ -183,6 +183,9 @@ def team_5_adv():
 ###################################################################################
 
 
+"""https://docs.google.com/document/d/10niIh9ePE7K9yY1VaYesRc6Tq_8N-r-pRzosd0-xHgE/edit?usp=sharing"""
+
+
 def team_6_adv():
     path = (input
             ("Which path will you take? [Left/Middle/Right]"))
@@ -229,6 +232,7 @@ def team_7_adv():
 
 ###################################################################################
 
+""""""
 
 def team_8_adv():
     """
