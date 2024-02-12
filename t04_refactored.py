@@ -141,6 +141,8 @@ def team_1_adv():
         is_dead = True
     elif fruit == "Orange":
         print("you've chosen the special fruit, you've earned ")
+    else:
+        print("You made a mid choice keep going")
 
 
 
