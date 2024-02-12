@@ -64,7 +64,7 @@ def end_story(user):
     print("Now go play again.")
 
 
-def kill_if_dead(dead: object) -> object:
+def kill_if_dead(dead):
     """
     Simple function to check if you're dead
 
@@ -204,15 +204,15 @@ def team_10_adv():
         isDead = True
 
     else:
-         # idk what the user typed in but it was definitely not a choice
         print("Nothing happens. That wasn't even an option. Try again.")
 
         if isDead:
-        print("You are dead. Make a better choice next time.")
-        kill_if_dead(isDead)
+             print("You are dead. Make a better choice next time.")
+             kill_if_dead(isDead)
 
     if not isDead:
-        print("The cave guard asks you the riddle: I am thinking of a number 1 through 10. If you guess correctly, you are on your way to the treasure!")
+        print("The cave guard asks you the riddle: I am thinking of a number 1 through 10. If you guess correctly, "
+              "you are on your way to the treasure!")
         number = input("What number am I thinking of? [int > 0]")
         if int(number) == 5:
             print("You answered correctly. The cave guard gives you flashlight.")
