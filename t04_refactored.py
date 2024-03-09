@@ -85,7 +85,8 @@ def scott_adventure():
     :return: None
     """
     global isDead  # You'll need this to be able to modify the dead variable
-    direction = input("Which direction would you like to go? [North/South/East/West]")
+    direction = input(
+        "Which direction would you like to go? [North/South/East/West]")
 
     if direction == "North":
         # Good choice!
@@ -122,6 +123,7 @@ def team_1_adv():
 
 ###################################################################################
 
+
 def team_2_adv():
     pass
     # TODO Add your code here
@@ -130,45 +132,11 @@ def team_2_adv():
 
 
 def team_3_adv():
-    """
-    https://docs.google.com/document/d/1Dia-EWKe0B6cUXtTikF31o4zMbq7qywwdQU7uX0No8k/edit\
-    Malak Mohamed
-    Eric Sparks
-    :return: none
-    """
-    print("\n")
-    print("You find a room that contains two gold statues.")
-    statues = input("Do you take the left or right statue, or don't pick up the statue? [left/right/none]: ")
-    print("\n")
-    is_dead = False
-    if statues == "left":
-        # good choice
-        print("You pick up the statue on the left.")
-        print("A passageway opens and you see outside.")
-        print("Congrats! You escaped the cave!")
-    elif statues == "right":
-        # bad choice
-        print("You pick up the statue on the right.")
-        print("A passageway opens above you.")
-        print("A bunch of snakes and spiders fall on you!")
-        is_dead = True
-    else:
-        # neutral choice
-        print("You don't pick up either of the statues.")
-        print("Nothing happens... You are still stuck in the cave.")
-    if is_dead:
-        print("\n")
-        print("One of the snakes asks you to pick a number 1 through 20.")
-        number = int(input("Which number do you pick? (only put whole numbers): "))
-        if number >= 13:
-            print("Congrats! The snake decided to spare you!")
-            is_dead = False
-        else:
-            print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
-    if is_dead:
-        print("Oh no! You died! Try again by hitting the green play button.")
-        kill_if_dead(True)
+    pass
+    # TODO Add your code here
+
 ###################################################################################
+
 
 def team_4_adv():
     pass
@@ -176,17 +144,20 @@ def team_4_adv():
 
 ###################################################################################
 
+
 def team_5_adv():
     pass
     # TODO Add your code here
 
 ###################################################################################
 
+
 def team_6_adv():
     pass
     # TODO Add your code here
 
 ###################################################################################
+
 
 def team_7_adv():
     pass
@@ -196,72 +167,11 @@ def team_7_adv():
 
 
 def team_8_adv():
-    """
-      https://docs.google.com/document/d/1_Mulz2V_XX3iT_2uww3kEXaV_afgQuEou-YcxEW0sHo/edit?usp=sharing
-      Langston Hill
-      Eric Cruz-Mendez
-
-      starts/ continues the story
-    """
     pass
-    global isDead  # You'll need this to be able to modify the dead variable
-
-    sleep(delay * 2)
-    print()
-
-    print("Up ahead is a lit chamber with 3 doors, one to the West, one to the North, and one to the East.")
-    cardinal = input("Which door will you choose? [West/North/East]")
-    print()
-    if cardinal == "East":
-        # GOOD !!!
-        print("Fortune favors you!")
-        print("The door you have chosen is filled to the brim with treasures unimaginable in this world!")
-        print("You take what you can and continue your adventure. What else will you find?")
-        print()
-        sleep(delay)
-    elif cardinal == "North":
-        # Bad choice, feeling lucky?
-        print("Behind the door lies a small snake that upon seeing you starts to grow!")
-        print("As you run away, the snake chases you as it continues to grow")
-        print("The snake expands to fill everything behind you as your path ahead leads to a dead end...")
-        sleep(delay)
-        luck = random.randint(0, 10)
-
-        if luck <= 5:   # Worst Luck
-            print("There is no escape...")
-            isDead = True
-        elif luck >= 8:  # Good Luck
-            print("As the snake grows, the cave roof starts to collapse onto it")
-            print("this kills the snake, but you are without the riches promised to you on this adventure")
-            print("You pull the snakes fang from its maw as a small prize for your troubles ")
-            print("You decide to press on")
-            print()
-
-        else:  # Bad Luck
-            print("As you press against the wall, you feel it fade away")
-            print("you are transported to nothingness as you slowly become part of it...")
-            isDead = True
-    else:
-        # Neutral
-        print("You enter the door and see the light of the bright sun beaming down on you")
-        print("As you walk out and feel the warmth on your face, the cave behind you collapses")
-        print("Unfortunately, you are in a closed off area.")
-        print("you are surrounded on all sides with tall, impassable walls of dirt and stone")
-        print("All that lies ahead is... an entrance to another cave...")
-        print()
-        print("The light of the warm sun has only strengthened your resolve and you decide to press on")
-        print("You enter the second dark cave only to find yourself lost once again")
-        print()
-        sleep(delay)
-
-
-    if isDead == True:
-        print()
-        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        kill_if_dead(isDead)
-
+    # TODO Add your code here
 
 ###################################################################################
+
 
 def team_9_adv():
     pass
@@ -269,11 +179,13 @@ def team_9_adv():
 
 ###################################################################################
 
+
 def team_10_adv():
     pass
     # TODO Add your code here
 
 ###################################################################################
+
 
 def team_11_adv():
     pass
@@ -281,11 +193,13 @@ def team_11_adv():
 
 ###################################################################################
 
+
 def team_12_adv():
     pass
     # TODO Add your code here
 
 ###################################################################################
+
 
 def team_13_adv():
     pass
@@ -293,11 +207,13 @@ def team_13_adv():
 
 ###################################################################################
 
+
 def team_14_adv():
     pass
     # TODO Add your code here
 
 ###################################################################################
+
 
 def team_15_adv():
     pass
@@ -305,11 +221,13 @@ def team_15_adv():
 
 ###################################################################################
 
+
 def team_16_adv():
     pass
     # TODO Add your code here
 
 ###################################################################################
+
 
 def team_17_adv():
     pass
@@ -317,11 +235,13 @@ def team_17_adv():
 
 ###################################################################################
 
+
 def team_18_adv():
     pass
     # TODO Add your code here
 
 ###################################################################################
+
 
 def team_19_adv():
     pass
@@ -329,11 +249,13 @@ def team_19_adv():
 
 ###################################################################################
 
+
 def team_20_adv():
     pass
     # TODO Add your code here
 
 ###################################################################################
+
 
 def team_21_adv():
     pass
@@ -341,17 +263,20 @@ def team_21_adv():
 
 ###################################################################################
 
+
 def team_22_adv():
     pass
     # TODO Add your code here
 
 ###################################################################################
 
+
 def team_23_adv():
     pass
     # TODO Add your code here
 
 ###################################################################################
+
 
 def team_24_adv():
     pass
@@ -374,7 +299,8 @@ def main():
              team_18_adv, team_19_adv, team_20_adv,
              team_21_adv, team_22_adv, team_23_adv,
              team_24_adv]
-    random.shuffle(paths)  # Shuffles the order of paths, so each adventure is different
+    # Shuffles the order of paths, so each adventure is different
+    random.shuffle(paths)
 
     for i in range(len(paths)):
         paths[i]()  # Runs each function in the paths list
