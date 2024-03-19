@@ -10,45 +10,58 @@
 
 ____
 
-## Questions:
 
 1. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
-        **Replace This With Your Answer**
+```        
+**Replace This With Your Answer**
+```
 
+
+#SECTION 1:
 
 2. Briefly describe any logic changes you made in your code, and why you made them.
 
-        **Replace This With Your Answer**
+```
+**Replace This With Your Answer**
+```
 
 ___
 
 3. Did you find it challenging following the logic of another group’s code? Why or why not?
 
-        **Replace This With Your Answer**
+```
+**Replace This With Your Answer**
+```
 
 
 ___
 
 4. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
-        **Replace This With Your Answer**
-
+```
+**Replace This With Your Answer**
+```
 
 ___
+
+#SECTION 2:
 
 5. You should notice that there are multiple branches in the Github repository. Find yours and check that your code is there.
 
     Compare your branch to master. What’s different?
 
-        **Replace This With Your Answer**
+```        
+**Replace This With Your Answer**
+```
 
 ___
 
 6. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
-        **Replace This With Your Answer**
-
+```        
+**Replace This With Your Answer**
+```
 
 ___
 
@@ -60,15 +73,17 @@ ___
 
     Is your code in the master branch now? 
 
-        **Replace This With Your Answer**
-
+```
+**Replace This With Your Answer**
+```
 
 ___
 
 8. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 6?
 
-        **Replace This With Your Answer**
-
+```
+**Replace This With Your Answer**
+```
 
 ___
 
@@ -76,12 +91,14 @@ ___
 
     Is your code in your **local** master branch? Why not?
 
-        **Replace This With Your Answer**
+```
+**Replace This With Your Answer**
+```
 
 ___
 
 
-## Git Terminology:
+#SECTION 3: Git Terminology:
 
 10. Define Each Term:
 
