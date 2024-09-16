@@ -231,8 +231,33 @@ def team_16_adv():
 
 def team_17_adv():
     pass
-    # TODO Add your code here
+    '''
+    https://docs.google.com/document/d/1sCz8ZSi6L0diNtXZ5aXsZmT7_ngn1N2qeXoox2m93LI/edit?usp=sharing
+    Sonam Tsering
+    Utsa Seth
+    '''
 
+    def count10(binaryusnm):
+        print("You look at the figure and it turns out to be your best friend, Katie!")
+        print("Katie wants to hand you a demonic sword.")
+        sword = input("Do you accept the sword: Yes/No: ").lower()
+        if sword == ("yes"):
+            print("You unlock a special power: Super Strength!")
+            count = 11
+        else:
+            print("Katie stabs you!")
+            isDead = True
+
+    def main():
+        count = int(input('This is an adventure in codeland! Pick your binary username: 00, 01, 10, or 11: '))
+        if count == 10:
+            count10(count)
+
+        if isDead == True:
+            print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+            quit()
+
+    main()
 ###################################################################################
 
 
