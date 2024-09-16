@@ -126,7 +126,7 @@ def team_1_adv():
 
 def team_2_adv():
     pass
-    # TODO Add your code here
+    # CLAIMED BY TUCKER AND VAUGHT WE ARE THE KINGS
 
 ###################################################################################
 
