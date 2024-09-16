@@ -138,9 +138,46 @@ def team_3_adv():
 ###################################################################################
 
 
-def team_4_adv():
+def team_4_adv(delay = 1.0, username = "Zak"):
     pass
-    # TODO Add your code here
+    print()
+    print("Welcome,", username, ", to Generic Fantasy College™.")
+    sleep(delay)
+    print("You are awoken by your alarm")
+    print("It is 8:00AM")
+    print()
+    sleep(delay * 2)
+    print("Looking through your window the sky has a magenta hue")
+    print("Staying here is certainly not wise. You must find your way out.")
+    print("\n")
+    sleep(delay)
+
+    sleepChoice = input("Do you wake up, be late, or sleep?")
+
+    if sleepChoice == "wake up":
+        # Good Choice
+        print("You go to classes and are a productive member of society")
+        sleep(delay)
+    elif sleepChoice == "be late":
+        # Neutral Choice
+        print("You miss breakfast and your day is stressful")
+        sleep(delay)
+    else:
+        # Bad Choice
+        print("You here the sound of wings flapping in the distance")
+        sleep(delay)
+        print("You know you fucked up")
+        sleep(delay)
+        deathChoice = input("On a scale of 1-10, how much do you want to stay at Generic Fantasy College™")
+        if deathChoice == "<3"
+            print(
+                "The dean whomst happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy College™")
+        isDead = True
+        sleep(delay)
+
+    if isDead == True:
+        print("If only you would've gone to class, Try again by hitting the green play button.")
+        quit()
 
 ###################################################################################
 
