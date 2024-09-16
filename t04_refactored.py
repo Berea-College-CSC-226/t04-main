@@ -124,9 +124,31 @@ def team_1_adv():
 ###################################################################################
 
 
-def team_2_adv():
-    pass
-    # CLAIMED BY TUCKER AND VAUGHT WE ARE THE KINGS
+def team_2_adv(delay = 1.0, username = "Scott"):
+    is_dead = False
+    print("It's Wednesday morning. You wake up at 09:10am and see the sun through your window.")
+    print("Suddenly, you realize that you are almost late for your CSC 226 class at 09:20am.")
+    print("You know you need your morning coffee to get through the day, but you are almost late for class!")
+    sleep(delay)
+    decision = input("Coffee or class?").lower()
+
+    if decision == "coffee":
+        print("You drink your coffee and run to class.")
+        sleep(delay)
+        print("You are late, and awake. But the instructor is also late so he doesn't know.")
+
+    elif decision == "class":
+        print("You manage to arrive to class at 09:20am.")
+        sleep(delay)
+        is_dead = True
+
+    if is_dead:
+        print("Although you made it to class on time, you cannot stay awake.")
+        sleep(delay)
+        print()
+        print("In an attempt to wake you up, Caleb throws scalding McDonald's coffee in your face.")
+        print("He accidentally kills you.")
+        quit()
 
 ###################################################################################
 
@@ -306,7 +328,7 @@ def main():
 
     user = start_story()
     for i in range(len(paths)):
-        is_alive = paths[i]()  # Runs each function in the paths list
+        is_alive = paths[i](DELAY, user)  # Runs each function in the paths list
         kill_if_dead(is_alive)
     end_story(user)
 
