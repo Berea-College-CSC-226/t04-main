@@ -223,8 +223,61 @@ def team_15_adv():
 
 
 def team_16_adv():
-    pass
-    # TODO Add your code here
+    """ https://docs.google.com/document/d/14o_900GCeVZEadcvwv_15i2ZS8oINYH6bJigpeGAsV8/edit?usp=sharing
+    Dalmar- Julio
+    :return: none """
+
+    dead = False
+    direction = input("which direction do you want to go North/South/East/West")
+
+    if direction == "North":
+        # Bad choice! Sacrifice room!
+        print("The north room is dimly lit by lanterns with red fire.")
+        print("Five people in black robes are gathered around an altar.")
+        print("Their argument quiets as you walk in.")
+        sleep(DELAY)
+        print("'Oh, how perfect,' one says. 'You have been Forgiven, Yuxila.'")
+        print("Stone rises from the floor to block your exit.")
+        sleep(DELAY)
+        print("You are captured by the cultists. You are dead.")
+        dead = True
+    elif direction == "South":
+        # Bad choice! Ritual room!
+        print("You see a glowing circle on the floor. Robed figures stand around it and chant.")
+        print("You do not recognize their words.")
+        sleep(DELAY)
+        print("A pressure builds in the room. It is too much.")
+        print("Your heart bursts open inside your chest.")
+        print("You are dead.")
+        dead = True
+    elif direction == "East":
+        # Good choice! Dorms!
+        print("The room you emerge into has a low stone ceiling. Bunked beds line the walls for fifty meters.")
+        print("You walk carefully down the length of the room. Your breath is the loudest sound you hear.")
+        sleep(DELAY * 2)
+        print("At the end of the room is a kitchen and a door. There is no window.")
+        print("You steel yourself and open the door as quietly as you can.")
+        sleep(DELAY)
+        print("The door leads outside. You are free.")
+    elif direction == "West":
+        # Neutral choice. Armory.
+        print("This room is lined with weapons. Most are ornate daggers, hundreds of them hang on hooks lining the walls.")
+        print("You see glowing runes on many of the daggers. Several do not have runes.")
+        dagger = input("Do you take a dagger? [Yes/No]")
+        if dagger == "Yes":
+            print("You observe several daggers without runes. You take the one that looks unassuming.")
+            print("The sound of a bell rings through the caves. You tense.")
+            sleep(DELAY)
+            print("Robed figures flood the room. You attempt to fend them off, but you are overwhelmed.")
+            print("You are dead.")
+            dead = True
+        else:
+            print("This room looks suspicious. You return quietly to previous room.")
+
+    if dead == True:
+        print("You have been sacrificed to the Great Devourer.")
+        quit()
+
 
 ###################################################################################
 
