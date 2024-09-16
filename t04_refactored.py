@@ -21,6 +21,8 @@
 import random
 from time import sleep
 
+from t01_final_story import isDead
+
 DELAY = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
 
 
@@ -131,9 +133,36 @@ def team_2_adv():
 ###################################################################################
 
 
-def team_3_adv():
-    pass
-    # TODO Add your code here
+def team_3_adv(DELAY = 1.0, user = "Scott"):
+    print("\n")
+    print("You find a room that contains two gold statues.")
+    sleep(DELAY)
+    statues = input("Do you take the left or right statue, or don't pick up the statue?: ")
+    print("\n")
+
+    if statues == "left":
+        # good choice
+        print("You pick up the statue on the left.")
+        sleep(DELAY)
+        print("A passageway opens and you see outside.")
+        print("Congrats! You escaped the cave!")
+        sleep(DELAY)
+    elif statues == "right":
+        # bad choice
+        print("You pick up the statue on the right.")
+        sleep(DELAY)
+        print("A passageway opens above you.")
+        sleep(DELAY)
+        print("A bunch of snakes and spiders fall on you!")
+        isDead = True
+        sleep(DELAY)
+    else:
+        # neutral choice
+        print("You don't pick up either of the statues.")
+        sleep(DELAY)
+        print("Nothing happens... You are still stuck in the cave.")
+        sleep(DELAY)
+
 
 ###################################################################################
 
@@ -306,7 +335,7 @@ def main():
 
     user = start_story()
     for i in range(len(paths)):
-        is_alive = paths[i]()  # Runs each function in the paths list
+        is_alive = paths[i](DELAY, user)  # Runs each function in the paths list
         kill_if_dead(is_alive)
     end_story(user)
 
