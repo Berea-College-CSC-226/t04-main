@@ -199,11 +199,50 @@ def team_12_adv():
     # TODO Add your code here
 
 ###################################################################################
+#SOURCE:
+#https://stackoverflow.com/questions/39746427/expression-can-be-simplified-on-boolean-literal
 
 
-def team_13_adv():
+def team_13_adv(delay):
     pass
-    # TODO Add your code here
+    user_direction = input("You come at across three tunnels.... (Choose forward, left, or right): ")
+    sleep(delay)
+
+    if user_direction == "left" or user_direction == "Left":
+        print("You hit a den in which a bear lives in...")
+        sleep(delay)
+        print("You get scared and the alert the bear!")
+        sleep(delay)
+        print("The bear then eats you...")
+        sleep(delay)
+        print("You have a chance to survive...")
+        number_picked = input("The Eggmeister asks you to pick a number between 1 and 20.")
+        number_picked = int(number_picked)
+        if number_picked >= 14:
+            sleep(delay)
+            print("Congrats you didn't die.")
+            dead = False
+        elif number_picked < 14:
+            sleep(delay)
+            print("You picked wrong...")
+            dead = True
+
+    elif user_direction == "right" or user_direction == "Right":
+        sleep(delay)
+        print("You find an exit and reach a hill that overlooks a waterfall")
+        print("Everything seems peaceful.")
+        dead = False
+    else:
+        print("You walk forward...")
+        sleep(delay)
+        print("Nothing happens...")
+        dead = False
+
+    if not dead:
+        print("You died... Sorry")
+    else:
+        print("Yay, you survived!")
+    quit()
 
 ###################################################################################
 
@@ -306,7 +345,7 @@ def main():
 
     user = start_story()
     for i in range(len(paths)):
-        is_alive = paths[i]()  # Runs each function in the paths list
+        is_alive = paths[i](DELAY)  # Runs each function in the paths list
         kill_if_dead(is_alive)
     end_story(user)
 
