@@ -173,9 +173,41 @@ def team_8_adv():
 ###################################################################################
 
 
-def team_9_adv():
+def team_9_adv(delay = 1.0, username = "scott"):
     pass
     # TODO Add your code here
+question = ""
+delay = 1.0
+frog = 4
+direction = input("Where would you like to go, You can go North")
+
+if direction == "North":
+    print("It's a wizard!")
+    question = input("""What do you ask the wizard(1,2,3)?
+    1)What are you doing here? 
+    2)Can you help me?
+    3)Turn me into a frog\n: """)
+    sleep(delay)
+if question == "1":
+    print("""This is my Wizard Cave! I practice my spells! Do you wish to observe one of them? 
+    Of course you do! The wonder of magic is for everyone! ANURA METAMORPHOS!!! *poof* """)
+    frog = True
+elif question == "2":
+    print("""I can transform you into a fearsome creature! A malevolent devourer, 
+    feared by insects both land and air. ANURA METAMORPHOS!!! *poof*""")
+    frog = True
+else:
+    print("""I have spent endless hours practicing just for this! In my wizard cave! 
+    ANURA METAMORPHOS!!! *poof*""")
+    frog = True
+
+if frog == True:
+    sleep(delay)
+    print("You are a frog now. You're not dead, but you can't do anything either. RIBBIT!!!")
+    print("""You have reached the "secret" frog ending. Congratulations!""")
+
+
+
 
 ###################################################################################
 
@@ -306,7 +338,7 @@ def main():
 
     user = start_story()
     for i in range(len(paths)):
-        is_alive = paths[i]()  # Runs each function in the paths list
+        is_alive = paths[i](DELAY,user)  # Runs each function in the paths list
         kill_if_dead(is_alive)
     end_story(user)
 
