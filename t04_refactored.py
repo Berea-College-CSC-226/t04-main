@@ -21,34 +21,35 @@
 import random
 from time import sleep
 
-delay = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
-isDead = False
+DELAY = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
 
 
 def start_story():
     """
-    Introduction text for the story. Don't modify this function.
+    Introduction text for the story.
+    Don't modify this function.
 
     :return: the user's name, captured from user input
     """
     user = input("What do they call you, unworthy adversary? ")
     print()
     print("Welcome,", user, ", to the labyrinth")
-    sleep(delay)
+    sleep(DELAY)
     print("Before you lies two paths. One path leads to treasures of unimaginable worth.")
     print("The other, certain death. Choose wisely.")
     print()
-    sleep(delay * 2)
+    sleep(DELAY * 2)
     print("You are in a dark cave. You can see nothing.")
     print("Staying here is certainly not wise. You must find your way out.")
     print()
-    sleep(delay)
+    sleep(DELAY)
     return user
 
 
 def end_story(user):
     """
-    This is the ending to the story. Don't modify this function, either.
+    This is the ending to the story.
+    Don't modify this function, either.
 
     :param user: the user's name
     :return: None
@@ -60,18 +61,18 @@ def end_story(user):
     print()
     print()
     print()
-    sleep(delay * 5)
+    sleep(DELAY * 5)
     print("Now go play again.")
 
 
-def kill_if_dead(dead):
+def kill_if_dead(is_alive):
     """
     Simple function to check if you're dead
 
-    :param dead: A boolean value where false lets the story continue, and true ends it.
+    :param is_alive: A boolean value representing livelihood.
     :return: None
     """
-    if dead:
+    if not is_alive:
         quit()
 
 
@@ -84,33 +85,32 @@ def scott_adventure():
 
     :return: None
     """
-    global isDead  # You'll need this to be able to modify the dead variable
+
     direction = input(
         "Which direction would you like to go? [North/South/East/West]")
 
     if direction == "North":
         # Good choice!
         print("You are still trapped in the dark, but someone else is there with you now! I hope they're friendly...")
-        sleep(delay)
+        sleep(DELAY)
     elif direction == "South":
         # Oh... Bad choice
         print("You hear a growl. Not a stomach growl. More like a big nasty animal growl.")
-        sleep(delay)
+        sleep(DELAY)
         print("Oops. Turns out the cave was home to a nasty grizzly bear. ")
         print("Running seems like a good idea now. But... it's really, really dark.")
         print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
         print()
-        sleep(delay * 2)
+        sleep(DELAY * 2)
         print("He eats you. You are delicious.")
-        isDead = True
+        return False     # kill the user!
     else:
         # Neutral choice
         print(
             '''You're in another part of the cave. It is equally dark, and equally uninteresting. 
             Please get me out of here!''')
-        sleep(delay)
-
-    kill_if_dead(isDead)
+        sleep(DELAY)
+    return True       # User survives all other scenarios
 
 
 ###################################################################################
@@ -282,6 +282,8 @@ def team_24_adv():
     pass
     # TODO Add your code here
 
+###################################################################################
+
 
 def main():
     """
@@ -289,7 +291,7 @@ def main():
     :return: None
     """
 
-    user = start_story()
+
     paths = [scott_adventure, team_1_adv, team_2_adv,
              team_3_adv, team_4_adv, team_5_adv,
              team_6_adv, team_7_adv, team_8_adv,
@@ -302,9 +304,10 @@ def main():
     # Shuffles the order of paths, so each adventure is different
     random.shuffle(paths)
 
+    user = start_story()
     for i in range(len(paths)):
-        paths[i]()  # Runs each function in the paths list
-
+        is_alive = paths[i]()  # Runs each function in the paths list
+        kill_if_dead(is_alive)
     end_story(user)
 
 
