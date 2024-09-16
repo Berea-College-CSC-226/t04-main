@@ -1,0 +1,1 @@
+This folder is for placing your Google Doc PDF files, once they are complete.
