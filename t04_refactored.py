@@ -208,9 +208,41 @@ def team_13_adv():
 ###################################################################################
 
 
-def team_14_adv():
+def team_14_adv(direction):
+    '''https://docs.google.com/document/d/1scXuIBzrGZxe0pZ-vEulOikC7Vc0QR5suwVhLVz6M9o/edit
+        Chris Georgiev
+        Dylan Roland
+        Kamau Clark'''
     pass
-    # TODO Add your code here
+
+    isDead = False
+
+    if direction == "North":
+        print("You didn't die. In fact, you made it out of the cave and back into society. Yay.")
+        sleep(DELAY)
+
+    elif direction == "South":
+        print("You unfortunately fell off a cliff and are about to die.")
+        isDead = True
+        sleep(DELAY)
+
+    else:
+        print("You're still in the cave, and no closer to being out of it. Sucks to be you.")
+        sleep(DELAY)
+
+    if isDead == True:
+        numbertest = input("Pick a number 1-10 to try and survive.")
+        numbertest = float(numbertest)
+
+        if numbertest > 5 and numbertest <= 10:
+            isDead == False
+            print("You got lucky this time.")
+
+        else:
+            print("Unlucky, you're dead. Very sad")
+            quit()
+
+    return isDead
 
 ###################################################################################
 
