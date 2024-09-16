@@ -238,7 +238,31 @@ def team_17_adv():
 
 def team_18_adv():
     pass
-    # TODO Add your code here
+    if direction == "North":
+        print("The man steps out of the shadows and offers a handshake. 'Hi! I'm Fred!'")
+        handshake = input("Shake the man's hand? (Yes/No)")
+        if handshake == "Yes":
+            print(
+                """The man smiles. 'I came here to be alone, but I met someone friendly! Here, I'll show you how to leave the cave.'""")
+        if handshake == "No":
+            print("The man punches your head off.")
+            dead = True
+        elif
+    if direction == "East":
+        print("Now you can see two ways. One of them is filled with bones and another without any light. ")
+        print("You are sitting in this room for hour and a half and your body temperature slowly drops.")
+        choice = input("You need to make a choice. Will you tread the bones or follow the darkness? (Bones/Darkness) ")
+        if choice == "Bones":
+            print(
+                "You are slowly going towards the light. You can almost see the exit, but somehow you stepped on the slippery rock and bashed your brain out on the concrete.")
+            dead = True
+        if choice == "Darkness":
+            print("You fall into a pit and land in a tree outside the cave.")
+
+    if dead == True:
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button.")
+        quit()
+
 
 ###################################################################################
 
