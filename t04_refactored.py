@@ -152,9 +152,124 @@ def team_5_adv():
 ###################################################################################
 
 
-def team_6_adv():
+def team_6_adv(delay = 1.0,  username = "nimely"):
+    """
+    https://docs.google.com/document/d/1JqGV3zl_wINXukceFvA7VXv1E-fuG0yHjMvi9cfZjq8/edit
+    Joyce Nimely
+    Denys Zhytkov
+    :return:none
+    """
+    # TEAM 6
+    path = input("Which path will you take? [Left/Middle/Right]")
+    second_chance = input("Do you want another chance? [Yes/No]")
+
+    if path == "Left":
+        # Wrong Path
+        print("Sss....sss...sss...")
+        sleep(delay)
+        print("You have encountered a python.")
+        print("Oh no! The python has bitten you.")
+        print("You are now slowly dying from the poison.")
+        print("Do you want another chance?")
+
+
+    elif path == "Middle":
+        # Neutral Path
+        print("The path is never-ending.")
+        print("You continue walking through the cave.")
+
+    else:
+        # Correct Path
+        print("drip...drip...drip")
+        print("You arrived at a water faucet and met a fellow adventure!")
+        print("You can now continue your adventure.")
+        sleep(delay)
+
+    if isDead == isDead:
+        print("You are now dead!You can try again after hitting the green play button. ")
+        quit()
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+
+    #########################################################################################################
+
+    # TEAM 6
+    Path = input("Which path will you take? [Left/Middle/Right]")
+    second_chance = input("Do you want another chance? [Yes/No]")
+
+    if Path == "Left":
+        # Wrong Path
+        print("Sss....sss...sss...")
+        sleep(delay)
+        print("You have encountered a python.")
+        print("Oh no! The python has bitten you.")
+        print("You are now slowly dying from the poison.")
+        print("Do you want another chance?")
+
+
+    elif Path == "Middle":
+        # Neutral Path
+        print("The path is never-ending.")
+        print("You continue walking through the cave.")
+
+    else:
+        # Correct Path
+        print("drip...drip...drip")
+        print("You arrived at a water faucet and met a fellow adventure!")
+        print("You can now continue your adventure.")
+        sleep(delay)
+
+    if isDead == isDead:
+        print("You are now dead!You can try again after hitting the green play button. ")
+        quit()
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+
+    #########################################################################################################
     pass
-    # TODO Add your code here
+    # TEAM 6
+
+
+Path = input("Which path will you take? [Left/Middle/Right]")
+SecondChance = input("Do you want another chance? [Yes/No]")
+
+if Path == "Left":
+    # Wrong Path
+    print("Sss....sss...sss...")
+    sleep(delay)
+    print("You have encountered a python.")
+    print("Oh no! The python has bitten you.")
+    print("You are now slowly dying from the poison.")
+    print("Do you want another chance?")
+
+
+elif Path == "Middle":
+    # Neutral Path
+    print("The path is never-ending.")
+    print("You continue walking through the cave.")
+
+else:
+    # Correct Path
+    print("drip...drip...drip")
+    print("You arrived at a water faucet and met a fellow adventure!")
+    print("You can now continue your adventure.")
+    sleep(delay)
+
+if isDead == isDead:
+    print("You are now dead!You can try again after hitting the green play button. ")
+    quit()
+
+
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
+
+
+#########################################################################################################
 
 ###################################################################################
 
