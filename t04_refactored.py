@@ -134,8 +134,48 @@ def team_2_adv(username, delay):
 
 
 def team_3_adv(username, delay):
-    pass
-    # TODO Add your code here
+    print("\n")
+    print("You find a room that contains two gold statues.")
+    sleep(delay)
+    statues = input("Do you take the left or right statue, or don't pick up the statue?: ")
+    print("\n")
+
+    if statues == "left":
+        # good choice
+        print("You pick up the statue on the left.")
+        sleep(delay)
+        print("A passageway opens and you see outside.")
+        print("Congrats! You escaped the cave!")
+        sleep(delay)
+    elif statues == "right":
+        # bad choice
+        print("You pick up the statue on the right.")
+        sleep(delay)
+        print("A passageway opens above you.")
+        sleep(delay)
+        print("A bunch of snakes and spiders fall on you!")
+        isDead = True
+        sleep(delay)
+    else:
+        # neutral choice
+        print("You don't pick up either of the statues.")
+        sleep(delay)
+        print("Nothing happens... You are still stuck in the cave.")
+        sleep(delay)
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+    if isDead == True:
+        print("\n")
+        print("One of the snakes asks you to pick a number 1 through 20.")
+        sleep(delay)
+        number = int(float(input("Which number do you pick? (only put whole numbers): ")))
+        sleep(delay)
+        if number >= 13:
+            print("Congrats! The snake decided to spare you!")
+            isDead = False
+            sleep(delay)
+        else:
+            print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
 
 ###################################################################################
 
