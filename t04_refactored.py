@@ -161,8 +161,7 @@ def team_6_adv(username, delay):
 ###################################################################################
 
 
-def team_7_adv(delay = 1.0,
-               username = "pokitokog,melnichenkaa"):
+def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
     """
     https://docs.google.com/document/d/1xjf1gnNMp4Dyr4_MjM-oRn7gzxW9Z4p4VG3_EWYA4vM/edit
     Galina Pokitko
@@ -256,6 +255,7 @@ def team_7_adv(delay = 1.0,
     print("Congratulations... now go play again and find an interesting way to perish. ")
     print("Try again by hitting the green play button.")
 
+    return True
 
 
 def team_8_adv(username, delay):
