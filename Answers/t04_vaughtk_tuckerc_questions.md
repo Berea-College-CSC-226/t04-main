@@ -10,28 +10,28 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-We learned to use functions to simplify code and we learned additional statements such as '.lower()'.
+    We learned to use functions to simplify code and we learned additional statements such as '.lower()'.
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    Added a .lower() to allow more flexible input, added an else: statement to handle other input
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    This code was simple, so no.
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    Changed isDead to is_dead. Changed 'if is_dead == True:' to 'if is_dead:' The code looks neater due to the latter change.
 ```
 
 _Return to the Google Doc to continue the assignment._
