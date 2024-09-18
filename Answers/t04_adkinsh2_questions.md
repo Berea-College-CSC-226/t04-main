@@ -10,28 +10,28 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    **Replace This With Your Answer**
+    **I have become better at recognizing mistakes in my code and how I can better organize my work for someone else reading my code.**
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    **I realized that I was comparing a string to an integer so I had to convert it to make it work.**
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **For the most part, everyone else's code is super similar in the sense that they are using the same functions, so it isn't hard to see how they created their code.**
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    **I fixed some suggestions in my docstring and also shorten an if statement as comparing a boolean variable to true is redundant.**
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -43,14 +43,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **My code has been added to to the refactor file.**
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **Yes, each group has their own code inside their own personal branches to prevent us from changing other peoples code.**
 ```
 
 
@@ -61,14 +61,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    **No, because the instructor must review and accept my pull request first.**
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+**I am still not seeing other students code, their pull requests must have also not been accept into master.**
 ```
 
 
@@ -88,25 +88,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: Make a personal copy
 
-        b. Commit:____________________
+        b. Commit: Save changes to branch
 
-        c. Push:____________________
+        c. Push: Send commited code to github
 
-        d. Branch:____________________
+        d. Branch: Copies of code for editing on local
 
-        e. Pull:____________________
+        e. Pull: Grab pushed code into the origin branch
 
-        f. Pull Request:____________________
+        f. Pull Request: Request for your code to be added to the master branch
 
-        g. Merge:____________________
+        g. Merge: Combine code from your local branch to another branch
 
-        h. Remote:____________________
+        h. Remote: The github servers, where origin is
 
-        i. Local:____________________
+        i. Local: Your computer that you work on
 
-        j. Fetch:____________________
+        j. Fetch: Adds changes from origin without commiting them
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -116,7 +116,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    **For administrators or moderators of a repo, can they work on the same branch in order to review all code or does everyone have to work on their own branch.**
 ```
 
 ---
