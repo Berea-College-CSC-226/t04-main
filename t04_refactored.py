@@ -144,6 +144,7 @@ def team_2_adv(username = "Scott", delay = 1.0):
         print("You drink your coffee and run to class.")
         sleep(delay)
         print("You are late, and awake. But the instructor is also late so he doesn't know.")
+        return True
 
     elif decision == "class":
         print("You manage to arrive to class at 9:20am.")
@@ -152,6 +153,7 @@ def team_2_adv(username = "Scott", delay = 1.0):
 
     else:
         print("You couldn't make up your mind, so you were late. Your final score drops a letter grade. Ouch.")
+        return True
 
     if is_dead:
         print("Although you made it to class on time, you cannot stay awake.")
@@ -159,7 +161,7 @@ def team_2_adv(username = "Scott", delay = 1.0):
         print()
         print("In an attempt to wake you up, Caleb throws scalding McDonald's coffee in your face.")
         print("He accidentally kills you.")
-        quit()
+        return False
 
 ###################################################################################
 
