@@ -251,7 +251,7 @@ def team_12_adv(username, delay):
     else:
         # Neutral choice
         sleep(delay)
-    if dead == True:
+    if dead:
         sleep(delay * 2)
         print("You are dead. This was probably fully deserved.")
         print("Hopefully the metaphysical emissary intervenes on your behalf in the Yama's courtroom.")
