@@ -220,18 +220,20 @@ def team_14_adv(username, delay):
 
     isDead = False
 
-    if direction == "North":
-        print("You didn't die. In fact, you made it out of the cave and back into society. Yay.")
-        sleep(DELAY)
+    direction = input("Hey " + username + ", do you want to go North(1) or South(2)?: ")
 
-    elif direction == "South":
+    if direction == "1":
+        print("You didn't die. In fact, you made it out of the cave and back into society. Yay.")
+        sleep(delay)
+
+    elif direction == "2":
         print("You unfortunately fell off a cliff and are about to die.")
         isDead = True
-        sleep(DELAY)
+        sleep(delay)
 
     else:
         print("You're still in the cave, and no closer to being out of it. Sucks to be you.")
-        sleep(DELAY)
+        sleep(delay)
 
     if isDead == True:
         numbertest = input("Pick a number 1-10 to try and survive.")
@@ -246,9 +248,6 @@ def team_14_adv(username, delay):
             quit()
 
     return isDead
-
-    # TODO Add your code here
-    return True
 ###################################################################################
 
 
@@ -329,6 +328,7 @@ def main():
     """
     delay = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
 
+
     paths = [scott_adventure, team_1_adv, team_2_adv,
              team_3_adv, team_4_adv, team_5_adv,
              team_6_adv, team_7_adv, team_8_adv,
@@ -342,6 +342,8 @@ def main():
     random.shuffle(paths)
 
     user = start_story(delay)
+    team_14_adv(user,delay)
+
     for i in range(len(paths)):
         is_alive = paths[i](user, delay)  # Runs each function in the paths list
         kill_if_dead(is_alive)
