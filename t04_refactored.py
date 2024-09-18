@@ -211,7 +211,7 @@ def team_13_adv(username, delay):
     sleep(delay)
 
     if user_direction == "left" or user_direction == "Left":
-        print("You hit a den in which a bear lives in...")
+        print("You hit a den a bear lives in...")
         sleep(delay)
         print("You get scared and the alert the bear!")
         sleep(delay)
@@ -222,11 +222,9 @@ def team_13_adv(username, delay):
         number_picked = int(number_picked)
         if number_picked >= 14:
             sleep(delay)
-            print("Congrats you didn't die.")
             dead = False
         elif number_picked < 14:
             sleep(delay)
-            print("You picked wrong...")
             dead = True
 
     elif user_direction == "right" or user_direction == "Right":
