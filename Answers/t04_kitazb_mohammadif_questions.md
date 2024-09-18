@@ -26,14 +26,14 @@
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Sometimes it is hard to follow the logic becuase different people use different ways of using the logics.**
+    **Sometimes it is hard to follow the logic becuase different people use different ways of using the logics and code patterns.**
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    **Some of the function varibles contained extra pieces in them like quotations, and commas. One of of the if statement was also wrong which would give a different output. **
 ```
 
 _Return to the Google Doc to continue the assignment._

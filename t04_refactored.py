@@ -237,7 +237,7 @@ def team_12_adv(username, delay):
         print("Your death is instantaneous and cheesy as all get-out, yet you can't help but "
               "wonder what impact your inexplicable headsplosion will have on creative writing "
               "going into the future.")
-        dead = True
+        return False
     elif direction == "Reform":
         # Oh... Bad choice
         print("The powers of camaraderie, friendship and all adjacent terms for socially "
@@ -247,16 +247,11 @@ def team_12_adv(username, delay):
         sleep(delay * 2)
         print("They die of natural causes, lead poisoning, shortly after attempting "
               "to intervene in a bank robbery sometime in the year 1890.")
-        dead = True
+        return False
     else:
         # Neutral choice
         sleep(delay)
-    if dead:
-        sleep(delay * 2)
-        print("You are dead. This was probably fully deserved.")
-        print("Hopefully the metaphysical emissary intervenes on your behalf in the Yama's courtroom.")
-        print("Oh wait, nevermind, you've already been pardoned. Please restart.")
-        quit()
+    return True
 
 
 ###################################################################################
