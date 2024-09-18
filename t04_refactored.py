@@ -200,7 +200,7 @@ def team_11_adv(username, delay):
     """
     # TEAM 11
     delay = 1.0
-    dead = False
+    #dead = False
     direction = input("Which direction would you like to go? [North/South/East/West]")
 
     if direction == "North":
@@ -220,15 +220,13 @@ def team_11_adv(username, delay):
         print("Running seems like a good idea now. But... it's really, really dark.")
         print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
         print("He eats you. You are delicious.")
-        dead = True
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        quit()
+        return False
     else:
         # Neutral choice
         print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
         sleep(delay)
-
-    if dead is True:
-        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
 
     return True
 ###################################################################################
