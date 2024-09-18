@@ -50,7 +50,7 @@ ___
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    Yes, I see other groups' branches. Our code is not in those branches because the branches are separate.
 ```
 
 
@@ -88,25 +88,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: To copy a repository to your local device
 
-        b. Commit:____________________
+        b. Commit: To save your changes as essentially a checkpoint with a note explaining what has changed
 
-        c. Push:____________________
+        c. Push: To push your local changes to GitHub
 
-        d. Branch:____________________
+        d. Branch: A new copy of code that you can make modifications to before adding to the main code
 
-        e. Pull:____________________
+        e. Pull: To get the most recent code changes from GitHub
 
-        f. Pull Request:____________________
+        f. Pull Request: A request to have your code incorporated into the main branch
 
-        g. Merge:____________________
+        g. Merge: To combine the code and files of two branches
 
-        h. Remote:____________________
+        h. Remote: Not on your local device, such as in GitHub
 
-        i. Local:____________________
+        i. Local: On your personal computer and not on the cloud
 
-        j. Fetch:____________________
+        j. Fetch: Fetch is essentially a pull without merging anything
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -116,7 +116,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    We agree that we mostly understand the workflow. There is some confusion on how new changes don't require new PRs.
 ```
 
 ---
