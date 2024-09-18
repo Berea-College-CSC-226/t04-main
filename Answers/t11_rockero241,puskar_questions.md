@@ -10,7 +10,7 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    ** Becoming more structured in using functions **
+    ** We've started grouping everything into functions. We've learned to work implement other people's code into our program. **
 ```
 
 
@@ -31,7 +31,9 @@
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    ** We updated an expression to use the is keyword instead of == "if dead is True:" as stated per PEP8 warnings.
+    We put two blank lines between every function.
+    **
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -43,14 +45,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    ** There are 47 branches. Our branch is different from the master because it has our edits to our file. **
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    ** Their code is not in our branch. The codebase has not been merged with everyone else's code.**
 ```
 
 
