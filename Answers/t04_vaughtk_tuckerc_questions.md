@@ -43,7 +43,7 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    Our branch contains our code file and our answers file. Master branch does not.
 ```
 
 
