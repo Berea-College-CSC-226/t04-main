@@ -10,7 +10,7 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-We have learned to use functions to simplify code and we have learned additional statements such as '.lower()'.
+We learned to use functions to simplify code and we learned additional statements such as '.lower()'.
 ```
 
 
