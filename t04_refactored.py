@@ -154,7 +154,7 @@ def team_5_adv(username, delay):
 ###################################################################################
 
 
-def team_6_adv(delay = 1.0,  username = "nimely"):
+def team_6_adv(username, delay):
     """
     https://docs.google.com/document/d/1JqGV3zl_wINXukceFvA7VXv1E-fuG0yHjMvi9cfZjq8/edit
     Joyce Nimely
@@ -163,7 +163,6 @@ def team_6_adv(delay = 1.0,  username = "nimely"):
     """
     # TEAM 6
     path = input("Which path will you take? [Left/Middle/Right]")
-    second_chance = input("Do you want another chance? [Yes/No]")
 
     is_dead = False
 
@@ -176,6 +175,7 @@ def team_6_adv(delay = 1.0,  username = "nimely"):
         print("You are now slowly dying from the poison.")
         print("Do you want another chance?")
         is_dead = True
+        second_chance = input("Do you want another chance? [Yes/No]")
     elif path == "Middle":
         # Neutral Path
         print("The path is never-ending.")
@@ -187,11 +187,12 @@ def team_6_adv(delay = 1.0,  username = "nimely"):
         print("You can now continue your adventure.")
         sleep(delay)
 
-    if is_dead == True:
+    if is_dead:
         print("You are now dead!You can try again after hitting the green play button. ")
         quit()
+    return True
 
-    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+        # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
     # TODO Don't forget to check if your user is dead at the end of your chapter!
 
