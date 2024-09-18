@@ -154,7 +154,7 @@ def team_3_adv(username, delay):
         print("A passageway opens above you.")
         sleep(delay)
         print("A bunch of snakes and spiders fall on you!")
-        isDead = True
+        isDead = False
         sleep(delay)
     else:
         # neutral choice
