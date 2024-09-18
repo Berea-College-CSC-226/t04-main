@@ -221,10 +221,13 @@ def team_15_adv():
     #Tobore Takpor
     #Jack Ngog
     """
-    # TODO Add your code here
-opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander")
 
+    # TODO Add your code here
+
+from time import sleep
+opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander)")
 delay = 1
+isDead = False
 if opponent == "Scott":
     #bad choice
     print('''As he steps into the ring he make nervous eye contact with you. He says "I was hoping no one would choose me, I didn't want it to come to this"''')
