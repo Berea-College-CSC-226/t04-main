@@ -206,6 +206,9 @@ def team_12_adv(username, delay):
 
 
 def team_13_adv(username, delay):
+    '''https://docs.google.com/document/d/1sKZjkZLcneOgKSvRHJKCQrmaeie3n3Okpfr3FIo-avQ/edit
+    Charle Ryland
+    Eber Lima'''
     pass
     user_direction = input("You come at across three tunnels.... (Choose forward, left, or right): ")
     sleep(delay)
