@@ -138,18 +138,22 @@ print("Be careful the choice you make ")
 print("one will give you fortune, one will lead to death, and one is just a normal fruit")
 sleep(delay*2)
 
-Fruit = input("which fruit would you like? [Banana, Orange, Apple] ")
+fruit = input("which fruit would you like? [Banana, Orange, Apple] ")
 
-if Fruit == "Banana":
+if fruit == "Banana":
     print("unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
     isDead = True
-elif Fruit == "Orange":
+elif fruit == "Orange":
     print("you've chosen the special fruit, you've earned ")
+elif fruit == "Apple":
+    print("You ate the apple and have died of cyanide poisoning.")
+    isDead = True
+
+
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 
-    return True
 ###################################################################################
 
 
