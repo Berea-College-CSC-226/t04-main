@@ -239,6 +239,7 @@ def team_17_adv(username, delay):
     Utsa Seth
     '''
 
+
     def count10(binaryusnm):
         print("You look at the figure and it turns out to be your best friend, Katie!")
         print("Katie wants to hand you a demonic sword.")
