@@ -169,60 +169,17 @@ def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
     :return:
     """
 
-    dead = False  # You start out not dead, which is good.
-
-    def OurSleep():
-        sleep(delay)
-
-    print()
-    print("Welcome,", username, ", to the labyrinth.")
-    OurSleep()
-    print("Before you lie two paths. One path leads to treasures of unimaginable worth.")
-    print("The other, certain death. Choose wisely.")
-    print()
-    OurSleep()
-    OurSleep()
-    print("You are in a dark cave. You can see nothing.")
-    print("Staying here is certainly not wise. You must find your way out.")
-    print("\n")
-    OurSleep()
-
-    direction = input("Which direction would you like to go? [North/South/East/West]")
-
-    if direction == "North":
-        # Good choice!
-        print("You are still trapped in the dark, but someone else is there with you now! I hope they're friendly...")
-        OurSleep()
-    elif direction == "South":
-        # Oh... Bad choice
-        print("You hear a growl. Not a stomach growl. More like a big nasty animal growl.")
-        OurSleep()
-        print("Oops. Turns out the cave was home to a nasty grizzly bear. ")
-        print("Running seems like a good idea now. But... it's really, really dark.")
-        print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
-        print("He eats you. You are delicious.")
-        dead = True
-    else:
-        # Neutral choice
-        print(
-            "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
-        OurSleep()
-
-    if dead:
-        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
-
     bridge = input("You come across three bridges do you want to take the [Left/Middle/Right] path?")
 
     if bridge == "Left":
         print("You walk across a stone pathway confronted with a beautiful waterfall at the end: [+5 inspiration]")
-        OurSleep()
+        sleep(delay)
 
     # if they go left: You come across a beautiful waterfall: [+5 inspiration]
 
     elif bridge == "Middle":
         print("You walk across a chasm and the wooden bridge breaks and you are about to fall: [THINK FAST]")
-        OurSleep()
+        sleep(delay)
 
         rope = float(input(
             "Quick! Catch yourself using a rope! Determine its length in feet by picking a number between [1] to [20]"))
@@ -245,7 +202,6 @@ def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
     if dead:
         print("Oh no! You did not make it to the end: [GAME OVER]")
         return False
-
 
     # The following is the end of the story. Don't change this section, unless you really want to.
     print("Look at that! You made it to the end of the story without dying! ")
