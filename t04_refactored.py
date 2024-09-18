@@ -127,6 +127,12 @@ def team_1_adv(username, delay):
 
 
 def team_2_adv(delay = 1.0, username = "Scott"):
+    """
+    https://docs.google.com/document/d/1P2oG3ls33RFbDiHRx_RqUnavHicq17E0QNQ90DO_nk4/edit?usp=sharing
+    Caleb Tucker
+    Kai Vaught
+    :return: none
+    """
     is_dead = False
     print("It's Wednesday morning. You wake up at 09:10am and see the sun through your window.")
     print("Suddenly, you realize that you are almost late for your CSC 226 class at 09:20am.")
