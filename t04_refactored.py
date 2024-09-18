@@ -200,7 +200,6 @@ def team_11_adv(username, delay):
     """
     # TEAM 11
     delay = 1.0
-    #dead = False
     direction = input("Which direction would you like to go? [North/South/East/West]")
 
     if direction == "North":
