@@ -234,7 +234,7 @@ def team_16_adv(username, delay):
     dead = False
     direction = input("which direction do you want to go North/South/East/West")
 
-    if direction == "North":
+    if direction.lower() == "north":
         # Bad choice! Sacrifice room!
         print("The north room is dimly lit by lanterns with red fire.")
         print("Five people in black robes are gathered around an altar.")
@@ -245,7 +245,7 @@ def team_16_adv(username, delay):
         sleep(delay)
         print("You are captured by the cultists. You are dead.")
         dead = True
-    elif direction == "South":
+    elif direction.lower() == "south":
         # Bad choice! Ritual room!
         print("You see a glowing circle on the floor. Robed figures stand around it and chant.")
         print("You do not recognize their words.")
@@ -254,7 +254,7 @@ def team_16_adv(username, delay):
         print("Your heart bursts open inside your chest.")
         print("You are dead.")
         dead = True
-    elif direction == "East":
+    elif direction.lower() == "east":
         # Good choice! Dorms!
         print("The room you emerge into has a low stone ceiling. Bunked beds line the walls for fifty meters.")
         print("You walk carefully down the length of the room. Your breath is the loudest sound you hear.")
@@ -263,7 +263,7 @@ def team_16_adv(username, delay):
         print("You steel yourself and open the door as quietly as you can.")
         sleep(delay)
         print("The door leads outside. You are free.")
-    elif direction == "West":
+    elif direction.lower() == "west":
         # Neutral choice. Armory.
         print("This room is lined with weapons. Most are ornate daggers, hundreds of them hang on hooks lining the walls.")
         print("You see glowing runes on many of the daggers. Several do not have runes.")
