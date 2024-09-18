@@ -214,10 +214,10 @@ def team_14_adv(username, delay):
     '''https://docs.google.com/document/d/1scXuIBzrGZxe0pZ-vEulOikC7Vc0QR5suwVhLVz6M9o/edit
         Chris Georgiev
         Dylan Roland
-        Kamau Clark'''
+        Kamau Clark
+    '''
 
     isDead = False
-
     direction = input("Hey " + username + ", do you want to go North(1) or South(2)?: ")
 
     if direction == "1":
@@ -237,15 +237,14 @@ def team_14_adv(username, delay):
         numbertest = input("Pick a number 1-10 to try and survive.")
         numbertest = float(numbertest)
 
-        if numbertest > 5 and numbertest <= 10:
-            isDead == False
+        if 5 < numbertest <= 10:
             print("You got lucky this time.")
 
         else:
             print("Unlucky, you're dead. Very sad")
-            quit()
+            return False
 
-    return isDead
+    return True
 ###################################################################################
 
 
