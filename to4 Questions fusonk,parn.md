@@ -23,7 +23,7 @@ ____
 2. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-**Replace This With Your Answer**
+** we added docstrings and comments to make it more readable, we changed the direction options where you can only choose North. We moved the code in the define code part.**
 ```
 
 ___
@@ -31,7 +31,7 @@ ___
 3. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-**Replace This With Your Answer**
+** It wasn't that challenging but the fact you had limited choices(1) was a bit confusing at first.**
 ```
 
 
@@ -40,7 +40,7 @@ ___
 4. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-**Replace This With Your Answer**
+** we got rid of globals and we **
 ```
 
 ___
