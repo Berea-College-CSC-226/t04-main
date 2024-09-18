@@ -26,7 +26,7 @@
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **Sometimes it is hard to follow the logic becuase different people use different ways of using the logics.**
 ```
 
 
