@@ -208,12 +208,9 @@ def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
             "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
         OurSleep()
 
-    if dead == True:
+    if dead:
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
         quit()
-
-
-##
 
     bridge = input("You come across three bridges do you want to take the [Left/Middle/Right] path?")
 
@@ -245,9 +242,9 @@ def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
         sleep(delay)
     # else they go right: You walk safely across a plain bridge: [0 inspiration]
 
-    if dead == True:
+    if dead:
         print("Oh no! You did not make it to the end: [GAME OVER]")
-        quit()
+        return False
 
 
     # The following is the end of the story. Don't change this section, unless you really want to.
