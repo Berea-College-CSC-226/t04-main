@@ -19,21 +19,21 @@ This folder is for placing your t04_questions.md files, once they are complete.
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    **The logic changes we made in our code is fixing the if and else statements and isDead = False statement, because the code wouldn't run a certain option if the statement wasn't an else statement.**
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **Yes, we found it challenging following the logic of another group's code because at first, we didn't understand their intentions and idea behind the code, and we were confused. We had to keep testing the code and debug the code to understand their code.**
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    **The two PEP8 warnings that I fixed were delay = 1 and isDead = False. The resulting code looks better because it gives a clearer understanding of what the code wants to do and the code actually runs the program. **
 ```
 
 _Return to the Google Doc to continue the assignment._
