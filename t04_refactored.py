@@ -204,9 +204,43 @@ def team_12_adv(username, delay):
 
 
 def team_13_adv(username, delay):
-    pass
-    # TODO Add your code here
-    return True
+    '''https://docs.google.com/document/d/1sKZjkZLcneOgKSvRHJKCQrmaeie3n3Okpfr3FIo-avQ/edit
+    Charle Ryland
+    Eber Lima
+    SOURCE:
+    https://stackoverflow.com/questions/39746427/expression-can-be-simplified-on-boolean-literal'''
+    user_direction = input("You come at across three tunnels.... (Choose forward, left, or right): ")
+    sleep(delay)
+
+    if user_direction == "left" or user_direction == "Left":
+        print("You hit a den a bear lives in...")
+        sleep(delay)
+        print("You get scared and the alert the bear!")
+        sleep(delay)
+        print("The bear then eats you...")
+        sleep(delay)
+        print("You have a chance to survive...")
+        number_picked = input("The Eggmeister asks you to pick a number between 1 and 20.")
+        number_picked = int(number_picked)
+        if number_picked >= 14:
+            sleep(delay)
+            return True
+        elif number_picked < 14:
+            sleep(delay)
+            return False
+
+    elif user_direction == "right" or user_direction == "Right":
+        sleep(delay)
+        print("You find an exit and reach a hill that overlooks a waterfall")
+        print("Everything seems peaceful.")
+        return True
+    else:
+        print("You walk forward...")
+        sleep(delay)
+        print("Nothing happens...")
+        return True
+
+
 ###################################################################################
 
 
