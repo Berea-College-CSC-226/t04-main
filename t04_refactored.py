@@ -216,8 +216,6 @@ def team_14_adv(username, delay):
         Dylan Roland
         Kamau Clark'''
 
-    pass
-
     isDead = False
 
     direction = input("Hey " + username + ", do you want to go North(1) or South(2)?: ")
@@ -342,7 +340,6 @@ def main():
     random.shuffle(paths)
 
     user = start_story(delay)
-    team_14_adv(user,delay)
 
     for i in range(len(paths)):
         is_alive = paths[i](user, delay)  # Runs each function in the paths list
