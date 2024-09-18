@@ -134,8 +134,8 @@ def team_2_adv(delay = 1.0, username = "Scott"):
     :return: none
     """
     is_dead = False
-    print("It's Wednesday morning. You wake up at 09:10am and see the sun through your window.")
-    print("Suddenly, you realize that you are almost late for your CSC 226 class at 09:20am.")
+    print("It's Wednesday morning. You wake up at 9:10am and see the sun through your window.")
+    print("Suddenly, you realize that you are almost late for your CSC 226 class at 9:20am.")
     print("You know you need your morning coffee to get through the day, but you are almost late for class!")
     sleep(delay)
     decision = input("Coffee or class?").lower()
@@ -146,7 +146,7 @@ def team_2_adv(delay = 1.0, username = "Scott"):
         print("You are late, and awake. But the instructor is also late so he doesn't know.")
 
     elif decision == "class":
-        print("You manage to arrive to class at 09:20am.")
+        print("You manage to arrive to class at 9:20am.")
         sleep(delay)
         is_dead = True
 
