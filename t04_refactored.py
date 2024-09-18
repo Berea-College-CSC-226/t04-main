@@ -139,7 +139,6 @@ def team_3_adv():
 
 
 def team_4_adv(delay = 1.0, username = "Zak"):
-    pass
     print()
     print("Welcome,", username, ", to Generic Fantasy College™.")
     sleep(delay)
