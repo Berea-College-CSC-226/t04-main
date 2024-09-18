@@ -122,14 +122,14 @@ def scott_adventure(username, delay):
 def team_1_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_2_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
@@ -183,147 +183,147 @@ def team_3_adv(username, delay):
 def team_4_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_5_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_6_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_7_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_8_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_9_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_10_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_11_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_12_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_13_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_14_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_15_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_16_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_17_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_18_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_19_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_20_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_21_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_22_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_23_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
 def team_24_adv(username, delay):
     pass
     # TODO Add your code here
-
+    return True
 ###################################################################################
 
 
