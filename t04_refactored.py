@@ -225,7 +225,8 @@ def team_15_adv(username, delay):
 ###################################################################################
 
 
- def team_16_adv(username, delay):
+
+def team_16_adv(username, delay):
     """ https://docs.google.com/document/d/14o_900GCeVZEadcvwv_15i2ZS8oINYH6bJigpeGAsV8/edit?usp=sharing
     Dalmar- Julio
     :return: none """
@@ -238,17 +239,17 @@ def team_15_adv(username, delay):
         print("The north room is dimly lit by lanterns with red fire.")
         print("Five people in black robes are gathered around an altar.")
         print("Their argument quiets as you walk in.")
-        sleep(DELAY)
+        sleep(delay)
         print("'Oh, how perfect,' one says. 'You have been Forgiven, Yuxila.'")
         print("Stone rises from the floor to block your exit.")
-        sleep(DELAY)
+        sleep(delay)
         print("You are captured by the cultists. You are dead.")
         dead = True
     elif direction == "South":
         # Bad choice! Ritual room!
         print("You see a glowing circle on the floor. Robed figures stand around it and chant.")
         print("You do not recognize their words.")
-        sleep(DELAY)
+        sleep(delay)
         print("A pressure builds in the room. It is too much.")
         print("Your heart bursts open inside your chest.")
         print("You are dead.")
@@ -257,10 +258,10 @@ def team_15_adv(username, delay):
         # Good choice! Dorms!
         print("The room you emerge into has a low stone ceiling. Bunked beds line the walls for fifty meters.")
         print("You walk carefully down the length of the room. Your breath is the loudest sound you hear.")
-        sleep(DELAY * 2)
+        sleep(delay * 2)
         print("At the end of the room is a kitchen and a door. There is no window.")
         print("You steel yourself and open the door as quietly as you can.")
-        sleep(DELAY)
+        sleep(delay)
         print("The door leads outside. You are free.")
     elif direction == "West":
         # Neutral choice. Armory.
@@ -270,7 +271,7 @@ def team_15_adv(username, delay):
         if dagger == "Yes":
             print("You observe several daggers without runes. You take the one that looks unassuming.")
             print("The sound of a bell rings through the caves. You tense.")
-            sleep(DELAY)
+            sleep(delay)
             print("Robed figures flood the room. You attempt to fend them off, but you are overwhelmed.")
             print("You are dead.")
             dead = True
