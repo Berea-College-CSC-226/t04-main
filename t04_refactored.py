@@ -150,7 +150,7 @@ def team_4_adv(username, delay):
 def team_5_adv(username, delay):
     pass
     # TODO Add your code here
-def team_5_adv(DELAY = 1.0, username = "arohasina_davism5"):
+def team_5_adv(delay = 1.0):
     '''
     https://docs.google.com/document/d/1VhYIXsFqD9f6ODVYY0Ow2PFcS0kNb4yRjyGztdNQBxs/edit#heading=h.f6tumop9n7at
     Arohasina Ravoahanginiaina
@@ -167,12 +167,12 @@ def team_5_adv(DELAY = 1.0, username = "arohasina_davism5"):
         # Good choice!
         print(
             "Excellent choice, wise explorer! The Bronze chalice grants you a life filled with resilience and courage. You have proven to have a heart as unyielding as bronze! May you forge onwards with the spirit of a warrior.")
-        sleep(DELAY)
+        sleep(delay)
 
     elif chalice == "Gold":
         # Oh... Bad choice
         print("As you reach out and touch the gold chalice, a chilling breeze fills the cavern.")
-        sleep(DELAY)
+        sleep(delay)
         print(
             "Suddenly, the cavern trembles and the chalice levitates, emitting a blinding light. A voice booms, 'Dare you to tempt fate? Roll the dice and let destiny decide your path.'")
 
@@ -180,18 +180,18 @@ def team_5_adv(DELAY = 1.0, username = "arohasina_davism5"):
 
         if roll <= 5:
             print("You roll the dice... it's a low number.")
-            sleep(DELAY)
+            sleep(delay)
             print(
                 "The ground shakes violently as the cave begins to collapse. Unfortunately, you are unable to escape in time, meeting a tragic end. The treasure remains unclaimed, lying amidst the ruins of the cavern.")
             isDead = True
         elif roll <= 10:
             print("You roll the dice... it's a moderate number.")
-            sleep(DELAY)
+            sleep(delay)
             print(
                 "The cavern stops trembling and the path you came from reopens, allowing you a gracious yet narrow escape. It appears you've been given a second chance, but the golden chalice remains elusive.")
         else:
             print("You roll the dice... it's a high number!")
-            sleep(DELAY)
+            sleep(delay)
             print(
                 "A hidden pathway illuminated by golden light suddenly appears, leading you to a secret chamber filled with unimaginable treasures. It seems luck is on your side, brave explorer!")
 
@@ -199,7 +199,7 @@ def team_5_adv(DELAY = 1.0, username = "arohasina_davism5"):
         # Neutral choice
         print(
             "You find yourself wandering into a hidden cove within the cave, the ground here is covered in sand and you can hear the distant sound of lost souls.")
-        sleep(DELAY)
+        sleep(delay)
         print(
             "You see remnants of old pirate camps, and signs of many stories that remain untold in this isolated refuge of the Flying Dutchman's cavern.")
 
