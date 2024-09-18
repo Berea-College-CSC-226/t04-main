@@ -17,7 +17,7 @@
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    Added a .lower() to allow more flexible input, added an else: statement to handle other input
+    Added a .lower() to allow more flexible input, added an else: statement to handle other input, and added return True and False statements to decide whether to proceed to another function
 ```
 
 
