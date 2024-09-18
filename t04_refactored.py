@@ -21,7 +21,7 @@
 import random
 from time import sleep
 
-DELAY = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
+
 
 def start_story(delay):
     """
@@ -231,7 +231,7 @@ def team_16_adv(username, delay):
     Dalmar- Julio
     :return: none """
 
-    dead = False
+
     direction = input("which direction do you want to go North/South/East/West")
 
     if direction.lower() == "north":
@@ -244,7 +244,7 @@ def team_16_adv(username, delay):
         print("Stone rises from the floor to block your exit.")
         sleep(delay)
         print("You are captured by the cultists. You are dead.")
-        dead = True
+        return False
     elif direction.lower() == "south":
         # Bad choice! Ritual room!
         print("You see a glowing circle on the floor. Robed figures stand around it and chant.")
@@ -253,7 +253,7 @@ def team_16_adv(username, delay):
         print("A pressure builds in the room. It is too much.")
         print("Your heart bursts open inside your chest.")
         print("You are dead.")
-        dead = True
+        return False
     elif direction.lower() == "east":
         # Good choice! Dorms!
         print("The room you emerge into has a low stone ceiling. Bunked beds line the walls for fifty meters.")
@@ -274,13 +274,12 @@ def team_16_adv(username, delay):
             sleep(delay)
             print("Robed figures flood the room. You attempt to fend them off, but you are overwhelmed.")
             print("You are dead.")
-            dead = True
+            return  False
         else:
             print("This room looks suspicious. You return quietly to previous room.")
 
-    if dead == True:
-        print("You have been sacrificed to the Great Devourer.")
-        quit()
+
+    return True
 
 
 ###################################################################################
