@@ -10,28 +10,30 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    **Replace This With Your Answer**
+    Now we are able to visualize where in the code we can implement functions and loops,
+    and we learned to not implement global variables.
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We corrected some missing if statements and deleted local variables mentioned by the professor.
+    We simplified the if statements in the code as well.
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    Yes. We just needed to figure out the logic.
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We got rid of placeholders and moved the reference link into the docstring. It looked better as we made the logic clearer and easier to understand.
 ```
 
 _Return to the Google Doc to continue the assignment._
