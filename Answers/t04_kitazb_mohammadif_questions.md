@@ -52,7 +52,7 @@ ___
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    Yes, we can see other team's branches. And no, our code is not in the branch. Probably because it is their own branch with their own version of code on it.
 ```
 
 

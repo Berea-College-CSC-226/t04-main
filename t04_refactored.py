@@ -193,9 +193,7 @@ def team_11_adv(username, delay):
     pass
     # TODO Add your code here
     return True
-###################################################################################
-
-
+#################################################################################
 def team_12_adv(username, delay):
     """
     https://docs.google.com/document/d/1-VIVi-Txn87fIW0pf9LwcYZbWpGTJC0tbpnC-va0IBo/edit?usp=sharing
@@ -203,8 +201,6 @@ def team_12_adv(username, delay):
     Feda Mohammadi
     :return: None
     """
-    dead = False
-    delay = 1.0
     direction = input("[Tavern/Inn/Reform/Run]")
 
     if direction == "Inn":
