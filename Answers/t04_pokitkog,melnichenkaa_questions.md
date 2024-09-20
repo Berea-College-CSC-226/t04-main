@@ -40,7 +40,7 @@ ___
 4. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-**Replace This With Your Answer**
+We fixed indentation and spacing errors, it makes the resulting code look better because it will not cause issues in the future.
 ```
 
 ___
@@ -52,7 +52,7 @@ ___
     Compare your branch to master. What’s different?
 
 ```        
-**Replace This With Your Answer**
+Compared to master, our code has our pdf, answers, and refactored work because the main only includes what the main coder pulls (our work hasn't been pulled yet).
 ```
 
 ___
@@ -60,7 +60,7 @@ ___
 6. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-**Replace This With Your Answer**
+We do see other group's branches but we do not see our code in their branch because our work isn't pulled to their branch (each branch is seperate).
 ```
 
 ___
@@ -74,7 +74,7 @@ ___
     Is your code in the master branch now? 
 
 ```
-**Replace This With Your Answer**
+Not yet, it was given feedback, it will be added when we add our pdf and answers.
 ```
 
 ___
@@ -82,7 +82,7 @@ ___
 8. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 6?
 
 ```
-**Replace This With Your Answer**
+The only groups that are in master are the ones that get approved by the main coder (Professor Heggens). 
 ```
 
 ___
@@ -92,7 +92,7 @@ ___
     Is your code in your **local** master branch? Why not?
 
 ```
-**Replace This With Your Answer**
+Yes, when the code is updated because the code is pulled into master branch.
 ```
 
 ___
@@ -102,25 +102,25 @@ ___
 
 10. Define Each Term:
 
-        a. Clone:____________________
+        a. Clone: make a copy of local branch
 
-        b. Commit:____________________
+        b. Commit: get ready to submit changes by leaving a note
 
-        c. Push:____________________
+        c. Push: sending changes to GitHub server
 
-        d. Branch:____________________
+        d. Branch: local space of repository where you work on code
 
-        e. Pull:____________________
+        e. Pull: you fetch changes and merge them
 
-        f. Pull Request:____________________
+        f. Pull Request: asking the main coder to accept your branch into main branch
 
-        g. Merge:____________________
+        g. Merge: updating code to have main branch in your local machine
 
-        h. Remote:____________________
+        h. Remote: files and/or folders on server
 
-        i. Local:____________________
+        i. Local: files and/or folders in project
 
-        j. Fetch:____________________
+        j. Fetch: adding changes to local branch (not commiting them) from remote repository
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
 
@@ -132,6 +132,6 @@ ___
 
     Discuss with your partner what confusions you still have about the git workflow you experienced today, using the network graph to explore what has happened. Write your unanswered questions in the space to the right:
     
-        **Replace This With Your Answer**
+        How can we determine which branches on the network graph are pulled into master?
 
 

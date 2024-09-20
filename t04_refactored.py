@@ -166,7 +166,7 @@ def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
     https://docs.google.com/document/d/1xjf1gnNMp4Dyr4_MjM-oRn7gzxW9Z4p4VG3_EWYA4vM/edit
     Galina Pokitko
     Aliaksandr Melnichenka
-    :return:
+    :return: True if alive, False if dead
     """
 
     bridge = input("You come across three bridges do you want to take the [Left/Middle/Right] path?")
@@ -174,6 +174,7 @@ def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
     if bridge == "Left":
         print("You walk across a stone pathway confronted with a beautiful waterfall at the end: [+5 inspiration]")
         sleep(delay)
+        return True
 
     # if they go left: You come across a beautiful waterfall: [+5 inspiration]
 
@@ -187,9 +188,10 @@ def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
         if rope > 13:
             print(
                 "Phew! You managed to grab the rope just in time before the fall! Congratulations: [+5 Survival Skills]")
+            return True
         else:
             print("Oh no! Your hand slips and you fal backwards into the chasm: [DEAD]")
-            dead = True
+            return False
 
 
     # elif they go middle: You walk across a chasm and the wooden bridge breaks and you fall: [DEAD]
@@ -197,6 +199,7 @@ def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
     else:
         print("You walk safely across a plain bridge: [0 inspiration]")
         sleep(delay)
+        return True
     # else they go right: You walk safely across a plain bridge: [0 inspiration]
 
     if dead:
