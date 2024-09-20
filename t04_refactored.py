@@ -134,6 +134,9 @@ def team_2_adv(username, delay):
 
 
 def team_3_adv(username, delay):
+    """
+       we're creating an idea, giving you options to stay alive. can you stay alive? this game allow for you to pick between a good choice and a bad choice.
+           """
     print("\n")
     print("You find a room that contains two gold statues.")
     sleep(delay)
