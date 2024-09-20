@@ -34,7 +34,7 @@
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-
+Two spaces before defining functions. We fixed . It looks better because its more organized, readable, and sparkly.
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -46,14 +46,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **We have a file that we answered questions on.**
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    No, our code has not been merged into main. We can see theirs becausse their code has resolved the pull request.
 ```
 
 
@@ -64,7 +64,7 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    No, we had some issues that we needed to fix before hand. 
 ```
 
 
