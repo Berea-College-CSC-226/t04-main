@@ -45,14 +45,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    yes, the master does not have our edits yet. 
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    no, our code is not in their branch because it is different branches, changes in one branch will not affect other branches unless pushed and merge together
 ```
 
 
@@ -63,14 +63,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    not yet, it has to be approved by the owner of the master branch. 
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+Not yet because their PR has not yet been accepted
 ```
 
 
