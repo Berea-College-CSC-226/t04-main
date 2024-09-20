@@ -376,14 +376,11 @@ def team_22_adv(username, delay):
             print("You keep falling?")
             sleep(delay)
             print("It seems you fell over a cliff, you're still falling and you don't know when you'll hit the gro-")
-            dead = True
+            return False
         else:
             print("They get closer to you and see you're a human too!")
             print("They agree to help you using tools from their backpack")
 
-    if dead == True:
-        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
 
     tool = input("Which tool do you think will help? [Torch/Shovel/Compass]")
 
@@ -406,7 +403,7 @@ def team_22_adv(username, delay):
             print("Brrrrrrr cshhhhhh CRASHHHHHHHH")
             sleep(delay)
             print("The walls collapsed in and crushed you! Seems those walls weren't too stable...")
-            dead = True
+            return False
         else:
             print("You pull out the compass, maybe if you follow one direction it'll lead somewhere eventually!")
             sleep(delay)
@@ -415,9 +412,6 @@ def team_22_adv(username, delay):
             print("......")
             sleep(delay * 2)
             print("You can't see the compass, it's way too dark, maybe something else will help")
-    if dead:
-        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
     return True
 ###################################################################################
 
