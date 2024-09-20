@@ -179,7 +179,8 @@ def team_8_adv(username, delay):
     if cardinal == "East":
         # GOOD !!!
         print(
-            "Fortune favors you! The door you have chosen is filled to the brim with treasures unimaginable in this world!")
+            "Fortune favors you! The door you have chosen is filled to the brim with treasures unimaginable in this world! Also, you see an exit just beyond the treasure!")
+        is_free = True
         sleep(delay)
     elif cardinal == "North":
         # Not A Good Choice

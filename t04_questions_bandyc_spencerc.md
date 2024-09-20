@@ -10,28 +10,28 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    **Replace This With Your Answer**
+    We are better at understanding if elif and else statements. We know how to use functions now.
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We cleaned up unnecessary statements and made sure each input leads to a logical conclusion.
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    Yes, it took a little while to understand the flow of the conditional statements and why they were that way.
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We put more notation on what our code is actually doing, 
 ```
 
 _Return to the Google Doc to continue the assignment._
