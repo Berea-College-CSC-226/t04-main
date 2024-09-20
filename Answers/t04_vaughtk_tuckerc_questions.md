@@ -61,14 +61,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes.
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+    Yes, a couple groups' code and answer files are in the master branch.
 ```
 
 
@@ -78,7 +78,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    No, it isn't in the local master branch until the local master branch has pulled from the remote master branch to update.
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
