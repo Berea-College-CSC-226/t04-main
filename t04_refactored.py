@@ -199,7 +199,6 @@ def team_11_adv(username, delay):
     :return: none
     """
     # TEAM 11
-    delay = 1.0
     direction = input("Which direction would you like to go? [North/South/East/West]")
 
     if direction == "North":
@@ -220,7 +219,6 @@ def team_11_adv(username, delay):
         print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
         print("He eats you. You are delicious.")
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
         return False
     else:
         # Neutral choice

@@ -63,7 +63,7 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    ** Our code is still not in the master branch since the instructor has not approved our merge. We've gone back and forth based on his feedback.**
 ```
 
 
