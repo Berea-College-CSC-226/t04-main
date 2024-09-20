@@ -159,7 +159,7 @@ else:
     sleep(delay)
 
 if isDead == True:
-    print("If only you would've gone to class, Ty again by hitting the green play button.")
+    print("If only you would've gone to class, Try again by hitting the green play button.")
     quit()
 #########################################################################################################
 # TEAM 5
