@@ -10,28 +10,29 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    **Replace This With Your Answer**
+    We fixed variables names, if-statements and general logic of the code.
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We changed position of the input() function, because it was called to early in the code. 
+    We changed if statements, so they produce correct result.
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    We found it challenging, because the logic of the code was broken.
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We got two syntax errors regarding naming of the variables. Resulting code looks much better, because we fixed its structure and logic.
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -43,14 +44,15 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    We have our own documents in our branch, while master has initial documents. 
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    We can see other groups' code in the master repository, however their code isn't in our branch. 
+    Our branch is our own version of the program, and until we merge it with master, it wouldn't have other people's files.
 ```
 
 
