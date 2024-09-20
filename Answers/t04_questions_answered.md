@@ -71,7 +71,7 @@ ___
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+Yes, some groups have been merged into master.
 ```
 
 
