@@ -10,31 +10,28 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    We know much more about python conventions and good practices, and we've of course learned a lot about python itself.
-    We've become quicker at coding, and at parsing/reading code.
+    **Replace This With Your Answer**
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    We added a return statement so that the rest of the program knows wether or not the player is dead or not.
-    We also passed in "direction" as a parameter, since the scope of that variable was not global.
+    **Replace This With Your Answer**
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    Somewhat, because we didn't know what assumptions they made and which variable is defined where,
-    but it was also a pretty simple linear logic chain so it wasn't too hard to understand.
+    **Replace This With Your Answer**
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-
+    **Replace This With Your Answer**
 ```
 
 _Return to the Google Doc to continue the assignment._
