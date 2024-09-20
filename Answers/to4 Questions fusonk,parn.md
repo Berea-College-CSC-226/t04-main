@@ -40,7 +40,7 @@ ___
 4. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-** we got rid of globals and we **
+** we added a docstring and we added comments**
 ```
 
 ___
