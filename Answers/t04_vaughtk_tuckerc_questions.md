@@ -104,7 +104,7 @@ the details of using git will be touched upon again in your homework assignment,
 
         h. Remote: Not on your local device, such as in GitHub
 
-        i. Local: On your personal computer and not on the cloud
+        i. Local: Located on your personal computer and not on the cloud
 
         j. Fetch: Fetch is essentially a pull without merging anything
 ```
