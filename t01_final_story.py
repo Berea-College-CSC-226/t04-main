@@ -552,10 +552,6 @@ if isDead == True:
     else:
         print("Unlucky, you're dead. Very sad")
         quit()
-
-# TODO Make sure to add the additional check if the user makes the "bad" choice!
-
-# TODO Don't forget to check if your user is dead at the end of your chapter!
 #########################################################################################################
 # TEAM 15
 opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander")
