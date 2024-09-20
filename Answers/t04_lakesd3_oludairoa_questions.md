@@ -43,14 +43,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    
+    Master branch has all of the main files we edited while out personal branch has the work we did in our section
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+   No our code is not in their branches becuase they are seperate
 ```
 
 
