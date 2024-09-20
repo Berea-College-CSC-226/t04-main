@@ -195,7 +195,7 @@ def team_9_adv(username, delay):
         3)Turn me into a frog\n: """)
         sleep(delay)
 
-    #option 1 teleports you into the wizard's cave, and they perform a spell on you
+#option 1 teleports you into the wizard's cave, and they perform a spell on you
     if question == "1":
         print("""This is my Wizard Cave! I practice my spells! Do you wish to observe one of them? 
         Of course you do! The wonder of magic is for everyone! ANURA METAMORPHOS!!! *poof* """)
