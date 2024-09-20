@@ -63,7 +63,7 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Awaiting Pull Request Approval
 ```
 
 
