@@ -43,14 +43,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **the codes in the differant branchesr**
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **no our code is not in there branches because its not main**
 ```
 
 
@@ -61,14 +61,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    ** our code is in master now becasue our pr was good**
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+**yes the people who have finshed **
 ```
 
 
@@ -88,25 +88,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: A clone is a copy of a repository that lives on your computer instead of on a website's server somewhere, or the act of making that copy
 
-        b. Commit:____________________
+        b. Commit: saving the changes that we made
 
-        c. Push:____________________
+        c. Push:sending our changes to git hub
 
-        d. Branch:____________________
+        d. Branch: it is a part of main like a tree branch 
 
-        e. Pull:____________________
+        e. Pull:Pull refers to when you are fetching in changes and merging them
 
-        f. Pull Request:____________________
+        f. Pull Request:same thing as pull but we have to ask permision from the owner of the repo
 
-        g. Merge:____________________
+        g. Merge:combins my branch with main our takes one code and puts it in another
 
-        h. Remote:____________________
+        h. Remote:This is the version of a repository or branch that is hosted on a server, most likely GitHub.com
 
-        i. Local:____________________
+        i. Local:same version of the repo just on our computer
 
-        j. Fetch:____________________
+        j. Fetch:you're adding changes from the remote repository to your local working branch without committing them.
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
