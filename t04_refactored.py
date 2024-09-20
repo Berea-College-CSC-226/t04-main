@@ -232,40 +232,18 @@ def team_16_adv(username, delay):
 
 
 def team_17_adv(username, delay):
-    pass
-    '''
+    """
     https://docs.google.com/document/d/1sCz8ZSi6L0diNtXZ5aXsZmT7_ngn1N2qeXoox2m93LI/edit?usp=sharing
     Sonam Tsering
     Utsa Seth
-    '''
-
-
-
-    def count10(binaryusnm):
-        print("You look at the figure and it turns out to be your best friend, Katie!")
-        print("Katie wants to hand you a demonic sword.")
-        sword = input("Do you accept the sword: Yes/No: ").lower()
-        if sword == ("yes"):
-            print("You unlock a special power: Super Strength!")
-            count = 11
-        else:
-            print("Katie stabs you!")
-            isDead = True
-
-    def main():
-        count = int(input('This is an adventure in codeland! Pick your binary username: 00, 01, 10, or 11: '))
-        if count == 10:
-            count10(count)
-
-        if isDead == True:
-            print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-            quit()
+    """
+    count = int(input('This is an adventure in codeland! Pick your binary username: 01, 10: '))
 
     if count == 10:
         print("You look at the figure and it turns out to be your best friend, Katie!")
         print("Katie wants to hand you a demonic sword.")
         sword = input("Do you accept the sword: Yes/No: ").lower()
-        if sword == ("yes"):
+        if sword == "yes":
             print("You unlock a special power: Super Strength!")
             count = 11
         else:
@@ -275,10 +253,10 @@ def team_17_adv(username, delay):
     if count == 1:
         print("You enter into a hallway and meet a dog.")
         dog = int(input("Would you like a companion? Use 1 or 2, with 1 being correct and 2 as wrong: "))
-        if dog == (1):
+        if dog == 1:
             print("Congratulations! You have earned a doggy pet!")
             count = 11
-        elif dog == ("2"):
+        elif dog == 2:
             print("The dog got sad and ran away crying.")
             count = 3
         else:
@@ -287,11 +265,13 @@ def team_17_adv(username, delay):
             isDead = True
 
     if count == 11:
+        dog = 1
+        sword = 'yes'
         print("You go down a crevice in the wall.")
         print("You found a treasure chest in a hole, but you can't reach your arm in.")
-        if dog == (1):
+        if dog == 1:
             print("Congrats! The dog opened the chest and found money!")
-        elif sword == ("yes"):
+        elif sword == "yes":
             print("Congrats! Your sword was long enough to reach the chest! You found money!")
         else:
             isDead = True
@@ -299,13 +279,10 @@ def team_17_adv(username, delay):
         print("The dog brought back a monster. There is no escape!")
         isDead = True
 
-    if isDead == True:
-        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
-
-    main()
-    # TODO Add your code here
-    return True
+        if isDead == True:
+            return False
+        else:
+            return True
 ###################################################################################
 
 
