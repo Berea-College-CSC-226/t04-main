@@ -10,28 +10,30 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    **Replace This With Your Answer**
+    the flow of the code is better and more organized. added main(), used function to separate each task. 
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    changed isDead == True to return False
+    and then added return True to the end of the function 
+    because only for that one condition before return False is going to kill the user. In the other condition, the user will survive. 
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    No because the logic was pretty easy to understand and because of the things we did and saw, it was easy to understand
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We broke the long sentences in the print("") to a new line so it will make it easier to read
 ```
 
 _Return to the Google Doc to continue the assignment._
