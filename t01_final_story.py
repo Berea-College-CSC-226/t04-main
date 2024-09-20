@@ -441,6 +441,7 @@ else:
 
 if dead == True:
     print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+    quit()
 
 #########################################################################################################
 # TEAM 12
