@@ -140,42 +140,41 @@ def team_3_adv(username, delay):
     return True
 ###################################################################################
 
+def team_4_adv(delay = 1, username = "Zak"):
 
-def team_4_adv(delay = 1.0, username = "Zak"):
     print()
     print("Welcome,", username, ", to Generic Fantasy College™.")
-    sleep(delay)
+    sleep(1)
     print("You are awoken by your alarm")
     print("It is 8:00AM")
     print()
-    sleep(delay * 2)
+    sleep(1 * 2)
     print("Looking through your window the sky has a magenta hue")
     print("Staying here is certainly not wise. You must find your way out.")
-    print("\n")
-    sleep(delay)
+    print("n")
+    sleep(1)
 
     sleepChoice = input("Do you wake up, be late, or sleep?")
 
     if sleepChoice == "wake up":
         # Good Choice
         print("You go to classes and are a productive member of society")
-        sleep(delay)
+        sleep(1)
     elif sleepChoice == "be late":
         # Neutral Choice
         print("You miss breakfast and your day is stressful")
-        sleep(delay)
+        sleep(1)
     else:
         # Bad Choice
         print("You here the sound of wings flapping in the distance")
-        sleep(delay)
+        sleep(1)
         print("You know you fucked up")
-        sleep(delay)
+        sleep(1)
         deathChoice = input("On a scale of 1-10, how much do you want to stay at Generic Fantasy College™")
-        if deathChoice == "<3"
-            print(
-                "The dean whomst happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy College™")
+        if deathChoice == "3":
+            print("The dean whomst happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy College™")
         isDead = True
-        sleep(delay)
+        sleep(1)
 
     if isDead == True:
         print("If only you would've gone to class, Try again by hitting the green play button.")
@@ -329,7 +328,7 @@ def main():
     The main function, where the program starts. No modifications are needed here!
     :return: None
     """
-    delay = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
+    delay = 1  # change to 0.0 for testing/speed runs; larger for dramatic effect!
 
     paths = [scott_adventure, team_1_adv, team_2_adv,
              team_3_adv, team_4_adv, team_5_adv,
