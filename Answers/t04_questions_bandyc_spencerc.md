@@ -31,7 +31,7 @@
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    We put more notation on what our code is actually doing, 
+    We put more notation on what our code is actually doing. We removed redundant lines of code and made sure all the indentations were correct. We got rid of any squigglies. The code looks better now.
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -43,14 +43,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    Our branch is there. It's different in the fact that it has our commits/pushes which the master branch does not have.
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    We see other branches from other groups. Our code is not in their branches. That is their own environment to work on using master as a baseline. If we were pulled into master and they updated their branch using master our code could be in their branch.
 ```
 
 
