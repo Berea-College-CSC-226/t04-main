@@ -45,14 +45,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **We compared each branch and the master had the corrections that we needed to fix our code once we compared the two. The difference was the master branch had the fixes that our code needed.**
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **Yes, we see all the branches in the repo and yes we see our code in their branches as well.**
 ```
 
 
@@ -63,14 +63,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    **Yes, our code is in the master branch.**
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+**Yes, all the other groups' code is in the master branch.**
 ```
 
 
@@ -80,7 +80,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    **Yes, our code is in the local master branch. **
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -90,25 +90,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: A clone is a copy of a repository that lives on your computer instead of on a website's server somewhere, or the act of making that copy. 
 
-        b. Commit:____________________
+        b. Commit: A commit is a history of changes made to a project's files in a version control system, making it an important point in your development process where you want to save progress, which is done by tagging changes, or revisions, in a document. It needs a commit message to provide context and reasoning for the changes, helping others and myself understand what was modified and why.
 
-        c. Push:____________________
+        c. Push: To push your code means to save and upload the changes you’ve made, which saves on Github’s servers. The code is being pushed to the remote repository from the local repository.
 
-        d. Branch:____________________
+        d. Branch: A branch is a parallel version of a repository. It is contained within the repository, but does not affect the primary or main branch allowing you to work freely without disrupting the "live" version.
 
-        e. Pull:____________________
+        e. Pull: A pull refers to when you are fetching in changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date.
 
-        f. Pull Request:____________________
+        f. Pull Request: A pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators.
 
-        g. Merge:____________________
+        g. Merge: A merge takes the changes from one branch (in the same repository or from a fork), and applies them into another.
 
-        h. Remote:____________________
+        h. Remote: A version of a repository or branch that is hosted on a server, most likely GitHub.com.
 
-        i. Local:____________________
+        i. Local: A local refers to the repository that exists on your personal computer or local machine. It is essentially a copy of the project's codebase that you can work on independently of the remote repository.
 
-        j. Fetch:____________________
+        j. Fetch: You're adding changes from the remote repository to your local working branch without committing them. It fetching allows you to review changes before committing them to your local branch.
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -118,7 +118,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    **Can we see the commits of other branches? Can other groups access our branch and run our code? **
 ```
 
 ---
