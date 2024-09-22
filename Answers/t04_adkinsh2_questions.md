@@ -78,7 +78,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    **Yes, it has been added to the main branch with everyone elses code.**
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
