@@ -183,7 +183,6 @@ def team_9_adv(username, delay):
         Kirsten
     """
     question = ""
-    delay = 1.0
     direction = input("Where would you like to go, You can go North")
 
     #this asks which option you would like to choose after writing North
