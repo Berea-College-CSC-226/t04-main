@@ -52,7 +52,7 @@ ___
     Compare your branch to master. What’s different?
 
 ```        
-**Replace This With Your Answer**
+**Our branch doesn't have as much code as the master branch. We only have our teams code, aswell as the changes made to that original code.**
 ```
 
 ___
@@ -60,7 +60,7 @@ ___
 6. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-**Replace This With Your Answer**
+**We can see their branches, but we don't see other peoples code, there would be a checkout issue with our code. We can see how we could acess it though. I assume our code isn't in their branch though, as we are all working on individual parts of the entire code.**
 ```
 
 ___
@@ -74,7 +74,7 @@ ___
     Is your code in the master branch now? 
 
 ```
-**Replace This With Your Answer**
+**Our code isn't in the master branch yet, as our changes have not been approved**
 ```
 
 ___
@@ -102,25 +102,25 @@ ___
 
 10. Define Each Term:
 
-        a. Clone:____________________
+        a. Clone: Copy of repository on computer
 
-        b. Commit:____________________
+        b. Commit: change to file
 
-        c. Push:____________________
+        c. Push: Pushing code to a directory to save progress
 
-        d. Branch:____________________
+        d. Branch: alternative place to test code/write code instead of on the master branch
 
-        e. Pull:____________________
+        e. Pull: code gets brought into other branches
 
-        f. Pull Request:____________________
+        f. Pull Request: Asking for our code to be looked over and added to the master branch through github.
 
-        g. Merge:____________________
+        g. Merge: applied changes from one branch to another
 
-        h. Remote:____________________
+        h. Remote: version of repository on a branch
 
-        i. Local:____________________
+        i. Local: This is the device you are creating code on
 
-        j. Fetch:____________________
+        j. Fetch: adding changes from remote repository to local branch without commiting/pushing them
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
 
