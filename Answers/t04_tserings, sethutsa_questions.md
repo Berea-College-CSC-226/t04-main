@@ -17,21 +17,21 @@
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We added input validation to ensure only valid binary usernames are accepted.
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+ Yeah, it was a bit tricky to follow because the logic was a little scattered, which made it tough to keep track of what was happening.
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We fixed spacing around operators and ensured consistent indentation. The code looks better and is easier to read now.
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -43,14 +43,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    The main difference is just that our branch only have what we have been working on. 
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+   It's not yet, cause we need to issue a pull-request nad master has to pull it into the master branch.
 ```
 
 
@@ -61,7 +61,7 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    
 ```
 
 
