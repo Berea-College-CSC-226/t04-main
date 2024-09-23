@@ -162,11 +162,57 @@ def team_6_adv(username, delay):
 ###################################################################################
 
 
-def team_7_adv(username, delay):
-    pass
-    # TODO Add your code here
+def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
+    """
+    https://docs.google.com/document/d/1xjf1gnNMp4Dyr4_MjM-oRn7gzxW9Z4p4VG3_EWYA4vM/edit
+    Galina Pokitko
+    Aliaksandr Melnichenka
+    :return: True if alive, False if dead
+    """
+
+    bridge = input("You come across three bridges do you want to take the [Left/Middle/Right] path?")
+
+    if bridge == "Left":
+        print("You walk across a stone pathway confronted with a beautiful waterfall at the end: [+5 inspiration]")
+        sleep(delay)
+        return True
+
+    # if they go left: You come across a beautiful waterfall: [+5 inspiration]
+
+    elif bridge == "Middle":
+        print("You walk across a chasm and the wooden bridge breaks and you are about to fall: [THINK FAST]")
+        sleep(delay)
+
+        rope = float(input(
+            "Quick! Catch yourself using a rope! Determine its length in feet by picking a number between [1] to [20]"))
+
+        if rope > 13:
+            print(
+                "Phew! You managed to grab the rope just in time before the fall! Congratulations: [+5 Survival Skills]")
+            return True
+        else:
+            print("Oh no! Your hand slips and you fal backwards into the chasm: [DEAD]")
+            return False
+
+
+    # elif they go middle: You walk across a chasm and the wooden bridge breaks and you fall: [DEAD]
+
+    else:
+        print("You walk safely across a plain bridge: [0 inspiration]")
+        sleep(delay)
+        return True
+    # else they go right: You walk safely across a plain bridge: [0 inspiration]
+
+    if dead:
+        print("Oh no! You did not make it to the end: [GAME OVER]")
+        return False
+
+    # The following is the end of the story. Don't change this section, unless you really want to.
+    print("Look at that! You made it to the end of the story without dying! ")
+    print("Congratulations... now go play again and find an interesting way to perish. ")
+    print("Try again by hitting the green play button.")
+
     return True
-###################################################################################
 
 
 def team_8_adv(username, delay):
