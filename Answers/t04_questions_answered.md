@@ -107,9 +107,9 @@ the details of using git will be touched upon again in your homework assignment,
 
         h. Remote: Central location of the project
 
-        i. Local:Personal copy of the project on your computer.
+        i. Local: Personal copy of the project on your computer.
 
-        j. Fetch:Download latest data from a remote repository without merging.
+        j. Fetch: Download latest data from a remote repository without merging.
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
