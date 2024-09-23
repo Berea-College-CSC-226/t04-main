@@ -80,6 +80,7 @@ def kill_if_dead(is_alive):
 ###################################################################################
 ###################################################################################
 
+
 def scott_adventure(username, delay):
     """
     My original adventure text I gave as an example. Leave it alone as well.
@@ -120,6 +121,7 @@ def scott_adventure(username, delay):
 ###################################################################################
 ###################################################################################
 
+
 def team_1_adv(username, delay):
     pass
     # TODO Add your code here
@@ -127,10 +129,43 @@ def team_1_adv(username, delay):
 ###################################################################################
 
 
-def team_2_adv(username, delay):
-    pass
-    # TODO Add your code here
-    return True
+def team_2_adv(username = "Scott", delay = 1.0):
+    """
+    https://docs.google.com/document/d/1P2oG3ls33RFbDiHRx_RqUnavHicq17E0QNQ90DO_nk4/edit?usp=sharing
+    Caleb Tucker
+    Kai Vaught
+    :return: none
+    """
+    is_dead = False
+    print("It's Wednesday morning. You wake up at 9:10am and see the sun through your window.")
+    print("Suddenly, you realize that you are almost late for your CSC 226 class at 9:20am.")
+    print("You know you need your morning coffee to get through the day, but you are almost late for class!")
+    sleep(delay)
+    decision = input("Coffee or class? ").lower()
+
+    if decision == "coffee":
+        print("You drink your coffee and run to class.")
+        sleep(delay)
+        print("You are late, and awake. But the instructor is also late so he doesn't know.")
+        return True
+
+    elif decision == "class":
+        print("You manage to arrive to class at 9:20am.")
+        sleep(delay)
+        is_dead = True
+
+    else:
+        print("You couldn't make up your mind, so you were late. Your final score drops a letter grade. Ouch.")
+        return True
+
+    if is_dead:
+        print("Although you made it to class on time, you cannot stay awake.")
+        sleep(delay)
+        print()
+        print("In an attempt to wake you up, Caleb throws scalding McDonald's coffee in your face.")
+        print("He accidentally kills you.")
+        return False
+
 ###################################################################################
 
 
@@ -162,11 +197,57 @@ def team_6_adv(username, delay):
 ###################################################################################
 
 
-def team_7_adv(username, delay):
-    pass
-    # TODO Add your code here
+def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
+    """
+    https://docs.google.com/document/d/1xjf1gnNMp4Dyr4_MjM-oRn7gzxW9Z4p4VG3_EWYA4vM/edit
+    Galina Pokitko
+    Aliaksandr Melnichenka
+    :return: True if alive, False if dead
+    """
+
+    bridge = input("You come across three bridges do you want to take the [Left/Middle/Right] path?")
+
+    if bridge == "Left":
+        print("You walk across a stone pathway confronted with a beautiful waterfall at the end: [+5 inspiration]")
+        sleep(delay)
+        return True
+
+    # if they go left: You come across a beautiful waterfall: [+5 inspiration]
+
+    elif bridge == "Middle":
+        print("You walk across a chasm and the wooden bridge breaks and you are about to fall: [THINK FAST]")
+        sleep(delay)
+
+        rope = float(input(
+            "Quick! Catch yourself using a rope! Determine its length in feet by picking a number between [1] to [20]"))
+
+        if rope > 13:
+            print(
+                "Phew! You managed to grab the rope just in time before the fall! Congratulations: [+5 Survival Skills]")
+            return True
+        else:
+            print("Oh no! Your hand slips and you fal backwards into the chasm: [DEAD]")
+            return False
+
+
+    # elif they go middle: You walk across a chasm and the wooden bridge breaks and you fall: [DEAD]
+
+    else:
+        print("You walk safely across a plain bridge: [0 inspiration]")
+        sleep(delay)
+        return True
+    # else they go right: You walk safely across a plain bridge: [0 inspiration]
+
+    if dead:
+        print("Oh no! You did not make it to the end: [GAME OVER]")
+        return False
+
+    # The following is the end of the story. Don't change this section, unless you really want to.
+    print("Look at that! You made it to the end of the story without dying! ")
+    print("Congratulations... now go play again and find an interesting way to perish. ")
+    print("Try again by hitting the green play button.")
+
     return True
-###################################################################################
 
 
 def team_8_adv(username, delay):
@@ -191,8 +272,39 @@ def team_10_adv(username, delay):
 
 
 def team_11_adv(username, delay):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1YOGdN09YEycwQEfGlS1LzdbXsjU7RXas1OybrXs8tDo/edit?usp=sharing
+    Luis Olivas
+    Puskar Chapagain
+    :return: none
+    """
+    # TEAM 11
+    direction = input("Which direction would you like to go? [North/South/East/West]")
+
+    if direction == "North":
+        # Good choice!
+        print("You are still trapped in the dark, but someone else is there with you now! I hope they're friendly...")
+        print("The person gets closer to you. You get scared of them and, and if they may harm you")
+        print()
+        sleep(delay)
+        print("You take a closer look. Oh look, it is just Dr. Scott Heggen, and he is trying to help you out!")
+        print("Dr. Heggen helps you out, and you make it out of the cave!")
+        sleep(delay)
+    elif direction == "South":
+        # Oh... Bad choice
+        print("You hear a growl. Not a stomach growl. More like a big nasty animal growl.")
+        sleep(delay)
+        print("Oops. Turns out the cave was home to a nasty grizzly bear. ")
+        print("Running seems like a good idea now. But... it's really, really dark.")
+        print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
+        print("He eats you. You are delicious.")
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        return False
+    else:
+        # Neutral choice
+        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+        sleep(delay)
+
     return True
 ###################################################################################
 
@@ -355,8 +467,63 @@ def team_21_adv(username, delay):
 
 
 def team_22_adv(username, delay):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1KfNXomNLKmDJjPjTKwPYSAfdsDXUeLUHza7j-Q3XNqo/edit
+    Harry Adkins
+    :return: none
+    """
+    talk = input("Do you wish to talk to them? [Yes/No]")
+
+    if talk == "Yes":
+        print("It seems they're just as lost as you are!")
+        sleep(delay)
+        print("You agree to help each other find your way out of this cave, and they have tools to help")
+    else:
+        print("Due to your silence and shadowy figure in the dark, they mistake you for a beast!")
+        chance = input("How many steps do you take towards the person? Enter an integer")
+        if int(chance) > 7:
+            print("They are startled by your rapid approach!")
+            print("They charge at you head on and you trip and fall.")
+            sleep(delay * 2)
+            print("You keep falling?")
+            sleep(delay)
+            print("It seems you fell over a cliff, you're still falling and you don't know when you'll hit the gro-")
+            return False
+        else:
+            print("They get closer to you and see you're a human too!")
+            print("They agree to help you using tools from their backpack")
+
+
+    tool = input("Which tool do you think will help? [Torch/Shovel/Compass]")
+
+    progress = False
+    while not progress:
+        if tool == "Torch":
+            progress = True
+            print("You light the torch, and now you can see!")
+            sleep(delay)
+            print("It appears the cave leads into a well, and when you get closer you see light at the surface!")
+        elif tool == "Shovel":
+            progress = True
+            print("You use the shovel and start blindly digging into the side of the cave")
+            sleep(delay)
+            print("You hear strange rumbling noises, you are pushed to dig faster")
+            sleep(delay * 2)
+            print("Are those sounds coming from above?")
+            print("How strong are these cave walls anyways?")
+            sleep(delay * 2)
+            print("Brrrrrrr cshhhhhh CRASHHHHHHHH")
+            sleep(delay)
+            print("The walls collapsed in and crushed you! Seems those walls weren't too stable...")
+            return False
+        else:
+            print("You pull out the compass, maybe if you follow one direction it'll lead somewhere eventually!")
+            sleep(delay)
+            print("...")
+            sleep(delay)
+            print("......")
+            sleep(delay * 2)
+            print("You can't see the compass, it's way too dark, maybe something else will help")
     return True
 ###################################################################################
 

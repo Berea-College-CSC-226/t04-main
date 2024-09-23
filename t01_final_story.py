@@ -413,6 +413,7 @@ if isDead == True:
 #TODO Don't forget to check if your user is dead at the end of your chapter!
 #########################################################################################################
 # TEAM 11
+
 direction = input("Which direction would you like to go? [North/South/East/West]")
 
 if direction == "North":
