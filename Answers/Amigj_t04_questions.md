@@ -81,7 +81,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **My code isn't pulled into the master branch, but I assume that **
+    **My code isn't pulled into the master branch, but I assume that your code would be in the local branch.**
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -119,7 +119,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    **N/A questions**
 ```
 
 ---

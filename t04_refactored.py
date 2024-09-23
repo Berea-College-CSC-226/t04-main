@@ -554,6 +554,7 @@ def team_24_adv(username, delay):
         choice = (input("[yes/no]"))
         if choice == "no":
             print("Your owner leaves. Dang it. You could of escaped. Why didn't you say yes? (Replay to try again.)")
+            return False
         else:
             print("Your owner opens the cage door. You are now free!")
             sleep(delay)
@@ -572,6 +573,7 @@ def team_24_adv(username, delay):
                 print("Ah yes... bloodshed... ")
                 sleep(delay*4)
                 print("Anyways your owner banned you in your cage. (Replay to try again.)")
+                return False
             else:
                 print("You like it when your owner spoils you with pets.")
                 sleep(delay*2)
@@ -600,6 +602,7 @@ def team_24_adv(username, delay):
                     print("Unforntaunly you get picked on by the local birds and get turned into a snack.")
                     sleep(delay*3)
                     print("Replay to try again to get a better ending.")
+                    return False
     else:
         print("Your owner doesn't hear you. Maybe try again? (Replay to try again).")
 
