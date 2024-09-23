@@ -129,10 +129,43 @@ def team_1_adv(username, delay):
 ###################################################################################
 
 
-def team_2_adv(username, delay):
-    pass
-    # TODO Add your code here
-    return True
+def team_2_adv(username = "Scott", delay = 1.0):
+    """
+    https://docs.google.com/document/d/1P2oG3ls33RFbDiHRx_RqUnavHicq17E0QNQ90DO_nk4/edit?usp=sharing
+    Caleb Tucker
+    Kai Vaught
+    :return: none
+    """
+    is_dead = False
+    print("It's Wednesday morning. You wake up at 9:10am and see the sun through your window.")
+    print("Suddenly, you realize that you are almost late for your CSC 226 class at 9:20am.")
+    print("You know you need your morning coffee to get through the day, but you are almost late for class!")
+    sleep(delay)
+    decision = input("Coffee or class? ").lower()
+
+    if decision == "coffee":
+        print("You drink your coffee and run to class.")
+        sleep(delay)
+        print("You are late, and awake. But the instructor is also late so he doesn't know.")
+        return True
+
+    elif decision == "class":
+        print("You manage to arrive to class at 9:20am.")
+        sleep(delay)
+        is_dead = True
+
+    else:
+        print("You couldn't make up your mind, so you were late. Your final score drops a letter grade. Ouch.")
+        return True
+
+    if is_dead:
+        print("Although you made it to class on time, you cannot stay awake.")
+        sleep(delay)
+        print()
+        print("In an attempt to wake you up, Caleb throws scalding McDonald's coffee in your face.")
+        print("He accidentally kills you.")
+        return False
+
 ###################################################################################
 
 
