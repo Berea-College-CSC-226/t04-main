@@ -46,14 +46,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Branch has my updated **
+    **Branch has my updated edits, however the master doesn't have my changes. **
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **I cannot see other groups' works/branches.**
 ```
 
 
@@ -71,7 +71,7 @@ ___
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+**I can see two groups works in the master branch.**
 ```
 
 
@@ -91,25 +91,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: making a copy
 
-        b. Commit:____________________
+        b. Commit: saving your work
 
-        c. Push:____________________
+        c. Push: sending your work to Git from PyCharm
 
-        d. Branch:____________________
+        d. Branch: a copy of the master, but edits you make here won't change the master
 
-        e. Pull:____________________
+        e. Pull: pulling work from Git to PyCharm
 
-        f. Pull Request:____________________
+        f. Pull Request: requesting if your work can be pulled into the master branch
 
-        g. Merge:____________________
+        g. Merge: put to things together like your branch with the updated master.
 
-        h. Remote:____________________
+        h. Remote: distant/far away file.
 
-        i. Local:____________________
+        i. Local:nearby/immdiate file in your computer.
 
-        j. Fetch:____________________
+        j. Fetch: To go get something
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
