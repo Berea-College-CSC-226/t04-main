@@ -80,6 +80,7 @@ def kill_if_dead(is_alive):
 ###################################################################################
 ###################################################################################
 
+
 def scott_adventure(username, delay):
     """
     My original adventure text I gave as an example. Leave it alone as well.
@@ -119,6 +120,7 @@ def scott_adventure(username, delay):
 ###################################################################################
 ###################################################################################
 ###################################################################################
+
 
 def team_1_adv(username, delay):
     pass
@@ -237,8 +239,39 @@ def team_10_adv(username, delay):
 
 
 def team_11_adv(username, delay):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1YOGdN09YEycwQEfGlS1LzdbXsjU7RXas1OybrXs8tDo/edit?usp=sharing
+    Luis Olivas
+    Puskar Chapagain
+    :return: none
+    """
+    # TEAM 11
+    direction = input("Which direction would you like to go? [North/South/East/West]")
+
+    if direction == "North":
+        # Good choice!
+        print("You are still trapped in the dark, but someone else is there with you now! I hope they're friendly...")
+        print("The person gets closer to you. You get scared of them and, and if they may harm you")
+        print()
+        sleep(delay)
+        print("You take a closer look. Oh look, it is just Dr. Scott Heggen, and he is trying to help you out!")
+        print("Dr. Heggen helps you out, and you make it out of the cave!")
+        sleep(delay)
+    elif direction == "South":
+        # Oh... Bad choice
+        print("You hear a growl. Not a stomach growl. More like a big nasty animal growl.")
+        sleep(delay)
+        print("Oops. Turns out the cave was home to a nasty grizzly bear. ")
+        print("Running seems like a good idea now. But... it's really, really dark.")
+        print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
+        print("He eats you. You are delicious.")
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        return False
+    else:
+        # Neutral choice
+        print("You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+        sleep(delay)
+
     return True
 ###################################################################################
 
