@@ -401,8 +401,63 @@ def team_21_adv(username, delay):
 
 
 def team_22_adv(username, delay):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1KfNXomNLKmDJjPjTKwPYSAfdsDXUeLUHza7j-Q3XNqo/edit
+    Harry Adkins
+    :return: none
+    """
+    talk = input("Do you wish to talk to them? [Yes/No]")
+
+    if talk == "Yes":
+        print("It seems they're just as lost as you are!")
+        sleep(delay)
+        print("You agree to help each other find your way out of this cave, and they have tools to help")
+    else:
+        print("Due to your silence and shadowy figure in the dark, they mistake you for a beast!")
+        chance = input("How many steps do you take towards the person? Enter an integer")
+        if int(chance) > 7:
+            print("They are startled by your rapid approach!")
+            print("They charge at you head on and you trip and fall.")
+            sleep(delay * 2)
+            print("You keep falling?")
+            sleep(delay)
+            print("It seems you fell over a cliff, you're still falling and you don't know when you'll hit the gro-")
+            return False
+        else:
+            print("They get closer to you and see you're a human too!")
+            print("They agree to help you using tools from their backpack")
+
+
+    tool = input("Which tool do you think will help? [Torch/Shovel/Compass]")
+
+    progress = False
+    while not progress:
+        if tool == "Torch":
+            progress = True
+            print("You light the torch, and now you can see!")
+            sleep(delay)
+            print("It appears the cave leads into a well, and when you get closer you see light at the surface!")
+        elif tool == "Shovel":
+            progress = True
+            print("You use the shovel and start blindly digging into the side of the cave")
+            sleep(delay)
+            print("You hear strange rumbling noises, you are pushed to dig faster")
+            sleep(delay * 2)
+            print("Are those sounds coming from above?")
+            print("How strong are these cave walls anyways?")
+            sleep(delay * 2)
+            print("Brrrrrrr cshhhhhh CRASHHHHHHHH")
+            sleep(delay)
+            print("The walls collapsed in and crushed you! Seems those walls weren't too stable...")
+            return False
+        else:
+            print("You pull out the compass, maybe if you follow one direction it'll lead somewhere eventually!")
+            sleep(delay)
+            print("...")
+            sleep(delay)
+            print("......")
+            sleep(delay * 2)
+            print("You can't see the compass, it's way too dark, maybe something else will help")
     return True
 ###################################################################################
 
