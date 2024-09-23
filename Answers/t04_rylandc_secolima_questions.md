@@ -63,14 +63,15 @@ ___
      Is your code in the master branch now? 
 
 ```
-     **Replace This With Your Answer*
+     Yes, because our branch has been merged into master.
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-   **Replace This With Your Answer*
+  After the PR, they're all in the master branch as their branch was merged 
+  into master.
 ```
 
 
@@ -80,7 +81,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    No. It's in the origin since it's already merged.
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -90,25 +91,30 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: making a copy from the code on Github in a local computer
 
-        b. Commit:____________________
+        b. Commit: confirming changes in the code to send them to Github
 
-        c. Push:____________________
+        c. Push: sending changes in the code to Github
 
-        d. Branch:____________________
+        d. Branch: a scratch copy of the master branch in which I can work on
 
-        e. Pull:____________________
+        e. Pull: updating my project by bringing changes made in a remote 
+        repository to my local computer
 
-        f. Pull Request:____________________
+        f. Pull Request: a formal request to merge my code, changes, or 
+        projects into the main branch (master)
 
-        g. Merge:____________________
+        g. Merge: blend my branch and master as one
 
-        h. Remote:____________________
+        h. Remote: everything that's online, such as the online repository, 
+        master branch, etc
 
-        i. Local:____________________
+        i. Local: everything that's in a local machine, such as the local 
+        branch, code changes, etc
 
-        j. Fetch:____________________
+        j. Fetch: bringings all the changes from the remote repository 
+        without actually downloading them.
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -118,7 +124,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    N/A
 ```
 
 ---
