@@ -119,13 +119,16 @@ def scott_adventure(username, delay):
 ###################################################################################
 ###################################################################################
 
-def team_1_adv(username, delay):
-# https://docs.google.com/document/d/1VpipMYDS0OLnxJ6RpZfe3CgiNNkQeHDKCK7lMajeUqU/edit?usp=sharing
-# Dawson Lakes
-# Ayomide Oludairo
-
+def team_1_adv(delay = 1.0, username = "lakesd3_oludairoa"):
+ #https://docs.google.com/document/d/1VpipMYDS0OLnxJ6RpZfe3CgiNNkQeHDKCK7lMajeUqU/edit?usp=sharing
+ # Dawson Lakes
+ # Ayomide Oludairo
+ #
     pass
-    # TODO Add your code here
+
+    delay = 1.0
+    isDead = False
+
     username = input("What is your name?")
     print()
     sleep(delay*2)
@@ -140,18 +143,15 @@ def team_1_adv(username, delay):
     if fruit == "Banana":
         print("unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
         isDead = True
-    elif fruit == "Apple":
-        print("")
-        isDead = True
     elif fruit == "Orange":
         print("you've chosen the special fruit, you've earned ")
-        delay = 1.0
-        isDead = False
-        return isDead
+    elif fruit == "Apple":
+        print("You ate the apple and have died of cyanide poisoning.")
+        isDead = True
 
-# TODO Make sure to add the additional check if the user makes the "bad" choice!
+    return isDead
 
-# TODO Don't forget to check if your user is dead at the end of your chapter!
+
 
 ###################################################################################
 
