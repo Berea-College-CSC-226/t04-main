@@ -602,7 +602,7 @@ def team_24_adv(username, delay):
     else:
         print("Your owner doesn't hear you. Maybe try again? (Replay to try again).")
 
-    return True
+    return False
 ###################################################################################
 
 

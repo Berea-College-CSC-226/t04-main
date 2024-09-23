@@ -91,21 +91,21 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone: making a copy
+        a. Clone: making a copy (copy of a repo)
 
-        b. Commit: saving your work
+        b. Commit: saving your work 
 
-        c. Push: sending your work to Git from PyCharm
+        c. Push: sending your work (commits) to Git from PyCharm
 
-        d. Branch: a copy of the master, but edits you make here won't change the master
+        d. Branch: a copy of the master, but edits you make here won't change the master (parallel version of the repo)
 
-        e. Pull: pulling work from Git to PyCharm
+        e. Pull: pulling work from Git to PyCharm (fetching changes from the remote repo.)
 
-        f. Pull Request: requesting if your work can be pulled into the master branch
+        f. Pull Request: requesting if your work can be pulled into the master branch (changes that can be accepted or denied by the repo collabatrors)
 
         g. Merge: put to things together like your branch with the updated master.
 
-        h. Remote: distant/far away file.
+        h. Remote: distant/far away file. (verison of the branch/repo that is hosted on a server)
 
         i. Local:nearby/immdiate file in your computer.
 
