@@ -119,38 +119,29 @@ def scott_adventure(username, delay):
 ###################################################################################
 ###################################################################################
 
-def team_1_adv(delay = 1.0, username = "lakesd3_oludairoa"):
+def team_1_adv(username = "lakesd3_oludairoa", delay = 1.0):
  #https://docs.google.com/document/d/1VpipMYDS0OLnxJ6RpZfe3CgiNNkQeHDKCK7lMajeUqU/edit?usp=sharing
  # Dawson Lakes
  # Ayomide Oludairo
- #
-    pass
 
-    delay = 1.0
-    isDead = False
-
-    username = input("What is your name?")
-    print()
-    sleep(delay*2)
     print("welcome", username, "to fruit Land")
+    sleep(delay*2)
     print("you will be given three fruits and you can only choose one")
     print("Be careful the choice you make ")
-    print("one will give you fortune, one will lead to death, and one is just a normal fruit")
+    print("one will give you fortune, and the others will lead to death. Choose wisely.")
     sleep(delay*2)
 
     fruit = input("which fruit would you like? [Banana, Orange, Apple] ")
 
     if fruit == "Banana":
         print("unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
-        isDead = True
+        return False
     elif fruit == "Orange":
-        print("you've chosen the special fruit, you've earned ")
+        print("you've chosen the special fruit, you've earned passage onto the next stage. ")
+        return True
     elif fruit == "Apple":
         print("You ate the apple and have died of cyanide poisoning.")
-        isDead = True
-
-    return isDead
-
+        return False
 
 
 ###################################################################################
