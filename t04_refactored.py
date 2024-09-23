@@ -135,8 +135,8 @@ def team_2_adv(username, delay):
 
 def team_3_adv(username, delay):
     """
-       we're creating an idea, giving you options to stay alive. can you stay alive? this game allow for you to pick between a good choice and a bad choice.
-           """
+    we're creating an idea, giving you options to stay alive. can you stay alive? this game allow for you to pick between a good choice and a bad choice.
+    """
     print("\n")
     print("You find a room that contains two gold statues.")
     sleep(delay)
@@ -157,7 +157,18 @@ def team_3_adv(username, delay):
         print("A passageway opens above you.")
         sleep(delay)
         print("A bunch of snakes and spiders fall on you!")
-        isDead = False
+        print("\n")
+        print("One of the snakes asks you to pick a number 1 through 20.")
+        sleep(delay)
+        number = int(float(input("Which number do you pick? (only put whole numbers): ")))
+        sleep(delay)
+        if number >= 13:
+            print("Congrats! The snake decided to spare you!")
+            return True
+            sleep(delay)
+        else:
+            print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
+            return False
         sleep(delay)
     else:
         # neutral choice
@@ -166,19 +177,9 @@ def team_3_adv(username, delay):
         print("Nothing happens... You are still stuck in the cave.")
         sleep(delay)
 
-    # TODO Make sure to add the additional check if the user makes the "bad" choice!
-    if isDead == True:
-        print("\n")
-        print("One of the snakes asks you to pick a number 1 through 20.")
-        sleep(delay)
-        number = int(float(input("Which number do you pick? (only put whole numbers): ")))
-        sleep(delay)
-        if number >= 13:
-            print("Congrats! The snake decided to spare you!")
-            isDead = False
-            sleep(delay)
-        else:
-            print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
+
+
+
 
 ###################################################################################
 
