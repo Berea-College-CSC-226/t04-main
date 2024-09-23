@@ -61,14 +61,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes, our code is in the master branch now.
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Yes, several teams' code has been pulled into the master branch by now.
 ```
 
 
@@ -78,7 +78,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    It isn't because our code would be in the remote master branch and wouldn't appear in the local unless we pulled it into it.
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -88,25 +88,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: Make a copy of the repository to work on
 
-        b. Commit:____________________
+        b. Commit: Saving your changes locally
 
-        c. Push:____________________
+        c. Push: Saving your changes on github
 
-        d. Branch:____________________
+        d. Branch: Seperate sandbox of the same code to work and test on without changing the main code
 
-        e. Pull:____________________
+        e. Pull: Integrate the changes from one branch to another
 
-        f. Pull Request:____________________
+        f. Pull Request: Asking for your changes to be implemented into the master branch
 
-        g. Merge:____________________
+        g. Merge: Combining two branches and you choose which changes to keep from each
 
-        h. Remote:____________________
+        h. Remote: Not local aka github
 
-        i. Local:____________________
+        i. Local: Your machine you're working on
 
-        j. Fetch:____________________
+        j. Fetch: To retrieve data
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -116,7 +116,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    The thing we are still a bit confused about how to avoid merge conflicts and also how commit and push automatically updates your pull request.
 ```
 
 ---
