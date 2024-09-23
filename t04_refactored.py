@@ -251,8 +251,52 @@ def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
 
 
 def team_8_adv(username, delay):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1tpBnsiVxtpcC6sO9debi_r0aZpjHUot1gZv7d1fg4jg/edit?usp=sharing
+    Cody Bandy
+    CJ Spencer
+    :param username: the user's name
+    :param delay: float representing pauses in the program
+    :return: None
+    """
+
+    is_free = False
+    is_stranded = False
+
+    print("\n")
+    print("Up ahead is a lit chamber with 3 doors, one to the East, one to the North, and one to the West.")
+    cardinal = input("Which door will you choose?")
+
+    if cardinal == "East":
+        # GOOD !!!
+        print("Fortune favors you! The door you have chosen is filled to the brim with treasures unimaginable in this world! Also, you see an exit just beyond the treasure!")
+        is_free = True
+        sleep(delay)
+
+    elif cardinal == "North":
+        # Might be a good choice
+        print("Behind the door lies a small snake that upon seeing you starts to grow!")
+        print("As you run away, the snake chases you as it continues to grow, expanding to fill everything behind you as your path ahead leads to a dead end...")
+        sleep(delay)
+        luck = random.randint(0, 10)
+        if luck <= 5:
+            print("There is no escape...")
+            return False
+        elif luck >= 6:
+            print("As the snake grows, the cave roof starts to collapse onto it, killing the snake, and opening a path to freedom.")
+            is_free = True
+
+    elif cardinal == "West":
+        # I mean you're not dead
+        print("You are now in the middle of an island alone forever, enjoy !!!")
+        is_stranded = True
+        sleep(delay)
+
+
+    if is_free:
+        print("You escaped, congrats!")
+    if is_stranded:
+        print("Well, you're still trapped but at least you're not dead. Try again?")
     return True
 ###################################################################################
 
