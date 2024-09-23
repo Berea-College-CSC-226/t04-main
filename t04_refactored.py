@@ -176,7 +176,6 @@ def team_8_adv(username, delay):
 
 
 def team_9_adv(username, delay):
-    pass
     """ the code asks where you want tp go but the only option is North, after choosing North it asks you what you're doing here and you choose options 1, 2 or 3. after choosing the option all options leads to turning into a frog at the end.
         https://docs.google.com/document/d/1guMbODOgcKlr7DTSsVviL7zItomDFJwApO42bZtpuQc/edit?usp=sharing 
         Din din
@@ -216,7 +215,7 @@ def team_9_adv(username, delay):
             print("You are a frog now. You're not dead, but you can't do anything either. RIBBIT!!!")
             print("""You have reached the "secret" frog ending. Congratulations!""")
 
-        return True
+    return True
 
 
 
