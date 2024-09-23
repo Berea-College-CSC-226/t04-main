@@ -177,7 +177,7 @@ def team_8_adv(username, delay):
     :param delay: float representing pauses in the program
     :return: None
     """
-    is_dead = False
+
     is_free = False
     is_stranded = False
 
@@ -199,7 +199,7 @@ def team_8_adv(username, delay):
         luck = random.randint(0, 10)
         if luck <= 5:
             print("There is no escape...")
-            is_dead = True
+            return False
         elif luck >= 6:
             print("As the snake grows, the cave roof starts to collapse onto it, killing the snake, and opening a path to freedom.")
             is_free = True
@@ -210,8 +210,7 @@ def team_8_adv(username, delay):
         is_stranded = True
         sleep(delay)
 
-    if is_dead:
-        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+
     if is_free:
         print("You escaped, congrats!")
     if is_stranded:
