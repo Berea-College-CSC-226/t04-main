@@ -70,7 +70,7 @@ ___
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+** Yes, there's a lot more code from other teams in the master branch now. **
 ```
 
 
@@ -80,7 +80,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    ** Everyone's code dissapeared when we accessed the local master branch. Because the project wasn't updated there.**
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -90,25 +90,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: copying a remote repository to your local machine by creating a local copy of the project's code and its entire version history.
 
-        b. Commit:____________________
+        b. Commit: A commit is a snapshot of changes made to a file or set of files in the project.
 
-        c. Push:____________________
+        c. Push: The process of uploading our local commits to a remote repository, making our changes available to others. It helps in backing up our work.
 
-        d. Branch:____________________
+        d. Branch: Branch is an independent line of development within a repository. It allows us to work on different features or bug fixes in isolation from the main codebase.
 
-        e. Pull:____________________
+        e. Pull: The process of fetching changes from a remote repository and merging them into our local repository is known as Pull.
 
-        f. Pull Request:____________________
+        f. Pull Request: It is  a request to merge changes from one branch into another branch, often the main branch, in a remote repository.
 
-        g. Merge:____________________
+        g. Merge: The process of combining  the changes from one branch into another is known as merge.
 
-        h. Remote:____________________
+        h. Remote:  A remote is a version of the repository that is hosted on a server, typically a service like GitHub or GitLab.
 
-        i. Local:____________________
+        i. Local: Local refers to the copy of the repository that resides on our personal computer. This is where we make changes and commit them before pushing them to the remote repository.
 
-        j. Fetch:____________________
+        j. Fetch: The process of downloading changes and updates from the remote repository without merging them into our local branch is Fetch.
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -118,7 +118,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    ** We were just confused with the time we made changes to the wront python file and had to revert everything.  **
 ```
 
 ---
