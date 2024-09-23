@@ -61,15 +61,16 @@ ___
      Is your code in the master branch now? 
 
 ```
-    
+    Not yet, but it will be there once the instructor approves it. 
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+Some groups' code are already there since they get approved already.
 ```
+
 
 
 2.e. Once your code has been pulled into the master branch, go back to PyCharm. 
@@ -78,7 +79,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    It's not, it will be there once we pull and merge the master branch to local. 
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -116,7 +117,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+We are still learning to navigate through the git and find things we need.
 ```
 
 ---
