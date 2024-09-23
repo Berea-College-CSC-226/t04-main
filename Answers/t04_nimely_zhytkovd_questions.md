@@ -63,14 +63,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes, it is.
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+I can see other people's code in the master branch.
 ```
 
 
@@ -80,7 +80,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    I can't see changes, because I didn't update it. 
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
