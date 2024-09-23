@@ -10,28 +10,29 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    **Replace This With Your Answer**
+       My partner and I can both navigate through functions well and parse through the code efficienlty notice and fix errors. 
+
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    Some logical changes we made to the code was that there was no tracking for the players state. In our refractered version we check for if the player isDead this provides a clear ending and allows retries or restarts. 
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    Yes, we saw the function sleep() and got confused on where it was supposed to do but found out it's what delays the code. 
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We added proper spacing and fixed variable names some were uppercase and would chnage them based on pycharms suggestion. Same thing for spacing and indentation. 
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -43,14 +44,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    We see the code in  our branch but not in the master branch. The master branch is unedited 
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    We see other branches but our code is not in their branches becuase they are not merged. 
 ```
 
 
