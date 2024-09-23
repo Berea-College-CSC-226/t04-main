@@ -62,14 +62,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+     The code is in master after getting accepted through the pr
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+Yes, for people who have completed the assignment
 ```
 
 
@@ -79,7 +79,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    yes our code is in main, we also see other peoples codes in main
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -89,25 +89,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone:Compying the repostory in to pycharm 
 
-        b. Commit:____________________
+        b. Commit:saving the changes made to the code
 
-        c. Push:____________________
+        c. Push:uploading the code to github
 
-        d. Branch:____________________
+        d. Branch:seperating files to work independtly
 
-        e. Pull:____________________
+        e. Pull:accepting the changes made online 
 
-        f. Pull Request:____________________
+        f. Pull Request: asking to be merged to the main code
 
-        g. Merge:____________________
+        g. Merge:combining codes together
 
-        h. Remote:____________________
+        h. Remote:code from others that are not working together.
 
-        i. Local:____________________
+        i. Local:repository in pycharm 
 
-        j. Fetch:____________________
+        j. Fetch: getting all the changes made remotley 
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -117,7 +117,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    No questions.
 ```
 
 ---
