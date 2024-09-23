@@ -306,13 +306,60 @@ def team_11_adv(username, delay):
         sleep(delay)
 
     return True
-###################################################################################
-
-
+#################################################################################
 def team_12_adv(username, delay):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1-VIVi-Txn87fIW0pf9LwcYZbWpGTJC0tbpnC-va0IBo/edit?usp=sharing
+    Besher Kitaz
+    Feda Mohammadi
+    :return: None
+    """
+    direction = input("[Tavern/Inn/Reform/Run/Saloon]")
+
+    if direction == "Inn":
+        # Good choice!
+        print("""You wander into an Inn, where a gambling man at a corner table offers you 
+              a gold nugget in exchange for playing a game of Russian Roulette.""")
+        sleep(delay)
+        print("Upon closer inspection you realize the revolver's chambers are all full. "
+              "Regardless, you choose to entertain the idea.")
+        print()
+    elif direction == "Tavern":
+        # Good choice!
+        print("Although you referred to the building as a tavern initially, closer inspection reveals to you"
+              "that this particular subset of business is referred to as a 'saloon' in a western context.")
+        sleep(delay)
+        print()
+    elif direction == "Saloon":
+        # Good choice!
+        print("In your infinite wisdom you have chastised the narrator for their improper use of the term 'tavern'."
+              "He notes this and allows you to carry on.")
+        sleep(delay)
+    elif direction == "Run":
+        # Oh... Bad choice
+        print("Your reputation proceeds you. Such is the shame of your cowardice that "
+              "you immediately suffer psychological strain.")
+        sleep(delay)
+        print("Like that television scene from the next century's hit movie 'Scanners' your "
+              "brain expands and presses against the wall of your skull.")
+        sleep(delay * 2)
+        print("Your death is instantaneous and cheesy as all get-out, yet you can't help but "
+              "wonder what impact your inexplicable headsplosion will have on creative writing "
+              "going into the future.")
+        return False
+    elif direction == "Reform":
+        # Oh... Bad choice
+        print("The powers of camaraderie, friendship and all adjacent terms for socially "
+              "agreeable behaviour come together to stop your tyranny before it begins.")
+        sleep(delay * 2)
+        print("Unfortunately, this also means you lose control of the player character.")
+        sleep(delay * 2)
+        print("They die of natural causes, lead poisoning, shortly after attempting "
+              "to intervene in a bank robbery sometime in the year 1890.")
+        return False
     return True
+
+
 ###################################################################################
 
 
