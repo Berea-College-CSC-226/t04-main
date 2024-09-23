@@ -120,33 +120,35 @@ def scott_adventure(username, delay):
 ###################################################################################
 
 def team_1_adv(username, delay):
-def team_1_adv(delay = 1.0, username = "lakesd3_oludairoa"):
-#https://docs.google.com/document/d/1VpipMYDS0OLnxJ6RpZfe3CgiNNkQeHDKCK7lMajeUqU/edit?usp=sharing
+# https://docs.google.com/document/d/1VpipMYDS0OLnxJ6RpZfe3CgiNNkQeHDKCK7lMajeUqU/edit?usp=sharing
 # Dawson Lakes
 # Ayomide Oludairo
-#
+
     pass
     # TODO Add your code here
-    return True
-delay = 1.0
-isDead = False
+    username = input("What is your name?")
+    print()
+    sleep(delay*2)
+    print("welcome", username, "to fruit Land")
+    print("you will be given three fruits and you can only choose one")
+    print("Be careful the choice you make ")
+    print("one will give you fortune, one will lead to death, and one is just a normal fruit")
+    sleep(delay*2)
 
-username = input("What is your name?")
-print()
-sleep(delay*2)
-print("welcome", username, "to fruit Land")
-print("you will be given three fruits and you can only choose one")
-print("Be careful the choice you make ")
-print("one will give you fortune, one will lead to death, and one is just a normal fruit")
-sleep(delay*2)
+    fruit = input("which fruit would you like? [Banana, Orange, Apple] ")
 
-Fruit = input("which fruit would you like? [Banana, Orange, Apple] ")
+    if fruit == "Banana":
+        print("unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
+        isDead = True
+    elif fruit == "Apple":
+        print("")
+        isDead = True
+    elif fruit == "Orange":
+        print("you've chosen the special fruit, you've earned ")
+        delay = 1.0
+        isDead = False
+        return isDead
 
-if Fruit == "Banana":
-    print("unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
-    isDead = True
-elif Fruit == "Orange":
-    print("you've chosen the special fruit, you've earned ")
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
