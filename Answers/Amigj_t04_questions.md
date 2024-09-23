@@ -64,7 +64,7 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    **No, but my code was commented on by the instructor. **
 ```
 
 
@@ -81,7 +81,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    **My code isn't pulled into the master branch, but I assume that **
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 

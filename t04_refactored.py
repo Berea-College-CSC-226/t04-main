@@ -587,6 +587,7 @@ def team_24_adv(username, delay):
                     print("Maybe freedom another day...)")
                     sleep(delay*2)
                     print("At least your safe from the outside and spoiled on the inside. \nThough will your brothern hate you for not wanting freedom you wonder?")
+                    return True
                 else:
                     print("You made the choice to get outside of the house...")
                     sleep(delay*3)
