@@ -102,11 +102,11 @@ the details of using git will be touched upon again in your homework assignment,
 
         g. Merge: To combine changes from diffrent branch
 
-        h. Remote:____________________
+        h. Remote: The external server where the repository is stored.
 
-        i. Local:____________________
+        i. Local: Your own copy of the repository on your computer.
 
-        j. Fetch:____________________
+        j. Fetch: Brings changes from the remote to your local repository but doesn't automatically apply them.
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
