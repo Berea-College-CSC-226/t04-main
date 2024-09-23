@@ -119,7 +119,10 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    The arrows, Mason, what do they mean?
+    Basically, the graph looks pretty but we can only guess at its meaning.
+    Like, what the heck does a backwards arrow mean??? I thought the arrow of
+    time went forward in this universe. (we think it's some sort of revert)
 ```
 
 ---
