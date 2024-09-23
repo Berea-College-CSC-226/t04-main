@@ -60,7 +60,7 @@ ___
 6. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-**We can see their branches, but we don't see other peoples code, there would be a checkout issue with our code. We can see how we could acess it though. I assume our code isn't in their branch though, as we are all working on individual parts of the entire code.**
+**We can see other groups branches in the repo, but our code has not been brought over into their branch. They aren't working on the same code as us, so they won't have our code in their branch.**
 ```
 
 ___
@@ -82,7 +82,7 @@ ___
 8. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 6?
 
 ```
-**Replace This With Your Answer**
+**Other peoples code does appear to be in the master branch**
 ```
 
 ___
@@ -92,7 +92,7 @@ ___
     Is your code in your **local** master branch? Why not?
 
 ```
-**Replace This With Your Answer**
+**Our code has not been pulled into the master branch yet, as we still had two things we needed to fic before we could be pulled over.**
 ```
 
 ___
@@ -132,6 +132,6 @@ ___
 
     Discuss with your partner what confusions you still have about the git workflow you experienced today, using the network graph to explore what has happened. Write your unanswered questions in the space to the right:
     
-        **Replace This With Your Answer**
+        **We are still a bit confused on merging code.**
 
 
