@@ -81,7 +81,8 @@ Yes, some groups have been merged into master.
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    Yes, because we pulled (updated project) and merged incoming changes. One of those
+    incomming changes was our own code submission, so we have it locally now as well.
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
