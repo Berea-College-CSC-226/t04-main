@@ -88,26 +88,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone: To create a copy of a remote repository on your computer
+        a. Clone: 
 
-        b. Commit: Save changes to files made in your repository along with messages describing those changes
+        b. Commit: 
+        
+        c. Push: 
+        
+        d. Branch: 
+        
+        e. Pull: 
+       
+        f. Pull Request: 
 
-        c. Push: To send your saved changes to your remote repository
+        g. Merge: 
 
-        d. Branch: A seperate version of the repository where you can make chnage siwthou affecting the main branch
+        h. Remote: 
 
-        e. Pull: To merge changes from the repository  into your local branch
+        i. Local: 
 
-        f. Pull Request: A request to merge changes from one branch to the other
-
-        g. Merge: To combine changes from diffrent branch
-
-        h. Remote: The external server where the repository is stored.
-
-        i. Local: Your own copy of the repository on your computer.
-
-        j. Fetch: Brings changes from the remote to your local repository but doesn't automatically apply them.
-```
+        j. Fetch: 
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
 
