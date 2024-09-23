@@ -10,28 +10,29 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    **Replace This With Your Answer**
+    We fixed variables names, if-statements and general logic of the code.
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We changed position of the input() function, because it was called to early in the code. 
+    We changed if statements, so they produce correct result.
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    We found it challenging, because the logic of the code was broken.
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We got two syntax errors regarding naming of the variables. Resulting code looks much better, because we fixed its structure and logic.
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -43,14 +44,15 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    We have our own documents in our branch, while master has initial documents. 
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    We can see other groups' code in the master repository, however their code isn't in our branch. 
+    Our branch is our own version of the program, and until we merge it with master, it wouldn't have other people's files.
 ```
 
 
@@ -61,14 +63,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes, it is.
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+I can see other people's code in the master branch.
 ```
 
 
@@ -78,7 +80,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    I can't see changes, because I didn't update it. 
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -88,25 +90,26 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone: 
+        a. Clone: To create a copy of a remote repository on your computer
 
-        b. Commit: 
-        
-        c. Push: 
-        
-        d. Branch: 
-        
-        e. Pull: 
-       
-        f. Pull Request: 
+        b. Commit: Save changes to files made in your repository along with messages describing those changes
 
-        g. Merge: 
+        c. Push: To send your saved changes to your remote repository
 
-        h. Remote: 
+        d. Branch: A seperate version of the repository where you can make change without affecting the main branch
 
-        i. Local: 
+        e. Pull: To merge changes from the repository  into your local branch
 
-        j. Fetch: 
+        f. Pull Request: A request to merge changes from one branch to the other
+
+        g. Merge: To combine changes from diffrent branch
+
+        h. Remote: The external server where the repository is stored.
+
+        i. Local: Your own copy of the repository on your computer.
+
+        j. Fetch: Brings changes from the remote to your local repository but doesn't automat
+```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
 

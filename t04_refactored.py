@@ -191,10 +191,52 @@ def team_5_adv(username, delay):
 
 
 def team_6_adv(username, delay):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1JqGV3zl_wINXukceFvA7VXv1E-fuG0yHjMvi9cfZjq8/edit
+    Joyce Nimely
+    Denys Zhytkov
+    :return:none
+    """
+    # TEAM 6
+    path = input("Which path will you take? [Left/Middle/Right]")
+
+    is_dead = False
+
+    if path == "Left":
+        # Wrong Path
+        print("Sss....sss...sss...")
+        sleep(delay)
+        print("You have encountered a python.")
+        print("Oh no! The python has bitten you.")
+        print("You are now slowly dying from the poison.")
+        print("Do you want another chance?")
+        is_dead = True
+        second_chance = input("Do you want another chance? [Yes/No]")
+    elif path == "Middle":
+        # Neutral Path
+        print("The path is never-ending.")
+        print("You continue walking through the cave.")
+    else:
+        # Correct Path
+        print("drip...drip...drip")
+        print("You arrived at a water faucet and met a fellow adventure!")
+        print("You can now continue your adventure.")
+        sleep(delay)
+
+    if is_dead:
+        print("You are now dead!You can try again after hitting the green play button. ")
+        quit()
     return True
-###################################################################################
+
+        # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+
+    #########################################################################################################
+
+
+#########################################################################################################
+
 
 
 def team_7_adv(username = "pokitokog,melnichenkaa", delay = 1.0):
