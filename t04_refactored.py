@@ -227,10 +227,6 @@ def team_15_adv(username, delay):
     #Jack Ngog
     """
 
-
-
-
-
     opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander)")
 
     isDead = False
@@ -255,7 +251,7 @@ def team_15_adv(username, delay):
         print("The fellow student you fight happens to be on the exact same level as you so you tie.")
         print("You have to try fighting them again  at the next BWT")
         sleep(delay)
-        return True
+    return True
 
 
 
