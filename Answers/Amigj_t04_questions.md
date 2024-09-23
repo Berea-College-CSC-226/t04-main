@@ -10,28 +10,31 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    **Replace This With Your Answer**
+    **Me and my partner didn't get our code done from the T01, so I had to make my own.**
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    **We had a bit of code (only prints), so it was a massive change from choosing from doors to trying to escape your
+    owner's house as a bird. I made the change because I thought it would be funny, and it adds to my lore of bird's secretly
+    having a revolution to over throw humans one day.**
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **I found their logic interesting and inspiring for the way they used a if statement with a number input. Their code was easy to understand.**
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    **I fixed some personal PEP8 errors with my print statements and it makes my code way better and less confusing. With the extra
+    indents, it makes the code look confusing.**
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -43,14 +46,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **Branch has my updated edits, however the master doesn't have my changes. **
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **I cannot see other groups' works/branches.**
 ```
 
 
@@ -61,14 +64,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    **No, but my code was commented on by the instructor. **
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+**I can see two groups works in the master branch.**
 ```
 
 
@@ -78,7 +81,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    **My code isn't pulled into the master branch, but I assume that your code would be in the local branch.**
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -88,25 +91,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: making a copy (copy of a repo)
 
-        b. Commit:____________________
+        b. Commit: saving your work 
 
-        c. Push:____________________
+        c. Push: sending your work (commits) to Git from PyCharm
 
-        d. Branch:____________________
+        d. Branch: a copy of the master, but edits you make here won't change the master (parallel version of the repo)
 
-        e. Pull:____________________
+        e. Pull: pulling work from Git to PyCharm (fetching changes from the remote repo.)
 
-        f. Pull Request:____________________
+        f. Pull Request: requesting if your work can be pulled into the master branch (changes that can be accepted or denied by the repo collabatrors)
 
-        g. Merge:____________________
+        g. Merge: put to things together like your branch with the updated master.
 
-        h. Remote:____________________
+        h. Remote: distant/far away file. (verison of the branch/repo that is hosted on a server)
 
-        i. Local:____________________
+        i. Local:nearby/immdiate file in your computer.
 
-        j. Fetch:____________________
+        j. Fetch: To go get something
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -116,7 +119,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    **N/A questions**
 ```
 
 ---

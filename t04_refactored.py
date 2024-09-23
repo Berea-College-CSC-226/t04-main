@@ -536,9 +536,77 @@ def team_23_adv(username, delay):
 
 
 def team_24_adv(username, delay):
-    pass
-    # TODO Add your code here
-    return True
+    """ https://docs.google.com/document/d/1pagGD80WeZZPtCu2rmhw_abLWuwZWWwVawAJnmNB794/edit?usp=sharing
+        Janee Amig
+        :return: none """
+
+    print("You're a lonely parakeet stuck in her cage. \nYou urge for freedom... \nYou heard from the local birds about a revolution to overthrow the humans, and to live among bird kind.")
+    sleep(delay*3)
+    print("Maybe you should take their wisdom and try to escape. But how?")
+    sleep(delay*2)
+    print("Get your owner's attention.")
+    peck = int(input("How many times do you want to peck? [Enter a number]"))
+
+    if peck > 6:
+        print("Your owner takes notices and goes to your cage.")
+        sleep(delay)
+        print("'Do you want out?'")
+        choice = (input("[yes/no]"))
+        if choice == "no":
+            print("Your owner leaves. Dang it. You could of escaped. Why didn't you say yes? (Replay to try again.)")
+            return False
+        else:
+            print("Your owner opens the cage door. You are now free!")
+            sleep(delay)
+            print("Almost...")
+            sleep(delay)
+            print("Your owner picks you up and starts to pet you.")
+            print("Should you accept the pets or bite? (Doing nothing is yes/Biting is no.)")
+            choice = (input("[yes/no]"))
+            if choice == "no":
+                print("You bite your owner... 'OW! Why Pebbles?' ")
+                sleep(delay)
+                print("Biting is nice... ")
+                sleep(delay*3)
+                print("You keep on biting your owner's fingers.")
+                sleep(delay*3)
+                print("Ah yes... bloodshed... ")
+                sleep(delay*4)
+                print("Anyways your owner banned you in your cage. (Replay to try again.)")
+                return False
+            else:
+                print("You like it when your owner spoils you with pets.")
+                sleep(delay*2)
+                print("Your owner puts you down on the dining table, and opens the window to let some fresh air in. \nYour owner has left the window opened multiple times and knows that you won't escape.")
+                sleep(delay*3)
+                print("Or will you?")
+                sleep(delay*4)
+                print("Should you escape to be free or stay? Do you want to leave?")
+                choice = (input("[yes/no]"))
+                if choice == "no":
+                    print("You stay along with your owner. ")
+                    sleep(delay*2)
+                    print("Maybe freedom another day...)")
+                    sleep(delay*2)
+                    print("At least your safe from the outside and spoiled on the inside. \nThough will your brothern hate you for not wanting freedom you wonder?")
+                    return True
+                else:
+                    print("You made the choice to get outside of the house...")
+                    sleep(delay*3)
+                    print("Are you stupid?")
+                    sleep(delay*2)
+                    print("You think you could survive out there as a domestic animal?")
+                    sleep(delay*2)
+                    print("You fly around and try to begin your journey.")
+                    sleep(delay)
+                    print("Unforntaunly you get picked on by the local birds and get turned into a snack.")
+                    sleep(delay*3)
+                    print("Replay to try again to get a better ending.")
+                    return False
+    else:
+        print("Your owner doesn't hear you. Maybe try again? (Replay to try again).")
+
+    return False
 ###################################################################################
 
 
