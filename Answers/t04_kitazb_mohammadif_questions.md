@@ -63,14 +63,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    Awaiting Pull Request Approval
+When refreshed, the code will be in the master branch. The pull was not approved though, Dr. Heggen edited it and we made changes.
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+For those whose pull request was approved, their code was in the master branch.
 ```
 
 
@@ -80,7 +80,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+No, because we did not clone the remote master branch. Therefore, the code we have is still not updated to what's in the remote master.
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -90,25 +90,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: Make an indivisual copy from the remote server on Github to my local one.
 
-        b. Commit:____________________
+        b. Commit: Update and save changes of my code to the branch
 
-        c. Push:____________________
+        c. Push: Send the updated code I have on my local branch to the remote one on Github
 
-        d. Branch:____________________
+        d. Branch: My own copy of codebase that I can edit without affecting anyone's code, until we merge more than one branch
 
-        e. Pull:____________________
+        e. Pull: Download the code and updates it on my local machine fomr the remote one
 
-        f. Pull Request:____________________
+        f. Pull Request: Asking the the repo owner to merge our codebase with the master branch
 
-        g. Merge:____________________
+        g. Merge: combine two branches together into own by updating changes and resolving conflicts.
 
-        h. Remote:____________________
+        h. Remote: The branches on Github that are shared with other member of the team
+        
+        i. Local: The branches that I have on my local machine
 
-        i. Local:____________________
-
-        j. Fetch:____________________
+        j. Fetch: Download and commits the code
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -118,7 +118,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    We are still confused about Update in Pycharm, but we are all good and we kinda understand it, somewhat. 
 ```
 
 ---

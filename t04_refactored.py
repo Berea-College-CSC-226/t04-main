@@ -201,7 +201,7 @@ def team_12_adv(username, delay):
     Feda Mohammadi
     :return: None
     """
-    direction = input("[Tavern/Inn/Reform/Run]")
+    direction = input("[Tavern/Inn/Reform/Run/Saloon]")
 
     if direction == "Inn":
         # Good choice!
@@ -211,13 +211,13 @@ def team_12_adv(username, delay):
         print("Upon closer inspection you realize the revolver's chambers are all full. "
               "Regardless, you choose to entertain the idea.")
         print()
-    if direction == "Tavern":
+    elif direction == "Tavern":
         # Good choice!
         print("Although you referred to the building as a tavern initially, closer inspection reveals to you"
               "that this particular subset of business is referred to as a 'saloon' in a western context.")
         sleep(delay)
         print()
-    if direction == "Saloon":
+    elif direction == "Saloon":
         # Good choice!
         print("In your infinite wisdom you have chastised the narrator for their improper use of the term 'tavern'."
               "He notes this and allows you to carry on.")
@@ -244,9 +244,6 @@ def team_12_adv(username, delay):
         print("They die of natural causes, lead poisoning, shortly after attempting "
               "to intervene in a bank robbery sometime in the year 1890.")
         return False
-    else:
-        # Neutral choice
-        sleep(delay)
     return True
 
 
