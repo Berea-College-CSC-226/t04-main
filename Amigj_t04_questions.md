@@ -10,28 +10,31 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    **Replace This With Your Answer**
+    **Me and my partner didn't get our code done from the T01, so I had to make my own.**
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    **We had a bit of code (only prints), so it was a massive change from choosing from doors to trying to escape your
+    owner's house as a bird. I made the change because I thought it would be funny, and it adds to my lore of bird's secretly
+    having a revolution to over throw humans one day.**
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **I found their logic interesting and inspiring for the way they used a if statement with a number input. Their code was easy to understand.**
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    **I fixed some personal PEP8 errors with my print statements and it makes my code way better and less confusing. With the extra
+    indents, it makes the code look confusing.**
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -43,7 +46,7 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **Branch has my updated **
 ```
 
 
