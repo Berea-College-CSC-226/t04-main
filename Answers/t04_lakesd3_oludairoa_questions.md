@@ -31,7 +31,7 @@
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-   
+   We did not see any PEP8 warnings in our code.
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -61,14 +61,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Our code is in the master branch
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+Some of the groups are still in the master branch
 ```
 
 
@@ -78,7 +78,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    It is in the local master branch because we pulled and merged the files.
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -88,25 +88,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone:copying the code from git to pycharm
 
-        b. Commit:____________________
+        b. Commit:Commenting and showing changes in our code
 
-        c. Push:____________________
+        c. Push: uploading the changes we commited previously
 
-        d. Branch:____________________
+        d. Branch:sections of the master branch
 
-        e. Pull:____________________
+        e. Pull: Taking code and files from another branch
 
-        f. Pull Request:____________________
+        f. Pull Request: Requesting to see if the changes we made can be added to master
 
-        g. Merge:____________________
+        g. Merge: Combining two different codes from the same or similar file deciding what should stay and what should be changed.
 
-        h. Remote:____________________
+        h. Remote:Looking at a file
 
-        i. Local:____________________
+        i. Local:Our personal local files persoanl to us
 
-        j. Fetch:____________________
+        j. Fetch:Grabing code or files from somewhere else.
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -116,7 +116,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    How do you always know what to keep while merging other files from git and other users.
 ```
 
 ---
