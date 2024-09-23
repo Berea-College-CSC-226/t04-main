@@ -80,7 +80,7 @@ Not yet because their PR has not yet been accepted
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    because it has not be pulled and merged yet into the local master
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -90,25 +90,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: copying the code into your local mnachine
 
-        b. Commit:____________________
+        b. Commit: tagging any change you made that is already working 
 
-        c. Push:____________________
+        c. Push: save and sending your work into github
 
-        d. Branch:____________________
+        d. Branch: splitting the work without affecting the main branch
 
-        e. Pull:____________________
+        e. Pull: get any changes from another branch 
 
-        f. Pull Request:____________________
+        f. Pull Request: sending a request to the owner of the repo to get your work integrated into the master branch  
 
-        g. Merge:____________________
+        g. Merge: combining the change from the pull to your local work / branch
 
-        h. Remote:____________________
+        h. Remote: in different location than your local machine
 
-        i. Local:____________________
+        i. Local: the machine that you are using
 
-        j. Fetch:____________________
+        j. Fetch: to retrieve data 
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -118,7 +118,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+   how to merge someone's work to your branch?
 ```
 
 ---

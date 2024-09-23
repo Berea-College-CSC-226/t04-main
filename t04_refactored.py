@@ -149,12 +149,17 @@ def team_4_adv(username, delay):
 
 def team_5_adv(username, delay):
     print("\n")
-
+    """
+    https://docs.google.com/document/d/1VhYIXsFqD9f6ODVYY0Ow2PFcS0kNb4yRjyGztdNQBxs/edit#heading=h.f6tumop9n7at
+    Arohasina Ravoahanginiaina
+    Mauricha Davis
+    :return: true
+    """
     chalice = input(
         "Hello intrepid explorer! You have stumbled upon The Flying Dutchman's lost treasure!" "\n"
         "Before you lie 4 colored chalices, however, you can only choose one."
         "Choose wisely! [Gold/Silver/Bronze/Brass]")
-    chalice.lower()
+    chalice= chalice.lower()
     if chalice == "bronze":
         # Good choice!
         print(
@@ -204,9 +209,6 @@ def team_5_adv(username, delay):
             "You see remnants of old pirate camps, " "\n"
             "and signs of many stories that remain untold in this isolated refuge of the Flying Dutchman's cavern.")
 
-    # TODO Make sure to add the additional check if the user makes the "bad" choice!
-
-    # TODO Don't forget to check if your user is dead at the end of your chapter!
     return True
 ###################################################################################
 
