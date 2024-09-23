@@ -232,8 +232,14 @@ def team_16_adv(username, delay):
 
 
 def team_17_adv(username, delay):
-    count = int(input('This is an adventure in codeland! Pick your binary username: 01, 10: '))
+    pass
+    '''
+    https://docs.google.com/document/d/1sCz8ZSi6L0diNtXZ5aXsZmT7_ngn1N2qeXoox2m93LI/edit?usp=sharing
+    Sonam Tsering
+    Utsa Seth
+    '''
 
+    count = int(input('pick binary usnm 1 or 10: '))
     if count == 10:
         print("You look at the figure and it turns out to be your best friend, Katie!")
         print("Katie wants to hand you a demonic sword.")
@@ -251,7 +257,7 @@ def team_17_adv(username, delay):
         if dog == 1:
             print("Congratulations! You have earned a doggy pet!")
             count = 11
-        elif dog == 2:
+        elif dog == "2":
             print("The dog got sad and ran away crying.")
             count = 3
         else:
@@ -274,9 +280,10 @@ def team_17_adv(username, delay):
         print("The dog brought back a monster. There is no escape!")
         isDead = True
 
-        if isDead == True:
-            print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
+    if isDead == True:
+        return False
+
+    return True
 
 
 ###################################################################################
