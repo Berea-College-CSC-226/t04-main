@@ -10,28 +10,28 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    **Replace This With Your Answer**
+    **We understand easier methods to have a code execute, and we comprehend concepts better.**
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    **Deley veribal was miswritten also changed elif to else**
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **It was not challenging and it was easy we asked for helped from the TA**
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    **it really doesnt look like it made a differance but we fixed the comment that were made***
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -43,14 +43,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **the difference is the code in different branches**
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **no our code is not in there branches because its not mai**
 ```
 
 
@@ -61,14 +61,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+    **Yes our code is master branch**
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+**Yes for the groups that has got it done**
 ```
 
 
@@ -78,7 +78,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    **Yes my group code is in the main**
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -88,25 +88,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone: A clone is a copy of a repository that lives on your computer instead of on a website's server somewhere, or the act of making that copy
 
-        b. Commit:____________________
+        b. Commit:saving the changes that we made
 
-        c. Push:____________________
+        c. Push:sending our changes to git hub
 
-        d. Branch:____________________
+        d. Branch:it is a part of main like a tree branch 
+        
+        e. Pull:Pull refers to when you are fetching in changes and merging them
 
-        e. Pull:____________________
+        f. Pull Request:same thing as pull but we have to ask permision from the owner of the repo
 
-        f. Pull Request:____________________
+        g. Merge:combins my branch with main our takes one code and puts it in another
 
-        g. Merge:____________________
+        h. Remote:This is the version of a repository or branch that is hosted on a server, most likely GitHub.com
 
-        h. Remote:____________________
+        i. Local:same version of the repo just on our computer
 
-        i. Local:____________________
-
-        j. Fetch:____________________
+        j. Fetch:you're adding changes from the remote repository to your local working branch without committing them.
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -116,7 +116,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+Does it have an espiration date for a message or comment from a professor? 
 ```
 
 ---

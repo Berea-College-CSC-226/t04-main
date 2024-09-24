@@ -21,7 +21,7 @@
 import random
 from time import sleep
 
-DELAY = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
+
 
 def start_story(delay):
     """
@@ -141,7 +141,9 @@ def team_3_adv(username, delay):
 ###################################################################################
 
 def team_4_adv(delay = 1, username = "Zak"):
-
+    '''
+    This function will ask the user for their name
+    '''
     print()
     print("Welcome,", username, ", to Generic Fantasy College™.")
     sleep(1)
@@ -173,7 +175,7 @@ def team_4_adv(delay = 1, username = "Zak"):
         deathChoice = input("On a scale of 1-10, how much do you want to stay at Generic Fantasy College™")
         if deathChoice == "3":
             print("The dean whomst happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy College™")
-        isDead = True
+        return True
         sleep(1)
 
     if isDead == True:
@@ -328,7 +330,7 @@ def main():
     The main function, where the program starts. No modifications are needed here!
     :return: None
     """
-    delay = 1  # change to 0.0 for testing/speed runs; larger for dramatic effect!
+    delay = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
 
     paths = [scott_adventure, team_1_adv, team_2_adv,
              team_3_adv, team_4_adv, team_5_adv,
