@@ -175,11 +175,48 @@ def team_3_adv(username, delay):
     return True
 ###################################################################################
 
+def team_4_adv(delay = 1, username = "Zak"):
+    '''
+    This function will ask the user for their name
+    '''
+    print()
+    print("Welcome,", username, ", to Generic Fantasy College™.")
+    sleep(1)
+    print("You are awoken by your alarm")
+    print("It is 8:00AM")
+    print()
+    sleep(1 * 2)
+    print("Looking through your window the sky has a magenta hue")
+    print("Staying here is certainly not wise. You must find your way out.")
+    print("n")
+    sleep(1)
 
-def team_4_adv(username, delay):
-    pass
-    # TODO Add your code here
-    return True
+    sleepChoice = input("Do you wake up, be late, or sleep?")
+
+    if sleepChoice == "wake up":
+        # Good Choice
+        print("You go to classes and are a productive member of society")
+        sleep(1)
+    elif sleepChoice == "be late":
+        # Neutral Choice
+        print("You miss breakfast and your day is stressful")
+        sleep(1)
+    else:
+        # Bad Choice
+        print("You here the sound of wings flapping in the distance")
+        sleep(1)
+        print("You know you fucked up")
+        sleep(1)
+        deathChoice = input("On a scale of 1-10, how much do you want to stay at Generic Fantasy College™")
+        if deathChoice == "3":
+            print("The dean whomst happens to be a fire breathing dragon roasts you alive for not attending Generic Fantasy College™")
+        return True
+        sleep(1)
+
+    if isDead == True:
+        print("If only you would've gone to class, Try again by hitting the green play button.")
+        quit()
+
 ###################################################################################
 
 
