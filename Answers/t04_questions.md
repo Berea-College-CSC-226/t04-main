@@ -10,28 +10,29 @@
 1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
 
 ```        
-    **Replace This With Your Answer**
+       My partner and I can both navigate through functions well and parse through the code efficienlty notice and fix errors. 
+
 ```
 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    Some logical changes we made to the code was that there was no tracking for the players state. In our refractered version we check for if the player isDead this provides a clear ending and allows retries or restarts. 
 ```
 
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    Yes, we saw the function sleep() and got confused on where it was supposed to do but found out it's what delays the code. 
 ```
 
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We added proper spacing and fixed variable names some were uppercase and would chnage them based on pycharms suggestion. Same thing for spacing and indentation. 
 ```
 
 _Return to the Google Doc to continue the assignment._
@@ -43,14 +44,14 @@ ___
      Compare your branch to master. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    We see the code in  our branch but not in the master branch. The master branch is unedited 
 ```
 
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    We see other branches but our code is not in their branches becuase they are not merged. 
 ```
 
 
@@ -61,14 +62,14 @@ ___
      Is your code in the master branch now? 
 
 ```
-    **Replace This With Your Answer**
+     The code is in master after getting accepted through the pr
 ```
 
 
 2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it in Question 2.b.?
 
 ```
-**Replace This With Your Answer**
+Yes, for people who have completed the assignment
 ```
 
 
@@ -78,7 +79,7 @@ ___
      Is your code in your **local** master branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    yes our code is in main, we also see other peoples codes in main
 ```
 
 Git can be challenging to wrap your head around when you’re first learning it, 
@@ -88,25 +89,25 @@ the details of using git will be touched upon again in your homework assignment,
 
 2.f. Define Each Term:
 ```
-        a. Clone:____________________
+        a. Clone:Compying the repostory in to pycharm 
 
-        b. Commit:____________________
+        b. Commit:saving the changes made to the code
 
-        c. Push:____________________
+        c. Push:uploading the code to github
 
-        d. Branch:____________________
+        d. Branch:seperating files to work independtly
 
-        e. Pull:____________________
+        e. Pull:accepting the changes made online 
 
-        f. Pull Request:____________________
+        f. Pull Request: asking to be merged to the main code
 
-        g. Merge:____________________
+        g. Merge:combining codes together
 
-        h. Remote:____________________
+        h. Remote:code from others that are not working together.
 
-        i. Local:____________________
+        i. Local:repository in pycharm 
 
-        j. Fetch:____________________
+        j. Fetch: getting all the changes made remotley 
 ```
 
 Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
@@ -116,7 +117,7 @@ Check your definitions against the [git glossary](https://help.github.com/articl
     using the network graph to explore what has happened. Write your unanswered questions in the space below:
 
 ```
-    **Replace This With Your Answer**
+    No questions.
 ```
 
 ---
