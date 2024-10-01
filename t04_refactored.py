@@ -258,9 +258,50 @@ def team_8_adv(username, delay):
 
 
 def team_9_adv(username, delay):
-    pass
-    # TODO Add your code here
+    """ the code asks where you want tp go but the only option is North, after choosing North it asks you what you're doing here and you choose options 1, 2 or 3. after choosing the option all options leads to turning into a frog at the end.
+        https://docs.google.com/document/d/1guMbODOgcKlr7DTSsVviL7zItomDFJwApO42bZtpuQc/edit?usp=sharing 
+        Din din
+        Kirsten
+    """
+    question = ""
+    direction = input("Where would you like to go, You can go North")
+
+    #this asks which option you would like to choose after writing North
+    if direction == "North":
+        print("It's a wizard!")
+        question = input("""What do you ask the wizard(1,2,3)?
+        1)What are you doing here? 
+        2)Can you help me?
+        3)Turn me into a frog\n: """)
+        sleep(delay)
+
+    #option 1 teleports you into the wizard's cave, and they perform a spell on you
+        if question == "1":
+            print("""This is my Wizard Cave! I practice my spells! Do you wish to observe one of them? 
+            Of course you do! The wonder of magic is for everyone! ANURA METAMORPHOS!!! *poof* """)
+            frog = True
+
+            #you get turned into a creature (frog)
+        elif question == "2":
+            print("""I can transform you into a fearsome creature! A malevolent devourer, 
+            feared by insects both land and air. ANURA METAMORPHOS!!! *poof*""")
+            frog = True
+        else:
+            print("""I have spent endless hours practicing just for this! In my wizard cave! 
+            ANURA METAMORPHOS!!! *poof*""")
+            frog = True      #spell turns you into a frog
+
+        #all the endings turns you into a frog
+        if frog == True:
+            sleep(delay)
+            print("You are a frog now. You're not dead, but you can't do anything either. RIBBIT!!!")
+            print("""You have reached the "secret" frog ending. Congratulations!""")
+
     return True
+
+
+
+
 ###################################################################################
 
 
