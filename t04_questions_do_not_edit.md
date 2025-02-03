@@ -4,7 +4,7 @@
 
 1. Copy this file.
 2. Paste the copy of the file into the `Answers` directory.
-3. Name the file `t04_username.md`, replacing username with your Berea username.
+3. Name the file `t04_usernames.md`, replacing usernames with your Berea usernames.
 4. Replace each `**Replace This With Your Answer**` with your answer to the question above it.
 
 Discuss with your team and assign yourselves roles. Try to pick the role you’ve had the least experience in.
