@@ -146,8 +146,36 @@ def team_4_adv():
 
 
 def team_5_adv():
-    pass
-    # TODO Add your code here
+
+    #TEAM 5
+    dead = False
+    food = (input("choose what you want to eat today? [pasta/pizza/burger]")).lower()
+    if food == "pasta":
+        # good choice
+        print("you were lucky this time!")
+        print("now you get free pasta and get to live")
+    elif food == "pizza":
+        # bad choice
+        print("this is poisoned!")
+        print("you will experience death in 30 seconds!")
+        print("you didn't make it")
+        dead = True
+    elif food == "burger":
+        # neutral choice
+        print("Yikes! You will experience food poisoning")
+        print("But don't worry, you will still live")
+    if dead:
+        print("Oh no! You failed to pass this stage. Now you died!")
+        quit()
+
+    #
+    #
+    #
+    #
+    #
+    # # TODO Make sure to add the additional check if the user makes the "bad" choice!
+    #
+    # # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 ###################################################################################
 
