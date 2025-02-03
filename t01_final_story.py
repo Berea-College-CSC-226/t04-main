@@ -19,109 +19,81 @@ from time import sleep
 
 #########################################################################################################
 # TEAM 1
-delay = 1.0
-isDead = False
+dice_roll = input("You're scared. What would do you do?  [Run /Say Hello /Go Towards To Sound/ Look Around]")
 
-username = input("What is your name?")
-print()
-sleep(delay*2)
-print("welcome", username, "to fruit Land")
-print("you will be given three fruits and you can only choose one")
-print("Be careful the choice you make ")
-print("one will give you fortune, one will lead to death, and one is just a normal fruit")
-sleep(delay*2)
+if dice_roll == "Run":
+    print("Goodbye",username,"The voice gets angry, screams, and you die!")
+    # Do something, probably die. The bad thing happens
+elif dice_roll == "Say Hello":
+    print("Hello your bravery is commendable traveler.")
+else:
+    # This is the neutral thing that occurs.
+    print("Nothing happened")
 
-Fruit = input("which fruit would you like? [Banana, Orange, Apple] ")
-
-if Fruit == "Banana":
-    print("unfortunately, you've chosen the rotten fruit, this is the end of your journey!")
-    isDead = True
-elif Fruit == "Orange":
-    print("you've chosen the special fruit, you've earned ")
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 #########################################################################################################
 # TEAM 2
 
-print("It's Wednesday morning. You wake up at 10:30am and see the sun through your window")
-print("Suddenly, you realize that you are almost late for your CSC 226 class at 10:40am ")
-print("You know you need your morning coffee to get through the day, but you are almost late for class")
+from time import sleep
+delay = 2.0
+(input("What is your name?"))
 sleep(delay)
-decision = input("coffee or class?")
+print("You find yourself in a tavern, surrounded by drunkards and bounty posters")
+sleep(delay)
+print("Decide what to do in the tavern: go to the bounty board, get a drink, or leave")
+sleep(delay)
+choice = (input("Chocolate milk, Bounty board, Leave"))
+if choice == " Chocolate milk":
+    print("Good choice! You have some great chocolate milk and your day continues as usual.")
+elif choice == " Bounty board":
+    print("You walk to the bounty board and one piece of paper catches your eye; the largest bounty in the nation.")
+    sleep(delay)
+    print("As you keep reading it, someone walks into the tavern.")
+    sleep(delay)
+    print("You turn around and see a giant man hovering over you; the same one on the poster.")
+    sleep(delay)
+    print("This is bad. He pulls out a knife and slowly approaches you.")
+    fight = input("Pick a number 1 through 10: if you choose one of the right numbers, you will live.")
+    if fight <="5":
+        print("You try to counter his massive knife with your bare hands.. why? He promptly ends you.")
+    elif fight>"5":
+        print("You break left and scramble through the tavern door; you make it out, and have a relatively normal day.")
+else:
+    print("You leave. your day is alright, and you live.")
 
-if decision == "coffee":
-      #good choice
-      print("you drink your coffee and run to class")
-      sleep (delay)
-
-elif decision == "class":
-#bad choice
-      print("You manage to get in class at 10:41am")
-      sleep(delay)
-
-      isDead = True
-
-if isDead == True:
-      print("although you made to class in time, you cannot stay awake.")
-      sleep(delay)
-      print()
-      print("in an attempt of helping you, Nick throws coffee in your face")
-      print("accidently, he kills you")
-      quit()
-
-# TODO Make sure to add the additional check if the user makes the "bad" choice!
-
-# TODO Don't forget to check if your user is dead at the end of your chapter!
+#
+# # TODO Make sure to add the additional check if the user makes the "bad" choice!
+#
+# # TODO Don't forget to check if your user is dead at the end of your chapter!
+#
+##
 #########################################################################################################
 # TEAM 3
-print("\n")
-print("You find a room that contains two gold statues.")
-sleep(delay)
-statues = input("Do you take the left or right statue, or don't pick up the statue?: ")
-print("\n")
+# TODO Add your part of the story here.
+char= input("Choose the form that you wish to complete this quest. \n [Monster, Human or Goblin]")
+if char == "Monster": #good choice
+    print("You are a monster.\n")
+    print("You use your sharp claws and venomous fangs to raid a village")
+    sleep(delay*2)
+    print("\n")
+    print("You have obtained 3 Silver and 2 Gold")
 
-if statues == "left":
-    #good choice
-    print("You pick up the statue on the left.")
-    sleep(delay)
-    print("A passageway opens and you see outside.")
-    print("Congrats! You escaped the cave!")
-    sleep(delay)
-elif statues == "right":
-    #bad choice
-    print("You pick up the statue on the right.")
-    sleep(delay)
-    print("A passageway opens above you.")
-    sleep(delay)
-    print("A bunch of snakes and spiders fall on you!")
-    isDead = True
-    sleep(delay)
-else:
-    #neutral choice
-    print("You don't pick up either of the statues.")
-    sleep(delay)
-    print("Nothing happens... You are still stuck in the cave.")
-    sleep(delay)
+elif char=="Goblin": #bad choice
+    print("You are a Goblin")
+
+
+
+
+
+
 
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
-if isDead == True:
-    print("\n")
-    print("One of the snakes asks you to pick a number 1 through 20.")
-    sleep(delay)
-    number = int(float(input("Which number do you pick? (only put whole numbers): ")))
-    sleep(delay)
-    if number >= 13:
-        print("Congrats! The snake decided to spare you!")
-        isDead = False
-        sleep(delay)
-    else:
-        print("You chose a wrong number, which angers the snake. He and the other snakes and spiders bite you!")
-
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
-if isDead == True:
-    print("Oh no! You died! Try again by hitting the green play button.")
+
+
 #########################################################################################################
 # TEAM 4
 print()
@@ -163,86 +135,50 @@ if isDead == True:
     quit()
 #########################################################################################################
 # TEAM 5
-print("\n")
-
-
-chalice = input("Hello intrepid explorer! You have stumbled upon The Flying Dutchman's lost treasure! Before you lie 4 colored chalices, however, you can only choose one. Choose wisely! [Gold/Silver/Bronze/Brass]")
-
-if chalice == "Bronze":
-    # Good choice!
-    print("Excellent choice, wise explorer! The Bronze chalice grants you a life filled with resilience and courage. You have proven to have a heart as unyielding as bronze! May you forge onwards with the spirit of a warrior.")
-    sleep(delay)
-
-elif chalice == "Gold":
-    # Oh... Bad choice
-    print("As you reach out and touch the gold chalice, a chilling breeze fills the cavern.")
-    sleep(delay)
-    print(
-        "Suddenly, the cavern trembles and the chalice levitates, emitting a blinding light. A voice booms, 'Dare you to tempt fate? Roll the dice and let destiny decide your path.'")
-
-    roll = int(input("Roll the dice (enter a number between 1 and 20): "))
-
-    if roll <= 5:
-        print("You roll the dice... it's a low number.")
-        sleep(delay)
-        print(
-            "The ground shakes violently as the cave begins to collapse. Unfortunately, you are unable to escape in time, meeting a tragic end. The treasure remains unclaimed, lying amidst the ruins of the cavern.")
-        isDead = True
-    elif roll <= 10:
-        print("You roll the dice... it's a moderate number.")
-        sleep(delay)
-        print(
-            "The cavern stops trembling and the path you came from reopens, allowing you a gracious yet narrow escape. It appears you've been given a second chance, but the golden chalice remains elusive.")
-    else:
-        print("You roll the dice... it's a high number!")
-        sleep(delay)
-        print(
-            "A hidden pathway illuminated by golden light suddenly appears, leading you to a secret chamber filled with unimaginable treasures. It seems luck is on your side, brave explorer!")
-
-else:
-    # Neutral choice
-    print("You find yourself wandering into a hidden cove within the cave, the ground here is covered in sand and you can hear the distant sound of lost souls.")
-    sleep(delay)
-    print("You see remnants of old pirate camps, and signs of many stories that remain untold in this isolated refuge of the Flying Dutchman's cavern.")
-
-if isDead == True:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+food = input ("choose what you want to eat today? [pasta/pizza/burger]")
+if food == "pasta":
+    #good choice
+    print("you were lucky this time!")
+    print("now you get free pasta and get to live")
+elif food == "pizza":
+    #bad choice
+    print("this is poisoned!")
+    print("you will experience death in 30 seconds!")
+    print("you didn't make it")
+    dead = True
+elif food == "burger":
+    #neutral choice
+    print("Yikes! You will experience food poisoning")
+    print("But don't worry, you will still live")
+if dead == True:
+    print("Oh no! You failed to pass this stage. Now you died!")
     quit()
+
+
+
+
 
 
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
+
+
 #########################################################################################################
 # TEAM 6
-Path = input("Which path will you take? [Left/Middle/Right]")
-SecondChance = input("Do you want another chance? [Yes/No]")
-
-if Path == "Left":
-    # Wrong Path
-    print("Sss....sss...sss...")
-    sleep(delay)
-    print("You have encountered a python.")
-    print("Oh no! The python has bitten you.")
-    print("You are now slowly dying from the poison.")
-    print("Do you want another chance?")
+enrollment = input("Should you take CSC 226? [Yes/No/Not sure]")
+if enrollment == "Yes":
+    print("That's a good choice")
+elif enrollment == "No":
+    print("Oh no! You cant graduate")
+    else print("Let me show you what you can with a CS Degree")
 
 
-elif Path == "Middle":
-    # Neutral Path
-    print("The path is never-ending.")
-    print("You continue walking through the cave.")
 
-else:
-    # Correct Path
-    print("drip...drip...drip")
-    print("You arrived at a water faucet and met a fellow adventure!")
-    print("You can now continue your adventure.")
-    sleep(delay)
 
-if isDead == isDead:
-    print("You are now dead!You can try again after hitting the green play button. ")
-    quit()
+# No == print ("Goodluck with your future endeavours")
+#     print("Goodluck with your future endeavours")
+
 
 
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
@@ -587,390 +523,528 @@ if isDead == True:
 
 #########################################################################################################
 # TEAM 16
-if direction == "North":
-    #Bad choice! Sacrifice room!
-    print("The north room is dimly lit by lanterns with red fire.")
-    print("Five people in black robes are gathered around an altar.")
-    print("Their argument quiets as you walk in.")
-    sleep(delay)
-    print("'Oh, how perfect,' one says. 'You have been Forgiven, Yuxila.'")
-    print("Stone rises from the floor to block your exit.")
-    sleep(delay)
-    print("You are captured by the cultists. You are dead.")
-    dead = True
-elif direction == "South":
-    #Bad choice! Ritual room!
-    print("You see a glowing circle on the floor. Robed figures stand around it and chant.")
-    print("You do not recognize their words.")
-    sleep(delay)
-    print("A pressure builds in the room. It is too much.")
-    print("Your heart bursts open inside your chest.")
-    print("You are dead.")
-    dead = True
-elif direction == "East":
-    #Good choice! Dorms!
-    print("The room you emerge into has a low stone ceiling. Bunked beds line the walls for fifty meters.")
-    print("You walk carefully down the length of the room. Your breath is the loudest sound you hear.")
-    sleep(delay * 2)
-    print("At the end of the room is a kitchen and a door. There is no window.")
-    print("You steel yourself and open the door as quietly as you can.")
-    sleep(delay)
-    print("The door leads outside. You are free.")
-elif direction == "West":
-    #Neutral choice. Armory.
-    print("This room is lined with weapons. Most are ornate daggers, hundreds of them hang on hooks lining the walls.")
-    print("You see glowing runes on many of the daggers. Several do not have runes.")
-    dagger = input("Do you take a dagger? [Yes/No]")
-    if dagger == "Yes":
-        print("You observe several daggers without runes. You take the one that looks unassuming.")
-        print("The sound of a bell rings through the caves. You tense.")
-        sleep(delay)
-        print("Robed figures flood the room. You attempt to fend them off, but you are overwhelmed.")
-        print("You are dead.")
-        dead = True
-    elif:
-        print("This room looks suspicious. You return quietly to previous room.")
+print("you come across a lit section of the cave. You see 4 adventurers sitting around a fire. They notice you and motion for you to sit with them.")
+destination = input("Where are you headed young traveler?")
+sleep(delay)
+print("I dont know where", destination, "is but one of my other party members might. Try asking one of them.")
+sleep(delay)
+person = input("Who will you ask? [Dwarven soldier/Beggar/Pirate]")
+if person == 'Dwarven soldier'
+print("I dont know the way their by memory alone but i do have a map. Let me give it to you. We're headed towards town anyways to get a new one.")
+sleep(delay)
+print("You have successfully escaped the cave and made it to", destination,"YIPEEE")
+elif person == 'Beggar'
+print("the Beggar doesnt seem to speak your language so you dont understand eachother.")
+sleep(delay)
+else person == 'Pirate'
+print("Sure ill tell ya, once you win in a game of chance,Russian Roulette.")
+sleep(delay)
+print("\n")
+print("You pull the trigger aaaaaaand... your dead, did ya expect the pirate to play fair?")
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
 
-if dead == True:
-    print("You have been sacrificed to the Great Devourer.")
-    quit()
+# TODO Don't forget to check if your user is dead at the end of your chapter!
+
 
 #########################################################################################################
 # TEAM 17
-if count == 10:
-    print("You look at the figure and it turns out to be your best friend, Katie!")
-    print("Katie wants to hand you a demonic sword.")
-    sword = input("Do you accept the sword: Yes/No: ").lower()
-    if sword == ("yes"):
-        print("You unlock a special power: Super Strength!")
-        count = 11
-    else:
-        print("Katie stabs you!")
-        isDead = True
+Direction = input("There are three boxes in front of you: left, middle, and right. Which one would you like to pick?")
 
-if count == 1:
-    print("You enter into a hallway and meet a dog.")
-    dog = int(input("Would you like a companion? Use 1 or 2, with 1 being correct and 2 as wrong: "))
-    if dog == (1):
-        print("Congratulations! You have earned a doggy pet!")
-        count = 11
-    elif dog ==("2"):
-        print("The dog got sad and ran away crying.")
-        count = 3
-    else:
-        print("The dog did not like your answer, and you got bit.")
-        print("You are a terrible human.")
-        isDead = True
+if Direction == "left":
+    # Ooooooh... unfortunate.
+    print ("Man, that sucks. ")
+    sleep(delay)
+    print ("You picked... the bomb!!")
+    print ("BOOOOOOMMMM!!!")
+    sleep(3)
+    dead = True
 
-if count == 11:
-    print("You go down a crevice in the wall.")
-    print("You found a treasure chest in a hole, but you can't reach your arm in.")
-    if dog == (1):
-        print("Congrats! The dog opened the chest and found money!")
-    elif sword == ("yes"):
-        print("Congrats! Your sword was long enough to reach the chest! You found money!")
-    else:
-        isDead = True
-if count == 3:
-    print("The dog brought back a monster. There is no escape!")
-    isDead = True
+elif Direction == "middle":
+    # neutral
+    print ("You get...")
+    sleep(delay)
+    print ("A pen with unlimited ink")
+    sleep(delay)
+    print ("Fun right...?")
 
-if isDead == True:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+else:
+    # Noice
+    print ("*drumroll*")
+    sleep(delay)
+    print ("YOU WIN THE GRAND PRIZE!!")
+    print ("You get...")
+    sleep(delay)
+    print ("Two pens with unlimited ink: A black and red pen!")
+
+if dead == True:
+    print ("welcome to the afterlife my child. You have chosen wrong.")
     quit()
+
+
+
+
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
 
 
 #########################################################################################################
 # TEAM 18
-if direction == "North":
-    print("The man steps out of the shadows and offers a handshake. 'Hi! I'm Fred!'")
-    handshake = input("Shake the man's hand? (Yes/No)")
-    if handshake == "Yes":
-        print("""The man smiles. 'I came here to be alone, but I met someone friendly! Here, I'll show you how to leave the cave.'""")
-    if handshake == "No":
-        print ("The man punches your head off.")
+way = input("Which path do you want to go? [Left, Right, Forward]")
+
+if way == "Left":
+    #Bad choice
+    print("\n")
+    print("You walked on the left path. This was the wrong way and you are stuck inside.")
+    sleep(delay)
+    print("You have no food and slowly starve.")
+    dead = True
+elif way == "Right":
+    #Neutral choice
+    print("\n")
+    print("You continue walking on the right path and nothing happens.")
+    sleep(delay)
+    print("At least you are still alive!")
+    print("\n")
+else:
+    #Good choice
+    print("\n")
+    print("You chose the path forward and found $1,000,000")
+    sleep(delay)
+    print("You can do anything you ever wanted with all the money.")
+    print("\n")
+    rich = True
+sleep(delay)
+
+print("You walk out into an opening and see a man sitting down.")
+sleep(delay)
+print("He has a lot of things next to him including bread and a knife.")
+sleep(delay)
+print("Buy the knife, steal the bread, or continue?")
+way = input("What are you gonna do? [Buy, Steal, Continue]")
+
+if way == "Buy":
+    #Good choice if you are rich
+    if rich:
+        print("\n")
+        print("You bought all the bread you're not hungry anymore.")
+        sleep(delay)
+        print("\n")
+    else:
+        print("\n")
+        print("You don't have enough money to buy all this bread.")
+        print("\n")
+        sleep(delay)
+        print("The guy thinks you're trying to steal it and kills you.")
         dead = True
-if direction == "East":
-    print("Now you can see two ways. One of them is filled with bones and another without any light. ")
-    print("You are sitting in this room for hour and a half and your body temperature slowly drops.")
-    choice = input("You need to make a choice. Will you tread the bones or follow the darkness? (Bones/Darkness) ")
-    if choice == "Bones":
-        print("You are slowly going towards the light. You can almost see the exit, but somehow you stepped on the slippery rock and bashed your brain out on the concrete.")
-        dead = True
-    if choice == "Darkness":
-        print("You fall into a pit and land in a tree outside the cave.")
+elif way == "Steal":
+    #Bad choice
+    print("\n")
+    print("You tried to snatch the bread.")
+    sleep(delay)
+    print("Before you could run, the guy shoots you in the back of the head.")
+    sleep(delay)
+    print("So... no bread! And you died!")
+    dead = True
+else:
+    #Neutral choice
+    print("\n")
+    print("You just ignore him and continue walking.")
+    print("\n")
+    sleep(delay)
 
 
-if dead == True:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button.")
-    quit()
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
 
+# TODO Don't forget to check if your user is dead at the end of your chapter!
 
 
 #########################################################################################################
 # TEAM 19
+paths = input("Choose a path: [Left/Right/Center] ")
 
-bridge = input("You come across three bridges do you want to take the [Left/Middle/Right] path?")
+if paths == "Left":
+    # neutral path
+      print("You continue walking and are startled by a colony of flying foxes flying away. ")
+      sleep(delay)
 
-if bridge == "Left":
-    print ("You walk across a stone pathway confronted with a beautiful waterfall at the end: [+5 inspiration]")
+elif paths == "Center":
+    # You'll regret that
+    print ("A weird flapping sound occurs when walking. ")
     sleep(delay)
-
-#if they go left: You come across a beautiful waterfall: [+5 inspiration]
-
-elif bridge == "Middle":
-    print ("You walk across a chasm and the wooden bridge breaks and you are about to fall: [THINK FAST]")
-    sleep(delay)
-
-    rope = float(input("Quick! Catch yourself using a rope! Determine its length in feet by picking a number between [1] to [20]"))
-
-    if rope > 13:
-        print("Phew! You managed to grab the rope just in time before the fall! Congratulations: [+5 Survival Skills]")
-    else:
-        print("Oh no! Your hand slips and you fal backwards into the chasm: [DEAD]")
-        dead = True
-
-
-#elif they go middle: You walk across a chasm and the wooden bridge breaks and you fall: [DEAD]
+    print (" Sound like it's coming from a small animal. ")
+    print (" You realize you've walked into the sleeping grounds of a vampire bat colony, and they're very hungry.")
+    print ("The bats descend on you and suck your blood dry, killing you in a matter of hours. ")
+    dead = True
 
 else:
-    print ("You walk safely across a plain bridge: [0 inspiration]")
-    sleep(delay)
-#else they go right: You walk safely across a plain bridge: [0 inspiration]
+    #You'll be okay
+    print ("You walk in a room with a giant treasure chest.")
+    print ("The chest contains lost of gold and valuable jewels. ")
+    print ("The chest also opens a path to the end of the cave")
 
 if dead == True:
-    print("Oh no! You did not make it to the end: [GAME OVER]")
-    quit()
+        print(" What a horrible way to die. Please try again by pressing play.")
+        quit()
 
+
+
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
 
 
 #########################################################################################################
 # TEAM 20
+your_name = input("what is your name: ")
+print()
+print("welcome,", your_name, " to the labyrinth")
+make_choice = input("You are required to choose a path: North, South, West, East: ")
+if make_choice == "North":  #Good Choice
+    print("you are still in the dark, but someone is there to guide you")
 
-elif direction == "East":
-    print("You run until you see a bright light ahead of you, there are two paths both heading towards what appears to"
-          "be freedom, which do you choose?")
-    sleep(delay)
-    direction = input("Left/Right")
+elif make_choice == "South": #Bad Choice
+    print("You made the wrong choice")
+    print("your are in the dark, your have lost your way")
+    print("")
 
-if direction == "Left":
-    print("You run left towards the bright light it looks like freedom you sprint in joy exited for your freedom.")
-    sleep(delay)
-    print(
-        "As soon as you hit the exit you run straight off a cliff and fall into an ocean where a hungry pack of ducks")
-    print("has been waiting for their meal.")
-    dead = True
-if dead == True:
-    print("You died a very funny and unfortunate death")
-    quit()
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
 
-elif direction == "Right":
-    print("You find the magical city of gold, no wonder the reflection was so bright, you are blessed with riches and")
-    print("your own castle for the rest of your life.")
-    sleep(delay)
+# TODO Don't forget to check if your user is dead at the end of your chapter!
 
-# ------------------------------------------------------------------------------------------------------------
-
-if direction == "West":
-    print("You hear chanting coming from the west side of the cave, you can't help but wander that way hoping to find")
-    print("some help. You see 12 men in fancy robes dancing around a fire in the middle of the cave floor, it looks")
-    print("like a sacrifice, what will you do?")
-    sleep(delay * 2)
-
-    direction = input("Approach them Yes/No")
-
-    if direction == "Yes":
-        print("You approach them interested in their ritual and they welcome you with open arms giving you a robe and")
-        print("and a pair of shoes, you join them in their corny dance and have become a member of the Illuminati")
-        sleep(delay)
-
-    if direction == "No":
-        print("You try to sneak away hoping to avoid their weird games but they catch you and toss you in the fire!")
-        dead = True
-    if dead == True:
-        print("You burn and die in their fire, becoming another part of their sick ritual.")
-        quit()
 
 #########################################################################################################
 # TEAM 21
+direction = input("Which way would you like to go? [Left/Right/Straight Forward] ")
+if direction == "Left":
+# Uh oh! Bad choice!
+print("Since it was dark you unaware of the cliff and fell off and plummeted to your death.")
+dead = True
+elif direction == "Right":
+# Ooo Yes! Good choice.
+print("As you walk through the cave you a light source.")
+print("Congrats! You made it out the cave and into the forest.")
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
 
-    print()
-    print("Welcome", username, "! Now it's time to answer some math questions!")
-    sleep(delay)
-    print("In order to proceed you must get all three of the following questions correct.")
-    print("You are now in a math class by yourself so focus and be engaged.")
-    print()
-    sleep(delay * 2)
-    print("What is the square root of positive four? √(4)")
-    print("\n")
-    sleep(delay)
-
-    answer = input(
-        "Which answer would you like to choose? Respond with the corresponding capital letter. [A. -2/ B. 2/ C. 8]")
-
-    if answer == "B":
-        print("Great! You got this one correct. You have been teleported to Mount Olympus!")
-        sleep(delay)
-    elif answer == "A" or answer == "C":
-        print("Almost! The gods are being lenient and have given you a second chance! Try Again.")
-        answer = input("Input another letter answer.")
-
-        if answer == "B":
-            print("Great! You got this one correct. You have been teleported to Mount Olympus!")
-        else:
-            print(
-                "The Math gods looked at you and gave you a cold stare. How could you enter an incorrect option even after two chances.")
-            sleep(delay)
-            print(
-                "You felt a cold shiver down your spine and looked up to see a very enraged Math god named Algebrais.")
-            dead = True
-
-    else:
-        print(
-            "The Math gods looked at you and gave you a cold stare. How could you enter an option that doesn't exist?")
-        sleep(delay)
-        print("You felt a cold shiver down your spine and looked up to see a very enraged Math god named Algebrais.")
-        dead = True
-
-    if dead == True:
-        print(
-            "Uh Oh! The Math gods are very upset that you dont know the answer to this basic math question. You were struck by lightning ad banished to never do math again! Better luck next time.")
-
+# TODO Don't forget to check if your user is dead at the end of your chapter!
 
 
 #########################################################################################################
 # TEAM 22
-talk = input("Do you wish to talk to them? [Yes/No]")
-
-if talk == "Yes":
-    print("It seems they're just as lost as you are!")
+partner = input("You see three figures appear before you. A wizard, a fairy, and a vampire.\nWho do you choose to help you out of this sticky situation? (Wizard/Fairy/Vampire)")
+if partner == "Wizard":
+    # Good choice
+    print("The wizard looks at you with a serious expression on his face.")
     sleep(delay)
-    print("You agree to help each other find your way out of this cave, and they have tools to help")
+    print("He decides you are worthy.")
+    print("He pulls out his staff and lights the way to the exit of the cave.")
+    sleep(delay)
+    print ("Upon leaving, he wishes you luck on your journey and gifts many magical items!")
+    sleep(delay)
+elif partner == "Fairy":
+    # Neutral choice
+    print("The fairy tells you to follow it and not to be slow.")
+    print("She precedes to fly off very quickly and you have to run to keep up!")
+    sleep(delay)
+    print("After hearing the fairy chuckle, you realize the fairy is just leading you in circles repeatedly.")
+    print("Such scoundrels they can be!")
 else:
-    print("Due to your silence and shadowy figure in the dark, they mistake you for a beast!")
-    chance = input("How many steps do you take towards the person? Enter an integer")
-    if chance > 7:
-        print("They are startled by your rapid approach!")
-        print("They charge at you head on and you trip and fall.")
-        sleep(delay * 2)
-        print("You keep falling?")
-        sleep(delay)
-        print("It seems you fell over a cliff, you're still falling and you don't know when you'll hit the gro-")
-        dead = True
+    # Bad choice, if they choose vampire or an option not given
+    print("The vampire tells you that you made an interesting choice, so you can follow him in a very concerning tone.")
+    sleep(delay)
+    print("After someone how arriving at an even darker part of the cave, you feel a breeze and suddenly the vampire is behind you")
+    sleep(delay * 2)
+    number = input("Choose a number between 1 and 13, young mortal, to decide your fate. Choose correctly and I'll let you go, I think you know what happens if you choose incorrectly.")
+    number_int = int(number)
+    if number_int == 13:
+        print("Well, well, well. You have chosen correctly, and I am a man of my word. Leave.")
     else:
-        print("They get closer to you and see you're a human too!")
-        print("They agree to help you using tools from their backpack")
-
-if dead == True:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-    quit()
-
-tool = input("Which tool do you think will help? [Torch/Shovel/Compass]")
-
-if tool == "Torch":
-    print("You light the torch, and now you can see!")
-    sleep(delay)
-    print("It appears the cave leads into a well, and when you get closer you see light at the surface!")
-elif tool == "Shovel":
-    print("You use the shovel and start blindly digging into the side of the cave")
-    sleep(delay)
-    print("You hear strange rumbling noises, you are pushed to dig faster")
-    sleep(delay * 2)
-    print("Are those sounds coming from above?")
-    print("How strong are these cave walls anyways?")
-    sleep(delay * 2)
-    print("Brrrrrrr cshhhhhh CRASHHHHHHHH")
-    sleep(delay)
-    print("The walls collapsed in and crushed you! Seems those walls weren't too stable...")
-    dead = True
-else:
-    print("You pull out the compass, maybe if you follow one direction it'll lead somewhere eventually!")
-    sleep(delay)
-    print("...")
-    sleep(delay)
-    print("......")
-    sleep(delay * 2)
-    print("You can't see the compass, it's way too dark, maybe something else will help")
-    tool = input("What do you want to try now? [Torch/Shovel]")
-    if tool == "Torch":
-        print("You light the torch, and now you can see!")
-        sleep(delay)
-        print("It appears the cave leads into a well, and when you get closer you see light at the surface!")
-    elif tool == "Shovel":
-        print("You use the shovel and start blindly digging into the side of the cave")
-        sleep(delay)
-        print("You hear strange rumbling noises, you are pushed to dig faster")
+        print("Not quite. The vampires favorite number is unlucky 13!")
         sleep(delay * 2)
-        print("Are those sounds coming from above?")
-        print("How strong are these cave walls anyways?")
+        print("Maybe in another life.")
+        print("As for this one though, the vampire handles that.")
+        print("You feel his teeth sink into your neck.")
         sleep(delay * 2)
-        print("Brrrrrrr cshhhhhh CRASHHHHHHHH")
-        sleep(delay)
-        print("The walls collapsed in and crushed you! Seems those walls weren't too stable...")
+        print('As you feel your life force draining,')
+        print('all you hear is the sound of the wizard and fairy asking each other, "Why on Earth did he choose to go with the vampire?"')
+        sleep(delay * 2)
         dead = True
 
+
 if dead == True:
-    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+    print("You have died")
+    print("Maybe you should try again and choose a not so deadly option. Click the green play button to start over.")
     quit()
+
+
+
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
 
 
 #########################################################################################################
 # TEAM 23
+print("You walk into the castle and you are starving for a yummy snack")
+direction = input("You see an amazing dinner on the table what will you do? [Eat it/Leave it/Take a nibble] ")
+if direction == "Eat it":
+    #Bad choice
+    print("You have been poisoned")
+    sleep(delay)
+    print("oops you have died")
+elif direction == "Leave it":
+    #Good choice
+    print("You see handsome Prince Chef! Wow!")
+    sleep(delay)
+    print("You got a gourment dining course! Yummy!")
+else direction == "Take a nibble":
+    #Neutral choice
+    print("You are half-full and you are ready to go home")
+    sleep(delay)
+    print("You are ready to go home")
 
-direction = input("Which part of Country in Africa would you like to visit? [Uganda/Congo/Ghana/Zimbabwe/Nigeria]")
-
-if direction == "Uganda":
-    # This is a horrible choice
-    print("Yoweri Museveni, President of Uganda unfortunately does not like outsiders in his country.")
-    print("You can choose to visit another country.")
-    dead = True
-
-elif direction == "Congo":
-    print("Currently in congo there is a war.")
-    print("In eastern DR Congo, a crisis of rare violence has been going on for more than two decades.")
-    print("The DRC is currently facing one of the world's worst humanitarian and food insecurity disasters, and has become the second largest internally displaced people's crisis globally.")
-    dead = True
-
-
-else:
-    print("Africa is a beautiful continet")
-    print("you can go anywhere you wanna go, across the globe, and over sea's!")
 
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 
-if dead == True:
-    print("Your'e dead congo is currently going through a crisis")
-    quit()
+
 
 #########################################################################################################
 # TEAM 24
+choice = input("Which door will you enter?[red_door/green_door/blue_door]")
+if choice == "red_door":
+    print("you find a path, walk down it and continue your adventure")
+    sleep(delay * 2)
+elif choice == "green_door":
+    print("you find a sack of gold and your way out")
+else:
+    print("when you first go through it seems clear")
+    sleep(delay)
+    print("you turn the corner")
+    sleep(delay)
+    print("freddy kruger is waiting for you")
+    sleep(delay * 2)
+    print("you try to run but there is no escape. he catches up to you quickly")
+    sleep(delay * 2)
+    print("giving you an untimely death")
+    dead = True
 
-print(
-    ''' Before you can approach the shrouded individual, the cave's eerie silence is broken by shouting. "By my name, I am Dave the magical CHEESE WIZARD!!! What is thy business here!?"''')
-sleep(delay)
+if dead == True:
+    print("this game was easy and you still died. Better luck next time")
+    quit()
 
-purpose = input("What is your purpose here? [Justice/fame and fortune/escape]")
-
-if purpose == "Justice":
-    print('''"Then go"''', username,
-          '''" and take some cheese for the journey." Dave the cheese wizard vanishes and you are left alone once more. Thanks Dave, very cool."''')
-
-elif purpose == "fame and fortune":
-    print(
-        '''"You are unworthy!" You are bludgeoned to death by an angry wizard with a comically large wheel of cheese. sorry"''',
-        username, "luck does not appear to be on your side.")
-dead = True
-
-else purpose == "escape":
-print(
-    "your attempt to run is met with hostility. A block of cheese is summoned beneath you and you trip breaking your neck. Sorry",
-    username, "Dave is more powerful than you know.")
-dead = True
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
+
+
+
+#########################################################################################################
+# TEAM 25
+username = input("What is your nickname? ")
+print("Hello,", username, ", welcome to our game!")
+print("You have three choices: one good, another bad, and neutral.")
+print("Good one leads to cute kittens, bad one leads to hungry lions, neutral leads to flowers.")
+print("Good luck with your adventure!")
+print("\n")
+d = input("Which path would you like to go first, second, or the third? ")
+if d == "first":
+    print("Great choice! It seems you made a right choice, continue your way ;)")
+elif d == "second":
+    print("You chose neutral way, continue your path, but be extremely careful!!!")
+    d1 = int(input('Now you are again seeing three trails, choose only one of them: 1, 2, 3  '))
+    if d1 == 1:
+        print('Good! You are in the field with flowers and kittens around you!')
+    elif d1 == 2:
+        print('Too bad! Here is a huge dangerous lion!! RUN!!!')
+        print('I am so sorry, the lion was faster than you. You are dead :(')
+        dead = True
+    else:
+       print('You are in the sky with the beautiful lions, which are not eating people, you re lucky! No kittens though')
+
+else:
+    print("Oops, I hear the roar! YOu are shaking, feeling desperate.")
+    print("The lion is eating you with delight.")
+    dead = True
 if dead == True:
-    print("Oh no! You died. It's a skill issue! Try again by hitting the green play button. ")
+    print("Oh, no! You have just died in front of a lion!")
     quit()
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
+
+
+#########################################################################################################
+# TEAM 26
+door = input("Choose one of the three doors. Blue, Red or Green?")
+
+if door == "Green":
+    #right choice
+    print("You are on the right track. As you are walking you see a light ahead!")
+
+elif door == "Red":
+    #bad choice
+    print("Oops... Wrong door")
+    sleep(delay)
+    print("As you are walking forward, the door behind you closes.")
+    print("Gas starts to fill up the room and you have a hard time breathing")
+    dead = True
+
+else:
+    #neutral choice
+    print("The place you entered has a torch at the end of the room. Nothing interesting!")
+    sleep(delay)
+
+
+if dead == True:
+    print("Oh no! You died. Try again.")
+    quit()
+
+
+
+
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
+
+
+#########################################################################################################
+# TEAM 27
+print("You've arrived at your final destination")
+print("You have 4 options!")
+
+
+level = input("Which level do you want to choose? (answer 1/2/3/4) ")
+
+
+if level == "1":
+   #Bad choice
+   print("Oh no! There's a zombie. You almost died")
+   print("We will give you one more chance!")
+   floor = input("Which floor do you choose this time? (1-10) ")
+   #1-5: good choice
+   #6-8: bad choice
+   #9-10: neutral
+   floor = int(floor)
+
+   if 1 <= floor and floor <=5:
+       print("good choice")
+   elif 6<= floor and floor <=8:
+       print ("bad choice")
+       dead = True
+   else:
+       print("neutral")
+
+
+
+elif level == "2":
+   #Good Choice
+   print("Yay, There is a party with lots of food. Enjoy!")
+
+
+else:
+   print("There's a zombie but Look! There's also a door out there. Run fast!!")
+
+
+if dead == True:
+   print("You're dead!")
+   quit()
+
+
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
+
+
+#########################################################################################################
+# TEAM 28
+direction = input("Which direction would you like to go now? [North/South/East/West]")
+if direction.lower() == "east":
+    print("You travel East")
+    print("You find a lamp that is somehow still lit")
+    print("You can now see the cave around you, you're still lost but at least you can see")
+    print("You use this lamp to navigate out of the labyrinth.")
+    print("You exit the labyrinth")
+elif direction.lower() == "west":
+    print("You travel West")
+    print("You wander around in the dark when suddenly your foot slips")
+    print("You fall...")
+    for x in range(0, 3):
+        print("and fall...")
+        sleep(delay)
+    dead = True
+else:
+    print("You go" + direction + " you go until you reach a wall and turn left")
+    print("You make another left")
+    print("and another left")
+    print("You're not sure but you think you're right back where you started, just as lost before")
+
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+if dead == True:
+    print("You died of starvation while falling. Better luck next time! Try again by hitting the green play button.")
+    quit()
+# TODO Don't forget to check if your user is dead at the end of your chapter!
+
+
+#########################################################################################################
+# TEAM 29
+print("You wake up under the sand dunes in a cave.")
+print("You can't see anything more than a meter in front of you.")
+print("After walking for the better part of an hour you come to a fork in the path.")
+print("Three paths lay before you")
+path = input("Do you go Left/Right/Middle?\n")
+if path == "Right":
+    print("You trip over something on the ground.")
+    print("You pick it up and discover it's a lantern")
+    print("You continue on with light.")
+elif path == "Left":
+    print("The cave buckles as you're trapped under. You get crushed to death")
+    dead = True
+else:
+    print("You journey on in the dark")
+
+if dead == True: print("You have died, please try again")
+quit()
+
+
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
+
+
+
+#########################################################################################################
+# TEAM 30
+
+
+name = input("What is your name? ")
+print(f'Welcome {name}  to the game: Choose you own Adventure')
+print("You are stranded in a desert")
+print("You find three roads")
+print("You are thirsty and one of them leads to water")
+print("The other two are dangerous")
+
+
+road = input("Select the road, 1,2, or 3?")
+if road == "1":
+    print(f"Oh no, {name} fell in a pit of snakes! You died")
+    quit()
+
+elif road == "2":
+    print(f"Congratulations {name}, you found water.")
+
+else:
+    print(f"{name} came across a den of lions. Good luck next time!")
+
+
+
+
+
+
+
+
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
+
