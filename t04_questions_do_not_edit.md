@@ -2,24 +2,30 @@
 
 ## Instructions
 
-**Replace each `**Replace This With Your Answer**` with your answer**
+1. Copy this file.
+2. Paste the copy of the file into the `Answers` directory.
+3. Name the file `t04_username.md`, replacing username with your Berea username.
+4. Replace each `**Replace This With Your Answer**` with your answer to the question above it.
 
-First, discuss with your team and assign yourselves roles. Try to pick the role you’ve had the least experience in.
+Discuss with your team and assign yourselves roles. Try to pick the role you’ve had the least experience in.
 Change roles each day!
 
 ```
     Complete the table below at the start of each class period:
 ```
+
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
 | Driver          |        |           |        |
 | Navigator       |        |           |        |
 | Quality Control |        |           |        |
-____
+
+___
 
 ## SECTION 1
 
-1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to t01_final_story.py for "inspiration".
+1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to 
+     **t01_final_story.py** for "inspiration".
 
 ```
     **Replace This With Your Answer**
@@ -48,7 +54,7 @@ ___
 ## SECTION 2
 
 2.a. You should notice that there are multiple branches in the Github repository. 
-     Find yours and check that your code is there. Compare your branch to master. What’s different?
+     Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
     **Replace This With Your Answer**
@@ -61,34 +67,30 @@ ___
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
-     A pull request is a formal request to add your code into the master branch, for all to see and share. 
+     A pull request is a formal request to add your code into the main branch, for all to see and share. 
      Once you’ve issued the pull request, communicate to the instructor that you are "ready for a PR review."
-     After the instructor or TA approves your request, refresh Github. Is your code in the master branch now? 
+     After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
     **Replace This With Your Answer**
 ```
 
-2.d. What about other groups’ code? Is it also in master branch, compared to the last time you looked at it 
-     in Question 6?
+2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
+     in Question 2.b.?
 
 ```
     **Replace This With Your Answer**
 ```
 
-2.e. Once your code has been pulled into the master branch, go back to PyCharm. Right click on the directory, and 
-     switch back to the master branch by clicking `Git` >> `Branches` and selecting `Local Branches` >> `main`.
-     Is your code in your **local** master branch? Why not?
+2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
+     switch back to the main branch by clicking `Git` >> `Branches` and selecting `Local Branches` >> `main`.
+     Is your code in your **local** main branch? Why not?
 
 ```
     **Replace This With Your Answer**
 ```
 
-___
-
-## SECTION 3
-
-3. Define Each Term:
+2.f. Define Each Term:
 ```
         a. Clone:       ____________________
 
@@ -110,12 +112,14 @@ ___
 
         j. Fetch:       ____________________
 
-    Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) to ensure they are correct.
+    Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
+    to ensure they are correct.
 ```
 
-3.k. In Github, go to the [Network Graph](https://github.com/Berea-College-CSC-226/t04-master/network) (i.e., a history of branching and committing history). 
-     Discuss with your partner what confusions you still have about the git workflow you experienced today, using the 
-     network graph to explore what has happened. Write your unanswered questions in the space to the right:
+3.k. In Github, go to the [Network Graph](https://github.com/Berea-College-CSC-226/t04-main/network) (i.e., a history 
+     of branching and committing history). Discuss with your partner what confusions you still have about the git 
+     workflow you experienced today, using the network graph to explore what has happened. Write your unanswered 
+     questions in the space to the right:
 
 ```
     **Replace This With Your Answer**
