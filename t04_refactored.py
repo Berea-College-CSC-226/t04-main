@@ -119,7 +119,31 @@ def scott_adventure():
 
 def team_1_adv():
     pass
+    """
+    https: // docs.google.com / document / d / 1
+    w2F6gWv33eaDSHXkVsdWM3kApfeSwzdyKSTLEV0Vqq8 / edit?tab = t
+    .0
+    Sandy Enriquez Vazquez 
+    Tafreed Sardar
+    :return: none
+    """
     # TODO Add your code here
+username = input("What is your name?")
+print(f"Welcome {username} to the game")
+dice_roll = input("You're scared. What would do you do?  [Run /Say Hello /Go Towards To Sound/ Look Around]")
+
+if dice_roll == "Run":
+    print("Goodbye",username,"The voice gets angry, screams, and you die!")
+    # Do something, probably die. The bad thing happens
+elif dice_roll == "Say Hello":
+    print("Hello your bravery is commendable traveler.")
+else:
+    # This is the neutral thing that occurs.
+    print("Nothing happened")
+
+# TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+# TODO Don't forget to check if your user is dead at the end of your chapter!
 
 ###################################################################################
 
