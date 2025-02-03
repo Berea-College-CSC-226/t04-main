@@ -29,7 +29,7 @@ ___
 
 ```
     Since T01 we've improved by learning the use of functions and loops so that we reduce our lines of code to make it more simplified, range, and calling specific functions in a certain order.
-    
+    fsdf
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
