@@ -116,7 +116,7 @@ ___
     to ensure they are correct.
 ```
 
-3.k. In Github, go to the [Network Graph](https://github.com/Berea-College-CSC-226/t04-main/network) (i.e., a history 
+2.g. In Github, go to the [Network Graph](https://github.com/Berea-College-CSC-226/t04-main/network) (i.e., a history 
      of branching and committing history). Discuss with your partner what confusions you still have about the git 
      workflow you experienced today, using the network graph to explore what has happened. Write your unanswered 
      questions in the space to the right:
