@@ -14,11 +14,11 @@ Change roles each day!
     Complete the table below at the start of each class period:
 ```
 
-|                 | Monday | Wednesday | Friday |
-|-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
-| Quality Control |        |           |        |
+|                 | Monday  | Wednesday | Friday  |
+|-----------------|---------|-----------|---------|
+| Driver          | Aije    | Saratou   | Aije    |
+| Navigator       | Saratou | Aije      | Saratou |
+| Quality Control |         |           |         |
 
 ___
 
