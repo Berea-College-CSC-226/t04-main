@@ -202,8 +202,42 @@ def team_12_adv():
 
 
 def team_13_adv():
-    pass
+
     # TODO Add your code here
+    user_direction = input("You come at across three tunnels.... (Choose forward, left, or right): ")
+    delay = 1
+    dead = False
+    sleep(delay)
+
+    if user_direction == "left" or user_direction == "Left":
+            print("You hit a den in which a bear lives in...")
+            sleep(delay)
+            print("You get scared and the alert the bear!")
+            sleep(delay)
+            print("The bear then eats you...")
+            sleep(delay)
+            print("You have a chance to survive...")
+            number_picked = int(input("The Eggmeister asks you to pick a number between 1 and 20:"))
+            if number_picked >= 14:
+                sleep(delay)
+                print("Congrats you didn't die.")
+            elif number_picked < 14:
+                sleep(delay)
+                print("You picked wrong...")
+                dead = True
+
+
+    elif user_direction == "right" or user_direction == "Right":
+            sleep(delay)
+            print("You find an exit and reach a hill that overlooks a waterfall")
+            print("Everything seems peaceful.")
+    else:
+            print("You walk forward...")
+            sleep(delay)
+            print("Nothing happens...")
+    if dead:
+        print("You died... Sorry")
+        quit()
 
 ###################################################################################
 
@@ -347,7 +381,7 @@ def main():
     # Shuffles the order of paths, so each adventure is different
     random.shuffle(paths)
 
-    user = start_story()
+    user = team_13_adv()
     for i in range(len(paths)):
         is_alive = paths[i]()  # Runs each function in the paths list
         kill_if_dead(is_alive)
