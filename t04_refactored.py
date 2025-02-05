@@ -253,40 +253,34 @@ def team_14_adv():
 
 
 def team_15_adv():
-    pass
-import time
-delay = 1
-is_dead = False
 
-opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander")
+    import time
 
-if opponent == "Scott":
-    # bad choice
-    print(
-        '''As he steps into the ring he make nervous eye contact with you. He says "I was hoping no one would choose me, I didn't want it to come to this"''')
-    time.sleep(3)
-    print(
-        "Within a millisecond he teleports behind you wrapped around your waist and suplexes you, snapping your neck on the hard cold unforgiving concrete floor")
-    print("Dr.Scott has killed you")
-    is_dead = True
+    opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander")
 
-elif opponent == "Tojo":
-    # good choice
-    print("You get in the ring with Tojo. You notice he's moving a little slow and creaky.")
-    print("Turns out he overdid it on the bench press before the fight. You easily throw him to the ground.")
-    print("Unable to properly use his arms, he can't get up and is tapped out.")
-    time.sleep(1)
+    if opponent == "Scott":
+        # bad choice
+        print(
+            '''As he steps into the ring he make nervous eye contact with you. He says "I was hoping no one would choose me, I didn't want it to come to this"''')
+        time.sleep(3)
+        print(
+            "Within a millisecond he teleports behind you wrapped around your waist and suplexes you, snapping your neck on the hard cold unforgiving concrete floor")
+        print("Dr.Scott has killed you")
+        return False
+
+    elif opponent == "Tojo":
+        # good choice
+        print("You get in the ring with Tojo. You notice he's moving a little slow and creaky.")
+        print("Turns out he overdid it on the bench press before the fight. You easily throw him to the ground.")
+        print("Unable to properly use his arms, he can't get up and is tapped out.")
+        time.sleep(1)
 
 
-else:
-    # neutral choice
-    print("The fellow student you fight happens to be on the exact same level as you so you tie.")
-    print("You have to try fighting them again  at the next BWT")
-    time.sleep(1)
-
-if is_dead:
-    print("oh no! You have died, hopefully there is no wrestling in the afterlife!")
-    quit()
+    else:
+        # neutral choice
+        print("The fellow student you fight happens to be on the exact same level as you so you tie.")
+        print("You have to try fighting them again  at the next BWT")
+        time.sleep(1)
 
 ###################################################################################
 
