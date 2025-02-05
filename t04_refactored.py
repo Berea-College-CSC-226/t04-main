@@ -324,8 +324,20 @@ def team_30_adv():
     pass
     #########################################################################################################
     # TEAM 30
+    '''
+    https://docs.google.com/document/d/1BCO5EG7KH-AbK25vJ5qHJdOoz601QiS26shjXqPzNGo/edit?tab=t.0
+    Antonio Kornrumpf
+    :return: none
+    '''
+# REFACTORING FROM HERE
 
+#def inputRequests(): #### Began attempting to group the input and output into functions.
     name = input("What is your name? ")
+    road = input("Select the road, 1,2, or 3?")
+
+#def main(): ## Not needed, there is a main() already defined.
+
+#def outputResponses(): ## Began attempting to group the input and output into functions.
     print(f'Welcome {name}  to the game: Choose you own Adventure')
     print("You are stranded in a desert")
     print("You find three roads")

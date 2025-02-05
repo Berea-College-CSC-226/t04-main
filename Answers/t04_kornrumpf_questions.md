@@ -2,12 +2,14 @@
 
 ## Instructions
 
-1. Copy this file.
-2. Paste the copy of the file into the `Answers` directory.
-3. Name the file `t04_usernames.md`, replacing usernames with your Berea usernames.
-4. Replace each `**Replace This With Your Answer**` with your answer to the question above it.
+1. Copy this file. [X]
+2. Paste the copy of the file into the `Answers` directory. [X]
+3. Name the file `t04_usernames.md`, replacing usernames with your Berea usernames. [X]
+4. Replace each `**Replace This With Your Answer**` with your answer to the question 
+above it. [X]
 
-Discuss with your team and assign yourselves roles. Try to pick the role you’ve had the least experience in.
+Discuss with your team and assign yourselves roles. 
+Try to pick the role you’ve had the least experience in.
 Change roles each day!
 
 ```
@@ -16,31 +18,58 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
-| Quality Control |        |           |        |
+| Driver          |        | A         | A      |
+| Navigator       |        | A         | A      |
+| Quality Control |        | A         | A      |
 
 ___
 
 ## SECTION 1
 
-1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to 
-     **t01_final_story.py** for "inspiration".
+1.a. 
+Discuss with your partner two or more ways in which 
+you've improved as a coder since T01. You can refer back to 
+**t01_final_story.py** for "inspiration".
+
+
+
+
 
 ```
-    **Replace This With Your Answer**
+One way I've grown as a coder since T01 is solidificaiton of my understanding of
+flows of execution, this was highlighted by the use of user defined functions, 
+in combination with the use of a main() function.
+
+A secondary way I've grown as a coder, is in my understanding of input parameters,
+and the return of arguments. Arguments can be passed as outputs from one function into 
+another? I've added the following two definitions to my main document.
+
+DEFINED:
+	Arguments – Functions, require arguments, and return values. 
+	There are values that controls how a function does it job, these are local scope variable. 
+	Input Parameters – Functions require parameters, a value that controls how the function does it job,  global scopes.  
+    There are values the control havea function does it job, if they are in the global scope they are ____.
+ 
+
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    I am reviewing the code inside of t04_refactor.py lines 320-362.
+    The biggest logical changes are trying to nest the calls inside of
+    user defined functions: inputRequests and outputResponses.
 ```
 
-1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
+1.c. Did you find it challenging following the logic of another group’s code? 
+     Why or why not?
 
 ```
-    **Replace This With Your Answer**
+     In order to understand the logic of the other groups, I am 
+     reviewing and comparing the code for groups: [30,1,10,20]
+ 
+
+      
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
