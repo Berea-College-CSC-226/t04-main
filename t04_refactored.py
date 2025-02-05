@@ -183,36 +183,34 @@ def team_4_adv():
 
 
 def team_5_adv():
-
-    #TEAM 5
+    """
+    Prompts user what they want to eat and returns result based on response
+    Dumisani Chikomo
+    Taylor Johnson
+    :return: True/False
+    """
     dead = False
     food = (input("choose what you want to eat today? [pasta/pizza/burger]")).lower()
     if food == "pasta":
         # good choice
         print("you were lucky this time!")
         print("now you get free pasta and get to live")
+        return True
     elif food == "pizza":
         # bad choice
         print("this is poisoned!")
         print("you will experience death in 30 seconds!")
         print("you didn't make it")
-        dead = True
+        return False
     elif food == "burger":
         # neutral choice
         print("Yikes! You will experience food poisoning")
         print("But don't worry, you will still live")
-    if dead:
-        print("Oh no! You failed to pass this stage. Now you died!")
-        quit()
+        return True
+    else:
+        print("You didn't eat any of the food, You're a little hungry now!")
+        return True
 
-    #
-    #
-    #
-    #
-    #
-    # # TODO Make sure to add the additional check if the user makes the "bad" choice!
-    #
-    # # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 ###################################################################################
 
