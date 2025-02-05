@@ -63,7 +63,7 @@ ___
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Yeah we see them in remote.**
+    **Yeah we see them in remote.No our code is not in there. because it hasnt been merged into main yet and they havent updated their project.**
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -72,14 +72,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    **Yes our code has been merged into main**
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    **There have been a couple of more people who added code**
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
