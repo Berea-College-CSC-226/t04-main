@@ -63,13 +63,14 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    Yes our code is there. The only difference is our questions file that can be found in our branch but not in main. 
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    Yes, we can see other group's branches. Our code is not in there branches because they did not pull the modifications 
+    that we have made. 
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -78,14 +79,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    No our code is not yet in the main branch because it has not yet been approved. 
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    No, other group's code are not there either because the instructor said that they have not approved their codes yet. 
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -98,15 +99,15 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Copying a project from github to pycharm 
 
-        b. Commit:      ____________________
+        b. Commit:      saving the changes we have made to the files in the laptop.
 
-        c. Push:        ____________________
+        c. Push:        backing up modifications we made, to the repository
 
-        d. Branch:      ____________________
+        d. Branch:      A place where we save our own files without affecting the main 
 
-        e. Pull:        ____________________
+        e. Pull:        
 
         f. Pull Request:____________________
 
