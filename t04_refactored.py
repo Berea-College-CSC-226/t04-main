@@ -183,8 +183,34 @@ def team_4_adv():
 
 
 def team_5_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1IoGqIzwUB8Dhl-79Neu_qzU8yA1AHIAmnMEAtU1ljX8/edit?usp=sharing
+    Dumisani Chikomo
+    Taylor Johnson
+    :return: True/False
+    """
+    dead = False
+    food = (input("choose what you want to eat today? [pasta/pizza/burger]")).lower()
+    if food == "pasta":
+        # good choice
+        print("you were lucky this time!")
+        print("now you get free pasta and get to live")
+        return True
+    elif food == "pizza":
+        # bad choice
+        print("this is poisoned!")
+        print("you will experience death in 30 seconds!")
+        print("you didn't make it")
+        return False
+    elif food == "burger":
+        # neutral choice
+        print("Yikes! You will experience food poisoning")
+        print("But don't worry, you will still live")
+        return True
+    else:
+        print("You didn't eat any of the food, You're a little hungry now!")
+        return True
+
 
 ###################################################################################
 
