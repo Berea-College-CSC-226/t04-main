@@ -212,7 +212,11 @@ def team_8_adv():
 
 def team_9_adv():
    # TEAM 9
-    frog = False
+   '''
+   Ask wizard a question if you go north
+   :return: boolean
+   '''
+
     direct = input('Enter direction: North/South/East/West')
     if direct == "North":
         print("It's a wizard!")
@@ -230,11 +234,10 @@ def team_9_adv():
         elif question == "3":
             print("""I have spent endless hours practicing just for this! In my wizard cave! 
             ANURA METAMORPHOS!!! *poof*""")
-            frog = True
-        if frog:
             sleep(DELAY)
             print("You are a frog now. You're not dead, but you can't do anything either. RIBBIT!!!")
             print("""You have reached the "secret" frog ending. Congratulations!""")
+            return False
 
 ###################################################################################
 
