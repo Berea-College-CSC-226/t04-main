@@ -151,28 +151,26 @@ def team_5_adv():
 
 ###################################################################################
 
-'''
-
-'''
 def team_6_adv():
-    pass
+    """
+    https://docs.google.com/document/d/1c3WGIh43J5OzZF8MjMj4OP4yaiOHlq4I6XWFz52Ow0I/edit?usp=sharing
+    Karina Ismailova
+    Megan Lucas
+    :return: None
+    """
     enrollment = input("Should you take CSC 226? [Yes/No/Not sure]")
     if enrollment == "Yes":
-        print("That's a good choice")
+        print("That's a good choice!")
     elif enrollment == "No":
-        print("Oh no! You cant graduate")
+        print("Oh no! You cant graduate!")
+        print("You have no job! GOOD JOB!")
     else:
-        print("Let me show you what you can with a CS Degree")
-        dead = True
-    if dead:
-        print(" Oh no! You can't graduate")
+        print("Let me show you what you can with a CS Degree!")
         quit()
-    # No == print ("Goodluck with your future endeavours")
-    #     print("Goodluck with your future endeavours")
+def main():
+    team_6_adv()
+main()
 
-    # TODO Make sure to add the additional check if the user makes the "bad" choice!
-
-    # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 ###################################################################################
 

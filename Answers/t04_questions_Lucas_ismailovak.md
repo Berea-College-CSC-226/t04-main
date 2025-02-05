@@ -28,25 +28,25 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    Added calling to main and calling the function for our team, we placed else function correctly, and added some more information for the choice "No"
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We placed a lot of code too much to the left when we needed to tab it in our function's doctring 
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    Yes, because it was pretty short and about CS degree
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We did not have PEP8
 ```
 
 ___
@@ -57,13 +57,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    It has added my new code with our branch, but not to main yet, cuz we need to do pull request
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    No, because it has not been merged
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -72,14 +72,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Not yet, we are fixing it
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Not yet
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -87,30 +87,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    No, because we are fixing it
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       it is where clone our repo or link
 
-        b. Commit:      ____________________
+        b. Commit:      it is where we save changes, submissions
 
-        c. Push:        ____________________
+        c. Push:        where we push it to github send it
 
-        d. Branch:      ____________________
+        d. Branch:      it is where we create a branch with our names (separate from main)
 
-        e. Pull:        ____________________
+        e. Pull:        we pull changes to make sure our work is up to date
 
-        f. Pull Request:____________________
+        f. Pull Request:we ask the author to check our code before merging
 
-        g. Merge:       ____________________
+        g. Merge:       author merges our code to main
 
-        h. Remote:      ____________________
+        h. Remote:      remote it is where we can get our changes update from git in pycharm
 
-        i. Local:       ____________________
+        i. Local:       it is where our local changes are  in pycharm
 
-        j. Fetch:       ____________________
+        j. Fetch:      to download commits from remote to local repository 
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -122,7 +122,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    making sure that we put answers in correct files on pycharm 
 ```
 
 ---
