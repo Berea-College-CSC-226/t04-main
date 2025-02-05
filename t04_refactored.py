@@ -183,7 +183,6 @@ def team_3_adv():
         Delays next line
         """
         print("You have obtained 3 Silver and 2 Gold")
-
     elif char == "Goblin":
         # bad choice
         print("You are a Goblin")

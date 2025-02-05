@@ -28,7 +28,7 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    Learning how to import module and getting more familiar with terms.
+    Learning how to import module and getting more familiar with terms. 
     Learning better ways of structuring code to get the same result with more streamlined code.
 ```
 
