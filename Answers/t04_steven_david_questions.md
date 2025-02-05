@@ -57,13 +57,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    ****
+    **The files that we created arent there and the changes we made arent in main either**
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **Yeah we see them in remote.**
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
