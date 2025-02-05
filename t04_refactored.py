@@ -184,7 +184,7 @@ def team_4_adv():
 
 def team_5_adv():
     """
-    Prompts user what they want to eat and returns result based on response
+    https://docs.google.com/document/d/1IoGqIzwUB8Dhl-79Neu_qzU8yA1AHIAmnMEAtU1ljX8/edit?usp=sharing
     Dumisani Chikomo
     Taylor Johnson
     :return: True/False
