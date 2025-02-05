@@ -57,13 +57,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    The t04_refactored is different due to the edits we made within team 16. And also the answers we have answered in the Answer folder.
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    We see other branches in the repo and our code isn't in their branches because we still haven't put in a pull request and because a branch is a copy in one's local machine.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -72,7 +72,7 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
