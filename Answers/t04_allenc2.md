@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
+| Driver          | Cade   | Kamau     |        |
+| Navigator       | Clark  | Cade      |        |
 | Quality Control |        |           |        |
 
 ___
@@ -28,25 +28,25 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    We are able to find errors faster, and we both gained a better understanding of different types of code.
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We used the time module and delayed the time that the messages where put in.
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    No because it we havent gotten anything too complacated as of now.
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    In the beginning we had just one (if isDead == True:)  but we where able to fix it by changing the syntax to if is_dead: and importing time and adding delay, making the code look more clean.
 ```
 
 ___
@@ -57,13 +57,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    Yes the code is in github, and the only difference is it only includes the code we commited and pushed. 
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    Yes i see the different branches of most of our classmates in github.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -79,7 +79,7 @@ ___
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Yes t04_rheaj_mccaslinm_questions.md was added to main.
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
