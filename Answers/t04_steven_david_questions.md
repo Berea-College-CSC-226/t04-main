@@ -34,19 +34,19 @@ ___
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    **We defined the isdead variable as a function to make it easier to look at and use**
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    ** No it was pretty good we just added stuff we learned that we didnt know then**
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    ** Direction wasnt defined and we defined it. the code looks better and actually works**
 ```
 
 ___
@@ -57,7 +57,7 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    ****
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
