@@ -133,7 +133,7 @@ print(f"Welcome {username} to the game")
 dice_roll = input("You're scared. What would do you do?  [Run /Say Hello /Go Towards To Sound/ Look Around]")
 
 if dice_roll == "Run":
-    print("Goodbye",username,"The voice gets angry, screams, and you die!")
+    print(f"Goodbye",{username},"The voice gets angry, screams, and you die!")
     # Do something, probably die. The bad thing happens
 elif dice_roll == "Say Hello":
     print("Hello your bravery is commendable traveler.")

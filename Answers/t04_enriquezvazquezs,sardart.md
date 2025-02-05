@@ -35,19 +35,19 @@ ___
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    
+    We added a parenthesis outside "username"
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    Yes, because we were only working on a specific part of code and did not have control over the logic of other group's code.
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We resolved the 1 error and 2 warnings and the resulting code looks better because it is working now. 
 ```
 
 ___
