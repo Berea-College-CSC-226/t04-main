@@ -256,7 +256,7 @@ def team_15_adv():
 
     import time
 
-    opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander")
+    opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander)")
 
     if opponent == "Scott":
         # bad choice
