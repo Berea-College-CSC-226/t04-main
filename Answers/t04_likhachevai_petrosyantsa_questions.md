@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          | Iuliia |           |        |
-| Navigator       | Alina  |           |        |
+| Driver          | Iuliia | Alina     |        |
+| Navigator       | Alina  | Iuliia    |        |
 | Quality Control |        |           |        |
 
 ___
