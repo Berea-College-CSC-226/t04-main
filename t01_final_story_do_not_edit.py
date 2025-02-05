@@ -166,12 +166,21 @@ if dead == True:
 
 #########################################################################################################
 # TEAM 6
-enrollment = input("Should you take CSC 226? [Yes/No/Not sure]")
-if enrollment == "Yes":
-    print("That's a good choice")
-elif enrollment == "No":
-    print("Oh no! You cant graduate")
-    else print("Let me show you what you can with a CS Degree")
+def team_6_adv():
+    pass
+    enrollment = input("Should you take CSC 226? [Yes/No/Not sure]")
+    if enrollment == "Yes":
+        print("That's a good choice!")
+    elif enrollment == "No":
+        print("Oh no! You cant graduate!")
+        print("You have no job! GOOD JOB!")
+    else:
+        print("Let me show you what you can with a CS Degree!")
+        quit()
+def main():
+    team_6_adv()
+
+main()
 
 
 
