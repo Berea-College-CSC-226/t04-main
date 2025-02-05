@@ -155,8 +155,7 @@ def team_2_adv():
         if fight <= "5":
             print("You try to counter his massive knife with your bare hands.. why? He promptly ends you.")
         elif fight > "5":
-            print(
-                "You break left and scramble through the tavern door; you make it out, and have a relatively normal day.")
+            print("You break left and scramble through the tavern door; you make it out, and have a relatively normal day.")
     else:
         print("You leave. your day is alright, and you live.")
 
