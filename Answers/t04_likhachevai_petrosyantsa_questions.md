@@ -35,20 +35,20 @@ ___
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **We added username input 
+    **We added username input, and also added random module, and edited the check for the bad choice
     **
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **Yes, because it was hard to figure out what the other programmers code is supposed to do without comments**
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    **We added the space **
 ```
 
 ___
