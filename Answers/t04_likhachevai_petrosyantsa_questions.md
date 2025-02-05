@@ -28,13 +28,15 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    **We have learned a lot about functions, can use loops, and know how to implemtn different modules. Moreover, we can structure our code properly. 
+    **
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    **
+    **
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
