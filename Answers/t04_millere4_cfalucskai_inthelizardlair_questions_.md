@@ -14,11 +14,11 @@ Change roles each day!
     Complete the table below at the start of each class period:
 ```
 
-|                 | Monday | Wednesday | Friday |
-|-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
-| Quality Control |        |           |        |
+|                 | Monday         | Wednesday      | Friday         |
+|-----------------|----------------|----------------|----------------|
+| Driver          | Lizard         | Lizard         | Constantinople |
+| Navigator       | Constantinople | Constantinople | Lizard         |
+| Quality Control |                |                |                |
 
 ___
 
