@@ -2,15 +2,20 @@ def team_6_adv():
     pass
     enrollment = input("Should you take CSC 226? [Yes/No/Not sure]")
     if enrollment == "Yes":
-        print("That's a good choice")
+        print("That's a good choice!")
     elif enrollment == "No":
-        print("Oh no! You cant graduate")
+        print("Oh no! You cant graduate!")
+        print("You have no job! GOOD JOB!")
     else:
-        print("Let me show you what you can with a CS Degree")
-        dead = True
-    if dead:
-        print(" Oh no! You can't graduate")
+        print("Let me show you what you can with a CS Degree!")
         quit()
+def main():
+    team_6_adv()
+
+main()
+
+
+
     # No == print ("Goodluck with your future endeavours")
     #     print("Goodluck with your future endeavours")
 
