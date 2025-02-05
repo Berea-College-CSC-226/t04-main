@@ -58,13 +58,14 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+   yes we found our branch, and our questions and all other changes do not exist in main
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    yes we see other branches, no our code isnt in their branch because they pulled from main as the repo link and our 
+    code isn't in main channel 
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -80,7 +81,7 @@ ___
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    yes
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -93,13 +94,13 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       copying the code in git to our local storage
 
-        b. Commit:      ____________________
+        b. Commit:      Saving our changes to our local branch
 
-        c. Push:        ____________________
+        c. Push:        save changes to github
 
-        d. Branch:      ____________________
+        d. Branch:      our personal copy of the code
 
         e. Pull:        ____________________
 
