@@ -169,6 +169,36 @@ def team_2_adv():
 
 
 def team_3_adv():
+    char = input("Choose the form that you wish to complete this quest. \n [Monster, Human or Goblin]")
+    """
+    Defines user input
+    """
+    if char == "Monster":  # good choice
+        """
+        output value corresponding to user input
+        """
+        print("You are a monster.\n You use your sharp claws and venomous fangs to raid a village.\n")
+        sleep(1)
+        """
+        Delays next line
+        """
+        print("You have obtained 3 Silver and 2 Gold")
+
+    elif char == "Goblin":
+        # bad choice
+        print("You are a Goblin")
+        """
+        output value corresponding to user input
+        """
+    elif char == "Human":
+        print("You are a Human!\n You are soft, go home.")
+        """
+        output value corresponding to user input
+        """
+    else:
+        print("Please choose Monster, Human, or Goblin.")
+        sleep(1)
+        return team_3_adv()
     pass
     # TODO Add your code here
 

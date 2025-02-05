@@ -28,7 +28,8 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    Learning how to import module and getting more familiar with terms.
+    Learning better ways of structuring code to get the same result with more streamlined code.
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
