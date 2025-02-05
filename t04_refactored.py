@@ -187,7 +187,7 @@ def team_8_adv():
 
     print("Up ahead is a lit chamber with 3 doors, one to the East, one to the North, and one to the West.")
     cardinal = input("Which door will you choose? ")
-    isDead = True
+    isDead = False
     if cardinal == "East":
         # GOOD !!!
         print(
