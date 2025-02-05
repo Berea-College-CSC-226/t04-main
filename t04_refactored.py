@@ -213,8 +213,8 @@ def team_14_adv():
     def isdead():
         if direction == "South"
             print("You unfortunately fell off a cliff and are about to die.")
-        elif():
-            print()
+        elif direciton == "North"
+            print("")
     direction = input("Which Direction would you like to go?(North/East/West/South)")
     if direction == "North":
         print("You didn't die. In fact, you made it out of the cave and back into society. Yay.")
