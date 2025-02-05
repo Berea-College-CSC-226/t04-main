@@ -245,6 +245,12 @@ def team_13_adv():
     delay = 1
     dead = False
     sleep(delay)
+    alphabet = ["a", "b", "c"]
+
+    x = "n"
+
+    # if x in alphabet:
+        # Do whatever
 
     if user_direction == "left" or user_direction == "Left":
             print("You hit a den in which a bear lives in...")
@@ -262,7 +268,19 @@ def team_13_adv():
                 sleep(delay)
                 print("You picked wrong...")
                 dead = True
+            print("you now have another chance to survive...")
 
+            letter_picked = input("Eggmesiter asks you to pick a letter between a, b, or c:")
+            alphabet = ["a", "b", "c"]
+            a = "a"
+            b = "b"
+            c = "c"
+            if a in alphabet:
+                print("congratulations, you survived...")
+            if b  in alphabet:
+                print("hmmm, you are seriously wounded..")
+            else:
+                print("you are died...no more chance")
 
     elif user_direction == "right" or user_direction == "Right":
             sleep(delay)
