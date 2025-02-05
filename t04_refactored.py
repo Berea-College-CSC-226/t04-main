@@ -253,7 +253,11 @@ def team_14_adv():
 
 
 def team_15_adv():
-
+    """
+    https://docs.google.com/document/d/1T6-eC5tIW39EfWvym49T3nXRukgnx3tl2HLTavLlIqo/edit?tab=t.0#heading=h.4pqjsa62w6n5
+    Cade Allen
+    Kamau Clark
+    """
     import time
 
     opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander)")
@@ -274,6 +278,7 @@ def team_15_adv():
         print("Turns out he overdid it on the bench press before the fight. You easily throw him to the ground.")
         print("Unable to properly use his arms, he can't get up and is tapped out.")
         time.sleep(1)
+        return True
 
 
     else:
@@ -281,6 +286,7 @@ def team_15_adv():
         print("The fellow student you fight happens to be on the exact same level as you so you tie.")
         print("You have to try fighting them again  at the next BWT")
         time.sleep(1)
+        return True
 
 ###################################################################################
 
