@@ -267,8 +267,52 @@ def team_16_adv():
 
 
 def team_17_adv():
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1pmfsbMiidp5c-cn5qhSVnvIh3GClokc6mJ-9jmFEuhI/edit?tab=t.0
+    Briana Nshimirimana
+    Naz Tulegenovah
+    Abdou Diop
+    :return: none
+    """
+    delay = 1.0
+    dead = False
+    Direction = input(
+        "There are three boxes in front of you: left, middle, and right. Which one would you like to pick?")
+
+    if Direction == "left":
+        # Ooooooh... unfortunate.
+        print("Man, that sucks. ")
+        sleep(delay)
+        print("You picked... the bomb!!")
+        print("BOOOOOOMMMM!!!")
+        sleep(3)
+        dead = True
+
+    elif Direction == "middle":
+        # neutral
+        print("You get...")
+        sleep(delay)
+        print("A pen with unlimited ink")
+        sleep(delay)
+        print("Fun right...?")
+
+    else:
+        # Noice
+        print("*drumroll*")
+        sleep(delay)
+        print("YOU WIN THE GRAND PRIZE!!")
+        print("You get...")
+        sleep(delay)
+        print("Two pens with unlimited ink: A black and red pen!")
+
+    if dead:
+        print("welcome to the afterlife my child. You have chosen wrong.")
+        quit()
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+
 
 ###################################################################################
 
