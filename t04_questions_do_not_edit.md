@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
+| Driver          | Osita  |           |        |
+| Navigator       | Noad   |           |        |
 | Quality Control |        |           |        |
 
 ___
