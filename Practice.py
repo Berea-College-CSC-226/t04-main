@@ -30,7 +30,7 @@ elif cardinal == "North":
         print("As you press against the wall, you feel it fade away as you are transported to nothingness as you slowly become part of it...")
         isDead = True
 else:
-    # I mean you're not dead
+    #BADCHOICE
     print("You are now in the middle of an island alone forever, enjoy !!!")
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
 if isDead == True:
