@@ -384,4 +384,5 @@ def main():
     end_story(user)
 
 
-main()
+if __name__ == "__main__":
+    main()
