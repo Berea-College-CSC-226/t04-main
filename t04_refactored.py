@@ -413,7 +413,8 @@ def main():
     user = start_story()
     for i in range(len(paths)):
         is_alive = paths[i]()  # Runs each function in the paths list
-        kill_if_dead(is_alive)
+        if is_alive is not None:
+            kill_if_dead(is_alive)
     end_story(user)
 
 
