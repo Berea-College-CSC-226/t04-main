@@ -211,35 +211,30 @@ def team_8_adv():
 
 
 def team_9_adv():
-    pass
    # TEAM 9
-frog = False
-question = ""
-direct = input('Enter direction: North/South/East/West')
-if direct == "North":
-    print("It's a wizard!")
-    question = input("""What do you ask the wizard(1,2,3)?
-    1)What are you doing here? 
-    2)Can you help me?
-    3)Turn me into a frog\n: """)
-    sleep(DELAY)
-if question == "1":
-    print("""This is my Wizard Cave! I practice my spells! Do you wish to observe one of them? 
-    Of course you do! The wonder of magic is for everyone! ANURA METAMORPHOS!!! *poof* """)
-    frog = True
-elif question == "2":
-    print("""I can transform you into a fearsome creature! A malevolent devourer, 
-    feared by insects both land and air. ANURA METAMORPHOS!!! *poof*""")
-    frog = True
-elif question == "3":
-    print("""I have spent endless hours practicing just for this! In my wizard cave! 
-    ANURA METAMORPHOS!!! *poof*""")
-    frog = True
-
-if frog:
-    sleep(DELAY)
-    print("You are a frog now. You're not dead, but you can't do anything either. RIBBIT!!!")
-    print("""You have reached the "secret" frog ending. Congratulations!""")
+    frog = False
+    direct = input('Enter direction: North/South/East/West')
+    if direct == "North":
+        print("It's a wizard!")
+        question = input("""What do you ask the wizard(1,2,3)?
+        1)What are you doing here? 
+        2)Can you help me?
+        3)Turn me into a frog\n: """)
+        sleep(DELAY)
+        if question == "1":
+            print("""This is my Wizard Cave! I practice my spells! Do you wish to observe one of them? 
+            Of course you do! The wonder of magic is for everyone! ANURA METAMORPHOS!!! *poof* """)
+        elif question == "2":
+            print("""I can transform you into a fearsome creature! A malevolent devourer, 
+            feared by insects both land and air. ANURA METAMORPHOS!!! *poof*""")
+        elif question == "3":
+            print("""I have spent endless hours practicing just for this! In my wizard cave! 
+            ANURA METAMORPHOS!!! *poof*""")
+            frog = True
+        if frog:
+            sleep(DELAY)
+            print("You are a frog now. You're not dead, but you can't do anything either. RIBBIT!!!")
+            print("""You have reached the "secret" frog ending. Congratulations!""")
 
 ###################################################################################
 
