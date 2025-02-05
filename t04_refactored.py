@@ -227,35 +227,44 @@ def team_10_adv():
 
 
 def team_11_adv():
+    """
+    https://docs.google.com/document/d/1w8-k_nHe4NxKnOYRt5UUhG5JlLBGJT7COcuttwH9gSc/edit?tab=t.0#heading=h.f6tumop9n7at
+    Aaron Whitaker
+    Jairus Harrison
+    :return:
+    """
     direction = input("Which direction would you like to go? [North/South/East/West]")
-
+    dead = False
     if direction == "North":
         # Good choice!
         print("You are still trapped in the dark, but someone else is there with you now! I hope they're friendly...")
-        print("The preson gets closer to you. You get scared of them and, and if they may harm you")
+        print("The person gets closer to you. You get scared of them and, and if they may harm you")
         print()
-        sleep(DELAY)
+        sleep(DELAY * 2)
         print("You take a closer look. Oh look, it is just Dr. Scott Heggen, and he is trying to help you out!")
         print("Dr. Heggen helps you out, and you make it out of the cave!")
-        sleep()
+        sleep(DELAY * 2)
     elif direction == "South":
         # Oh... Bad choice
         print("You hear a growl. Not a stomach growl. More like a big nasty animal growl.")
-        sleep()
+        sleep(DELAY * 2)
         print("Oops. Turns out the cave was home to a nasty grizzly bear. ")
         print("Running seems like a good idea now. But... it's really, really dark.")
+        sleep(DELAY * 2)
         print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
         print("He eats you. You are delicious.")
+        sleep(DELAY * 2)
         dead = True
     else:
         # Neutral choice
         print(
             "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
-        sleep()
+        sleep(DELAY)
 
-    if dead == True:
+    if dead:
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
         quit()
+
 
 ###################################################################################
 
