@@ -31,10 +31,10 @@ elif cardinal == "North":
         isDead = True
 else:
     #BADCHOICE
-    print("You are now in the middle of an island alone forever, enjoy !!!")
-# TODO Make sure to add the additional check if the user makes the "bad" choice!
+    print("You made a bad choice, you are dead now, ops!!!")
+    isDead = True
+
 if isDead == True:
     print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
     quit()
 
-# TODO Don't forget to check if your user is dead at the end of your chapter!

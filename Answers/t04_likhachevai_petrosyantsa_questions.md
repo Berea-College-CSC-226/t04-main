@@ -35,7 +35,7 @@ ___
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **
+    **We added username input 
     **
 ```
 
