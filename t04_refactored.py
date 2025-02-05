@@ -210,22 +210,27 @@ def team_13_adv():
 
 def team_14_adv():
     pass
-
+    def isdead():
+        if direction == "South"
+            print("You unfortunately fell off a cliff and are about to die.")
+        elif():
+            print()
+    direction = input("Which Direction would you like to go?(North/East/West/South)")
     if direction == "North":
         print("You didn't die. In fact, you made it out of the cave and back into society. Yay.")
         sleep(delay)
-        elif direction == "South":
+    elif direction == "South":
         print("You unfortunately fell off a cliff and are about to die.")
-        isDead = True
+        isdead = True
         sleep(delay)
     else:
         print("You're still in the cave, and no closer to being out of it. Sucks to be you.")
         sleep(delay)
-    if isDead == True:
+    if isdead == True:
         numbertest = input("Pick a number 1-10 to try and survive.")
         numbertest = float(numbertest)
         if numbertest > 5 and numbertest <= 10:
-            isDead == False
+            isdead == False
             print("You got lucky this time.")
         else:
             print("Unlucky, you're dead. Very sad")
