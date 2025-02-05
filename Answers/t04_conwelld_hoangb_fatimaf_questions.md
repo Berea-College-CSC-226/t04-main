@@ -16,9 +16,9 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
-| Quality Control |        |           |        |
+| Driver          | Dayton | Bao       |        |
+| Navigator       | Bao    | Fatima    |        |
+| Quality Control | Fatima | Dayton    |        |
 
 ___
 
@@ -28,19 +28,21 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    Being able to make a function to call instead of copying an dpasting code, as well as being able to import and use turtle.
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We had the error because our variable “delay was not defined. We changed it to delay = 3 and the error was delayed 
+    after it was defined.
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    It was not necessarily challenging as long as the code is clean and there are comments about different parts of the program.
+    Otherwise, it would be a bit hard to follow.
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
