@@ -276,10 +276,10 @@ def team_17_adv():
     """
     delay = 1.0
     dead = False
-    Direction = input(
+    direction = input(
         "There are three boxes in front of you: left, middle, and right. Which one would you like to pick?")
 
-    if Direction == "left":
+    if direction == "left":
         # Ooooooh... unfortunate.
         print("Man, that sucks. ")
         sleep(delay)
@@ -288,7 +288,7 @@ def team_17_adv():
         sleep(3)
         dead = True
 
-    elif Direction == "middle":
+    elif direction == "middle":
         # neutral
         print("You get...")
         sleep(delay)
