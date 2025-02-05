@@ -72,7 +72,7 @@ def kill_if_dead(is_alive):
     :param is_alive: A boolean value representing livelihood.
     :return: None
     """
-    if not is_alive:
+    if is_alive is None:
         quit()
 
 
@@ -403,8 +403,11 @@ def main():
 
     user = start_story()
     for i in range(len(paths)):
-        is_alive = paths[i]()  # Runs each function in the paths list
-        kill_if_dead(is_alive)
+        if paths[i]() is not None:
+            is_alive = paths[i]()  # Runs each function in the paths list
+            print(paths[i])
+            print(is_alive)
+            kill_if_dead(is_alive)
     end_story(user)
 
 
