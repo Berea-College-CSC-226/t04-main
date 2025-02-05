@@ -275,7 +275,6 @@ def team_17_adv():
     :return: none
     """
     delay = 1.0
-    dead = False
     direction = input(
         "There are three boxes in front of you: left, middle, and right. Which one would you like to pick?")
 
@@ -286,7 +285,7 @@ def team_17_adv():
         print("You picked... the bomb!!")
         print("BOOOOOOMMMM!!!")
         sleep(3)
-        dead = True
+        return False
 
     elif direction == "middle":
         # neutral
@@ -295,6 +294,7 @@ def team_17_adv():
         print("A pen with unlimited ink")
         sleep(delay)
         print("Fun right...?")
+        return True
 
     else:
         # Noice
@@ -304,10 +304,7 @@ def team_17_adv():
         print("You get...")
         sleep(delay)
         print("Two pens with unlimited ink: A black and red pen!")
-
-    if dead:
-        print("welcome to the afterlife my child. You have chosen wrong.")
-        quit()
+        return True
 
     # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
