@@ -122,7 +122,7 @@ ___
      questions in the space to the right:
 
 ```
-    making sure that we put answers in correct files on pycharm 
+    Making sure that we put answers in correct files on pycharm 
 ```
 
 ---
