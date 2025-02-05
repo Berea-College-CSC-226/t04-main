@@ -125,7 +125,7 @@ def team_1_adv():
     .0
     Sandy Enriquez Vazquez 
     Tafreed Sardar
-    :return: none
+    :return: none.
     """
     # TODO Add your code here
 username = input("What is your name?")
