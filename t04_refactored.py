@@ -125,8 +125,45 @@ def team_1_adv():
 
 
 def team_2_adv():
-    pass
-    # TODO Add your code here
+    '''
+    https://docs.google.com/document/d/1ebkx94481wc9Vq8q-z8nrvY0G9pjJm9t8nEr3KVkThU/edit?usp=sharing
+    Jaron Rhea
+    Magnus McCaslin
+    :return:
+    '''
+    from time import sleep
+    delay = 2.0
+    name = input("What is your name? ")
+    sleep(delay)
+    print(f"Hello, {name}!")
+    print("You find yourself in a tavern, surrounded by drunkards and bounty posters")
+    sleep(delay)
+    print("Decide what to do in the tavern: go to the bounty board, get a drink, or leave")
+    sleep(delay)
+    choice = input("Chocolate milk, Bounty board, Leave: ")
+    if choice == "Chocolate milk":
+        print("Good choice! You have some great chocolate milk and your day continues as usual.")
+        return True
+    elif choice == "Bounty board":
+        print("You walk to the bounty board and one piece of paper catches your eye; the largest bounty in the nation.")
+        sleep(delay)
+        print("As you keep reading it, someone walks into the tavern.")
+        sleep(delay)
+        print("You turn around and see a giant man hovering over you; the same one on the poster.")
+        sleep(delay)
+        print("This is bad. He pulls out a knife and slowly approaches you.")
+        fight = input("Pick a number 1 through 10: if you choose one of the right numbers, you will live: ")
+        if int(fight) <= 5:
+            print("You try to counter his massive knife with your bare hands.. why? He promptly ends you.")
+            return False
+        elif int(fight) > 5:
+            print("You break left and scramble through the tavern door; you make it out, and have a relatively normal day.")
+            return True
+    else:
+        print("You leave. your day is alright, and you live.")
+        return True
+
+
 
 ###################################################################################
 
@@ -381,4 +418,5 @@ def main():
     end_story(user)
 
 
-main()
+if __name__ == "__main__":
+    main()
