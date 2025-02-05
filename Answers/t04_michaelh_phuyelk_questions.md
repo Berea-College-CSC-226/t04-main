@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
+| Driver          | Hope   |  Hope     |        |
+| Navigator       | Kushal |           |        |
 | Quality Control |        |           |        |
 
 ___
@@ -28,25 +28,27 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    We now map our thought process more efficiently and move repetitve tasks into functions
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    Made no logic change
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    It was a bit confusing because of the errors but when we identified the errors, it became clearer
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We made the code more efficient by removing redunacies like if frog = True:, instead we used if frog:. 
+    We also defined the variable 'direct' to ask for a direction to be used in the if arguments. Then we initialed
+    the bool of varible from to be False.
 ```
 
 ___
