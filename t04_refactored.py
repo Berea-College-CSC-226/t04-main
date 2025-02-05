@@ -243,21 +243,34 @@ def team_18_adv():
         # Bad choice
         print("\n")
         print("You walked on the left path. This was the wrong way and you are stuck inside.")
+        print("You died.")
 
-        dead = True
+        return True
+
     elif way == "Right":
         # Neutral choice
         print("\n")
-        print("You continue walking on the right path, but nothing happens. You keep walking.")
-
+        print("You continue walking on the right path, but nothing happens.")
         print("At least you are still alive!")
         print("\n")
+        return False
+
+        way_two = input("Choose again. Would you like to go [Left or Forward]")
+
+        if way_two == "Forward":
+            print("You made it out!")
+            return False
+        else:
+            print("You died.")
+            return True
     else:
         # Good choice
         print("\n")
-        print("You chose the path forward and you're almost free")
+        print("You chose the path forward and you're free")
 
         print("\n")
+        return False
+
 
 
 
