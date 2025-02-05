@@ -167,6 +167,12 @@ if dead == True:
 #########################################################################################################
 # TEAM 6
 def team_6_adv():
+    """
+    https://docs.google.com/document/d/1c3WGIh43J5OzZF8MjMj4OP4yaiOHlq4I6XWFz52Ow0I/edit?usp=sharing
+    Karina Ismailova
+    Megan Lucas
+    :return: None
+    """
     pass
     enrollment = input("Should you take CSC 226? [Yes/No/Not sure]")
     if enrollment == "Yes":
