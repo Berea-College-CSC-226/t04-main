@@ -16,9 +16,9 @@ Change roles each day!
 
 |                 | Monday  | Wednesday | Friday |
 |-----------------|---------|-----------|--------|
-| Driver          | Ku      |           |        |
-| Navigator       | Arbjosa |           |        |
-| Quality Control | Arbjosa |           |        |
+| Driver          | Ku      | Arbjosa   |        |
+| Navigator       | Arbjosa | Ku        |        |
+| Quality Control | Arbjosa | Ku        |        |
 
 ___
 
@@ -29,25 +29,24 @@ ___
 
 ```
     Since T01 we've improved by learning the use of functions and loops so that we reduce our lines of code to make it more simplified, range, and calling specific functions in a certain order.
-    fsdf
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We changed the elif statement, because when the else was given an exact value, the print function wouldn't work.
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    It wasn't challenging because the code was understandable but there were a few errors here and there.
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We only found 1 and just removed the parentheses that weren't really needed, but that didn't change the code.
 ```
 
 ___

@@ -229,7 +229,7 @@ def team_16_adv():
     """
 
     pass
-    delay = (1)
+    delay = 1
     print("you come across a lit section of the cave. You see 4 adventurers sitting around a fire. They notice you and motion for you to sit with them.")
     destination = input("Where are you headed young traveler?")
     sleep(delay)
@@ -241,15 +241,13 @@ def team_16_adv():
         sleep(delay)
         print("You have successfully escaped the cave and made it to", destination,"YIPEEE")
     elif person == 'Beggar':
-        print("the Beggar doesnt seem to speak your language so you dont understand eachother.")
+        print("the Beggar doesnt seem to speak your language so you dont understand each other.")
         sleep(delay)
     else:
         print("Sure ill tell ya, once you win in a game of chance,Russian Roulette.")
         sleep(delay)
         print("\n")
         print("You pull the trigger aaaaaaand... your dead, did ya expect the pirate to play fair?")
-
-team_16_adv()
 
 ###################################################################################
 
