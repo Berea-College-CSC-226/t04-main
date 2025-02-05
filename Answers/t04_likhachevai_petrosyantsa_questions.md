@@ -48,7 +48,7 @@ ___
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **We added the space **
+    **We added the space in the questions to make them more appealing - that's all the pep8 warnings we had**
 ```
 
 ___
