@@ -87,22 +87,22 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    ** We havent updated our code and the git isnt fully updated either **
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Copy of main branch to local computer
 
-        b. Commit:      ____________________
+        b. Commit:      Saving your progress to be possibly reverted back to
 
-        c. Push:        ____________________
+        c. Push:        Sending your progress to GIT 
 
-        d. Branch:      ____________________
+        d. Branch:      a subsidary of main that allows us to write code without changing main
 
-        e. Pull:        ____________________
+        e. Pull:        Pulling any changes from the main branch into your branch
 
-        f. Pull Request:____________________
+        f. Pull Request: asking to be able to merge your code into main on GIT
 
         g. Merge:       ____________________
 
