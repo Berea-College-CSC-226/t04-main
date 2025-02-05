@@ -73,7 +73,7 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
