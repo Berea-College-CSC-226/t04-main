@@ -322,6 +322,31 @@ def team_29_adv():
 
 def team_30_adv():
     pass
+    #########################################################################################################
+    # TEAM 30
+
+    name = input("What is your name? ")
+    print(f'Welcome {name}  to the game: Choose you own Adventure')
+    print("You are stranded in a desert")
+    print("You find three roads")
+    print("You are thirsty and one of them leads to water")
+    print("The other two are dangerous")
+
+    road = input("Select the road, 1,2, or 3?")
+    if road == "1":
+        print(f"Oh no, {name} fell in a pit of snakes! You died")
+        quit()
+
+    elif road == "2":
+        print(f"Congratulations {name}, you found water.")
+
+    else:
+        print(f"{name} came across a den of lions. Good luck next time!")
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+
     # TODO Add your code here
 
 ###################################################################################
