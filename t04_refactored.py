@@ -195,9 +195,56 @@ def team_6_adv():
 
 ###################################################################################
 
+#Authors: munsakad and Sherrif
+
+
+from time import sleep
+
+delay = 2
 
 def team_7_adv():
-    pass
+    direction = input("Go with him further [Up, or Down]? ").strip()
+
+    if direction == "Up":
+        print("You've reached a large vault... a large console stands to its right...")
+        print("The console lights up when you reach it... it asks for a passcode")
+
+        code = input("Guess the code or ask for help: ").strip()
+
+        if code == "Ask for help":
+            print("You ask Dr. Heggen for help")
+            print("He pulls out a small electrical device and plugs it into the console")
+            print("The console glows green and the vault opens up")
+            print("You've found riches beyond your wildest dreams!")
+            return True  # Success outcome
+
+        elif code == "Guess the code":
+            print("You type in '12345' and the console turns red")
+            print("The walls close in on you, crushing you like a Wookie in a trash compactor")
+            return False  # Failure outcome
+
+    elif direction == "Down":
+        print("You have reached the strongest creature in all of the lands...")
+        sleep(delay * 3)
+        print("It is the Teacher Assistant Silas! Do you fight or run?")
+        action = input("Choose [Fight or Run]: ").strip()
+
+        if action == "Fight":
+            print("You bravely face Silas but are no match for his power...")
+            print("You have been defeated.")
+            return False  # Failure outcome
+
+        elif action == "Run":
+            print("You manage to escape and live to see another day.")
+            return True  # Success outcome
+
+        else:
+            print("Invalid choice. Please choose 'Up' or 'Down'.")
+            return  team_7_adv() # Recursively call the function for valid input
+
+        # Run the game and capture the result
+result = team_7_adv()
+print(f"Game result: {result}")
     # TODO Add your code here
 
 ###################################################################################
