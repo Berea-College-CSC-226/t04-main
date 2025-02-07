@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
+| Driver          | A      | S         | A      |
+| Navigator       | s      | a         | A      |
 | Quality Control |        |           |        |
 
 ___
@@ -35,19 +35,20 @@ ___
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    Added a variable and updated the logic
+    Updated the logic and ensured the user is dead at the end of the game
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    Yes, we were lost on what they were trying to achieve and we realized their logic and storyline was off.
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    sleep(delay) in the refactored.py the function sleep() does not exist so we  deleted in a replaced it with kill_if_dead().
+    Also, there was an unused variable in their coed so we deleted it.
 ```
 
 ___
@@ -58,13 +59,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    We created a separate file to answer the questions. Everything in main is now merged into our branch.
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    Yes, we see other groups branchs and our code is in their branch if they merged and updated correctly.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -73,14 +74,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    We issued a pull request and now we are waiting for our code to be put into main.
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Yes it is.
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -88,30 +89,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    No it not in the local main branch because are pq has not been approved yet.
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       create a local copy for yourself
 
-        b. Commit:      ____________________
+        b. Commit:      Save any changes
 
-        c. Push:        ____________________
+        c. Push:        send commit changes to github
 
-        d. Branch:      ____________________
+        d. Branch:      a clone repo and can be worked on without affecting the main branch
 
-        e. Pull:        ____________________
+        e. Pull:        pull any any changes made before you and adds them to your file.
 
-        f. Pull Request:____________________
+        f. Pull Request: propose new changges to a repo and has to be approved by the owner
 
-        g. Merge:       ____________________
+        g. Merge:       takes changes from one branch and combines them with another branch
 
-        h. Remote:      ____________________
+        h. Remote:      a repo in another location
 
-        i. Local:       ____________________
+        i. Local:       a repo on your computer
 
-        j. Fetch:       ____________________
+        j. Fetch:       add changes from remote to local repo without commiting
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -123,7 +124,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    What is the purpose of looking at a network graph? When the lines goes from one branch to another.
 ```
 
 ---
