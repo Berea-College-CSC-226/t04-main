@@ -122,7 +122,7 @@ ___
      questions in the space to the right:
 
 ```
-    **---------**
+    ** When commiting do you still see the commit if we dont push? **
 ```
 
 ---
