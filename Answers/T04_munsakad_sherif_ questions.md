@@ -57,13 +57,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    Our code is there and there is not much layout difference between my branch and the main, they are all the same.
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    Yes we can see other people's branches in the repo also. However, our code is not in their branches because we created two different branches that serves as a copy that allows u to make changes without interacting with other people's code. If we all edited the main branch we would have seen the our code but because we created different copies(branches), our edits are parallel.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -72,14 +72,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes our code is in the main branch now
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+ Yes now we can see other people's codes updated in the main
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -122,7 +122,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    No major questions so far I think the team works and assignemets has answered all our confusion.
 ```
 
 ---
