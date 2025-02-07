@@ -14,11 +14,11 @@ Change roles each day!
     Complete the table below at the start of each class period:
 ```
 
-|                 | Monday  | Wednesday | Friday |
-|-----------------|---------|-----------|--------|
-| Driver          | Ku      | Arbjosa   |        |
-| Navigator       | Arbjosa | Ku        |        |
-| Quality Control | Arbjosa | Ku        |        |
+|                 | Monday  | Wednesday | Friday  |
+|-----------------|---------|-----------|---------|
+| Driver          | Ku      | Arbjosa   | Ku      |
+| Navigator       | Arbjosa | Ku        | Arbjosa |
+| Quality Control | Arbjosa | Ku        | Arbjosa |
 
 ___
 
