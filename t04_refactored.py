@@ -392,7 +392,7 @@ def team_30_adv():
     Antonio Kornrumpf
     :return: none
     '''
-# REFACTORING FROM HERE
+# REFACTORING FROM HERE#
 
 #def inputRequests(): #### Began attempting to group the input and output into functions.
     name = input("What is your name? ")

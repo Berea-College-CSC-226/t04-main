@@ -75,8 +75,38 @@ DEFINED:
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    I pulled over the following code from t01_final_story_do_not_edit.py into t04_refactored.py
+    As I looked for grey squiggly lines that would indicated PEP8 warning, I only
+    saw 1, that stated there was a, "duplicate code fragment".
+                          print(f'Welcome {name}  to the game: Choose you own Adventure') 
+
+    This doesn't seem accurate to me, since the error message indicated that
+    the problem was with the line: 
+                         name = input("What is your name? ")
+    However, this particular line is required in order to get that information
+    and call it into the next line.
+    
+    As I looked closer at the line, I actually found that the duplicate code fragment was
+    only in my refactored code? 
+    
+    If I understand correctly, one way to resolve this is to, refactor the source code, 
+    and then call it elsewhere using:
+    
+    from t04_refactored import team_30_adv
+    team_30_adv()
+    
+    The only other PEP8 suggestion I found was in Team 29s code, which stated it could be 
+    simplified from:
+     
+     if dead == True: print("You have died, please try again")
+     
+     to
+     if dead: print("You have died, please try again").
+
+  
+   
 ```
+
 
 ___
 
@@ -86,13 +116,25 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    I've found my branch
+    https://github.com/Berea-College-CSC-226/t04-main/tree/t04-konrumpf-main
+    
+    The primary difference I see is in the content of the t04_refactor.py file.
+    This is likely because I have not committed my changes yet.
+    
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    Yes, I am able to see branches for:
+    https://github.com/Berea-College-CSC-226/t04-main/blob/t04_chikomod_johnsont7/Answers/t04_chikomod_johnsont7.md
+    and
+    https://github.com/Berea-College-CSC-226/t04-main/blob/rheaj_mccaslinm/Answers/t04_rheaj_mccaslinm_questions.md
+
+I do not see their code, because I am not sure what their team number is. It's likely somewhere in
+refactored.py - but I can't determine what they were responsible for. 
+
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
