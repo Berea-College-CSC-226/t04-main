@@ -143,14 +143,15 @@ refactored.py - but I can't determine what they were responsible for.
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    I submitted my PR on 2/8, and since it's not be approved, I don't see it inside of
+    main > t04_refactored.py
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Yes, I see modification for Team 5, Team 2.
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -158,30 +159,30 @@ refactored.py - but I can't determine what they were responsible for.
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    Unable to do this since the pulled request has not be accepted. 
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+       a. Clone:       Copy of repo
 
-        b. Commit:      ____________________
+        b. Commit:      Saving the code/files
 
-        c. Push:        ____________________
+        c. Push:        Sending the saves or commits to Github
 
-        d. Branch:      ____________________
+        d. Branch:      A copy of the files that you can work on without disrupting the main
 
-        e. Pull:        ____________________
+        e. Pull:        Merging files from the main onto your branch so that it stays up to date
 
-        f. Pull Request:____________________
+        f. Pull Request: A request to have your code added to the main file
 
-        g. Merge:       ____________________
+        g. Merge:       Combining two different files of code
 
-        h. Remote:      ____________________
+        h. Remote:      On Github
 
-        i. Local:       ____________________
+        i. Local:       On computer
 
-        j. Fetch:       ____________________
+        j. Fetch:       gives you a list of options
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -193,7 +194,12 @@ refactored.py - but I can't determine what they were responsible for.
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    ![](C:\Users\OPEF-CLUE-0\Downloads\d.png) #Attempting to insert an image of what
+    I think is being called the "network graph". Though, I am unsure if this path will
+    be remotely accessible. Testing.... comitted file, login to GitHub, click link...
+    
+    
+     
 ```
 
 ---
