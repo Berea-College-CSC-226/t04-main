@@ -197,8 +197,14 @@ refactored.py - but I can't determine what they were responsible for.
     ![](C:\Users\OPEF-CLUE-0\Downloads\d.png) #Attempting to insert an image of what
     I think is being called the "network graph". Though, I am unsure if this path will
     be remotely accessible. Testing.... comitted file, login to GitHub, click link...
-    No, this directory is not remotely accessible. 
-    
+    No, this directory is not remotely accessible, though there are artifacts of the user profile.
+     
+     As I'm looking at this graph, it not making much sense to me.
+     It seems to have a good activity log, and some description of the
+     event.
+     
+     It seems to be tracking commits, and their description.
+     As well as pull requests, and merges.
   
     
      
