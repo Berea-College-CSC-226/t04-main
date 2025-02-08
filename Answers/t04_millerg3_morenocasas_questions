@@ -29,25 +29,26 @@ ___
 
 ```
 1. Be more efficient using the for-loops and functions
-2. Write the code to make it shorter to remove repetition
+2. Got better at problem solving and using pseudocode to think about how to do that
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    I wouldn't really say we made any changes to the logic as it was satisfactory, we mostly just organized the code into functions and made it more concise.
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    It was difficult since I wasn't there for the process of writing and understanding it, but it was alright to understand after reading through it.
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    Put everything into functions; looks better, easier to understand for each action
+    Capitalized delay, made it easier to recognize.
 ```
 
 ___
@@ -58,13 +59,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    It doesn't have my code in refactored, doesn't have my questions, it has the main stuff but not the things I have pushed to my branch.
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    I see them, my code is not in there since I only pushed my code to my branch.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -73,14 +74,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+   Well I'm turning this in before it will be approved, but yes my code should be pulled into main if approved.
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+   Yes
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -88,30 +89,31 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    Hasn't been pulled so idk, but it should be getting pulled into remote main, so I would have to pull it into my local main before I see it.
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
 
-        b. Commit:      ____________________
+        a. Clone:      1. Copying repository from github to IDE
 
-        c. Push:        ____________________
+        b. Commit:     1. Saving changes in IDE to github
 
-        d. Branch:      ____________________
+        c. Push:       1. Sending changes in IDE to github
 
-        e. Pull:        ____________________
+        d. Branch:     1. Different copies of project to edit
 
-        f. Pull Request:____________________
+        e. Pull:       1. Taking changes in remote main and bringing them to your local branch (branch of choice? just main?)
 
-        g. Merge:       ____________________
+        f. Pull Request: 1. Requesting for your work in your branch to be pulled into the remote main branch.
 
-        h. Remote:      ____________________
+        g. Merge:       1. Combining the work of one branch with another.
 
-        i. Local:       ____________________
+        h. Remote:      Projects on a remote repository in github; not stored on local machine, stored on web cloud etc.
 
-        j. Fetch:       ____________________
+        i. Local:       Something stored on local machine.
+
+        j. Fetch:       Getting code from github
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -123,7 +125,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+   Main question is how exactly to read this graph.
 ```
 
 ---
