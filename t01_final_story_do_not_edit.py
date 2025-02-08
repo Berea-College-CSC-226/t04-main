@@ -27,7 +27,7 @@ if dice_roll == "Run":
 elif dice_roll == "Say Hello":
     print("Hello your bravery is commendable traveler.")
 else:
-    # This is the neutral thing that occurs.
+    # This is the neutral thing that ofccurs.
     print("Nothing happened")
 
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
