@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          | Iuliia | Alina     |        |
-| Navigator       | Alina  | Iuliia    |        |
+| Driver          | Iuliia | Alina     | Iuliia |
+| Navigator       | Alina  | Iuliia    | Alina  |
 | Quality Control |        |           |        |
 
 ___
@@ -28,27 +28,27 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **We have learned a lot about functions, can use loops, and know how to implemtn different modules. Moreover, we can structure our code properly. 
-    **
+    We have learned a lot about functions, can use loops, and know how to implement different modules. Moreover, now we can structure our code properly. 
+   
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **We added username input, and also added random module, and edited the check for the bad choice
-    **
+    We added username input, and also added random module, and edited the check for the bad choice.
+    
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Yes, because it was hard to figure out what the other programmers code is supposed to do without comments**
+    Yes, because it was hard to figure out what the other programmers code is supposed to do without any comments.
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **We added the space in the questions to make them more appealing, and we deleted delay that's all the pep8 warnings we had**
+    We added the space in the questions to make them more appealing, and we deleted delay that's all the pep8 warnings we had.
 ```
 
 ___
@@ -59,14 +59,14 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    ** our code is there, in t04 refactored main there is no our code, while in our branch there is. **
+    Our code is there, the key difference that in t04 refactored main there is no our code, while in our branch there is.
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **We see 18 other branches - No, it is not there because each team can see only their code in their branches the same as we do. 
-    **
+    We see 18 other branches - No, it is not there because each team can see only their code in their branches the same as we do. Also, it has not been merged and pulled.
+   
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -75,14 +75,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes, our code is in the main branch now.
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Yes, we can see other groups' codes in the main branch.
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -90,7 +90,7 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    
 ```
 
 2.f. Define Each Term:
