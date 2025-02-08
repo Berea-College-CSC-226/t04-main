@@ -90,30 +90,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    
+    No, our code is not in our local main branch yet because we haven't pulled the latest changes from GitHub.
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       A clone is a local copy of a repository stored on your computer instead of the website server. Cloning also refers to the process of creating this copy.
 
-        b. Commit:      ____________________
+        b. Commit:      A procedure of saving any changes.
 
-        c. Push:        ____________________
+        c. Push:        A procedure of sending commit changes to GitHub.
 
-        d. Branch:      ____________________
+        d. Branch:      A separate copy of a project where the programmer can make changes without affecting the main version.
 
-        e. Pull:        ____________________
+        e. Pull:        A procedure of getting the latest changes from a remote repository to the local one.
 
-        f. Pull Request:____________________
+        f. Pull Request:A request to merge changes from one branch into another.
 
-        g. Merge:       ____________________
+        g. Merge:       A procedure of combining changes from different branches into one.
 
-        h. Remote:      ____________________
+        h. Remote:      A version of the repository stored online.
 
-        i. Local:       ____________________
+        i. Local:       A version of the repository stored on the computer.
 
-        j. Fetch:       ____________________
+        j. Fetch:       A procedure of checking for updates from the remote repository without applying them.
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -125,7 +125,8 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+   How can we undo a merge if something breaks after merging into main?
+
 ```
 
 ---
