@@ -73,14 +73,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    
+   No, it is not.
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+  Yes
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -88,30 +88,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    No.
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Creating a local copy of a repository.
 
-        b. Commit:      ____________________
+        b. Commit:      Saving the changes made to the code with a message of what you changed.
 
-        c. Push:        ____________________
+        c. Push:        Uploading local commits to a remote repository on Github
 
-        d. Branch:      ____________________
+        d. Branch:      A separate folder of code allowing changes without affecting the main branch.
 
-        e. Pull:        ____________________
+        e. Pull:        Bringing updates from a remote repository and into the local repository.
 
-        f. Pull Request:____________________
+        f. Pull Request:A request to merge changes from one branch to another
 
-        g. Merge:       ____________________
+        g. Merge:      Combining changes from one branch into another, mixing different lines of code.
 
-        h. Remote:      ____________________
+        h. Remote:      repository stored on a server or cloud
 
-        i. Local:       ____________________
+        i. Local:       repository stored on your personal device
 
-        j. Fetch:       ____________________
+        j. Fetch:       Retrieving updates from a remote repository without automatically merging them into the local repository.
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -123,7 +123,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    What happens if a pull request is merged, but then new commits are added to the original branch?
 ```
 
 ---
