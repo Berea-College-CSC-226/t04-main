@@ -212,11 +212,12 @@ def team_8_adv():
 
 def team_9_adv():
    # TEAM 9
-   '''
+   """
+   https://docs.google.com/document/d/1H8-SVcqysTOhXRHub5rJAK6dOrXxYAEUmzqfRKYgJjI/edit?usp=sharing
+   Teammates: Hope Michael and Kushal Phuyel
    Ask wizard a question if you go north
    :return: boolean
-   '''
-
+   """
     direct = input('Enter direction: North/South/East/West')
     if direct == "North":
         print("It's a wizard!")

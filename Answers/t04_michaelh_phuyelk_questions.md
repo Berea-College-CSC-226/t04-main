@@ -94,28 +94,17 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+     Clone: Copying a remote Git repository to your computer to work on a project.
+     Commit: Saving changes in Git with a message describing what was changed.
+     Push: Sending your committed changes from your computer to a remote repository like GitHub.
+     Branch: A separate version of your code where you can make changes without affecting the main code.
+     Pull: Getting the latest changes from a remote repository and updating your local code.
+     Pull Request: Asking to merge your changes into the main project, usually for review in collaborative coding.
+     Merge: Combining changes from one branch into another, usually to add new features or fixes.
+     Remote: An online version of your Git repository, like one stored on GitHub or GitLab.
+     Local: The version of your repository stored on your own computer, where you make and test changes.
+     Fetch: Checking for updates in a remote repository without applying them to your local code yet
 
-        b. Commit:      ____________________
-
-        c. Push:        ____________________
-
-        d. Branch:      ____________________
-
-        e. Pull:        ____________________
-
-        f. Pull Request:____________________
-
-        g. Merge:       ____________________
-
-        h. Remote:      ____________________
-
-        i. Local:       ____________________
-
-        j. Fetch:       ____________________
-
-    Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
-    to ensure they are correct.
 ```
 
 2.g. In Github, go to the [Network Graph](https://github.com/Berea-College-CSC-226/t04-main/network) (i.e., a history 
@@ -124,7 +113,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    How do you read the Network graph
 ```
 
 ---
