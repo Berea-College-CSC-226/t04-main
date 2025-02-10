@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          | jairus | aaron     |        |
-| Navigator       | aaron  | jairus    |        |
+| Driver          | jairus | aaron     | jairus |
+| Navigator       | aaron  | jairus    | aaron  |
 | Quality Control |        |           |        |
 
 ___
@@ -74,7 +74,7 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    our code has not been accepted into main
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
