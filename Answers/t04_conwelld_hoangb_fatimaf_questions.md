@@ -66,7 +66,8 @@ ___
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    We can see other groups' branches if they have commited and pushed their branches. Our code is not yet in their branch
+    because each group works in a seperate branch, and branches do not share changes unless merged into the main branch
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -75,14 +76,16 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes, after the instructor or TA approves our request, the pull request is merged, and our code becomes part of the main
+    branch.
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Other group's code is also in the main branch if their pull requests have been approved and merged since the last time
+    we checked
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -90,30 +93,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+No, our code is not automatically in the local main branch because the local repository does not update itself when
+changes are merged in the remote main branch
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       a copy of a repository that is on your local machine
 
-        b. Commit:      ____________________
+        b. Commit:      an individual change to a file and saves your work
+        c. Push:        send commited changes to a remote repository
 
-        c. Push:        ____________________
+        d. Branch:      A parallel version of a repository
 
-        d. Branch:      ____________________
+        e. Pull:        fetching changes and merging them
 
-        e. Pull:        ____________________
+        f. Pull Request: proposed changes to a repository submitted my a user
 
-        f. Pull Request:____________________
+        g. Merge:       taking the changes of one branch in the same repo and combine them in another
 
-        g. Merge:       ____________________
+        h. Remote:      version of a repo hosted on a server
 
-        h. Remote:      ____________________
+        i. Local:       is a repo that is on your machine only
 
-        i. Local:       ____________________
-
-        j. Fetch:       ____________________
+        j. Fetch:       adding changes from a remote repo to a local working branch
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -125,7 +128,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    How is data able to be constantly refreshed and added in real time
 ```
 
 ---
