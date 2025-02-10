@@ -72,7 +72,7 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    Yes our code is in the main branch now
+    No our code is not in the main branch because our pull request was not yet accepted
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
@@ -87,7 +87,7 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    No because because our code has not yet been pulled into the main branch
 ```
 
 2.f. Define Each Term:
