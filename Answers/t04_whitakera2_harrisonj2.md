@@ -89,7 +89,7 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    No because the local main has not been updated and our code didn't get accepted into the main anyway
 ```
 
 2.f. Define Each Term:
@@ -102,17 +102,17 @@ ___
 
         d. Branch:      our personal copy of the code
 
-        e. Pull:        ____________________
+        e. Pull:        To pull updates from one branch into another
 
-        f. Pull Request:____________________
+        f. Pull Request:a request to get code accepted into main
 
-        g. Merge:       ____________________
+        g. Merge:       connecting the changes on main and other branches
 
-        h. Remote:      ____________________
+        h. Remote:      A copy of code thats uploaded to a data base that is online
 
-        i. Local:       ____________________
+        i. Local:       A copy of code that is on our personal device 
 
-        j. Fetch:       ____________________
+        j. Fetch:       to retrieve code from git and download it on our device
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -124,7 +124,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    How can git be used to pass code around between a team?
 ```
 
 ---
