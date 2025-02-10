@@ -72,14 +72,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    
+    Yes, our code is in the main branch
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Yes the other groups' code is in the main branch. It wasn't the last time when we didn't update.
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -87,42 +87,38 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    Yes, the code is in the local main branch. The pull request was approved and merged with the local.
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       When you make a copy of another code to work on.
+        b. Commit:      Saving changes done to your code.
 
-        b. Commit:      ____________________
+        c. Push:        When you move your code from your computer to Github. 
+        d. Branch:      When you make a copy of the main code that you clonned.
 
-        c. Push:        ____________________
+        e. Pull:        Taking all the updates from Github and bringing it to your local machine
 
-        d. Branch:      ____________________
+        f. Pull Request: When you ask the instructor to accept your changes to the code into the main code. 
+        g. Merge:       When you combine the main and your code together. 
 
-        e. Pull:        ____________________
+        h. Remote: The remote is the code outside of your own    
 
-        f. Pull Request:____________________
+        i. Local:   Local is your personal copy of the code on your computer     
 
-        g. Merge:       ____________________
-
-        h. Remote:      ____________________
-
-        i. Local:       ____________________
-
-        j. Fetch:       ____________________
+        j. Fetch:  Fetch is similar to pull but you can review the changes before actualling committing to them.     
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
 ```
 
-2.g. In Github, go to the [Network Graph](https://github.com/Berea-College-CSC-226/t04-main/network) (i.e., a history 
+2.g. In Github, go to the [Network Graph]( ) (i.e., a history 
      of branching and committing history). Discuss with your partner what confusions you still have about the git 
      workflow you experienced today, using the network graph to explore what has happened. Write your unanswered 
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
-```
+We have no further questions 
 
 ---
