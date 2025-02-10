@@ -80,7 +80,7 @@ ___
      in Question 2.b.?
 
 ```
-    More have shown up
+     More have shown up. Unsure when they showed up.
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -88,30 +88,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    Yes, they are there. We just don't know how to scroll.
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       ____________________perfect copy
 
-        b. Commit:      ____________________
+        b. Commit:      ____________________local save with a meaningful note
 
-        c. Push:        ____________________
+        c. Push:        ____________________sending to repository
 
-        d. Branch:      ____________________
+        d. Branch:      ____________________a secondary copy of the main where changes can be made so collaboration can happen
 
-        e. Pull:        ____________________
+        e. Pull:        ____________________pulling updates from repository
 
-        f. Pull Request:____________________
+        f. Pull Request:____________________asking repository owner to aloow your merge
 
-        g. Merge:       ____________________
+        g. Merge:       ____________________mesching code together after conslicts resolved
 
-        h. Remote:      ____________________
+        h. Remote:      ____________________global copy/ repository copy
 
-        i. Local:       ____________________
+        i. Local:       ____________________your computer copy
 
-        j. Fetch:       ____________________
+        j. Fetch:       ____________________imports commits to local branch
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -123,7 +123,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    We understand in theory how it works, but in practice we are still completely lost. We have all the questions, but we don't know enough to know what they are. Will think of them while awaiting our shrubbery.
 ```
 
 ---
