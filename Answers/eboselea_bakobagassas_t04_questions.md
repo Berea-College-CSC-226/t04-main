@@ -107,17 +107,17 @@ ___
 
         d. Branch:      A place where we save our own files without affecting the main 
 
-        e. Pull:        
+        e. Pull:        Pull the information saced in gitub
 
-        f. Pull Request:____________________
+        f. Pull Request: Notifying your team of changes to the work
 
-        g. Merge:       ____________________
+        g. Merge:       Combining information from multiple branches
 
-        h. Remote:      ____________________
+        h. Remote:     A file host seperate from your hard drive and the local repository on gitub.
 
-        i. Local:       ____________________
+        i. Local:       A location where files are located on your computer
 
-        j. Fetch:       ____________________
+        j. Fetch:       Getting data from the local branch without committing them to your own copies
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -129,7 +129,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    What were to happen if you were to close pycharm without comming any changes to github
 ```
 
 ---
