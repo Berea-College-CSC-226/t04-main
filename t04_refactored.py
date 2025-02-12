@@ -167,18 +167,19 @@ def team_4_adv():
         # Good Choice
         print("You go to classes and are a productive member of society")
         sleep(delay)
+        return true
     elif sleepChoice == "be late":
         # Neutral Choice
         print("You miss breakfast and your day is stressful")
         sleep(delay)
+        return true
     else:
         # Bad Choice
         print("You here the sound of wings flapping in the distance")
         sleep(delay)
         print("You know you fucked up")
         sleep(delay)
-
-    quit()
+        return false
 
 ###################################################################################
 
