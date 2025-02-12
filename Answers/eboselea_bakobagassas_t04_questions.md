@@ -94,7 +94,7 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    
+    No because we need to pull back the changes from git to pycharm for that to show here. 
 ```
 
 2.f. Define Each Term:
@@ -129,7 +129,7 @@ ___
      questions in the space to the right:
 
 ```
-    What were to happen if you were to close pycharm without comming any changes to github
+    Everything seems quite clear for now.
 ```
 
 ---

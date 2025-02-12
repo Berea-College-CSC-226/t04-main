@@ -148,7 +148,6 @@ def team_4_adv():
 
     delay = 1
 
-
     username = input("Please enter username")
     print("Welcome,", username, ", to Generic Fantasy College™.")
     sleep(delay)
