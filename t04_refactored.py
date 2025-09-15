@@ -216,8 +216,40 @@ def team_14_adv(username):
 
 
 def team_15_adv(username):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1R_HAj_vqEnAyOwQLy4UYjqXYt4WUCmEyX98lqtTxXto/edit?usp=sharing
+    Aaron Robinson
+    Rafael Hermoza
+    :return: none
+    """
+    opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander)\n")
+
+    if opponent.lower() == "scott":
+        # bad choice
+        print(
+            '''As he steps into the ring he make nervous eye contact with you. He says "I was hoping no one would choose me, I didn't want it to come to this"''')
+        sleep(DELAY * 2)
+        print(
+            "Within a millisecond he teleports behind you wrapped around your waist and suplexes you, snapping your neck on the hard cold unforgiving concrete floor")
+        print("Dr.Scott has killed you")
+        isDead = True
+
+    elif opponent.lower() == "tojo":
+        # good choice
+        print("You get in the ring with Tojo. You notice he's moving a little slow and creaky.")
+        print("Turns out he overdid it on the bench press before the fight. You easily throw him to the ground.")
+        print("Unable to properly use his arms, he can't get up and is tapped out.")
+        sleep(DELAY)
+
+    else:
+        # neutral choice
+        print("The fellow student you fight happens to be on the exact same level as you so you tie.")
+        print("You have to try fighting them again  at the next BWT")
+        sleep(DELAY)
+
+    if isDead == True:
+        print("oh no! You have died, hopefully there is no wrestling in the afterlife!")
+        quit()
 
 ###################################################################################
 
