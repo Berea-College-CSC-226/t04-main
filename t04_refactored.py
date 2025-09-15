@@ -117,210 +117,210 @@ def scott_adventure():
 ###################################################################################
 ###################################################################################
 
-def team_1_adv():
+def team_1_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_2_adv():
+def team_2_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_3_adv():
+def team_3_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_4_adv():
+def team_4_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_5_adv():
+def team_5_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_6_adv():
+def team_6_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_7_adv():
+def team_7_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_8_adv():
+def team_8_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_9_adv():
+def team_9_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_10_adv():
+def team_10_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_11_adv():
+def team_11_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_12_adv():
+def team_12_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_13_adv():
+def team_13_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_14_adv():
+def team_14_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_15_adv():
+def team_15_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_16_adv():
+def team_16_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_17_adv():
+def team_17_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_18_adv():
+def team_18_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_19_adv():
+def team_19_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_20_adv():
+def team_20_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_21_adv():
+def team_21_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_22_adv():
+def team_22_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_23_adv():
+def team_23_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_24_adv():
+def team_24_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_25_adv():
+def team_25_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_26_adv():
+def team_26_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_27_adv():
+def team_27_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_28_adv():
+def team_28_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_29_adv():
+def team_29_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_30_adv():
+def team_30_adv(username):
     pass
     # TODO Add your code here
 
@@ -349,7 +349,7 @@ def main():
 
     user = start_story()
     for i in range(len(paths)):
-        is_alive = paths[i]()  # Runs each function in the paths list
+        is_alive = paths[i](user)  # Runs each function in the paths list
         kill_if_dead(is_alive)
     end_story(user)
 
