@@ -230,8 +230,38 @@ def team_16_adv(username):
 
 
 def team_17_adv(username):
-    pass
-    # TODO Add your code here
+    direction = input("There are three boxes in front of you: left, middle, and right. Which one would you like to pick?")
+
+    if direction == "left":
+        # Ooooooh... unfortunate.
+        print("Man, that sucks. ")
+        sleep(delay)
+        print("You picked... the bomb!!")
+        print("BOOOOOOMMMM!!!")
+        sleep(3)
+        dead = True
+
+    elif direction == "middle":
+        # neutral
+        print("You get...")
+        sleep(delay)
+        print("A pen with unlimited ink")
+        sleep(delay)
+        print("Fun right...?")
+
+    else:
+        # Noice
+        print("*drumroll*")
+        sleep(delay)
+        print("YOU WIN THE GRAND PRIZE!!")
+        print("You get...")
+        sleep(delay)
+        print("Two pens with unlimited ink: A black and red pen!")
+
+    if dead == True:
+        print("welcome to the afterlife my child. You have chosen wrong.")
+        quit()
+
 
 ###################################################################################
 
