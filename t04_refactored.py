@@ -223,8 +223,31 @@ def team_15_adv(username):
 
 
 def team_16_adv(username):
-    pass
-    # TODO Add your code here
+    # TEAM 16
+    delay=1
+
+    print("you come across a lit section of the cave. You see 4 adventurers sitting around a fire. They notice you and motion for you to sit with them.")
+    destination = input("Where are you headed young traveler?")
+    sleep(delay)
+    print("I dont know where", destination, "is but one of my other party members might. Try asking one of them.")
+    sleep(delay)
+    person = input("Who will you ask? [Dwarven soldier/Beggar/Pirate] ")
+    if person == 'Dwarven soldier':
+        print("I dont know the way their by memory alone but i do have a map. Let me give it to you. We're headed towards town anyways to get a new one.")
+        sleep(delay)
+        print("You have successfully escaped the cave and made it to", destination, "YIPEEE")
+    elif person == 'Beggar':
+        print("the Beggar doesnt seem to speak your language so you dont understand eachother.")
+        sleep(delay)
+    elif person == 'Pirate':
+        print("Sure ill tell ya, once you win in a game of chance,Russian Roulette.")
+        sleep(delay)
+        print("\n")
+        print("You pull the trigger aaaaaaand... your dead, did ya expect the pirate to play fair?")
+
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
+
 
 ###################################################################################
 
