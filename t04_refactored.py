@@ -117,305 +117,210 @@ def scott_adventure():
 ###################################################################################
 ###################################################################################
 
-def team_1_adv():
+def team_1_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_2_adv():
-    '''
-    https://docs.google.com/document/d/1ebkx94481wc9Vq8q-z8nrvY0G9pjJm9t8nEr3KVkThU/edit?usp=sharing
-    Jaron Rhea
-    Magnus McCaslin
-    :return:
-    '''
-    from time import sleep
-    delay = 2.0
-    name = input("What is your name? ")
-    sleep(delay)
-    print(f"Hello, {name}!")
-    print("You find yourself in a tavern, surrounded by drunkards and bounty posters")
-    sleep(delay)
-    print("Decide what to do in the tavern: go to the bounty board, get a drink, or leave")
-    sleep(delay)
-    choice = input("Chocolate milk, Bounty board, Leave: ")
-    if choice == "Chocolate milk":
-        print("Good choice! You have some great chocolate milk and your day continues as usual.")
-        return True
-    elif choice == "Bounty board":
-        print("You walk to the bounty board and one piece of paper catches your eye; the largest bounty in the nation.")
-        sleep(delay)
-        print("As you keep reading it, someone walks into the tavern.")
-        sleep(delay)
-        print("You turn around and see a giant man hovering over you; the same one on the poster.")
-        sleep(delay)
-        print("This is bad. He pulls out a knife and slowly approaches you.")
-        fight = input("Pick a number 1 through 10: if you choose one of the right numbers, you will live: ")
-        if int(fight) <= 5:
-            print("You try to counter his massive knife with your bare hands.. why? He promptly ends you.")
-            return False
-        elif int(fight) > 5:
-            print("You break left and scramble through the tavern door; you make it out, and have a relatively normal day.")
-            return True
-    else:
-        print("You leave. your day is alright, and you live.")
-        return True
-
-
-
-###################################################################################
-
-
-def team_3_adv():
+def team_2_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_4_adv():
+def team_3_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_5_adv():
-    """
-    https://docs.google.com/document/d/1IoGqIzwUB8Dhl-79Neu_qzU8yA1AHIAmnMEAtU1ljX8/edit?usp=sharing
-    Dumisani Chikomo
-    Taylor Johnson
-    :return: True/False
-    """
-    dead = False
-    food = (input("choose what you want to eat today? [pasta/pizza/burger]")).lower()
-    if food == "pasta":
-        # good choice
-        print("you were lucky this time!")
-        print("now you get free pasta and get to live")
-        return True
-    elif food == "pizza":
-        # bad choice
-        print("this is poisoned!")
-        print("you will experience death in 30 seconds!")
-        print("you didn't make it")
-        return False
-    elif food == "burger":
-        # neutral choice
-        print("Yikes! You will experience food poisoning")
-        print("But don't worry, you will still live")
-        return True
-    else:
-        print("You didn't eat any of the food, You're a little hungry now!")
-        return True
-
-
-###################################################################################
-
-
-def team_6_adv():
+def team_4_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_7_adv():
+def team_5_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_8_adv():
+def team_6_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_9_adv():
+def team_7_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_10_adv():
+def team_8_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_11_adv():
+def team_9_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_12_adv():
+def team_10_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_13_adv():
+def team_11_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_14_adv():
+def team_12_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_15_adv():
+def team_13_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_16_adv():
-    """https://docs.google.com/document/d/11EjRF1NtnfpksQqNXBVfo0FPXl6eS3pFt1bjwEGdass/edit?usp=sharing
-    Ku Htoo
-    Arbjosa Halilaj
-    """
-
-
-
-    delay = 1
-    print("You come across a lit section of the cave. You see 4 adventurers sitting around a fire. They notice you and motion for you to sit with them.")
-    destination = input("Where are you headed young traveler?")
-    sleep(delay)
-    print("I dont know where", destination, "is but one of my other party members might. Try asking one of them.")
-    sleep(delay)
-    person = input("Who will you ask? [Dwarven soldier/Beggar/Pirate]")
-
-
-
-
-    if person == 'Dwarven soldier':
-        print("I dont know the way their by memory alone but i do have a map. Let me give it to you. We're headed towards town anyways to get a new one.")
-        sleep(delay)
-        print("You have successfully escaped the cave and made it to", destination,"YIPEEE")
-        return True
-    elif person == 'Beggar':
-        print("The Beggar doesnt seem to speak your language so you dont understand each other.")
-        sleep(delay)
-        return True
-    else:
-        print("Sure ill tell ya, once you win in a game of chance, Russian Roulette.")
-        sleep(delay)
-        print("\n")
-        print("You pull the trigger aaaaaaand... your dead, did ya expect the pirate to play fair?")
-        return False
-
-
-###################################################################################
-
-
-def team_17_adv():
+def team_14_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_18_adv():
+def team_15_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_19_adv():
+def team_16_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_20_adv():
+def team_17_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_21_adv():
+def team_18_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_22_adv():
+def team_19_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_23_adv():
+def team_20_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_24_adv():
+def team_21_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_25_adv():
+def team_22_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_26_adv():
+def team_23_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_27_adv():
+def team_24_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_28_adv():
+def team_25_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_29_adv():
+def team_26_adv(username):
     pass
     # TODO Add your code here
 
 ###################################################################################
 
 
-def team_30_adv():
+def team_27_adv(username):
+    pass
+    # TODO Add your code here
+
+###################################################################################
+
+
+def team_28_adv(username):
+    pass
+    # TODO Add your code here
+
+###################################################################################
+
+
+def team_29_adv(username):
+    pass
+    # TODO Add your code here
+
+###################################################################################
+
+
+def team_30_adv(username):
     pass
     # TODO Add your code here
 
@@ -444,9 +349,9 @@ def main():
 
     user = start_story()
     for i in range(len(paths)):
-        is_alive = paths[i]()  # Runs each function in the paths list
-        if is_alive is not None:
-            kill_if_dead(is_alive)
+        is_alive = paths[i](user)  # Runs each function in the paths list
+        kill_if_dead(is_alive)
+
     end_story(user)
 
 
