@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          | Amna   |           |        |
-| Navigator       | Aiden  |           |        |
+| Driver          | Amna   | Aiden     |        |
+| Navigator       | Aiden  | Amna      |        |
 | Quality Control |        |           |        |
 
 ___
@@ -28,25 +28,28 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    We can recognize syntax errors better, as well as use functions. It's also easier to read the code in the order it
+    executes.
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We added a path for if the option chosen wasn't one that was already prepared. We also fixed an "else" statement
+    that seemed to be meant to be an "elif" statement. We also added an update to the player status to check if they
+    were still alive.
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    It wasn't particularly difficult to understand what they were trying to do, though they had a few issues.
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    They didn't seem to have any PEP8 issues, nor do we.
 ```
 
 ___
