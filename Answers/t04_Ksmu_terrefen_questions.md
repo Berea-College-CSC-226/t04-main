@@ -15,10 +15,10 @@ Change roles each day!
 ```
 
 |                 | Monday | Wednesday | Friday |
-|-----------------|--------|-----------|--------|
-| Driver          | Naod   |           |        |
-| Navigator       | Naod   |           |        |
-| Quality Control | Nahom  |           |        |
+|-----------------|--------|------|--------|
+| Driver          | Naod   | Naod |        |
+| Navigator       | Naod   |      |        |
+| Quality Control | Nahom  |      |        |
 
 ___
 
@@ -28,7 +28,7 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    **I improved as coder since t01 in trems of problem solving and dubaging  **
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.

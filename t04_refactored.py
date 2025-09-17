@@ -230,11 +230,13 @@ def team_16_adv(username):
 
 
 def team_17_adv(username):
+    global dead
     direction = input("There are three boxes in front of you: left, middle, and right. Which one would you like to pick?")
 
     if direction == "left":
         # Ooooooh... unfortunate.
-        print("Man, that sucks. ")
+        print("Man, that sucks.")
+        from t01_final_story_do_not_edit import delay
         sleep(delay)
         print("You picked... the bomb!!")
         print("BOOOOOOMMMM!!!")
@@ -244,6 +246,7 @@ def team_17_adv(username):
     elif direction == "middle":
         # neutral
         print("You get...")
+        from t01_final_story_do_not_edit import delay
         sleep(delay)
         print("A pen with unlimited ink")
         sleep(delay)
@@ -252,6 +255,7 @@ def team_17_adv(username):
     else:
         # Noice
         print("*drumroll*")
+        from t01_final_story_do_not_edit import delay
         sleep(delay)
         print("YOU WIN THE GRAND PRIZE!!")
         print("You get...")
