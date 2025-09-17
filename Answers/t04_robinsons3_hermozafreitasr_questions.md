@@ -14,11 +14,11 @@ Change roles each day!
     Complete the table below at the start of each class period:
 ```
 
-|                 | Monday | Wednesday | Friday |
-|-----------------|--------|-----------|--------|
-| Driver          | Aaron  |           |        |
-| Navigator       | Rafael |           |        |
-| Quality Control |        |           |        |
+|                 | Monday  | Wednesday | Friday |
+|-----------------|---------|-----------|--------|
+| Driver          | Aaron   | Rafael    |        |
+| Navigator       | Rafael  | Aaron     |        |
+| Quality Control | R and A | R and A   |        |
 
 ___
 
@@ -28,25 +28,26 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    **We both learned how to use git. We use functions now. We can now write more polished code**
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    **In the conditionals, we changed the input value to always be lowercase, becuase before it didn't recognize
+    when a variable was the same thing if it was capped (Scott is not equal to scott, but now is)**
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **The code was straightforward, just a few conditionals so it was not hard**
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    **PEP8 was followed and we didn't fix errors**
 ```
 
 ___

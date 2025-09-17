@@ -223,7 +223,9 @@ def team_15_adv(username):
     :return: none
     """
     opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander)\n")
+    isAlive = True
 
+    #start conditionals:
     if opponent.lower() == "scott":
         # bad choice
         print(
@@ -232,7 +234,7 @@ def team_15_adv(username):
         print(
             "Within a millisecond he teleports behind you wrapped around your waist and suplexes you, snapping your neck on the hard cold unforgiving concrete floor")
         print("Dr.Scott has killed you")
-        isDead = True
+        isAlive = False
 
     elif opponent.lower() == "tojo":
         # good choice
@@ -246,10 +248,14 @@ def team_15_adv(username):
         print("The fellow student you fight happens to be on the exact same level as you so you tie.")
         print("You have to try fighting them again  at the next BWT")
         sleep(DELAY)
-
-    if isDead == True:
+    #check if the person got out alive
+    if isAlive == False:
         print("oh no! You have died, hopefully there is no wrestling in the afterlife!")
-        quit()
+        return isAlive
+    else:
+        print("\ncongrats in not dying, for now....")
+        return isAlive
+
 
 ###################################################################################
 
