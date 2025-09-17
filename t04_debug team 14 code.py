@@ -1,4 +1,13 @@
 # TEAM 14
+from time import sleep #importing(defining time and sleep)
+
+delay = 1.0 #delay 1 second
+isDead = False
+direction = input("Which direction do you want to go? [North,South]")
+
+
+
+
 if direction == "North":
     print("You didn't die. In fact, you made it out of the cave and back into society. Yay.")
     sleep(delay)
@@ -9,15 +18,18 @@ elif direction == "South":
 else:
     print("You're still in the cave, and no closer to being out of it. Sucks to be you.")
     sleep(delay)
+
+
 if isDead == True:
-    numbertest = input("Pick a number 1-10 to try and survive.")
-    numbertest = float(numbertest)
-    if numbertest > 5 and numbertest <= 10:
-        isDead == False
-        print("You got lucky this time.")
-    else:
-        print("Unlucky, you're dead. Very sad")
-        quit()
+    try:
+        numbertest = input("Pick a number 1-10 to try and survive.")
+        numbertest = float(numbertest)
+        if numbertest > 5 and numbertest <= 10:
+            isDead = False
+            print("You got lucky this time.")
+            else:
+            print("Unlucky, you're dead. Very sad")
+            quit()
 
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
