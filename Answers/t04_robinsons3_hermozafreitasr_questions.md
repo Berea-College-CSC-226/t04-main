@@ -58,13 +58,14 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **Main doesn't have a file we created specifically in our branch, the one to answer the questions.
+     Also, main branch has a file with name refactored but it doesn't have our modifictions to it**
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **Yes, we can see other branches. It's not because the main branch hasn't merged our branches yet**
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -73,7 +74,7 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    **We do see our code in the new branch**
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
@@ -93,25 +94,25 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Making a local copy of soomething, in our case a repository
 
-        b. Commit:      ____________________
+        b. Commit:      Save the changes you've worked on locally
 
-        c. Push:        ____________________
+        c. Push:        Sending those changes back to github
 
-        d. Branch:      ____________________
+        d. Branch:      Is a separate workspace that contains all the files of a main project
 
-        e. Pull:        ____________________
+        e. Pull:        Load and merge changes made into the main project in github
 
-        f. Pull Request:____________________
+        f. Pull Request: Request that our changes made are uploaded into the main project 
 
-        g. Merge:       ____________________
+        g. Merge:       Combine changes or files into another branch
 
-        h. Remote:      ____________________
+        h. Remote:      The main version of the project in github
 
-        i. Local:       ____________________
+        i. Local:       The local version we work on in our computer
 
-        j. Fetch:       ____________________
+        j. Fetch:       Update our local branch with the updated
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
