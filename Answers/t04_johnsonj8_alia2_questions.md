@@ -60,13 +60,14 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    We added this file for our answers and changed our sections in t04_refactored.py
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    We do see others' branches. Our code isn't in their branch because our code is still only on our branch. It hasn't 
+    been integrated into main yet, and as such they would not have any issues. 
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
