@@ -16,7 +16,7 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
+| Driver          |        | Yoseph    |        |
 | Navigator       |        |           |        |
 | Quality Control |        |           |        |
 
