@@ -241,92 +241,56 @@ def team_18_adv(username):
     # TODO Add your code here
 
 # TEAM 18
-# TEAM 18 — fixed & simplified
+from time import sleep
 
-import time
+delay = 1.0  # easy to change for testing
 
-delay = 1.0
+# start values
 dead = False
 rich = False
 
-def pause():
-    time.sleep(delay)
+# first choice
+way = input("Which path do you want to go? [Left, Right, Forward] ")
 
-# ---- Choice 1 ----
-way = input("Which path do you want to go? [Left, Right, Forward] ").strip().lower()
-
-if way == "left":
-    # Bad choice
-    print("\nYou walked on the left path. This was the wrong way and you are stuck inside.")
-    pause()
-    print("You have no food and slowly starve.")
+if way == "Left":
+    print("\nYou walked on the left path. Wrong way.")
+    sleep(delay)
+    print("You are stuck and starve...")
     dead = True
-
-elif way == "right":
-    # Neutral choice
-    print("\nYou continue walking on the right path and nothing happens.")
-    pause()
-    print("At least you are still alive!\n")
-
-elif way == "forward":
-    # Good choice
-    print("\nYou chose the path forward and found $1,000,000!")
-    pause()
-    print("You can do anything you ever wanted with all the money.\n")
+elif way == "Right":
+    print("\nYou went right. Nothing happens, but you are still alive.\n")
+else:
+    print("\nYou went forward and found $1,000,000!")
+    sleep(delay)
+    print("Now you are rich.\n")
     rich = True
 
-else:
-    print("\nYou stand still, confused. Let's pretend you went right.\n")
-
-# If dead, end early
+# check for death right away
 if dead:
-    print("GAME OVER.")
+    print("GAME OVER")
 else:
-    pause()
-    print("You walk out into an opening and see a man sitting down.")
-    pause()
-    print("He has a lot of things next to him including bread and a knife.")
-    pause()
-    print("Buy the knife, steal the bread, or continue?")
-    way = input("What are you gonna do? [Buy, Steal, Continue] ").strip().lower()
+    sleep(delay)
+    print("You see a man sitting with bread and a knife.")
+    sleep(delay)
+    choice = input("What are you gonna do? [Buy, Steal, Continue] ")
 
-    if way == "buy":
-        # Good choice only if rich
+    if choice == "Buy":
         if rich:
-            print("\nYou bought all the bread. You're not hungry anymore.\n")
-            pause()
-            print("You survive the day. NICE!")
+            print("\nYou buy the bread. You are not hungry anymore.\n")
         else:
-            print("\nYou don't have enough money to buy all this bread.\n")
-            pause()
-            print("The guy thinks you're trying to steal it and kills you.")
+            print("\nYou have no money. He thinks you tried to steal and kills you.\n")
             dead = True
-
-    elif way == "steal":
-        # Bad choice
-        print("\nYou tried to snatch the bread.")
-        pause()
-        print("Before you can run, the guy shoots you in the back of the head.")
-        pause()
-        print("So... no bread! And you died!")
+    elif choice == "Steal":
+        print("\nYou try to steal the bread. He catches you and you die.\n")
         dead = True
-
     else:
-        # Neutral choice
-        print("\nYou just ignore him and continue walking.\n")
-        pause()
-        print("You live to explore another day.")
+        print("\nYou ignore him and keep walking.\n")
 
+    # end check
     if dead:
-        print("\nGAME OVER.")
+        print("GAME OVER")
     else:
-        print("\nTHE END.")
-
-# TODO Make sure to add the additional check if the user makes the "bad" choice!
-
-# TODO Don't forget to check if your user is dead at the end of your chapter!
-
-
+        print("You survived this part.")
 
 ###################################################################################
 
