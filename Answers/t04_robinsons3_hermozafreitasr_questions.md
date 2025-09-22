@@ -14,11 +14,11 @@ Change roles each day!
     Complete the table below at the start of each class period:
 ```
 
-|                 | Monday  | Wednesday | Friday |
-|-----------------|---------|-----------|--------|
-| Driver          | Aaron   | Rafael    |        |
-| Navigator       | Rafael  | Aaron     |        |
-| Quality Control | R and A | R and A   |        |
+|                 | Monday  | Wednesday | Friday  |
+|-----------------|---------|-----------|---------|
+| Driver          | Aaron   | Rafael    | Aaron   |
+| Navigator       | Rafael  | Aaron     | Rafael  |
+| Quality Control | R and A | R and A   | R and A |
 
 ___
 
@@ -81,7 +81,7 @@ ___
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    There are a few other groups' code. It is in the main branch.
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 

@@ -220,7 +220,7 @@ def team_15_adv(username):
     https://docs.google.com/document/d/1R_HAj_vqEnAyOwQLy4UYjqXYt4WUCmEyX98lqtTxXto/edit?usp=sharing
     Aaron Robinson
     Rafael Hermoza
-    returns: If player is dead or alive
+    returns: If player is alive or dead using True or False
     """
     opponent = input("Who will you choose for your opponent? (Scott/Tojo/Bystander)\n")
     isAlive = True
