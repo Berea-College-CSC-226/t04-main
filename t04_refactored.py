@@ -86,8 +86,7 @@ def scott_adventure():
     :return: None
     """
 
-    direction = input(
-        "Which direction would you like to go? [North/South/East/West]")
+    direction = input("Which direction would you like to go? [North/South/East/West]")
 
     if direction == "North":
         # Good choice!
