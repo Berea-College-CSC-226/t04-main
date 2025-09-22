@@ -207,10 +207,63 @@ def team_13_adv(username):
 
 ###################################################################################
 
-
 def team_14_adv(username):
     pass
-    # TODO Add your code here
+
+from time import sleep
+
+def main():
+    username = input("Enter your name: ")
+
+    isDead = False
+    delay = 0.5
+
+
+    direction = input("Choose a direction (North/South): ").strip()
+
+    if direction == "North":
+        print("You didn't die. In fact, you made it out of the cave and back into society. Yay.")
+        sleep(delay)
+
+
+        choice = input("You see a dark forest ahead. Do you want to explore it? (Yes/No): ").strip().lower()
+        if choice == "yes":
+            print("Oh no! You walked into a trap and got attacked by wild animals.")
+            isDead = True
+            sleep(delay)
+        else:
+            print("You wisely avoided danger and stayed safe.")
+            sleep(delay)
+
+    elif direction == "South":
+        print("You unfortunately fell off a cliff and are about to die.")
+        isDead = True
+        sleep(delay)
+
+    else:
+        print("You're still in the cave, and no closer to being out of it. Sucks to be you.")
+        sleep(delay)
+
+
+    if isDead:
+        numbertest = float(input("Pick a number 1-10 to try and survive: "))
+        if 5 < numbertest <= 10:
+            isDead = False
+            print("You got lucky this time and survived!")
+        else:
+            print("Unlucky, you're dead. Very sad.")
+            quit()
+
+
+    if isDead:
+        print("The story ends here... You didn't make it, " + username + ".")
+    else:
+        print("Congratulations, " + username + "! You survived this chapter.")
+
+
+if __name__ == "__main__":
+    main()
+
 
 ###################################################################################
 
