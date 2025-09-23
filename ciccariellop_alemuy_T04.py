@@ -1,5 +1,10 @@
 # TEAM 18
-way = input("Which path do you want to go? [Left, Right, Forward]")
+from time import sleep
+delay = 2
+dead = False
+rich = False
+way = input("Which path do you want to go? [Left, Right, Forward] ").strip().capitalize()
+
 
 if way == "Left":
     #Bad choice
@@ -23,6 +28,10 @@ else:
     print("You can do anything you ever wanted with all the money.")
     print("\n")
     rich = True
+
+if dead:
+    print("Game Over! You died.")
+    exit()  # stops the program
 sleep(delay)
 
 print("You walk out into an opening and see a man sitting down.")
@@ -61,7 +70,10 @@ else:
     print("You just ignore him and continue walking.")
     print("\n")
     sleep(delay)
-
+if dead:
+    print("Game Over! You died.")
+else:
+    print("You survived this chapter!")
 
 # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
