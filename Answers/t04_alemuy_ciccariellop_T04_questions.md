@@ -15,10 +15,10 @@ Change roles each day!
 ```
 
 |                 | Monday | Wednesday | Friday |
-|-----------------|--------|-----------|--|
-| Driver          |        | Yoseph    |  |
-| Navigator       |        |           |  |
-| Quality Control |        |           |  |
+|-----------------|--------|-----------|--------|
+| Driver          | Pier   | Yoseph    | Yoseph |
+| Navigator       | Yoseph | Pier      | Pier   |
+| Quality Control | Pier   | Yoseph    | Yoseph |
 
 ___
 
