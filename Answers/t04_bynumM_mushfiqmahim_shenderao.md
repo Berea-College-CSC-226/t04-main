@@ -68,13 +68,16 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    Found our branch. Differences vs main: added Answers/t04_<group>_questions.md and fixes in t04_refactored.py 
+    (bug fixes, extra check, PEP8). Main won't have these until PR merge.
+
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+   Yes, other groups’ branches are visible. Our code is not in theirs because each branch is isolated.
+
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -83,14 +86,16 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Created a PR and asked for review. After approval/merge, the changes should appeared in main (not confirmed yet).
+
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Some other groups’ changes are now in main; others aren’t yet if their PRs are still pending.
+
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -98,30 +103,31 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    Local main didn’t update automatically. After switching to main and running `git pull origin main`, the merged changes should appeare locally.
+
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Copy a remote repo to our computer
 
-        b. Commit:      ____________________
+        b. Commit:      Save a snapshot of staged changes
 
-        c. Push:        ____________________
+        c. Push:        Send local commits to the remote
 
-        d. Branch:      ____________________
+        d. Branch:      A separate file for development
 
-        e. Pull:        ____________________
+        e. Pull:        Fetch + integrate remote changes
 
-        f. Pull Request:____________________
+        f. Pull Request: Ask to merge our branch into another
 
-        g. Merge:       ____________________
+        g. Merge:       Combine histories of two branches.
 
-        h. Remote:      ____________________
+        h. Remote:      The hosted repo reference (e.g., origin).
 
-        i. Local:       ____________________
+        i. Local:       Our on-computer copy/branches.
 
-        j. Fetch:       ____________________
+        j. Fetch:      Get remote updates without integrating them.
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -133,7 +139,10 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+
+• When to rebase vs. merge?
+• Best way to handle merge conflicts?
+• How to avoid extra commits by branching from an outdated main?
 ```
 
 ---
