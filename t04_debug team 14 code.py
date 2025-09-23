@@ -1,12 +1,9 @@
-# TEAM 14
-from time import sleep #importing(defining time and sleep)
+#Team 14
+from time import sleep
 
-delay = 1.0 #delay 1 second
+delay = 1.0
 isDead = False
 direction = input("Which direction do you want to go? [North,South]")
-
-
-
 
 if direction == "North":
     print("You didn't die. In fact, you made it out of the cave and back into society. Yay.")
@@ -19,7 +16,6 @@ else:
     print("You're still in the cave, and no closer to being out of it. Sucks to be you.")
     sleep(delay)
 
-
 if isDead == True:
     try:
         numbertest = input("Pick a number 1-10 to try and survive.")
@@ -27,10 +23,9 @@ if isDead == True:
         if numbertest > 5 and numbertest <= 10:
             isDead = False
             print("You got lucky this time.")
-            else:
+        else:
             print("Unlucky, you're dead. Very sad")
             quit()
-
-# TODO Make sure to add the additional check if the user makes the "bad" choice!
-
-# TODO Don't forget to check if your user is dead at the end of your chapter!
+    except ValueError:
+        print("Invalid input. You must enter a number.")
+        quit()
