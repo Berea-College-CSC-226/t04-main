@@ -15,10 +15,10 @@ Change roles each day!
 ```
 
 |                 | Monday | Wednesday | Friday |
-|-----------------|--------|------|--------|
-| Driver          | Naod   | Naod |        |
-| Navigator       | Naod   |      |        |
-| Quality Control | Nahom  |      |        |
+|-----------------|--------|-----------|--------|
+| Driver          | Naod   | Nahom     | Nahom  |
+| Navigator       | Naod   | Nahom     | Nahom  |
+| Quality Control | Nahom  | Naod      | Naod   |
 
 ___
 
@@ -28,25 +28,28 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **I improved as coder since t01 in trems of problem solving and dubaging  **
+    **We’ve improved as coders since T01 by getting better at problem-solving and debugging. we also more confident about breaking a big task into smaller functions, which makes the code easier to manage.  **
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    **We first added a code to lower the case of input and strip the input from white spaces right and left. Secondly,
+    we added an elif statment for when the user inputs right and created a condition. there were condition that didn't check for the dead
+    variable after they were done hence adding it. lastely, the else statement was rephrased as it was rewarding it and we had to change it to something more harsh**
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **It wasn't that challenging except for the part where the variable names each group chose was differnet and that took some time to understand**
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    **There was one for the duplicate variable which was directions we had to ignore it since it's being used by others groups but didn't affect our code
+     second simplified the if statement condition instead of " dead == True" to just dead**
 ```
 
 ___
@@ -57,13 +60,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **There aren't any changes on the main branch since we have been working on our branch and yes there code is there in our specific branchr**
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **No the code isn't there because we have been working on our branch and they have a different branch hence to see our code there our branches should pull from one another.**
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -92,25 +95,25 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       copy a repository locally
 
-        b. Commit:      ____________________
+        b. Commit:      Save changes with message
 
-        c. Push:        ____________________
+        c. Push:        Upload commits to remote
 
-        d. Branch:      ____________________
+        d. Branch:      Independent line of development
 
-        e. Pull:        ____________________
+        e. Pull:        Download and merge updates
 
-        f. Pull Request:____________________
+        f. Pull Request: propose merging branch changes or updates
 
-        g. Merge:       ____________________
+        g. Merge:       Combining branches into one or adding changes from one to another
 
-        h. Remote:      ____________________
+        h. Remote:      something that is online / our github
 
-        i. Local:       ____________________
+        i. Local:       Found in our computer 
 
-        j. Fetch:       ____________________
+        j. Fetch:       Retrieve updates from a branch
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.

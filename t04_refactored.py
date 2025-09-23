@@ -230,14 +230,19 @@ def team_16_adv(username):
 
 
 def team_17_adv(username):
-    global dead
-    direction = input("There are three boxes in front of you: left, middle, and right. Which one would you like to pick?")
+    """
+    https://docs.google.com/document/d/18woVZC0_gGfPwAVvYnmwAPByMWi1A6bwZOANyBjX2Kk/edit?usp=sharing
+    Nahom Terrefe
+    Naod Ksmu
+    :return:none
+    """
+    dead = False
+    direction = input("There are three boxes in front of you: left, middle, and right. Which one would you like to pick?").lower().strip()
 
     if direction == "left":
         # Ooooooh... unfortunate.
-        print("Man, that sucks.")
-        from t01_final_story_do_not_edit import delay
-        sleep(delay)
+        print("Man, that sucks. ")
+        sleep(DELAY)
         print("You picked... the bomb!!")
         print("BOOOOOOMMMM!!!")
         sleep(3)
@@ -246,24 +251,35 @@ def team_17_adv(username):
     elif direction == "middle":
         # neutral
         print("You get...")
-        from t01_final_story_do_not_edit import delay
-        sleep(delay)
+        sleep(DELAY)
         print("A pen with unlimited ink")
-        sleep(delay)
+        sleep(DELAY)
         print("Fun right...?")
-
+        dead = False
+    elif direction == "right":
+        print("There is a diming light coming out the box.")
+        sleep(DELAY)
+        print("It shines brighter by the second! You get close to see what is in the box")
+        sleep(DELAY)
+        print("BANG! you got hit by a punch! It was a shiny box glove!")
+        dead = True
     else:
         # Noice
-        print("*drumroll*")
-        from t01_final_story_do_not_edit import delay
-        sleep(delay)
-        print("YOU WIN THE GRAND PRIZE!!")
-        print("You get...")
-        sleep(delay)
-        print("Two pens with unlimited ink: A black and red pen!")
+        print("I see you don't like to follow instructions, \n"
+              "for you have not heeded to the instrutions you have chose a far greater "
+              "predicament. ")
+        sleep(DELAY)
+        print(".")
+        sleep(DELAY)
+        print("..")
+        sleep(DELAY)
+        print("...")
+        sleep(DELAY)
+        print("INSTANT DEATH")
+        dead= True
 
-    if dead == True:
-        print("welcome to the afterlife my child. You have chosen wrong.")
+    if dead:
+        print("welcome to the afterlife my child. You have chosen wrong. Until WE MEET AGAIN!")
         quit()
 
 
