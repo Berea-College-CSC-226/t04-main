@@ -4,7 +4,7 @@ from time import sleep
 delay = 2
 dead = False
 rich = False
-way = input("Which path do you want to go? [Left, Right, Forward, Dead] ").strip().capitalize()
+way = input("Which path do you want to go? [Left, Right, Forward] ").strip().capitalize()
 print(way)
 if way == "Left":
     # Bad choice
@@ -21,11 +21,8 @@ elif way == "Right":
     sleep(delay)
     print("At least you are still alive!")
     print("\n")
-elif way == "Dead":
-    print("Game Over! You died.")
-    exit()  # stops the program
-    sleep(delay)
-else:
+
+elif way == "Forward":
     # Good choice
     print("\n")
     print("You chose the path forward and found $1,000,000")
@@ -42,6 +39,11 @@ print("Buy the knife, steal the bread, or continue?")
 way = input("What are you gonna do? [Buy, Steal, Continue] ").strip().capitalize()
 
 if way == "Buy":
+    if rich:
+        print("\n")
+        print("You bought all the bread you're not hungry anymore.")
+        sleep(delay)
+        print("\n")
     # Good choice if you are rich
     print("\n")
     print("You bought all the bread you're not hungry anymore.")
