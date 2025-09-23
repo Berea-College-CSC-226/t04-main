@@ -234,7 +234,7 @@ def team_17_adv(username):
     https://docs.google.com/document/d/18woVZC0_gGfPwAVvYnmwAPByMWi1A6bwZOANyBjX2Kk/edit?usp=sharing
     Nahom Terrefe
     Naod Ksmu
-    :return:none
+    :return:boolean value
     """
     dead = False
     direction = input("There are three boxes in front of you: left, middle, and right. Which one would you like to pick?").lower().strip()
@@ -281,6 +281,7 @@ def team_17_adv(username):
     if dead:
         print("welcome to the afterlife my child. You have chosen wrong. Until WE MEET AGAIN!")
         quit()
+    return dead
 
 
 ###################################################################################

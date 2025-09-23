@@ -36,7 +36,7 @@ ___
 ```
     **We first added a code to lower the case of input and strip the input from white spaces right and left. Secondly,
     we added an elif statment for when the user inputs right and created a condition. there were condition that didn't check for the dead
-    variable after they were done hence adding it. lastely, the else statement was rephrased as it was rewarding it and we had to change it to something more harsh**
+    variable after they were done hence adding it. lastly, the else statement was rephrased as it was rewarding it and we had to change it to something more harsh and added dead as a return value**
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
