@@ -13,7 +13,7 @@ elif direction == "South":
     isDead = True
     sleep(delay)
 else:
-    print("You're still in the cave, and no closer to being out of it. Sucks to be you.")
+    print("You're still  in the cave, and no closer to being out of it. Sucks to be you.")
     sleep(delay)
 
 if isDead == True:
