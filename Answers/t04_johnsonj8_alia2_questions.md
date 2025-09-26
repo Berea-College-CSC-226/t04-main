@@ -76,14 +76,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes, it is in GitHub
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    No, because people might have not done the work or their pull requests were not approved.
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
