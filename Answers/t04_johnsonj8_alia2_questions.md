@@ -91,30 +91,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    No because it is on GitHub but we just have not updates the local.
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Making a copy of the repository on your local computer
 
-        b. Commit:      ____________________
+        b. Commit:      Saving changes
 
-        c. Push:        ____________________
+        c. Push:        sending saved changes to GitHubs copy of the repository
 
-        d. Branch:      ____________________
+        d. Branch:      a copy of the code that you can use to test other code ideas
 
-        e. Pull:        ____________________
+        e. Pull:        updating the changes made on some other local computer onto your own
 
-        f. Pull Request:____________________
+        f. Pull Request:requesting that your code gets merged into the main branch
 
-        g. Merge:       ____________________
+        g. Merge:       combining two seperate copies of code into one and maintaining the changes
 
-        h. Remote:      ____________________
+        h. Remote:      online
 
-        i. Local:       ____________________
+        i. Local:       personal computer
 
-        j. Fetch:       ____________________
+        j. Fetch:       to get 
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -126,7 +126,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    N/A
 ```
 
 ---
