@@ -223,50 +223,8 @@ def team_15_adv(username):
 
 
 def team_16_adv(username):
-    # TEAM 16
-    """
-    https://docs.google.com/document/d/1aE2TA8hWpJtFZxFIyqPv-yUmWJsm82d55scMPQAmq7k/edit?tab=t.0#heading=h.f6tumop9n7at
-    Aiden Johnson
-    Amna Ali
-    :return: True/False
-    """
-    delay=1
-
-    print("You come across a lit section of the cave. You see 4 adventurers sitting around a fire. They notice you and motion for you to sit with them.")
-    destination = input("Where are you headed young traveler? ")
-    sleep(delay)
-    print()
-    print("I dont know where", destination, "is but one of my other party members might. Try asking one of them.")
-    sleep(delay)
-    person = input("Who will you ask? [Dwarven soldier/Beggar/Pirate] ")
-    print()
-    if person == 'Dwarven soldier':
-        # "Good" choice
-        print("I dont know the way there by memory alone but I do have a map. Let me give it to you. We're headed towards town anyways to get a new one.")
-        sleep(delay)
-        print()
-        print("You have successfully escaped the cave and made it to", destination, "YIPPEE")
-        print()
-    elif person == 'Beggar':
-        # Neutral choice
-        print("The Beggar doesnt seem to speak your language so you dont understand each other.")
-        sleep(delay)
-        print()
-    elif person == 'Pirate':
-        # Bad choice
-        print("Sure I'll tell ya, once you win in a game of chance,Russian Roulette.")
-        sleep(delay)
-        print("\n")
-        print("You pull the trigger and... you're dead, did ya expect the pirate to play fair?")
-        print()
-        return False
-    else:
-        # Faulty input
-        print("You sit and stare into the fire. You feel rejuvenated!")
-        print()
-    return True
-
-
+    pass
+    # TODO Add your code here
 
 ###################################################################################
 
