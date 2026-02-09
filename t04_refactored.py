@@ -140,7 +140,35 @@ def team_3_adv(username):
 
 def team_4_adv(username):
     pass
-    # TODO Add your code here
+
+    from time import sleep
+    import random
+
+    nba_team = "Knicks"
+
+    print("Welcome,", nba_team, "yall play Cade n nem at MSG")
+    sleep(5)
+    print("Cade gon have 30 either way yall just go out there and have fun")
+    print("Make sure KAT don't chuck no 3's")
+    sleep(5)
+    # TODO Make sure to add the additional check if the user makes the "bad" choice!
+
+    kat = random.randint(1, 3)
+
+    if kat == 1:
+        print("Kat took a free throw")
+        return True
+    elif kat == 2:
+        print("kat dunked on Tobias")
+        return True
+    else:
+        print("kat shoots a 3 point shot")
+        Choice = input("you have 2 seconds left of the clock to score 1 point you have 3 options "
+              "A. try and foul to get a free throw. B. make a layup. C. make a crazy half court shot. what do you choose (A, B, or C")
+
+
+
+    # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 ###################################################################################
 
