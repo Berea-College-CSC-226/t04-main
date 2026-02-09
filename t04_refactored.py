@@ -167,8 +167,32 @@ def team_7_adv(username):
 
 
 def team_8_adv(username):
+    """
+    https://docs.google.com/document/d/1j23A_VkawfeRgZKJJqtFY3bFMhAotUu5Kl974QQRjrk/edit?usp=sharing
+    Briana Nshimirimana
+    Beni Shendera
+    :return: None
+    """
     pass
-    # TODO Add your code here
+# TEAM 8
+
+#beni said if statement may help
+dead = False
+
+username = input("What is your name? ")
+print()
+print("Welcome", username)
+print()
+print("Before you there are three doors, behind one of them will lead you to a path with lots of money, and behind the other two there is certain death. You must choose correctly if you want to live")
+Choose_Door = input("Choose a door! [A, B, C]")
+if Choose_Door == 'A':
+    print("Correct Door! You found all of the money good job!")
+
+elif Choose_Door =='B'or'C': # Added C because two paths are meant to be certain death.
+    print("Wrong door! You die!")
+    dead = True
+else:
+    print("You found the way out but you get no reward") #Even if you get the right or wrong answer if its lowercase it reads as else. We need to let user know only uppercase.
 
 ###################################################################################
 
@@ -217,7 +241,7 @@ def main():
 
     user = start_story()
     for i in range(len(paths)):
-        is_alive = paths[i](user)  # Runs each function in the paths list
+        is_alive = paths[i](team_8_adv(username))  # Runs each function in the paths list
         kill_if_dead(is_alive)
 
     end_story(user)

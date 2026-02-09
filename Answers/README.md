@@ -1,1 +1,0 @@
-This folder is for placing your t04_questions.md files, once they are complete.
