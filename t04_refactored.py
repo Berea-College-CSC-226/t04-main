@@ -188,8 +188,27 @@ def team_10_adv(username):
 
 
 def team_11_adv(username):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1C6eNkS5Ub_CJWCHo8QfB7zoKCrrTQlykAPkOBpGw2UY/edit?usp=sharing
+    A M Fahad
+    Danny Abnee
+    :return: none
+    """
+    direction = input("Which  direction would you like to go? [N/S/E/W]")
+    if direction =="N":
+        print("You are trapped more with no resources")
+    elif direction == "S":
+        print("Good choice")
+        sleep(DELAY)
+        print("You got a friend with you with some resources")
+        print("Run together to move to more safer place")
+    elif direction == "W":
+        print("You are alone but you have some resources")
+        print("Run as fast as you can as there is something behind you")
+        sleep(DELAY)
+    else:
+        print("OOPS, You Died")
+    dead = True
 
 ###################################################################################
 
