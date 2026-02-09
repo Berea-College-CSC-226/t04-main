@@ -174,7 +174,9 @@ def team_7_adv(username):
     # option 2, you refuse the molly and drink the poisonous drink and die
     # option 3, you change your mind and decide to leave the tavern and start a new life of peace instead
 
-    #########################################################################################################
+    delay = 1
+
+
     print("There seems to be someone in the cave with you. He has sensed your presence here")
     sleep(delay)
     print("The man assures you that you are safe and casts a spell on you")
@@ -188,24 +190,26 @@ def team_7_adv(username):
 
     sleep(delay)
     drink = input("Accept the drink from the stranger? There are two drinks 'red/blue/decline'")
-    if (drink == "red"):
+    if drink == "red":
         print("It tastes disgusting, but you feel fine")
         sleep(delay)
         print("a wonderful strength courses through your body. you feel rested to continue your adventure")
         sleep(delay)
-    elif (drink == "blue"):
+    elif drink == "blue":
         print("You can physically feel your stomach burning down")
         sleep(delay)
         print("You look to the mage and he smirks at you. 'You unworthy fool', he says")
         sleep(delay)
         print("Enjoy your sweet death, you are not worthy to live in our evil society")
         dead = True
-    else:
+    elif drink == "decline":
         print("The mage looks at you with surprise")
         sleep(delay)
         print("This tavern is famous for its drinks. but it's okay if you wish to deprive yourself")
+    else:
+    # elif for if they didn't use the right reponse, try again feature.
 
-    if dead == True:
+    if dead:
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
         quit()
 
