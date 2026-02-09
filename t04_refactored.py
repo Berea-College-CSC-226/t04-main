@@ -171,11 +171,43 @@ def team_8_adv(username):
     # TODO Add your code here
 
 ###################################################################################
-
-
 def team_9_adv(username):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1YcKwfn-tU3knpEYWWp3v5ek_JmUDjz0ZIYmQpvu-TAU/edit?usp=sharing
+    Pride Techa
+    Skylar McDaniel
+    :param username:
+    :return:
+    """
+    # TEAM 9
+
+    direction = input(
+        "Which direction would you like to kick the ball to?\n\tTop Right (a)\n\tTop Left (b)\n\tBottom Right (c)\n\tBottom Left (d)").lower()
+    # changed sentence format; changed inputs to "a/b/c/d"; added .lower()
+
+    if direction == "b":
+        # Good choice!
+        sleep(DELAY)  # changed "delay" to "DELAY" and moved it above the print
+        print("GOALLLLL!!!")
+
+    elif direction == "d":
+        # Oh... Bad choice
+        sleep(DELAY) # added a delay
+        print("Oops! The goalie caught the ball. ")
+        # removed a delay
+        print("Your team lost the game")
+        print("Running seems like a good idea now. But... it's really, really dark.")
+        print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
+        dead = True # changed "lost" to "dead"
+    else:
+        # Neutral choice
+        sleep(DELAY)  # changed "delay" to "DELAY" and moved it above the print
+        print(
+            "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+
+    if dead == True:
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        quit()
 
 ###################################################################################
 
