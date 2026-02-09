@@ -132,8 +132,56 @@ def team_2_adv(username):
 
 
 def team_3_adv(username):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1YgssT-6X6hYabxt9GOj8BR_o4MrywcEW7nYmwUGPkYY/edit?usp=sharing
+    DANIEL RUKWASHA
+    BHUSHAN SAH
+    """
+    direction=input("What is the direction: ")
+    dead=False
+    if direction == "North":
+        yes_no = input("do you want to talk to him (yes/no)")
+        if yes_no == "yes":
+            # good choice
+            print("he claims he knows where the treasure is and has no use for it")
+        elif yes_no == "no":
+            print("the man yells at you and starts charging you")
+            dead = True
+    if dead == True:
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        quit()
+    # neutral path continue
+    direction2 = input("which direction would you like to go(back, left, right")
+
+    # good
+    delay=1
+    if direction2 == "back":
+        direction3 = input("Which direction would you like to go? [North/South/East/West]")
+        if direction3 == "south":
+            # Good choice!
+            print(
+                "You are still trapped in the dark, but someone else is there with you now! I hope they're friendly...")
+            sleep(delay)
+        elif direction == "South":
+            # Oh... Bad choice
+            print("You hear a growl. Not a stomach growl. More like a big nasty animal growl.")
+            sleep(delay)
+            print("Oops. Turns out the cave was home to a nasty grizzly bear. ")
+            print("Running seems like a good idea now. But... it's really, really dark.")
+            print(
+                "You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
+            print("He eats you. You are delicious.")
+            dead = True
+        else:
+            # Neutral choice
+            print(
+                "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+            sleep(delay)
+
+        if dead == True:
+            print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+            quit()
+
 
 ###################################################################################
 
