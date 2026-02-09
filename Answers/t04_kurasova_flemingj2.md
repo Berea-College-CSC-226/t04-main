@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. Copy this file.
+1. Copy this file..
 2. Paste the copy of the file into the `Answers` directory.
 3. Name the file `t04_usernames.md`, replacing usernames with your Berea usernames.
 4. Replace each `**Replace This With Your Answer**` with your answer to the question above it.
