@@ -161,7 +161,54 @@ def team_6_adv(username):
 
 def team_7_adv(username):
     pass
-    # TODO Add your code here
+    # TEAM 7
+
+    # Guy is friendly and rescues us from the cave. They take you back to the town famed to have a secret treasury
+    # of unimaginable worth. but first, he takes you to a tavern. he offers you two drinks, one is poisonous
+    # and the other one contains elixir of the gods which grants you immortality.
+    # you can choose either one or you refuse to drink and missout on the treasure.
+
+    # if you choose the poison, the mage offers you another attempt at assessing your intelligence
+    # he asks if you would like something sweet with it?
+    # option 1, he gives you molly to add to the drink which removes the poisonous effect
+    # option 2, you refuse the molly and drink the poisonous drink and die
+    # option 3, you change your mind and decide to leave the tavern and start a new life of peace instead
+
+    #########################################################################################################
+    print("There seems to be someone in the cave with you. He has sensed your presence here")
+    sleep(delay)
+    print("The man assures you that you are safe and casts a spell on you")
+    sleep(delay * 3)
+    print("You wake up in a busy tavern")
+    print("'I'm the mage responsible for the security of this locked city', he says")
+    sleep(delay)
+    print("everyone you see here is allowed to live by our supreme commander based on their intelligence")
+    sleep(delay * 2)
+    print("but you're a guest, so it's okay. Here, have a drink")
+
+    sleep(delay)
+    drink = input("Accept the drink from the stranger? There are two drinks 'red/blue/decline'")
+    if (drink == "red"):
+        print("It tastes disgusting, but you feel fine")
+        sleep(delay)
+        print("a wonderful strength courses through your body. you feel rested to continue your adventure")
+        sleep(delay)
+    elif (drink == "blue"):
+        print("You can physically feel your stomach burning down")
+        sleep(delay)
+        print("You look to the mage and he smirks at you. 'You unworthy fool', he says")
+        sleep(delay)
+        print("Enjoy your sweet death, you are not worthy to live in our evil society")
+        dead = True
+    else:
+        print("The mage looks at you with surprise")
+        sleep(delay)
+        print("This tavern is famous for its drinks. but it's okay if you wish to deprive yourself")
+
+    if dead == True:
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+        quit()
+
 
 ###################################################################################
 
