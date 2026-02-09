@@ -118,6 +118,17 @@ def scott_adventure():
 ###################################################################################
 
 # TEAM 1
+# TEAM 1
+# """
+# https://docs.google.com/document/d/1PLwoW15mirjgG_MOtOCZAjJRucTlYP_teVuck7RF2q0/edit?usp=sharing
+# Boone Riley
+# Alain Irumva
+# :return: none
+# """
+
+dead = 'false'
+delay = 1.0
+
 print("Luckily, you have a flashlight; should you use it?")
 choice_2 = input("Yes/No? ")
 
