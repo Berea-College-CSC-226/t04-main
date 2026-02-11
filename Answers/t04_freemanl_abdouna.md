@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
+| Driver          | ahmed  | ahmed     |        |
+| Navigator       | leroy  | ahmed     |        |
 | Quality Control |        |           |        |
 
 ___
@@ -28,13 +28,13 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    we've learned how to write cleaner and more readable code, utilizing functions.
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    Included return statements for all outcomes of my teams path, including true statements for left and middle, and a return false statement for the right option
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
