@@ -163,10 +163,18 @@ def team_4_adv(username):
         return True
     else:
         print("kat shoots a 3 point shot")
-        Choice = input("you have 2 seconds left of the clock to score 1 point you have 3 options "
+        choice = input("you have 2 seconds left of the clock to score 1 point you have 3 options "
               "A. try and foul to get a free throw. B. make a layup. C. make a crazy half court shot. what do you choose (A, B, or C")
-
-
+        if choice == "A":
+            print("The team did not faul you")
+            return False
+        if choice == "B":
+            print("you couldnt make the shot before the buzzer rang")
+            return False
+        if choice == "C":
+            print("you some how made the half court shot winning your team the game")
+            return True
+    return True
 
     # TODO Don't forget to check if your user is dead at the end of your chapter!
 

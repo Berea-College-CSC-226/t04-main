@@ -14,11 +14,11 @@ Change roles each day!
     Complete the table below at the start of each class period:
 ```
 
-|                 | Monday | Wednesday | Friday |
-|-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
-| Quality Control |        |           |        |
+|                 | Monday   | Wednesday | Friday |
+|-----------------|----------|-----------|--------|
+| Driver          | Prestonw |           |        |
+| Navigator       | lolongaJ |           |        |
+| Quality Control |          |           |        |
 
 ___
 
@@ -28,25 +28,27 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    more paths and detail along with cleaner functions and writing of code
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+     we added if else statement for more options of what to do along with a input statement to allow the 
+     user to choose what to do instead of the original random int statement provided
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    the actural logic of the code wasnt to hard to follow but the story was as neither of us have extensive sports knowledge 
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    they had tried to use random functions and delay functions with out importing time or random respectively looks better
+    as the red lines are now gone
 ```
 
 ___
