@@ -119,16 +119,17 @@ def scott_adventure():
 
 # TEAM 1
 
-dead = 'false'
-delay = 1.0
 
-def main():
+def team_1_adv(username):
     """
     https://docs.google.com/document/d/1PLwoW15mirjgG_MOtOCZAjJRucTlYP_teVuck7RF2q0/edit?usp=sharing
     Boone Riley
     Alain Irumva
     :return: None
     """
+
+    dead = 'false'
+    delay = 1.0
 
     print("Luckily, you have a flashlight; should you use it?")
     choice_2 = input("Yes/No? ")
@@ -155,7 +156,7 @@ def main():
         print("Unfortunately, you met your bitter end because you panicked.")
         quit()
 
-main()
+team_1_adv()
 
 ###################################################################################
 
