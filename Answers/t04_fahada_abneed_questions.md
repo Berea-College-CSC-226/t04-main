@@ -63,13 +63,17 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **My code is indeed there. The refactored code is empty, which students are going to fill
+    up with their edited code, which will settle into the timeline of the full story. 
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+   **Yes, I see other groups' branches in the repo. My code isn't in their branch,
+   it's because they haven't been merged yet. For my code to be in their branch,
+   I will have to have a successful PR, and then they'll be able to pull my code
+   to their main and then to their branch.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -78,7 +82,7 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    **Okay.
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
