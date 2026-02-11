@@ -72,7 +72,8 @@ def kill_if_dead(is_alive):
     :param is_alive: A boolean value representing livelihood.
     :return: None
     """
-    if not is_alive:
+
+    if is_alive is not None and is_alive == False:
         quit()
 
 
@@ -182,7 +183,7 @@ def team_9_adv(username):
     # TEAM 9
 
     direction = input(
-        "Which direction would you like to kick the ball to?\n\tTop Right (a)\n\tTop Left (b)\n\tBottom Right (c)\n\tBottom Left (d)").lower()
+        "Which direction would you like to kick the ball to?\n\tTop Right (a)\n\tTop Left (b)\n\tBottom Right (c)\n\tBottom Left (d)\n").lower()
     # changed sentence format; changed inputs to "a/b/c/d"; added .lower()
 
     if direction == "b":
@@ -198,17 +199,15 @@ def team_9_adv(username):
         print("Your team lost the game")
         print("Running seems like a good idea now. But... it's really, really dark.")
         print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
-        dead = True # changed "lost" to "dead"
+        print("Oh no! You died. Better luck next time!") # removed "Try again by hitting the green play button."
+        return False
     else:
         # Neutral choice
         sleep(DELAY)  # changed "delay" to "DELAY" and moved it above the print
         print(
             "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
-
-    if dead == True:
-        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
-
+    return True # added
+team_9_adv("scott")
 ###################################################################################
 
 
