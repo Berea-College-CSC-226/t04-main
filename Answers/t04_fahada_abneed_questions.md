@@ -16,9 +16,9 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
-| Quality Control |        |           |        |
+| Driver          | Fahad  | Fahad     |        |
+| Navigator       | Danny  | Fahad     |        |
+| Quality Control | Fahad  | Fahad     |        |
 
 ___
 
@@ -28,25 +28,31 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    I've changed as a coder since T01 to not be apprehensive of big lines of code. 
+    Learning how to read code in correct order has helped me improve my 
+    understanding of what a program is doing. 
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    I have edited the code to return a boolean True or False value. Since
+    the final compilation of all our code requires a true or false value to function.
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    I didn't find it challenging to follow the code of another group's code because
+    the code was relatively simple and easy to follow, as well as well-written!
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    One of the elif conditions weren't working, hence they 
+    were re-written and the indentation of the code was changed slightly
+    I believe. 
 ```
 
 ___
