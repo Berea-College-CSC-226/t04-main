@@ -142,7 +142,7 @@ def team_1_adv(username):
         print("You hear footsteps..")
         sleep(delay)
         print("They notice you and start screaming. In a panic you fall and hit your head on a rock")
-        dead = True
+        return False
     else:
         print("The cave is swarming with bats!")
         print("You start running..")
@@ -152,11 +152,6 @@ def team_1_adv(username):
         print("After running forever, you make it out of the cave")
         sleep(delay)
 
-    if dead == True:
-        print("Unfortunately, you met your bitter end because you panicked.")
-        quit()
-
-team_1_adv()
 
 ###################################################################################
 
