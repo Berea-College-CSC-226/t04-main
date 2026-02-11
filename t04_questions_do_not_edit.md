@@ -49,7 +49,7 @@ ___
     **Replace This With Your Answer**
 ```
 
-_Return to the Google Doc to continue this assignment._
+_Please return to the Google Doc to continue this assignment_
 
 ___
 
