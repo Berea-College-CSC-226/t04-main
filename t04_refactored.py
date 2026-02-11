@@ -181,6 +181,7 @@ def team_9_adv(username):
 
 
 def team_10_adv(username):
+    # Mateo and Neelu are working on this function!
 
     direction = input("Where are you going? (Please just choose North) ")
     dead = False
