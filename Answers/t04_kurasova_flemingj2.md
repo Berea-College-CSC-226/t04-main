@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
+| Driver          | Jayden | Artem     |        |
+| Navigator       | Artem  | Jayden    |        |
 | Quality Control |        |           |        |
 
 ___
@@ -28,7 +28,8 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    We became better at using Git, GitHub, and Pycharm. Besides that, now we can write cleaner code and use 
+    functions to perform specific tasks, including the main() function, which deploys the code itself.
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.

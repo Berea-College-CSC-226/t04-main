@@ -146,6 +146,12 @@ def team_4_adv(username):
 
 
 def team_5_adv(username):
+    """
+    https://docs.google.com/document/d/1dzAfok-haJ2YMxQP-wVvN76Y-88vlwHmhbum4cHUhDc/edit?usp=sharing
+    Jayden Fleming
+    Artem Kurasov
+    :return: None
+    """
 
     alive_team_5 = True
 
