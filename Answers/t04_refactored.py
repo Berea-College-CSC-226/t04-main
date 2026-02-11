@@ -155,7 +155,7 @@ def team_3_adv(username):
         sleep(delay)
         return False
     elif direction == "South":
-            # Oh... Bad choice
+        # Oh... Bad choice
          print("You hear a growl. Not a stomach growl. More like a big nasty animal growl.")
          sleep(delay)
          print("Oops. Turns out the cave was home to a nasty grizzly bear. ")

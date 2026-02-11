@@ -46,7 +46,7 @@ ___
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    ** **
 ```
 
 ___
@@ -57,13 +57,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **The difference is that our brnch have two additional files that main and is t04_questions and to4_refactored.py in Answers folder **
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **Yes, we are seeing other group's brnaches too, No our code in not in their branch, because all of us have worked on different branches. we will be able to see that if we merge our branch into their. **
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
