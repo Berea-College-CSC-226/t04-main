@@ -195,17 +195,63 @@ def team_11_adv(username):
 
 
 def team_12_adv(username):
-    pass
-    # TODO Add your code here
 
-###################################################################################
+    #https://docs.google.com/document/d/1B-Nr_mc_V-Xk_KcmRgWRgC649HkO5_ke6ch4Fy4-ImU/edit?usp=sharing
+    #Mildred Catalina Gonzalez Molina
+    #return:none
+    base = input(
+        "Which base would you like to bake?"
+        "[Vanilla, Chocolate, Red Velvet]: "
+    )
 
+    if base == "Vanilla":
+        # Good choice!
+        print(
+            "Oh. Vanilla. I hate vanilla. But whatever! Whatever you like is ok. Just don't give me the final result.")
+        sleep(delay)
+    elif base == "Chocolate":
+        print("Hmm. Chocolate. Be mindful with the sugar.")
+        sleep(delay)
+    elif base == "Red Velvet":
+        print("OOOH I love red velvet!! You can't go wrong with it!")
+    else:
+        # Neutral choice
+        print(
+            "Um... We only have vanilla, chocolate, and red velvet. Anything else is sold out. I will just give you the red velvet.")
+        base = "Red Velvet"
+        sleep(delay)
+
+    sugar = int(input("How many cups of sugar would you like in your cake? [#]: "))
+
+    if sugar <= 2:
+        print("That does not sound sweet enough.")
+        print("When you bite into your cake, it tastes so bad that you die of sadness.")
+        death = True
+    elif sugar == 3:
+        print("That seems like the right amount!")
+    elif sugar >= 5:
+        print("Okay, that seems excessive")
+        print(
+            "When you bite into the cake, you can feel your glucose levels spiking. You get a heart attack from how sweet it is.")
+        death = True
+
+    if dead:
+        print("Yup, that could have gone better. Better luck next time... :(")
+
+    if not dead:
+        print("Wow! You made an amazing cake! And for me? Thank you! You can't have a piece.")
 
 def main():
+
     """
+
+    te
+
     The main function, where the program starts. No modifications are needed here!
     :return: None
     """
+    team_12_adv("gonzalezmolinam")
+    quit()
 
     paths = [scott_adventure, team_1_adv, team_2_adv,
              team_3_adv, team_4_adv, team_5_adv,
