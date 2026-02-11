@@ -195,6 +195,7 @@ def team_7_adv(username):
 
     while True:
         drink = input("Accept the drink from the stranger? There are two drinks 'red/blue/decline'")
+        drink = drink.lower()
         if drink == "red":
             print("It tastes disgusting, but you feel fine")
             sleep(delay)
