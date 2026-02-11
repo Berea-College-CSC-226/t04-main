@@ -28,14 +28,15 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    We became better at using Git, GitHub, and Pycharm. Besides that, now we can write cleaner code and use 
-    functions to perform specific tasks, including the main() function, which deploys the code itself.
+    We became better at using Git, GitHub, and Pycharm. Besides that, now we can write cleaner code
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    The biggest change in our code is the fact that we started to use functions more frequently. So, now
+    our code is not just a long line of commands; it's also functions that split the program into certain
+    tasks. Moreover, we learned how to use the main() function, which deploys the code of the program.  
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
