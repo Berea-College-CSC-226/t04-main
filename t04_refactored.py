@@ -181,6 +181,11 @@ def team_9_adv(username):
 
 
 def team_10_adv(username):
+    """https://docs.google.com/document/d/1W5mC3XMPa480TuDvvviUeIod912K9bwWdHfV991FpFc/edit?usp=sharing
+    Mateo Andrade
+    Neelima Matcha
+    :return: none
+    """
     # Mateo and Neelu are working on this function! :)
 
     direction = input("Where are you going? (Please just choose North) ")
@@ -204,17 +209,14 @@ B: Run away!!!! ''')
                 print("He stands up and quickly comes up to you, jabbing your back until you die.")
                 dead = True
             if answer2 == "B":
-                print(
-                    "He stands up and tries to run after you, but he accidentally breaks his ankle. He can't move, so you just run away.")
-                print(
-                    "Apparently, you some light somewhere in the cave. You approach the light, and you see three doors. The doors have numbers on them?")
-                number = input("Which door should you choose? 5, 6, or 7?")
+                print("He stands up and tries to run after you, but he accidentally breaks his ankle. He can't move, so you just run away.")
+                print("Apparently, you see some light somewhere in the cave. You approach the light, and you see three doors. The doors have numbers on them?")
+                number = input("Which door should you choose? 5, 6, or 7? ")
                 if number == "6":
                     print("This is the wrong door. Go back to door 7.")
-                    number = input("Now you can go to door 5 or door 7. Which one should you choose?")
+                    number = input("Now you can go to door 5 or door 7. Which one should you choose? ")
                 if number == "5":
-                    print(
-                        "Wow! Door 5 was actually the entrance to the underground shelter, and you find very friendly people, who heads you out of the cave.")
+                    print("Wow! Door 5 was actually the entrance to the underground shelter, and you find very friendly people, who lead you out of the cave.")
                     print("YOU HAVE ESCAPED THE CAVE!!! CONGRATS 🎉🎉🎉🎉🎉")
                 if number == "7":
                     print("The door suddenly closes, and you feel that your body elevates upward to heaven.")
@@ -227,9 +229,7 @@ B: Run away!!!! ''')
             "You see a ghost telling you that the only way out is the North. The ghost heads you to \nthe North of the cave. You see an old man with three strands of fine gray hair. He talks to the ghost and takes off his knife, stabbing you into your heart. You're dead :(")
         dead = True
 
-    if dead:
-        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
+    return dead
 
 
 ###################################################################################
@@ -256,7 +256,7 @@ def main():
     """
     team_10_adv("Mateoatcha")
     quit()
-    paths = [scott_adventure, team_1_adv, team_2_adv,
+    paths = [scott_advsenture, team_1_adv, team_2_adv,
              team_3_adv, team_4_adv, team_5_adv,
              team_6_adv, team_7_adv, team_8_adv,
              team_9_adv, team_10_adv, team_11_adv,
