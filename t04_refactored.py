@@ -139,44 +139,38 @@ def team_3_adv(username):
 
 
 def team_4_adv(username):
-    pass
 
     from time import sleep
     import random
 
-    nba_team = "Knicks"
-
-    print("Welcome,", nba_team, "yall play Cade n nem at MSG")
+    print("Welcome, Knicks yall play Cade n nem at MSG!")
     sleep(5)
-    print("Cade gon have 30 either way yall just go out there and have fun")
-    print("Make sure KAT don't chuck no 3's")
+    print("Cade gon have 30 either way yall just go out there and have fun.")
+    print("Make sure KAT don't chuck no 3's!")
     sleep(5)
-    # TODO Make sure to add the additional check if the user makes the "bad" choice!
 
     kat = random.randint(1, 3)
 
     if kat == 1:
-        print("Kat took a free throw")
+        print("Kat took a free throw!")
         return True
     elif kat == 2:
-        print("kat dunked on Tobias")
+        print("kat dunked on Tobias!")
         return True
     else:
-        print("kat shoots a 3 point shot")
-        choice = input("you have 2 seconds left of the clock to score 1 point you have 3 options "
-              "A. try and foul to get a free throw. B. make a layup. C. make a crazy half court shot. what do you choose (A, B, or C")
+        print("kat shoots a 3 point shot!")
+        choice = input("you have 2 seconds left of the clock to score 1 point you have 3 options! "
+              "A. try and foul to get a free throw. B. make a layup. C. make a crazy half court shot. what do you choose (A, B, or C)?")
         if choice == "A":
-            print("The team did not faul you")
+            print("The team did not foul you.")
             return False
         if choice == "B":
-            print("you couldnt make the shot before the buzzer rang")
+            print("you could not make the shot before the buzzer rang.")
             return False
         if choice == "C":
-            print("you some how made the half court shot winning your team the game")
+            print("you some how made the half court shot winning your team the game.")
             return True
     return True
-
-    # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 ###################################################################################
 
