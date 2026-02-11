@@ -49,6 +49,8 @@ ___
     **Replace This With Your Answer**
 ```
 
+_Please return to the Google Doc to continue this assignment_
+
 ___
 
 ## SECTION 2
