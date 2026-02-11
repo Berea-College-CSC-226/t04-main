@@ -201,132 +201,6 @@ def team_12_adv(username):
 ###################################################################################
 
 
-def team_13_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_14_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_15_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_16_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_17_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_18_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_19_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_20_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_21_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_22_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_23_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_24_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_25_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_26_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_27_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_28_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_29_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
-def team_30_adv(username):
-    pass
-    # TODO Add your code here
-
-###################################################################################
-
-
 def main():
     """
     The main function, where the program starts. No modifications are needed here!
@@ -337,13 +211,7 @@ def main():
              team_3_adv, team_4_adv, team_5_adv,
              team_6_adv, team_7_adv, team_8_adv,
              team_9_adv, team_10_adv, team_11_adv,
-             team_12_adv, team_13_adv, team_14_adv,
-             team_15_adv, team_16_adv, team_17_adv,
-             team_18_adv, team_19_adv, team_20_adv,
-             team_21_adv, team_22_adv, team_23_adv,
-             team_24_adv, team_25_adv, team_26_adv,
-             team_27_adv, team_28_adv, team_29_adv,
-             team_30_adv]
+             team_12_adv]
     # Shuffles the order of paths, so each adventure is different
     random.shuffle(paths)
 
