@@ -197,18 +197,21 @@ def team_11_adv(username):
     direction = input("Which  direction would you like to go? [N/S/E/W]")
     if direction =="N":
         print("You are trapped more with no resources")
+        return True
     elif direction == "S":
         print("Good choice")
         sleep(DELAY)
         print("You got a friend with you with some resources")
         print("Run together to move to more safer place")
+        return True
     elif direction == "W":
         print("You are alone but you have some resources")
         print("Run as fast as you can as there is something behind you")
         sleep(DELAY)
+        return True
     else:
         print("OOPS, You Died")
-    dead = True
+    return False
 
 ###################################################################################
 
