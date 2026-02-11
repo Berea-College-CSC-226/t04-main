@@ -160,20 +160,23 @@ def team_6_adv(username):
 
 
 def team_7_adv(username):
-    pass
-    # TEAM 7
 
-    # Guy is friendly and rescues us from the cave. They take you back to the town famed to have a secret treasury
-    # of unimaginable worth. but first, he takes you to a tavern. he offers you two drinks, one is poisonous
-    # and the other one contains elixir of the gods which grants you immortality.
-    # you can choose either one or you refuse to drink and missout on the treasure.
 
-    # if you choose the poison, the mage offers you another attempt at assessing your intelligence
-    # he asks if you would like something sweet with it?
-    # option 1, he gives you molly to add to the drink which removes the poisonous effect
-    # option 2, you refuse the molly and drink the poisonous drink and die
-    # option 3, you change your mind and decide to leave the tavern and start a new life of peace instead
+    """
+     TEAM 7
 
+     Guy is friendly and rescues us from the cave. They take you back to the town famed to have a secret treasury
+     of unimaginable worth. but first, he takes you to a tavern. he offers you two drinks, one is poisonous
+     and the other one contains elixir of the gods which grants you immortality.
+     you can choose either one or you refuse to drink and missout on the treasure.
+
+     if you choose the poison, the mage offers you another attempt at assessing your intelligence
+     he asks if you would like something sweet with it?
+     option 1, he gives you molly to add to the drink which removes the poisonous effect
+     option 2, you refuse the molly and drink the poisonous drink and die
+     option 3, you change your mind and decide to leave the tavern and start a new life of peace instead
+
+    """
     delay = 1
 
 
@@ -197,7 +200,7 @@ def team_7_adv(username):
             sleep(delay)
             print("a wonderful strength courses through your body. you feel rested to continue your adventure")
             sleep(delay)
-            dead = False
+            is_alive = True
             break
         elif drink == "blue":
             print("You can physically feel your stomach burning down")
@@ -205,21 +208,21 @@ def team_7_adv(username):
             print("You look to the mage and he smirks at you. 'You unworthy fool', he says")
             sleep(delay)
             print("Enjoy your sweet death, you are not worthy to live in our evil society")
-            dead = True
+            is_alive = False
             break
         elif drink == "decline":
             print("The mage looks at you with surprise")
             sleep(delay)
             print("This tavern is famous for its drinks. but it's okay if you wish to deprive yourself")
-            dead = False
+            is_alive = True
             break
         else:
-            print ("Wrong response. Please choose Red,Blue, or Decline")
+            print ("Wrong response. Please choose red, blue, or decline")
 
-    if dead:
+    if not is_alive:
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        quit()
-    return dead
+
+    return is_alive
 
 
 ###################################################################################
