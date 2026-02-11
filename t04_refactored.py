@@ -127,7 +127,6 @@ def team_1_adv(username):
 def team_2_adv(username):
     pass
 
-
 from time import sleep
 
 delay = 1.0
@@ -150,14 +149,13 @@ if choices == "pray":
     # Good choice!
     print("You are still trapped in the dark, but angels of the lord are with you, I hope they're friendly...")
     sleep(delay)
-elif direction == "curse":
-    # terrible chice!
+elif choices == "curse":
+    # terrible choice!
     print("you hear the cry and shouts of people from the outly world, screaming in agony")
     sleep(delay)
     print("it looks like your life choices have paid off")
     print("now take your rewards")
     dead = True
-
 
 ###################################################################################
 

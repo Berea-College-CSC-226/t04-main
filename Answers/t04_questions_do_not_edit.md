@@ -16,9 +16,9 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          | Bright | Elom      |        |
-| Navigator       | Alicia | Navigator |        |
-| Quality Control | Elom   | Alicia    |        |
+| Driver          |        |           |        |
+| Navigator       |        |           |        |
+| Quality Control |        |           |        |
 
 ___
 
