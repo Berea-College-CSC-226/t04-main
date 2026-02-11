@@ -189,29 +189,37 @@ def team_7_adv(username):
     print("but you're a guest, so it's okay. Here, have a drink")
 
     sleep(delay)
-    drink = input("Accept the drink from the stranger? There are two drinks 'red/blue/decline'")
-    if drink == "red":
-        print("It tastes disgusting, but you feel fine")
-        sleep(delay)
-        print("a wonderful strength courses through your body. you feel rested to continue your adventure")
-        sleep(delay)
-    elif drink == "blue":
-        print("You can physically feel your stomach burning down")
-        sleep(delay)
-        print("You look to the mage and he smirks at you. 'You unworthy fool', he says")
-        sleep(delay)
-        print("Enjoy your sweet death, you are not worthy to live in our evil society")
-        dead = True
-    elif drink == "decline":
-        print("The mage looks at you with surprise")
-        sleep(delay)
-        print("This tavern is famous for its drinks. but it's okay if you wish to deprive yourself")
-    else:
-    # elif for if they didn't use the right reponse, try again feature.
+
+    while True:
+        drink = input("Accept the drink from the stranger? There are two drinks 'red/blue/decline'")
+        if drink == "red":
+            print("It tastes disgusting, but you feel fine")
+            sleep(delay)
+            print("a wonderful strength courses through your body. you feel rested to continue your adventure")
+            sleep(delay)
+            dead = False
+            break
+        elif drink == "blue":
+            print("You can physically feel your stomach burning down")
+            sleep(delay)
+            print("You look to the mage and he smirks at you. 'You unworthy fool', he says")
+            sleep(delay)
+            print("Enjoy your sweet death, you are not worthy to live in our evil society")
+            dead = True
+            break
+        elif drink == "decline":
+            print("The mage looks at you with surprise")
+            sleep(delay)
+            print("This tavern is famous for its drinks. but it's okay if you wish to deprive yourself")
+            dead = False
+            break
+        else:
+            print ("Wrong response. Please choose Red,Blue, or Decline")
 
     if dead:
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
         quit()
+    return dead
 
 
 ###################################################################################
