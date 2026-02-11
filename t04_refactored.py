@@ -153,7 +153,9 @@ def team_5_adv(username):
 
 
 def team_6_adv(username):
-    #
+#    Ahmed Abdoun
+#    Leroy Freeman
+#    https://docs.google.com/document/d/1nit5AfdSdOhGkO80dlZA_cJudYernRZ7Rr9f37wTdO8/edit?usp=sharing
     pass
     print("A ball lays at your foot you must kick the ball in the direction of the path you want to take.")
     direction = input("Which direction would you like to kick the ball? Left, Right, Middle?")
@@ -161,18 +163,19 @@ def team_6_adv(username):
     if direction == "Left":
         # safe
         print("WOWWWWWW WHAT A SHOT, GOALLLLLLLLLLL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! You find a path out.")
-
+        return True
     elif direction == "Right":
         # dead
         print("YIKES! THAT WAS A HORRIBLE SHOT, SHOT SAVED. A HUGE BALL ROLLS TOWARDS YOU AND CRUSHES YOU.")
-        dead = True
+        return False
     else:
         # neutral
         print("YOU ALMOST MADE BUT SADLY DIDN'T, WOMP WOMP. Ball rolls back to you.")
+        return True
 
-    if dead == True:
-        print("Sadly, you have failed and DIED! Run the game again and try again.")
-        quit()
+    #if dead == True:
+     #   print("Sadly, you have failed and DIED! Run the game again and try again.")
+      #  quit()
 
 ###################################################################################
 
