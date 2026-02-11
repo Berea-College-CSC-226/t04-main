@@ -19,6 +19,7 @@
 #
 ######################################################################
 import random
+from operator import truediv
 from time import sleep
 
 DELAY = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
@@ -173,11 +174,11 @@ def team_8_adv(username):
     Beni Shendera
     :return: None
     """
-    pass
+
 # TEAM 8
 
 #beni said if statement may help
-dead = False
+
 
 username = input("What is your name? ")
 print()
@@ -186,13 +187,15 @@ print()
 print("Before you there are three doors, behind one of them will lead you to a path with lots of money, and behind the other two there is certain death. You must choose correctly if you want to live")
 Choose_Door = input("Choose a door! [A, B, C]")
 if Choose_Door == 'A':
-    print("Correct Door! You found all of the money good job!")
+    #print("Correct Door! You found all of the money good job!")
 
-elif Choose_Door =='B'or'C': # Added C because two paths are meant to be certain death.
-    print("Wrong door! You die!")
-    dead = True
-else:
-    print("You found the way out but you get no reward") #Even if you get the right or wrong answer if its lowercase it reads as else. We need to let user know only uppercase.
+
+#elif Choose_Door ==('B','C'): # Added C because two paths are meant to be certain death.
+    #print("Wrong door! You die!")
+
+
+#else:
+    #print("You found the way out but you get no reward") #Even if you get the right or wrong answer if its lowercase it reads as else. We need to let user know only uppercase.
 
 ###################################################################################
 
