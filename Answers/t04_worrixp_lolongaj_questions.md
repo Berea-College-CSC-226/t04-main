@@ -94,13 +94,13 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       making a copy of repo from git to your own device
 
-        b. Commit:      ____________________
+        b. Commit:      saving the changes you made to your own device
 
-        c. Push:        ____________________
+        c. Push:        saving the updates you made from your device to github
 
-        d. Branch:      ____________________
+        d. Branch:      
 
         e. Pull:        ____________________
 
