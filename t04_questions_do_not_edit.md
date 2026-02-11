@@ -49,12 +49,14 @@ ___
     **Replace This With Your Answer**
 ```
 
+_Return to the Google Doc to continue this assignment._
+
 ___
 
 ## SECTION 2
 
 2.a. You should notice that there are multiple branches in the Github repository. 
-     Find yours and check that your code is there. Compare your branch to main. What’s different?
+     Find yours and check that your code is there. Compare your branch to `main`. What’s different?
 
 ```        
     **Replace This With Your Answer**
