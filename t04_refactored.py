@@ -146,8 +146,95 @@ def team_4_adv(username):
 
 
 def team_5_adv(username):
-    pass
-    # TODO Add your code here
+
+    alive_team_5 = True
+
+    print("After your previous adventure, you seek another path.")
+    print("You're walking up the side of a mountain, desiring the title of 'Greatest Adventurer'...")
+    sleep(DELAY)
+    print("Legends say that those who climb the mountain never return.")
+    sleep(DELAY)
+    input("Press Enter to roll for dexterity:")
+    rollValue = random.randrange(2)
+
+    if rollValue == 0:
+        sleep(DELAY * 3)
+        print("Nothing happens! You carry on walking up the mountain....")
+
+    else:
+        sleep(DELAY * 3)
+        print("Oh no! You tripped on a vine! Like an idiot!")
+        sleep(DELAY)
+        print("You fall hundreds of meters to the depths of the Underground onto a bed of yellow flowers.")
+        sleep(DELAY)
+        print("You, somehow still alive, look around to see the smiling face of a particularly stupid-looking flower.")
+        sleep(DELAY)
+        print('??????: "Howdy! I\'m FLOWEY. FLOWEY the FLOWER! Hmmm... You\'re new to the UNDERGROUND, aren\'tcha? Golly, you must be so confused. \nSomeone ought to teach you how things work around here! I guess little old me will have to do."')
+        sleep(DELAY)
+        print("What do you want to do?")
+        sleep(DELAY)
+        while True:
+            try:
+                choice_flowey = input("\n\tA:Stomp on the stupid flower \n\tB:Accept its suspicious offer \n\tC:Decline its suspicious offer (trust me, bro)\n\t")
+                choice_flowey = choice_flowey.lower()
+                if choice_flowey == "a":
+                    sleep(DELAY * 3)
+                    print("You killed it.")
+                    sleep(DELAY)
+                    print(username, ", you are a meanie, and you killed it...")
+                    sleep(DELAY)
+                    print("You are evil and I don't trust you")
+                    sleep(DELAY)
+                    print("Flowey might have been a father of over fifteen thousand seeds. (true--look it up)")
+                    sleep(DELAY)
+                    print("Go away, be ashamed")
+                    sleep(DELAY)
+                    print("You moved on with your adventure...somehow. With no remorse.")
+                    sleep(DELAY * 3)
+                    break
+                elif choice_flowey == "b":
+                    sleep(DELAY * 3)
+                    print("You accepted the flower's offer.")
+                    sleep(DELAY)
+                    print("(I can't believe you trusted it.)")
+                    sleep(DELAY)
+                    print("FLOWEY: \"REALLY? You accept my offer?\" ")
+                    sleep(DELAY)
+                    print("FLOWEY: \"Let me show you defend yourself in this world.\" ")
+                    sleep(DELAY)
+                    print("You enter into a fight with the stupid-yellow flower, where it taught you how to navigate the UNDERGROUND.")
+                    sleep(DELAY)
+                    print("You now, feeling prepared to FIGHT some monsters, go on your merry way throughout the UNDERGROUND.")
+                    sleep(DELAY * 3)
+                    break
+                elif choice_flowey == "c":
+                    sleep(DELAY * 3)
+                    print("You rejected the offer.")
+                    sleep(DELAY)
+                    print("He is mad.")
+                    sleep(DELAY)
+                    print("You are scared")
+                    sleep(DELAY)
+                    print("You. Are. In. Danger.")
+                    sleep(DELAY)
+                    print("FLOWEY: \"DIE.\"")
+                    sleep(DELAY)
+                    print("The ground shakes. This flower, a fifth of your size, extends from beneath you in all directions. \nGiant pinchers made of flesh and teeth form from within an overgrown mass of stupid-yellow flowers and sit on either side of you. \nPinchers which, with the force of fifteen-thousand flowers, slam shut.")
+                    sleep(DELAY)
+                    alive_team_5 = False
+                    break
+                else:
+                    sleep(DELAY * 3)
+                    print("Please choose ONLY a,b,c")
+
+            except ValueError:
+                print(" ")
+
+    if not alive_team_5:
+            print("Woops. You died. Bummer.")
+            sleep(DELAY * 3)
+
+    return alive_team_5
 
 ###################################################################################
 
