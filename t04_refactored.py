@@ -194,7 +194,7 @@ def team_11_adv(username):
     Danny Abnee
     :return: none
     """
-    direction = input("Which  direction would you like to go? [N/S/E/W]")
+    direction = input("Which direction would you like to go? [N/S/E/W]")
     if direction =="N":
         print("You are trapped more with no resources")
         return True
@@ -211,7 +211,7 @@ def team_11_adv(username):
         return True
     else:
         print("OOPS, You Died")
-    return False
+        return False
 
 ###################################################################################
 
