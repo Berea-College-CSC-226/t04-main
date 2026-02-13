@@ -68,13 +68,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    t04_refactored.py is diffrent within our branch where we have made changes.
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    Yes, but our code is not in their branches. The purpose of a branch is to keep changes seperated in a modular way.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -83,14 +83,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Hasnt been accepted yet, but it will be in main branch once it is.
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    No ones code has been merged in the main branch as of writing.
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -98,30 +98,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    No, we need to pull from the repo in the cloud first. aka github
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       copy repo to local machine
 
-        b. Commit:      ____________________
+        b. Commit:      log changes with git
 
-        c. Push:        ____________________
+        c. Push:        send changes with git to remote  repo
 
-        d. Branch:      ____________________
+        d. Branch:      a near-duplicate enviroment for making changes safely
 
-        e. Pull:        ____________________
+        e. Pull:        update project with changes from remote  repo
 
-        f. Pull Request:____________________
+        f. Pull Request: request for changes to be merged into another branch
 
-        g. Merge:       ____________________
+        g. Merge:       combine changes between branches
 
-        h. Remote:      ____________________
+        h. Remote:      on anothr computer/server on internet
 
-        i. Local:       ____________________
+        i. Local:       on ones own computer
 
-        j. Fetch:       ____________________
+        j. Fetch:       pulling without mergeing changes in git
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -133,7 +133,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+   nothing too confusing. 
 ```
 
 ---
