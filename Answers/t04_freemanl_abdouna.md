@@ -58,13 +58,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+   main includes all the code thats been approved and merged from the student branches
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    other groups branches do not include our code because we eorked on it in our branch, and they have different functions to take care of
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
