@@ -29,7 +29,7 @@ ___
 
 ```
     **Beni: 
-    Bri: I can better follow the order of code from main.**
+    Bri: I can better follow the order of code from main. **
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
@@ -49,7 +49,7 @@ ___
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    **The removal and adding of spacing making the code look clearer to read and follow.**
 ```
 
 ___

@@ -174,13 +174,13 @@ def team_8_adv(username):
     Beni Shendera
     :return: None
     """
-
 # TEAM 8
     print()
     print("Welcome", username)
     print()
     print("Before you there are three doors, behind one of them will lead you to a path with lots of money, and behind the other two there is certain death. You must choose correctly if you want to live")
     Choose_Door = input("Choose a door(Upper Case Letters Only)! [A, B, C]")
+
     if Choose_Door == 'A':
         print("Correct Door! You found all of the money good job!")
         return True #user stays alive
@@ -188,7 +188,6 @@ def team_8_adv(username):
     elif Choose_Door ==('B','C'): # Added C because two paths are meant to be certain death.
         print("Wrong door! You die!")
         return False #kills user
-
 
     else:
         print("You found the way out but you get no reward") #Even if you get the right or wrong answer if its lowercase it reads as else. We need to let user know only uppercase.
