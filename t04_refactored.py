@@ -160,22 +160,16 @@ def team_6_adv(username):
 
 
 def team_7_adv(username):
-
-
     """
      TEAM 7
+     Mekiyan Bynum, Habiba Sorour.
+
+     Gogole Doc: https://docs.google.com/document/d/1ivbYwafpyseBenlWDQZk8Gup2o7gaRnLvWJuRMxk74g/edit?tab=t.0#heading=h.f6tumop9n7at
 
      Guy is friendly and rescues us from the cave. They take you back to the town famed to have a secret treasury
      of unimaginable worth. but first, he takes you to a tavern. he offers you two drinks, one is poisonous
      and the other one contains elixir of the gods which grants you immortality.
      you can choose either one or you refuse to drink and missout on the treasure.
-
-     if you choose the poison, the mage offers you another attempt at assessing your intelligence
-     he asks if you would like something sweet with it?
-     option 1, he gives you molly to add to the drink which removes the poisonous effect
-     option 2, you refuse the molly and drink the poisonous drink and die
-     option 3, you change your mind and decide to leave the tavern and start a new life of peace instead
-
     """
     delay = 1
 

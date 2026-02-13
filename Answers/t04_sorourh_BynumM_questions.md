@@ -76,14 +76,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes it is after it was approved 
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Yes if their pr request got accepted
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -91,30 +91,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+Yes because the local is our system so yes it is in our system
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Copying over the repo to have your own version of it on your local machine
 
-        b. Commit:      ____________________
+        b. Commit:      Saving your code 
 
-        c. Push:        ____________________
+        c. Push:        Sending it to the remote (GitHub) to save just incase your code messes up on your IDE
 
-        d. Branch:      ____________________
+        d. Branch:      Own copy of the code before adding it into the final product (main)
 
-        e. Pull:        ____________________
+        e. Pull:        Updating project to match the main and the remote and local
 
-        f. Pull Request:____________________
+        f. Pull Request: Sending a request to be put into the main branch (final product)
 
-        g. Merge:       ____________________
+        g. Merge:       Combining versions of the code to make a final product
 
-        h. Remote:      ____________________
+        h. Remote:      repo or banch hosted on a server
 
-        i. Local:       ____________________
+        i. Local:       Your personal machine
 
-        j. Fetch:       ____________________
+        j. Fetch:       Adding changes from remote without commiting
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -126,7 +126,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+ How will merging two branches look like? 
 ```
 
 ---
