@@ -135,7 +135,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    **N/A**
 ```
 
 ---
