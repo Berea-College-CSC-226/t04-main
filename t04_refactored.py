@@ -19,7 +19,7 @@
 #
 ######################################################################
 import random
-from operator import truediv
+
 from time import sleep
 
 DELAY = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
@@ -172,7 +172,7 @@ def team_8_adv(username):
     https://docs.google.com/document/d/1j23A_VkawfeRgZKJJqtFY3bFMhAotUu5Kl974QQRjrk/edit?usp=sharing
     Briana Nshimirimana
     Beni Shendera
-    :return: None
+    :return: True or False
     """
 # TEAM 8
     print()
@@ -185,7 +185,7 @@ def team_8_adv(username):
         print("Correct Door! You found all of the money good job!")
         return True #user stays alive
                                                                                #code was not indented(still global) which did not allow us to return True or False
-    elif Choose_Door ==('B','C'): # Added C because two paths are meant to be certain death.
+    elif Choose_Door =='B'or'C': # Added C because two paths are meant to be certain death.
         print("Wrong door! You die!")
         return False #kills user
 
@@ -239,7 +239,7 @@ def main():
 
     user = start_story()
     for i in range(len(paths)):
-        is_alive = paths[i](user)  # Runs each function in the paths list
+        is_alive = team_8_adv(user)  # Runs each function in the paths list
         kill_if_dead(is_alive)
 
     end_story(user)
