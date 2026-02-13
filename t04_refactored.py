@@ -150,7 +150,7 @@ def team_5_adv(username):
     https://docs.google.com/document/d/1dzAfok-haJ2YMxQP-wVvN76Y-88vlwHmhbum4cHUhDc/edit?usp=sharing
     Jayden Fleming
     Artem Kurasov
-    :return: None
+    :return: Bool
     """
 
     alive_team_5 = True
@@ -160,13 +160,13 @@ def team_5_adv(username):
     sleep(DELAY)
     print("Legends say that those who climb the mountain never return.")
     sleep(DELAY)
-    input("Press Enter to roll for dexterity:")
-    rollValue = random.randrange(2)
 
-    if rollValue == 0:
+    input("Press Enter to roll for dexterity:")
+    roll_value = random.randrange(2)
+
+    if roll_value == 0:
         sleep(DELAY * 3)
         print("Nothing happens! You carry on walking up the mountain....")
-
     else:
         sleep(DELAY * 3)
         print("Oh no! You tripped on a vine! Like an idiot!")
@@ -232,7 +232,6 @@ def team_5_adv(username):
                 else:
                     sleep(DELAY * 3)
                     print("Please choose ONLY a,b,c")
-
             except ValueError:
                 print(" ")
 
@@ -246,8 +245,8 @@ def team_5_adv(username):
 
 
 def team_6_adv(username):
-    pass
-    # TODO Add your code here
+   pass
+   # TODO Add your code here
 
 ###################################################################################
 
