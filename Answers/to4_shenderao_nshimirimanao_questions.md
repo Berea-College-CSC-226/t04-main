@@ -28,7 +28,8 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Beni: "I'm smarter."**
+    **Beni: 
+    Bri: I can better follow the order of code from main.**
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
@@ -40,7 +41,9 @@ ___
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **Yes, at the start because they wrote their code different from ours. After rereading, running it, and
+    breaking it down we started to understand why their code was doing certain things and how we could
+    debug these issues.**
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
@@ -57,13 +60,17 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **Our answer file was added on our branch and the section of our code in the t04 refactored 
+    file is filled out.**
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **We do see other group's branches in the repo but our code isn't in their branch. We all our working
+    on different branches that are copies of the main branch. We can make changes to our branch without 
+    affecting other branches. Main branch can affect all branches because if you update it you need to merge the updates
+    to your branch to have the most updated version of the file so you can avoid merging conflicts in the future.**
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
