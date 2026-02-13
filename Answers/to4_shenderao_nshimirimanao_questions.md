@@ -28,14 +28,20 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Beni: 
+    **Beni: I got better at seeing errors.
     Bri: I can better follow the order of code from main. **
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+We made sure to return true or false values, so it can go with kill_if_dead(is_alive). 
+We added C on line 188, because two paths are meant to be certain death.code was not indented(still global) which
+ did not allow us to return True or False so, we indented it. Told the user to only submit uppercase
+ letters because even if they choose the right door but its lowercase it will print the else statement.
+ 
+ 
+
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
