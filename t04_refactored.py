@@ -140,10 +140,10 @@ def team_3_adv(username):
 
 def team_4_adv(username):
 
-"""
-This function is a pick your own adventure story that sets you as a NBA player your goal is to win
-the game by picking the best options.
-"""
+    """
+    This function is a pick your own adventure story that sets you as a NBA player your goal is to win
+    the game by picking the best options.
+    """
 
     from time import sleep
     import random
@@ -162,7 +162,7 @@ the game by picking the best options.
     elif kat == 2:
         print("kat dunked on Tobias!")
         return True
-    else:
+    elif kat == 3:
         print("kat shoots a 3 point shot!")
         choice = input("you have 2 seconds left of the clock to score 1 point you have 3 options! "
               "A. try and foul to get a free throw. B. make a layup. C. make a crazy half court shot. what do you choose (A, B, or C)?")
@@ -175,7 +175,12 @@ the game by picking the best options.
         elif choice == "C":
             print("you some how made the half court shot winning your team the game.")
             return True
-        else
+        else:
+            print("That was not an option!")
+            return False
+    else:
+        return False
+
 
 ###################################################################################
 
