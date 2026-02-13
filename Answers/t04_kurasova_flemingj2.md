@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          | Jayden | Artem     |        |
-| Navigator       | Artem  | Jayden    |        |
+| Driver          | Jayden | Artem     | Jayden |
+| Navigator       | Artem  | Jayden    | Artem  |
 | Quality Control |        |           |        |
 
 ___
@@ -28,27 +28,36 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    We became better at using Git, GitHub, and Pycharm. Besides that, now we can write cleaner code
+    We became better at using Git, GitHub, and Pycharm. Besides that, now we can write cleaner code as we started to 
+    use functions more frequently. So, now our code is not just a long line of commands; it's also functions that 
+    split the program into certain tasks. Moreover, we learned how to use the main() function, which 
+    deploys the code of the program.  
+
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    The biggest change in our code is the fact that we started to use functions more frequently. So, now
-    our code is not just a long line of commands; it's also functions that split the program into certain
-    tasks. Moreover, we learned how to use the main() function, which deploys the code of the program.  
+    One of the logic changes we have made is turning our code into a function. As a result, we had to add return values
+    to our code. Also, we had to account for the fact that the code now checks whether the user is alive, while
+    before it used to check if they were DEAD. This change impacted the logic of our code as well. 
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+     Another group's code was slightly confusing because it used a lot of advanced statements (like try & catch, 
+     while-loops), which had made the code more complicated. In my opinion, some of those statements (like using
+     try & catch) were not even that necessary; nevertheless, we decided to leave that unchanged, trying to keep
+     the code closer to its original version and focusing on debugging. 
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    One of the PEP8 warnings we got was having a useless variable in the code, meaning that it was created but
+    never used. Also, another PEP8 warning was bad naming, so we had to write the variable in the lower case and 
+    with underscores, instead of writing them in the CamelCase. 
 ```
 
 ___
