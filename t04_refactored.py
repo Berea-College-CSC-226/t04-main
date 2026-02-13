@@ -299,7 +299,7 @@ def main():
     :return: None
     """
 
-    paths = [team_1_adv, team_2_adv,
+    paths = [scott_adventure, team_1_adv, team_2_adv,
              team_3_adv, team_4_adv, team_5_adv,
              team_6_adv, team_7_adv, team_8_adv,
              team_9_adv, team_10_adv, team_11_adv,
@@ -310,7 +310,7 @@ def main():
     user = start_story()
     for i in range(len(paths)):
         is_alive = paths[i](user)  # Runs each function in the paths list
-     #   kill_if_dead(is_alive)
+        kill_if_dead(is_alive)
 
     end_story(user)
 
