@@ -73,14 +73,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes it is
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Yes it is
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -88,30 +88,31 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    Not because my local branch hasn't been merged with the remote main branch yet.
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Duplicates a repository from Github to edit
 
-        b. Commit:      ____________________
+        b. Commit:      Marks a milestone in your code and makes it to where you can go back
+                         to a previous version if needed.
 
-        c. Push:        ____________________
+        c. Push:        Pushes your version or branch to the repo in github
 
-        d. Branch:      ____________________
+        d. Branch:      Creates a local copy of the repo for you to edit until it is ready to be merged
 
-        e. Pull:        ____________________
+        e. Pull:        Pulls the current version from the repo in Github to update your local version
 
-        f. Pull Request:____________________
+        f. Pull Request: A formal request for your branch to be merged into the main branch
 
-        g. Merge:       ____________________
+        g. Merge:       Merges to different branches into 1 combining code
 
-        h. Remote:      ____________________
+        h. Remote:      The main version of the code in github
 
-        i. Local:       ____________________
+        i. Local:       The copy of the repo on your local machine
 
-        j. Fetch:       ____________________
+        j. Fetch:       Downloads commits, files, and refs from a remote repo without commiting them so they can be reviewed
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -123,7 +124,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    We both understand Git completely.
 ```
 
 ---
