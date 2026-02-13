@@ -14,11 +14,11 @@ Change roles each day!
     Complete the table below at the start of each class period:
 ```
 
-|                 | Monday   | Wednesday | Friday |
-|-----------------|----------|-----------|--------|
-| Driver          | Prestonw |           |        |
-| Navigator       | lolongaJ |           |        |
-| Quality Control |          |           |        |
+|                 | Monday   | Wednesday | Friday  |
+|-----------------|----------|-----------|---------|
+| Driver          | Prestonw | Prestonw  | John    |
+| Navigator       | lolongaJ | John      | Preston |
+| Quality Control |          |           |         |
 
 ___
 
@@ -102,17 +102,17 @@ ___
 
         d. Branch:      
 
-        e. Pull:        ____________________
+        e. Pull:        getting new updates from github to you device 
 
-        f. Pull Request:____________________
+        f. Pull Request:Asking to the repo owner to merge your code/work into the main 
 
-        g. Merge:       ____________________
+        g. Merge:       
 
-        h. Remote:      ____________________
+        h. Remote:      
 
-        i. Local:       ____________________
+        i. Local:       
 
-        j. Fetch:       ____________________
+        j. Fetch:       
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
