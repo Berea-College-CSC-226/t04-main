@@ -149,13 +149,37 @@ if choices == "pray":
     # Good choice!
     print("You are still trapped in the dark, but angels of the lord are with you, I hope they're friendly...")
     sleep(delay)
-elif choices == "curse":
+    print("The lord is now with you. The game has ended")
+    sleep(delay)
+
+elif choices == "sleep":
     # terrible choice!
     print("you hear the cry and shouts of people from the outly world, screaming in agony")
     sleep(delay)
     print("it looks like your life choices have paid off")
     print("now take your rewards")
+    sleep(delay)
+    print("...dead")
+    dead = False
+
+elif choices == "curse":
+    print("why would you do that bro")
+    sleep(delay)
+    print("lol you die now")
+    print(username, "... dead")
+
+elif choices == "worship":
+    print("your are now one of them...")
+    sleep(delay)
+    print("you're still alive, but you are nothing but food to them")
+    sleep(delay)
+
+newchoice = input("what do you do? [ run or fight ]")
+if newchoice == "run":
     dead = True
+if newchoice == "fight":
+    dead = True
+print("you are now dead")
 
 ###################################################################################
 

@@ -16,31 +16,37 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          | Bright | Elom      |        |
-| Navigator       | Alicia | Navigator |        |
-| Quality Control | Elom   | Alicia    |        |
+| Driver          | Bright | Elom      | Alicia |
+| Navigator       | Alicia | Bright    | Elom   |
+| Quality Control | Elom   | Alicia    | Bright |
 
 ___
 
 ## SECTION 1
 
-1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to 
-     **t01_final_story.py** for "inspiration".
+1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to
+    **t01_final_story.py** for "inspiration".
+
 
 ```
-    **Replace This With Your Answer**
+  Analysis of the code has improved and he can now identify problems esaily.
+ I have leanred how to make use of nested loops easily.
+ it is easier for her to understand the syntax.
 ```
+
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
+
 ```
-    **Replace This With Your Answer**
+   we added more options to the choices we can make, and then a death option.
 ```
+
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **Yes, it was hard to tell if our game ended properly.**
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
