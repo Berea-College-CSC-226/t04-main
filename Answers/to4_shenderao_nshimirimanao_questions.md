@@ -101,15 +101,15 @@ ___
 ```
         a. Clone:       ____________________
 
-        b. Commit:      ____________________
+        b. Commit:      When you save progress of changes made on the branch.
 
-        c. Push:        ____________________
+        c. Push:       When you send your changes to git.
 
         d. Branch:      ____________________
 
         e. Pull:        ____________________
 
-        f. Pull Request:____________________
+        f. Pull Request: Formally asking for my branch to be merged into the repo.
 
         g. Merge:       ____________________
 
