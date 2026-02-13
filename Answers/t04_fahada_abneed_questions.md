@@ -97,30 +97,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    Because the code hasn't been merged yet 
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Makes a copy of the main repository
 
-        b. Commit:      ____________________
+        b. Commit:      Save changes
 
-        c. Push:        ____________________
+        c. Push:        Upload saved changes
 
-        d. Branch:      ____________________
+        d. Branch:      Your own copy of the code that doesn't conflict with your main
 
-        e. Pull:        ____________________
+        e. Pull:        Update latest changes to main
 
-        f. Pull Request:____________________
+        f. Pull Request: Request to merge my saved changes to the original repo
 
-        g. Merge:       ____________________
+        g. Merge:       Adding someone's code to someone else's main
 
-        h. Remote:      ____________________
+        h. Remote:      The code that is not in my local computer
 
-        i. Local:       ____________________
+        i. Local:       The code that is saved in my local computer
 
-        j. Fetch:       ____________________
+        j. Fetch:       To retrieve code from the remote
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -132,7 +132,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    We didn't run into any issues on Git, so it's all good!
 ```
 
 ---
