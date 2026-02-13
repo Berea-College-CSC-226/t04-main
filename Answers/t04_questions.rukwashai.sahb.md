@@ -46,7 +46,9 @@ ___
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    ** **
+    ** We fixed the indentation error like there were some unnecessary sapce after print and print( and There were spaces
+     around operators and we removed some unnecessary lines, we added a space after # in comment.And we removed unnecessary 
+     trailing spaces**
 ```
 
 ___

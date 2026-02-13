@@ -137,15 +137,16 @@ def team_3_adv(username):
     DANIEL RUKWASHA
     BHUSHAN SAH
     """
-    direction=input("What is the direction: ")
+    direction=input("What is the direction[North/South/East/West] ")
     if direction == "North":
-        yes_no = input("do you want to talk to him (yes/no)")
+        yes_no = input("Do you want to talk to him (yes/no)?")
         if yes_no == "yes":
             # good choice
             print("he claims he knows where the treasure is and has no use for it")
+            return True
         elif yes_no == "no":
             print("the man yells at you and starts charging you")
-        return False
+            return False
     # neutral path continue
     # good
     delay=1
@@ -153,7 +154,7 @@ def team_3_adv(username):
             # Good choice!
         print("You are still trapped in the dark, but someone else is there with you now! I hope they're friendly...")
         sleep(delay)
-        return False
+        return True
     elif direction == "South":
         # Oh... Bad choice
          print("You hear a growl. Not a stomach growl. More like a big nasty animal growl.")
@@ -162,13 +163,13 @@ def team_3_adv(username):
          print("Running seems like a good idea now. But... it's really, really dark.")
          print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
          print("He eats you. You are delicious.")
-         return True
+         return False
 
     else:
         print( "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
         sleep(delay)
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
-        return True
+        return False
 
 
 ###################################################################################
