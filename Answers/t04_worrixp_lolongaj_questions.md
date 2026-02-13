@@ -14,11 +14,11 @@ Change roles each day!
     Complete the table below at the start of each class period:
 ```
 
-|                 | Monday | Wednesday | Friday |
-|-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
-| Quality Control |        |           |        |
+|                 | Monday   | Wednesday | Friday  |
+|-----------------|----------|-----------|---------|
+| Driver          | Prestonw | Prestonw  | John    |
+| Navigator       | lolongaJ | John      | Preston |
+| Quality Control |          |           |         |
 
 ___
 
@@ -28,28 +28,28 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    more paths and detail along with cleaner functions and writing of code
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+     we added if else statement for more options of what to do along with a input statement to allow the 
+     user to choose what to do instead of the original random int statement provided
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    the actural logic of the code wasnt to hard to follow but the story was as neither of us have extensive sports knowledge 
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    they had tried to use random functions and delay functions with out importing time or random respectively looks better
+    as the red lines are now gone
 ```
-
-_Please return to the Google Doc to continue this assignment_
 
 ___
 
@@ -59,13 +59,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    the difference between our branch and main is main doesnt have our work such as the questions or code
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    no as none of the branches have been merged together they are all still seperate 
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -94,25 +94,25 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       making a copy of repo from git to your own device
 
-        b. Commit:      ____________________
+        b. Commit:      saving the changes you made to your own device
 
-        c. Push:        ____________________
+        c. Push:        saving the updates you made from your device to github
 
-        d. Branch:      ____________________
+        d. Branch:      
 
-        e. Pull:        ____________________
+        e. Pull:        getting new updates from github to you device 
 
-        f. Pull Request:____________________
+        f. Pull Request:Asking to the repo owner to merge your code/work into the main 
 
-        g. Merge:       ____________________
+        g. Merge:       
 
-        h. Remote:      ____________________
+        h. Remote:      
 
-        i. Local:       ____________________
+        i. Local:       
 
-        j. Fetch:       ____________________
+        j. Fetch:       
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.

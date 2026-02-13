@@ -14,11 +14,11 @@ Change roles each day!
     Complete the table below at the start of each class period:
 ```
 
-|                 | Monday | Wednesday | Friday |
-|-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
-| Quality Control |        |           |        |
+|                 | Monday  | Wednesday | Friday  |
+|-----------------|---------|-----------|---------|
+| Driver          | Bhushan | Danieal   | Bhushan |
+| Navigator       | Danieal | Bhushan   | Danieal |
+| Quality Control | Both    | Both      | Both    |
 
 ___
 
@@ -28,28 +28,28 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    **We can easily notice the indetation error and know what to expect from the function **
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    **Prevouisly we just used print and quit, but now we are returning according to the need, When it comes for boolean value we kind of put the right one to return the right value**
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **It wasn't challenging if we go through each and every line, we can easily understand what another group wants to do.**
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    ** We fixed the indentation error like there were some unnecessary sapce after print and print( and There were spaces
+     around operators and we removed some unnecessary lines, we added a space after # in comment.And we removed unnecessary 
+     trailing spaces**
 ```
-
-_Please return to the Google Doc to continue this assignment_
 
 ___
 
@@ -59,13 +59,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **The difference is that our brnch have two additional files that main and is t04_questions and to4_refactored.py in Answers folder **
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **Yes, we are seeing other group's brnaches too, No our code in not in their branch, because all of us have worked on different branches. we will be able to see that if we merge our branch into their. **
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -94,13 +94,12 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:      is a process which helps you to get access to the remote project on your local computer 
 
-        b. Commit:      ____________________
+        b. Commit:      It is like taking screenshot of the code and save. OR we can also save that our work is ready to push.
 
-        c. Push:        ____________________
-
-        d. Branch:      ____________________
+        c. Push:        Transferring our work from our local computer to Github
+        d. Branch:      Branch is copied filed of the main, which has access to the same feature as the main but the change you made will not be in main directly
 
         e. Pull:        ____________________
 

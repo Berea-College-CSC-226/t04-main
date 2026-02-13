@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
+| Driver          | Boone  |           |        |
+| Navigator       | Alain  |           |        |
 | Quality Control |        |           |        |
 
 ___
@@ -28,28 +28,26 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    We defined 'delay' and also set 'dead' to false at the start.
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We didn't make any logic changes
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    Not really because it is a simple program
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    There were no PEP8 warnings.
 ```
-
-_Please return to the Google Doc to continue this assignment_
 
 ___
 
@@ -59,13 +57,14 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    The only differences are the questions file and the refactored.py file.
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    No it isn't because our changes have not been merged to main yet so it couldn't show
+    up in their code.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -74,14 +73,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes it is
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Yes it is
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -89,30 +88,31 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    Not because my local branch hasn't been merged with the remote main branch yet.
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Duplicates a repository from Github to edit
 
-        b. Commit:      ____________________
+        b. Commit:      Marks a milestone in your code and makes it to where you can go back
+                         to a previous version if needed.
 
-        c. Push:        ____________________
+        c. Push:        Pushes your version or branch to the repo in github
 
-        d. Branch:      ____________________
+        d. Branch:      Creates a local copy of the repo for you to edit until it is ready to be merged
 
-        e. Pull:        ____________________
+        e. Pull:        Pulls the current version from the repo in Github to update your local version
 
-        f. Pull Request:____________________
+        f. Pull Request: A formal request for your branch to be merged into the main branch
 
-        g. Merge:       ____________________
+        g. Merge:       Merges to different branches into 1 combining code
 
-        h. Remote:      ____________________
+        h. Remote:      The main version of the code in github
 
-        i. Local:       ____________________
+        i. Local:       The copy of the repo on your local machine
 
-        j. Fetch:       ____________________
+        j. Fetch:       Downloads commits, files, and refs from a remote repo without commiting them so they can be reviewed
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -124,7 +124,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    We both understand Git completely.
 ```
 
 ---
