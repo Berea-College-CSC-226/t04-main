@@ -41,13 +41,15 @@ ___
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+     It was difficult. Most of the time, you could not understand a lick of what they were wanting to make. There were 
+     nonsensical options that confused us. 
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+     The only PEP8 warning that we got was the "repeated code" warning, which came from the do_not_edit file, so of 
+     course it will be repeated.
 ```
 
 ___
@@ -58,7 +60,8 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    In our branch we only have our piece of code, but in main branch we see other people's branches PR accepted, and we 
+    see other people's code.
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
