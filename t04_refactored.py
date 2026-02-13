@@ -117,9 +117,41 @@ def scott_adventure():
 ###################################################################################
 ###################################################################################
 
+# TEAM 1
+
+
 def team_1_adv(username):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1PLwoW15mirjgG_MOtOCZAjJRucTlYP_teVuck7RF2q0/edit?usp=sharing
+    Boone Riley
+    Alain Irumva
+    :return: None
+    """
+
+    delay = 1.0
+
+    print("Luckily, you have a flashlight; should you use it?")
+    choice_2 = input("Yes/No? ")
+
+    if choice_2 == "Yes":
+        # Good choice
+        print("You discover a friendly person that offers you some food.")
+        return True
+    elif choice_2 == "No":
+        # Bad choice
+        print("You hear footsteps..")
+        sleep(delay)
+        print("They notice you and start screaming. In a panic you fall and hit your head on a rock")
+        return False
+    else:
+        print("The cave is swarming with bats!")
+        print("You start running..")
+        sleep(delay)
+        print("Suddenly, you see some light, you run toward the light")
+        sleep(delay)
+        print("After running forever, you make it out of the cave")
+        sleep(delay)
+        return True
 
 ###################################################################################
 
