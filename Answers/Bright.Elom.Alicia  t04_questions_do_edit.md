@@ -29,7 +29,7 @@ ___
 
 
 ```
-  Analysis of the code has improved and he can now identify problems esaily.
+  Bright: Analysis of the code has improved and he can now identify problems esaily.
  I have leanred how to make use of nested loops easily.
  it is easier for her to understand the syntax.
 ```
