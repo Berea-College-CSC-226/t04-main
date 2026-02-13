@@ -207,7 +207,6 @@ def team_9_adv(username):
         print(
             "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
     return True # added
-team_9_adv("scott")
 ###################################################################################
 
 
