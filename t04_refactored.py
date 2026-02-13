@@ -203,7 +203,7 @@ def team_12_adv(username):
         "Which base would you like to bake?"
         "[Vanilla, Chocolate, Red Velvet]: "
     )
-
+    delay=1
     if base == "Vanilla":
         # Good choice!
         print(
@@ -234,12 +234,12 @@ def team_12_adv(username):
         print(
             "When you bite into the cake, you can feel your glucose levels spiking. You get a heart attack from how sweet it is.")
         death = True
-
-    if dead:
-        print("Yup, that could have gone better. Better luck next time... :(")
-
-    if not dead:
-        print("Wow! You made an amazing cake! And for me? Thank you! You can't have a piece.")
+    #
+    # if dead:
+    #     print("Yup, that could have gone better. Better luck next time... :(")
+    #
+    # if not dead:
+    #     print("Wow! You made an amazing cake! And for me? Thank you! You can't have a piece.")
 
 def main():
 
