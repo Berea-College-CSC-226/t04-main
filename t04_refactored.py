@@ -320,8 +320,65 @@ def team_6_adv(username):
 
 
 def team_7_adv(username):
-    pass
-    # TODO Add your code here
+    """
+     TEAM 7
+     Mekiyan Bynum, Habiba Sorour.
+
+     Gogole Doc: https://docs.google.com/document/d/1ivbYwafpyseBenlWDQZk8Gup2o7gaRnLvWJuRMxk74g/edit?tab=t.0#heading=h.f6tumop9n7at
+
+     Guy is friendly and rescues us from the cave. They take you back to the town famed to have a secret treasury
+     of unimaginable worth. but first, he takes you to a tavern. he offers you two drinks, one is poisonous
+     and the other one contains elixir of the gods which grants you immortality.
+     you can choose either one or you refuse to drink and missout on the treasure.
+    """
+    delay = 1
+
+
+    print("There seems to be someone in the cave with you. He has sensed your presence here")
+    sleep(delay)
+    print("The man assures you that you are safe and casts a spell on you")
+    sleep(delay * 3)
+    print("You wake up in a busy tavern")
+    print("'I'm the mage responsible for the security of this locked city', he says")
+    sleep(delay)
+    print("everyone you see here is allowed to live by our supreme commander based on their intelligence")
+    sleep(delay * 2)
+    print("but you're a guest, so it's okay. Here, have a drink")
+
+    sleep(delay)
+
+    while True:
+        drink = input("Accept the drink from the stranger? There are two drinks 'red/blue/decline'")
+        drink = drink.lower()
+        if drink == "red":
+            print("It tastes disgusting, but you feel fine")
+            sleep(delay)
+            print("a wonderful strength courses through your body. you feel rested to continue your adventure")
+            sleep(delay)
+            is_alive = True
+            break
+        elif drink == "blue":
+            print("You can physically feel your stomach burning down")
+            sleep(delay)
+            print("You look to the mage and he smirks at you. 'You unworthy fool', he says")
+            sleep(delay)
+            print("Enjoy your sweet death, you are not worthy to live in our evil society")
+            is_alive = False
+            break
+        elif drink == "decline":
+            print("The mage looks at you with surprise")
+            sleep(delay)
+            print("This tavern is famous for its drinks. but it's okay if you wish to deprive yourself")
+            is_alive = True
+            break
+        else:
+            print ("Wrong response. Please choose red, blue, or decline")
+
+    if not is_alive:
+        print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+
+    return is_alive
+
 
 ###################################################################################
 
