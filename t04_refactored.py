@@ -207,8 +207,43 @@ def team_3_adv(username):
 
 
 def team_4_adv(username):
-    pass
-    # TODO Add your code here
+
+    """
+    This function is a pick your own adventure story that sets you as a NBA player your goal is to win
+    the game by picking the best options.
+    """
+
+    print("Welcome, Knicks yall play Cade n nem at MSG!")
+    sleep(5)
+    print("Cade gon have 30 either way yall just go out there and have fun.")
+    print("Make sure KAT don't chuck no 3's!")
+    sleep(5)
+
+    kat = random.randint(1, 3)
+
+    if kat == 1:
+        print("Kat took a free throw!")
+        return True
+    elif kat == 2:
+        print("kat dunked on Tobias!")
+        return True
+    elif kat == 3:
+        print("kat shoots a 3 point shot!")
+        choice = input("you have 2 seconds left of the clock to score 1 point you have 3 options! "
+              "A. try and foul to get a free throw. B. make a layup. C. make a crazy half court shot. what do you choose (A, B, or C)?")
+        if choice == "A":
+            print("The team did not foul you.")
+            return False
+        elif choice == "B":
+            print("you could not make the shot before the buzzer rang.")
+            return False
+        elif choice == "C":
+            print("you some how made the half court shot winning your team the game.")
+            return True
+        else:
+            print("That was not an option!")
+            return False
+
 
 ###################################################################################
 
