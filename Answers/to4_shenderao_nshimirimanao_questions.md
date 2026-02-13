@@ -99,25 +99,25 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       When you make a local copy(your device) of the repo.
 
-        b. Commit:      When you save progress of changes made on the branch.
+        b. Commit:      When you save progress of changes made on the branch to git's history.
 
         c. Push:       When you send your changes to git.
 
-        d. Branch:      ____________________
+        d. Branch:     Is the same as the repo but when you make changes it only affects your branch.
 
-        e. Pull:        ____________________
+        e. Pull:        When you grab the changes made to the repo into your branch. 
 
         f. Pull Request: Formally asking for my branch to be merged into the repo.
 
-        g. Merge:       ____________________
+        g. Merge:       When you combine different branches together.
 
-        h. Remote:      ____________________
+        h. Remote:      This allows your local repo to be hosted/connected to Github so you can obtain by pulling any changes.
 
-        i. Local:       ____________________
+        i. Local:       Means it is only found on your device.
 
-        j. Fetch:       ____________________
+        j. Fetch:      Getting the changes from the repo(remote) without having to merge the two files.
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
