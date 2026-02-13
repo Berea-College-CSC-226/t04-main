@@ -128,7 +128,7 @@ def team_1_adv(username):
     :return: None
     """
 
-    dead = 'false'
+    return False
     delay = 1.0
 
     print("Luckily, you have a flashlight; should you use it?")
@@ -136,7 +136,8 @@ def team_1_adv(username):
 
     if choice_2 == "Yes":
         # Good choice
-        print("You discover a friendly  person that offers you some food.")
+        print("You discover a friendly person that offers you some food.")
+        return True
     elif choice_2 == "No":
         # Bad choice
         print("You hear footsteps..")
@@ -151,7 +152,7 @@ def team_1_adv(username):
         sleep(delay)
         print("After running forever, you make it out of the cave")
         sleep(delay)
-
+        return True
 
 ###################################################################################
 
