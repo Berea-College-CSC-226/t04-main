@@ -145,9 +145,6 @@ def team_4_adv(username):
     the game by picking the best options.
     """
 
-    from time import sleep
-    import random
-
     print("Welcome, Knicks yall play Cade n nem at MSG!")
     sleep(5)
     print("Cade gon have 30 either way yall just go out there and have fun.")
@@ -178,8 +175,6 @@ def team_4_adv(username):
         else:
             print("That was not an option!")
             return False
-    else:
-        return False
 
 
 ###################################################################################
