@@ -52,7 +52,7 @@ ___
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    ** We fixed the overall code, but we didn't get any PEP8 warnings. The code recieved more options.   **
 ```
 
 ___
@@ -63,13 +63,15 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    ** Our branch has our own edits. The main branch includes all orignal code without other team edits. 
+     Contrasting this, once all codes have been submitted, we will see all changes to main possible when updated.**
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **On Github, yes. Teams are still currently working on their branches, so this means that we will not be 
+    able to see everything until done.**
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -78,14 +80,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    ** Not yet... Next step is to fix PRs. **
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    ** Yes the earlier class' codes (ie. Skylar's group's code is included in the main branch.)**
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -93,7 +95,7 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    ** **
 ```
 
 2.f. Define Each Term:
