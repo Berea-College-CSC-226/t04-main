@@ -94,13 +94,12 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:      is a process which helps you to get access to the remote project on your local computer 
 
-        b. Commit:      ____________________
+        b. Commit:      It is like taking screenshot of the code and save. OR we can also save that our work is ready to push.
 
-        c. Push:        ____________________
-
-        d. Branch:      ____________________
+        c. Push:        Transferring our work from our local computer to Github
+        d. Branch:      Branch is copied filed of the main, which has access to the same feature as the main but the change you made will not be in main directly
 
         e. Pull:        ____________________
 
