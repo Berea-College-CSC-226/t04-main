@@ -209,8 +209,12 @@ def team_11_adv(username):
         print("Run as fast as you can as there is something behind you")
         sleep(DELAY)
         return True
+    elif direction == "E":
+        print("You tripped on a rock and busted your head wide open")
+        return False
     else:
-        print("OOPS, You Died")
+        print("You didn't choose a direction in time. God decided to punish you by"
+              "dropping a rock on your head. You die anyway")
         return False
 
 ###################################################################################
