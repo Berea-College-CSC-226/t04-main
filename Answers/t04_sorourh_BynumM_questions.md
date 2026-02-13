@@ -61,13 +61,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    Main doesn't have all of our code and files because we haven't merged them into main yet
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+   Yes, and no their code is in our branch because this is our work only, not the main file where it is going to have all of our code in it. This is my partner and I's version of the code.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
