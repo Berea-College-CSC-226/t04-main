@@ -137,10 +137,6 @@ def team_3_adv(username):
     DANIEL RUKWASHA
     BHUSHAN SAH
     """
-    import time
-
-    delay = 1
-    time.sleep(delay)
 
     direction=input("What is the direction[North/South/East/West] ")
     if direction == "North":
@@ -157,12 +153,12 @@ def team_3_adv(username):
     elif direction == "East":
         # Good choice!
         print("You are still trapped in the dark, but someone else is there with you now! I hope they're friendly...")
-        time.sleep(delay)
+        DELAY
         return True
     elif direction == "South":
         # Oh... Bad choice
          print("You hear a growl. Not a stomach growl. More like a big nasty animal growl.")
-         time.sleep(delay)
+         DELAY
          print("Oops. Turns out the cave was home to a nasty grizzly bear. ")
          print("Running seems like a good idea now. But... it's really, really dark.")
          print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
@@ -170,7 +166,7 @@ def team_3_adv(username):
          return False
     else:
         print( "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
-        time.sleep(delay)
+        DELAY
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
         return False
 
