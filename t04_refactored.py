@@ -196,16 +196,14 @@ def team_9_adv(username):
         sleep(DELAY) # added a delay
         print("Oops! The goalie caught the ball. ")
         # removed a delay
-        print("Your team lost the game")
-        print("Running seems like a good idea now. But... it's really, really dark.")
-        print("You turn and run like hell. The bear wakes up to the sound of your head bouncing off a low stalactite. ")
-        print("Oh no! You died. Better luck next time!") # removed "Try again by hitting the green play button."
+        print("Your team lost the game.")
+        # deleted random story
         return False
     else:
         # Neutral choice
         sleep(DELAY)  # changed "delay" to "DELAY" and moved it above the print
         print(
-            "You're in another part of the cave. It is equally dark, and equally uninteresting. Please get me out of here!")
+            "You kicked out of bounds and got a foul.") # changed the print statement to match the story
     return True # added
 ###################################################################################
 
