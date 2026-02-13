@@ -80,7 +80,7 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    ** Not yet... Next step is to fix PRs. **
+    ** Fixed PRs! Code not in main branch yet. **
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
@@ -100,25 +100,25 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Making a replica of a repository, but making it your own.
 
-        b. Commit:      ____________________
+        b. Commit:      Saving changes.
 
-        c. Push:        ____________________
+        c. Push:        Sending local commits to remote repo
 
-        d. Branch:      ____________________
+        d. Branch:      Another version of code, without changing main 
 
-        e. Pull:        ____________________
+        e. Pull:        Fetching changes from remote repo and merging into main
 
-        f. Pull Request:____________________
+        f. Pull Request: Request to project maintainers (ie. Dr.Heggen), to review code and be able to merge.
 
-        g. Merge:       ____________________
+        g. Merge:       Combining main code with new code.
+        
+        h. Remote:      Version of project that is on internet
 
-        h. Remote:      ____________________
+        i. Local:       Personal version of code on laptop.
 
-        i. Local:       ____________________
-
-        j. Fetch:       ____________________
+        j. Fetch:       Downloading most recent history from repo without merge.
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -130,7 +130,9 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    ** How do return values work? Many questions about whether or not we did it right
+     and we were all confused. Additionally, a couple of the most challenging things we 
+     faced were factors ensuring the code worked properly. **
 ```
 
 ---
