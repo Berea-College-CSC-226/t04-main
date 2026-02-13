@@ -128,7 +128,6 @@ def team_1_adv(username):
     :return: None
     """
 
-    return False
     delay = 1.0
 
     print("Luckily, you have a flashlight; should you use it?")
