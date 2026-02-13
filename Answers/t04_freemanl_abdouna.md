@@ -40,13 +40,14 @@ ___
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    the code wasnt hard to read, the code was written early on during the class
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    the function included an if else statement checking if the user was dead,
+    removed and replaced with return True or False statesments
 ```
 
 ___
