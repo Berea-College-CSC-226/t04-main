@@ -240,7 +240,7 @@ def main():
 
     user = start_story()
     for i in range(len(paths)):
-        is_alive = paths[i](team_8_adv(user))  # Runs each function in the paths list
+        is_alive = paths[i](user)  # Runs each function in the paths list
         kill_if_dead(is_alive)
 
     end_story(user)
