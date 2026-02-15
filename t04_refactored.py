@@ -199,20 +199,21 @@ def team_12_adv(username):
     #https://docs.google.com/document/d/1B-Nr_mc_V-Xk_KcmRgWRgC649HkO5_ke6ch4Fy4-ImU/edit?usp=sharing
     #Mildred Catalina Gonzalez Molina
     #return:none
+    dead=False
     base = input(
         "Which base would you like to bake?"
-        "[Vanilla, Chocolate, Red Velvet]: "
+        " Vanilla, Chocolate, Red Velvet: "
     )
     delay=1
-    if base == "Vanilla":
+    if base == "Vanilla" or base=='vanilla':
         # Good choice!
         print(
             "Oh. Vanilla. I hate vanilla. But whatever! Whatever you like is ok. Just don't give me the final result.")
         sleep(delay)
-    elif base == "Chocolate":
+    elif base == "Chocolate" or base=='chocolate':
         print("Hmm. Chocolate. Be mindful with the sugar.")
         sleep(delay)
-    elif base == "Red Velvet":
+    elif base == "Red Velvet" or base=='red velvet':
         print("OOOH I love red velvet!! You can't go wrong with it!")
     else:
         # Neutral choice
@@ -226,20 +227,17 @@ def team_12_adv(username):
     if sugar <= 2:
         print("That does not sound sweet enough.")
         print("When you bite into your cake, it tastes so bad that you die of sadness.")
-        death = True
-    elif sugar == 3:
+        dead = True
+    elif sugar == 3 or sugar==4:
         print("That seems like the right amount!")
+        print("Wow! You made an amazing cake! And for me? Thank you! You can't have a piece.")
     elif sugar >= 5:
         print("Okay, that seems excessive")
         print(
             "When you bite into the cake, you can feel your glucose levels spiking. You get a heart attack from how sweet it is.")
-        death = True
-    #
-    # if dead:
-    #     print("Yup, that could have gone better. Better luck next time... :(")
-    #
-    # if not dead:
-    #     print("Wow! You made an amazing cake! And for me? Thank you! You can't have a piece.")
+        dead=True
+
+    return dead
 
 def main():
 
