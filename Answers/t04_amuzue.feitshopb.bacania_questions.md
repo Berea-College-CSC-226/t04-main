@@ -39,7 +39,7 @@ ___
 
 
 ```
-   we added more options to the choices we can make, and then a death option.
+    we added more options to the choices we can make, and then a death option.
 ```
 
 
