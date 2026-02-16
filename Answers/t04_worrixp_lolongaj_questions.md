@@ -106,13 +106,13 @@ ___
 
         f. Pull Request:Asking to the repo owner to merge your code/work into the main 
 
-        g. Merge:       
+        g. Merge:       Combining changes from one branch to another eg. merging my branch with the main
 
-        h. Remote:      
+        h. Remote:      The version of the repo stored online (usually on github)
 
-        i. Local:       
+        i. Local:       The copy of the repo on your own local computer
 
-        j. Fetch:       
+        j. Fetch:       Downloading updates form the remote repo without changing our local files
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
