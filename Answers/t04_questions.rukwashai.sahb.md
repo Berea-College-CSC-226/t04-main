@@ -74,14 +74,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    **Yes the code is in main branch**
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    **There are some.**
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -89,7 +89,7 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    **We have not updated local main branch**
 ```
 
 2.f. Define Each Term:
@@ -122,7 +122,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    **No time to answer**
 ```
 
 ---
