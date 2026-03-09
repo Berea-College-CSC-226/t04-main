@@ -155,11 +155,74 @@ def team_1_adv(username):
 
 ###################################################################################
 
+"""
+https://docs.google.com/document/d/108h3SPtRrmczVZA4hlFLuJwX7khldLwqS6nj7syq3XQ/edit?usp=sharing
+Elom Amuzu
+Bright Feitshop
+Alicia Bacani
+"""
 
 def team_2_adv(username):
-    pass
-    # TODO Add your code here
 
+    from time import sleep
+
+    delay = 1.0
+    dead = False
+    username = input("What do they call you, unworthy adversary? ")
+    print()
+    print("Welcome,", username, ", to the choices of life.")
+    sleep(delay)
+    print("Before you lie two paths. One path leads to an afterlife, (paradise)")
+    print("The other, certain death(HELL). Choose wisely.")
+    print()
+    sleep(delay * 2)
+    print("You are in a dark cave. You can see nothing and the cold is treacherous.")
+    print("Staying here is certainly not wise and the enemy might come for you. You must find your way out.")
+    print("\n")
+    sleep(delay)
+
+    choices = input("what choices can you make to save yourself from damnation[pray/sleep/curse/worship]")
+
+    if choices == "pray":
+    # Good choice!
+        print("You are still trapped in the dark, but angels of the lord are with you, I hope they're friendly...")
+        sleep(delay)
+        print("The lord is now with you. The game has ended")
+        sleep(delay)
+
+
+    elif choices == "sleep":
+        # terrible choice!
+        print("you hear the cry and shouts of people from the outly world, screaming in agony")
+        sleep(delay)
+        print("it looks like your life choices have paid off")
+        print("now take your rewards")
+        sleep(delay)
+        print("...dead")
+        dead = False
+
+    elif choices == "curse":
+        print("why would you do that bro")
+        sleep(delay)
+        print("lol you die now")
+        print(username, "... dead")
+
+    elif choices == "worship":
+        print("your are now one of them...")
+        sleep(delay)
+        print("you're still alive, but you are nothing but food to them")
+        sleep(delay)
+
+        newchoice = input("what do you do? [ run or fight ]")
+
+    if newchoice == "run":
+        dead = True
+    if newchoice == "fight":
+        dead = True
+        print("nice try...")
+        sleep(delay)
+        print("you are now dead")
+    return False
 ###################################################################################
 
 
