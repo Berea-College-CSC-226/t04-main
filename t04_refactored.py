@@ -73,7 +73,8 @@ def kill_if_dead(is_alive):
     :param is_alive: A boolean value representing livelihood.
     :return: None
     """
-    if not is_alive:
+
+    if is_alive is not None and is_alive == False:
         quit()
 
 
@@ -529,12 +530,39 @@ def team_8_adv(username):
         print("You found the way out but you get no reward") #Even if you get the right or wrong answer if its lowercase it reads as else. We need to let user know only uppercase.
     return True #user stays alive
 ###################################################################################
-
-
 def team_9_adv(username):
-    pass
-    # TODO Add your code here
+    """
+    https://docs.google.com/document/d/1YcKwfn-tU3knpEYWWp3v5ek_JmUDjz0ZIYmQpvu-TAU/edit?usp=sharing
+    Pride Techa
+    Skylar McDaniel
+    :param username:
+    :return:
+    """
+    # TEAM 9
 
+    direction = input(
+        "Which direction would you like to kick the ball to?\n\tTop Right (a)\n\tTop Left (b)\n\tBottom Right (c)\n\tBottom Left (d)\n").lower()
+    # changed sentence format; changed inputs to "a/b/c/d"; added .lower()
+
+    if direction == "b":
+        # Good choice!
+        sleep(DELAY)  # changed "delay" to "DELAY" and moved it above the print
+        print("GOALLLLL!!!")
+
+    elif direction == "d":
+        # Oh... Bad choice
+        sleep(DELAY) # added a delay
+        print("Oops! The goalie caught the ball. ")
+        # removed a delay
+        print("Your team lost the game.")
+        # deleted random story
+        return False
+    else:
+        # Neutral choice
+        sleep(DELAY)  # changed "delay" to "DELAY" and moved it above the print
+        print(
+            "You kicked out of bounds and got a foul.") # changed the print statement to match the story
+    return True # added
 ###################################################################################
 
 
