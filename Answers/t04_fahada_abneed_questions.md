@@ -1,0 +1,138 @@
+# Adventure To Gitland
+
+## Instructions
+
+1. Copy this file.
+2. Paste the copy of the file into the `Answers` directory.
+3. Name the file `t04_usernames.md`, replacing usernames with your Berea usernames.
+4. Replace each `**Replace This With Your Answer**` with your answer to the question above it.
+
+Discuss with your team and assign yourselves roles. Try to pick the role you’ve had the least experience in.
+Change roles each day!
+
+```
+    Complete the table below at the start of each class period:
+```
+
+|                 | Monday | Wednesday | Friday |
+|-----------------|--------|-----------|--------|
+| Driver          | Fahad  | Fahad     |        |
+| Navigator       | Danny  | Fahad     |        |
+| Quality Control | Fahad  | Fahad     |        |
+
+___
+
+## SECTION 1
+
+1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to 
+     **t01_final_story.py** for "inspiration".
+
+```
+    I've changed as a coder since T01 to not be apprehensive of big lines of code. 
+    Learning how to read code in correct order has helped me improve my 
+    understanding of what a program is doing. 
+```
+
+1.b. Briefly describe any logic changes you made in your code, and why you made them.
+
+```
+    I have edited the code to return a boolean True or False value. Since
+    the final compilation of all our code requires a true or false value to function.
+```
+
+1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
+
+```
+    I didn't find it challenging to follow the code of another group's code because
+    the code was relatively simple and easy to follow, as well as well-written!
+```
+
+1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
+
+```
+    One of the elif conditions weren't working, hence they 
+    were re-written and the indentation of the code was changed slightly
+    I believe. 
+```
+
+___
+
+## SECTION 2
+
+2.a. You should notice that there are multiple branches in the Github repository. 
+     Find yours and check that your code is there. Compare your branch to main. What’s different?
+
+```        
+    **My code is indeed there. The refactored code is empty, which students are going to fill
+    up with their edited code, which will settle into the timeline of the full story. 
+```
+
+2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
+
+```        
+   **Yes, I see other groups' branches in the repo. My code isn't in their branch,
+   it's because they haven't been merged yet. For my code to be in their branch,
+   I will have to have a successful PR, and then they'll be able to pull my code
+   to their main and then to their branch.
+```
+
+2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
+     A pull request is a formal request to add your code into the main branch, for all to see and share. 
+     Once you’ve issued the pull request, communicate to the instructor that you are "ready for a PR review."
+     After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
+
+```
+    **Okay.
+```
+
+2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
+     in Question 2.b.?
+
+```
+    **Replace This With Your Answer**
+```
+
+2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
+     switch back to the main branch by clicking `Git` >> `Branches` and selecting `Local Branches` >> `main`.
+     Is your code in your **local** main branch? Why not?
+
+```
+    Because the code hasn't been merged yet 
+```
+
+2.f. Define Each Term:
+```
+        a. Clone:       Makes a copy of the main repository
+
+        b. Commit:      Save changes
+
+        c. Push:        Upload saved changes
+
+        d. Branch:      Your own copy of the code that doesn't conflict with your main
+
+        e. Pull:        Update latest changes to main
+
+        f. Pull Request: Request to merge my saved changes to the original repo
+
+        g. Merge:       Adding someone's code to someone else's main
+
+        h. Remote:      The code that is not in my local computer
+
+        i. Local:       The code that is saved in my local computer
+
+        j. Fetch:       To retrieve code from the remote
+
+    Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
+    to ensure they are correct.
+```
+
+2.g. In Github, go to the [Network Graph](https://github.com/Berea-College-CSC-226/t04-main/network) (i.e., a history 
+     of branching and committing history). Discuss with your partner what confusions you still have about the git 
+     workflow you experienced today, using the network graph to explore what has happened. Write your unanswered 
+     questions in the space to the right:
+
+```
+    We didn't run into any issues on Git, so it's all good!
+```
+
+---
