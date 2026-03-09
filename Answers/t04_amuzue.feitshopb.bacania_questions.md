@@ -16,40 +16,44 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
-| Quality Control |        |           |        |
+| Driver          | Bright | Elom      | Alicia |
+| Navigator       | Alicia | Bright    | Elom   |
+| Quality Control | Elom   | Alicia    | Bright |
 
 ___
 
 ## SECTION 1
 
-1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to 
-     **t01_final_story.py** for "inspiration".
+1.a. Discuss with your partner two or more ways in which you've improved as a coder since T01. You can refer back to
+    **t01_final_story.py** for "inspiration".
+
 
 ```
-    **Replace This With Your Answer**
+  Bright: Analysis of the code has improved and he can now identify problems esaily.
+ I have leanred how to make use of nested loops easily.
+ it is easier for her to understand the syntax.
 ```
+ 
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
+
 ```
-    **Replace This With Your Answer**
+    we added more options to the choices we can make, and then a death option.
 ```
+
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    **Yes, it was hard to tell if our game ended properly.**
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    ** We fixed the overall code, but we didn't get any PEP8 warnings. The code recieved more options.   **
 ```
-
-_Please return to the Google Doc to continue this assignment_
 
 ___
 
@@ -59,13 +63,15 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    ** Our branch has our own edits. The main branch includes all orignal code without other team edits. 
+     Contrasting this, once all codes have been submitted, we will see all changes to main possible when updated.**
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    **On Github, yes. Teams are still currently working on their branches, so this means that we will not be 
+    able to see everything until done.**
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -74,14 +80,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    ** Fixed PRs! Code not in main branch yet. **
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    ** Yes the earlier class' codes (ie. Skylar's group's code is included in the main branch.)**
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -89,30 +95,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    ** **
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Making a replica of a repository, but making it your own.
 
-        b. Commit:      ____________________
+        b. Commit:      Saving changes.
 
-        c. Push:        ____________________
+        c. Push:        Sending local commits to remote repo
 
-        d. Branch:      ____________________
+        d. Branch:      Another version of code, without changing main 
 
-        e. Pull:        ____________________
+        e. Pull:        Fetching changes from remote repo and merging into main
 
-        f. Pull Request:____________________
+        f. Pull Request: Request to project maintainers (ie. Dr.Heggen), to review code and be able to merge.
 
-        g. Merge:       ____________________
+        g. Merge:       Combining main code with new code.
+        
+        h. Remote:      Version of project that is on internet
 
-        h. Remote:      ____________________
+        i. Local:       Personal version of code on laptop.
 
-        i. Local:       ____________________
-
-        j. Fetch:       ____________________
+        j. Fetch:       Downloading most recent history from repo without merge.
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -124,7 +130,9 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    ** How do return values work? Many questions about whether or not we did it right
+     and we were all confused. Additionally, a couple of the most challenging things we 
+     faced were factors ensuring the code worked properly. **
 ```
 
 ---

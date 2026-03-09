@@ -1,4 +1,4 @@
-4# Adventure To Gitland
+# Adventure To Gitland
 
 ## Instructions
 
@@ -28,28 +28,29 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    In T01, we didn't use any functions, so it was a one big chunk of code and was complicated but now in T04, we used 
+    functions, main and return and break the big chunk code into small readable and easily managable code. 
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+     Well, we didn't really continue on our own project, but someone else's; and their logic of code did not match our style.
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+     It was difficult. Most of the time, you could not understand a lick of what they were wanting to make. There were 
+     nonsensical options that confused us. 
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+     The only PEP8 warning that we got was the "repeated code" warning, which came from the do_not_edit file, so of 
+     course it will be repeated.
 ```
-
-_Please return to the Google Doc to continue this assignment_
 
 ___
 
@@ -59,7 +60,8 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    In our branch we only have our piece of code, but in main branch we see other people's branches PR accepted, and we 
+    see other people's code.
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?

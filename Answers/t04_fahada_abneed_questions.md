@@ -1,4 +1,4 @@
-4# Adventure To Gitland
+# Adventure To Gitland
 
 ## Instructions
 
@@ -16,9 +16,9 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
-| Quality Control |        |           |        |
+| Driver          | Fahad  | Fahad     |        |
+| Navigator       | Danny  | Fahad     |        |
+| Quality Control | Fahad  | Fahad     |        |
 
 ___
 
@@ -28,28 +28,32 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    I've changed as a coder since T01 to not be apprehensive of big lines of code. 
+    Learning how to read code in correct order has helped me improve my 
+    understanding of what a program is doing. 
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    I have edited the code to return a boolean True or False value. Since
+    the final compilation of all our code requires a true or false value to function.
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    I didn't find it challenging to follow the code of another group's code because
+    the code was relatively simple and easy to follow, as well as well-written!
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    One of the elif conditions weren't working, hence they 
+    were re-written and the indentation of the code was changed slightly
+    I believe. 
 ```
-
-_Please return to the Google Doc to continue this assignment_
 
 ___
 
@@ -59,13 +63,17 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    **My code is indeed there. The refactored code is empty, which students are going to fill
+    up with their edited code, which will settle into the timeline of the full story. 
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+   **Yes, I see other groups' branches in the repo. My code isn't in their branch,
+   it's because they haven't been merged yet. For my code to be in their branch,
+   I will have to have a successful PR, and then they'll be able to pull my code
+   to their main and then to their branch.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -74,7 +82,7 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    **Okay.
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
@@ -89,30 +97,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    Because the code hasn't been merged yet 
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Makes a copy of the main repository
 
-        b. Commit:      ____________________
+        b. Commit:      Save changes
 
-        c. Push:        ____________________
+        c. Push:        Upload saved changes
 
-        d. Branch:      ____________________
+        d. Branch:      Your own copy of the code that doesn't conflict with your main
 
-        e. Pull:        ____________________
+        e. Pull:        Update latest changes to main
 
-        f. Pull Request:____________________
+        f. Pull Request: Request to merge my saved changes to the original repo
 
-        g. Merge:       ____________________
+        g. Merge:       Adding someone's code to someone else's main
 
-        h. Remote:      ____________________
+        h. Remote:      The code that is not in my local computer
 
-        i. Local:       ____________________
+        i. Local:       The code that is saved in my local computer
 
-        j. Fetch:       ____________________
+        j. Fetch:       To retrieve code from the remote
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -124,7 +132,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    We didn't run into any issues on Git, so it's all good!
 ```
 
 ---

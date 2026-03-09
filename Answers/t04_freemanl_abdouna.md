@@ -1,4 +1,4 @@
-4# Adventure To Gitland
+# Adventure To Gitland
 
 ## Instructions
 
@@ -16,8 +16,8 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          |        |           |        |
-| Navigator       |        |           |        |
+| Driver          | ahmed  | ahmed     |        |
+| Navigator       | leroy  | ahmed     |        |
 | Quality Control |        |           |        |
 
 ___
@@ -28,28 +28,27 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    we've learned how to write cleaner and more readable code, utilizing functions.
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    Included return statements for all outcomes of my teams path, including true statements for left and middle, and a return false statement for the right option
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    the code wasnt hard to read, the code was written early on during the class
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    the function included an if else statement checking if the user was dead,
+    removed and replaced with return True or False statesments
 ```
-
-_Please return to the Google Doc to continue this assignment_
 
 ___
 
@@ -59,13 +58,13 @@ ___
      Find yours and check that your code is there. Compare your branch to main. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+   main includes all the code thats been approved and merged from the student branches
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    other groups branches do not include our code because we eorked on it in our branch, and they have different functions to take care of
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
