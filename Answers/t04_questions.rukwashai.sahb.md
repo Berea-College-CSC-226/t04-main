@@ -74,14 +74,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    **Yes the code is in main branch**
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    **There are some.**
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -89,7 +89,7 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    **We have not updated local main branch**
 ```
 
 2.f. Define Each Term:
@@ -101,17 +101,16 @@ ___
         c. Push:        Transferring our work from our local computer to Github
         d. Branch:      Branch is copied filed of the main, which has access to the same feature as the main but the change you made will not be in main directly
 
-        e. Pull:        ____________________
+        e. Pull:        Bringing the update work from github to local
 
-        f. Pull Request:____________________
+        f. Pull Request: Creating a request to be merged into main og Github
+        g. Merge:        Merge is processs where you get together your local branch to the main project
 
-        g. Merge:       ____________________
+        h. Remote:      Remote is so called space where you can directly access  the project in real time, 
 
-        h. Remote:      ____________________
+        i. Local:       Is the isolated space where everything you do cannot be reflected remotely until you push
 
-        i. Local:       ____________________
-
-        j. Fetch:       ____________________
+        j. Fetch:       This is downloading your work from the online, and make change without modifying your local work
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -123,7 +122,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    **No time to answer**
 ```
 
 ---
