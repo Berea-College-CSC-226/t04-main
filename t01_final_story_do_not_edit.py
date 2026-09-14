@@ -18,6 +18,221 @@ from time import sleep
 
 #########################################################################################################
 # TEAM 1
+
+direction = input("You bump your head into a wall. You feel your way around, you have two choices, left or right.  [Left/Right]")
+
+if direction == "Left":
+    # Good choice
+    print("You safely travel farther into the cave...")
+    sleep(delay)
+    dead = True
+
+if direction == "Right":
+    # Bad choice
+    print("You begin to run down the right side of the cave until you suddenly run into a stalactite... uh oh...")
+    sleep(delay)
+    dead = False
+
+direction = input("You find yourself at a lava pit, you have a choice, jump ir or walk through it...  [Jump/Walk]")
+
+#########################################################################################################
+# TEAM 2
+
+if direction == "East":
+    # Good choice!
+    x = input("But don't worry, you're doing good, you've 2 paths in front of you. From first path you can hear the sound of water and the second path is full of Gems, make your choice wisely. Choose path 1 or 2? ")
+    sleep(delay)
+    if x == "1":
+        print("Great, you made it to the end of the story without dying! ")
+    else:
+        print("Ah!!, there's the dragon of gems in front of you.")
+        sleep(delay)
+        print("You're dead(Loser😂)")
+        dead = True
+
+elif direction == "West":
+    # Oh... Bad choice
+    print("Oh there's some golden light to your left, can it be treasure or a way out")
+    sleep(delay)
+    print("and to your right it's still dark")
+    y = input("Where will you go? right or left ")
+    if y == "right":
+        print("Wait, u see some light in front of you. ")
+        sleep(delay)
+        print("Booyah!! You made it to the end of the story without dying!")
+    else:
+        print("OK sir you've jumped into the world of goblins")
+        print("You're dead😂")
+        sleep(delay)
+        print("You greedy looser")
+        dead = True
+
+
+if dead == True:
+    print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+    quit()
+
+#########################################################################################################
+# TEAM 3
+
+direction = input("which direction would you like to pass the ball? [Infront/Behind/To your left/To your right]")
+shoot = input ("Which direction are you shooting the ball? [top post/Bottom corners]" )
+
+if direction == "Infront":
+    print ("Oh no, the defenders got the ball")
+    dead = True
+
+elif direction == "Behind":
+    print ("Good job accurate pass to teammate")
+    print ("Your teammate holds the ball for too long and losses it")
+    dead = True
+
+elif direction == "To your left":
+    print ("OMG!!!! WORLD CLASS PASS")
+    print ("Your teammate on the left wing got the ball")
+    print ("He's on the run, driving the ball forward")
+    print ("He is about to get tackled, and chops the ball to the inside of the feild and keeps driving")
+    print ("He sees you running into the 18 box and crossing it to you")
+    print ("You execute a finominal touch and are about to shoot")
+
+    if shoot == "top post":
+        sleep(delay)
+        print ("GOALLLLLLLLLLLLLLLLLLLLL!!!!!!!")
+
+    else:
+        print ("Oh no the keeper caught the ball")
+        dead = True
+else:
+    print ("Oh no, the defenders got the ball")
+
+
+
+if dead == True:
+    print ("Too bad your opponent got the ball and scored")
+    print ("YOU LOST ):")
+    quit()
+
+#########################################################################################################
+# TEAM 4
+
+from time import sleep
+
+
+delay = 1.0
+dead = False
+
+username = input("What is your name?")
+
+print(username, "Is walking through the forest")
+sleep(delay)
+print("You see a bunch of people doing some sort of ritual around a campfire")
+print("You have many choices to make")
+
+direction = input("What are you going to do in this situation")
+
+#########################################################################################################
+# TEAM 5
+
+print("------ WELCOME TO THE TRANSPORT STATION -----")
+sleep(delay)
+direction = input("Choose a direction to go [Japan, Ghana, Mongolia]: ")
+
+if direction == "Mongolia":
+    #Good choice
+    print("YAYYYY!!!!")
+    sleep(delay)
+    print("YOU GOT INTO GENGHIS KHAN'S ARMY...")
+    sleep(delay)
+elif direction == "Japan":
+    print("OHHH NOOO!!!")
+    sleep(delay * 2)
+    print("The moment you got on the island you heard footsteps from the dark jungle....")
+    sleep(delay * 3)
+    print("Ooops. They turns out to be a Samurai trying to hunt you down.")
+    sleep(delay * 3)
+    print("So after you see them you start running from them.")
+    sleep(delay * 3)
+    print("Then the Samurai overtakes you because they are fast.")
+    sleep(delay * 3)
+    print("And they pierce through your heart with their katana.")
+    sleep(delay * 3)
+    dead = True
+else:
+    #Neutral choice
+    print("You are in Ghana now, and it's so hot. Go find some water....")
+    sleep(delay)
+    dead = False
+
+if dead == True:
+    sleep(delay * 3)
+    print()
+    print()
+    print("YOU DIED!!!!")
+    sleep(delay * 3)
+    print("BUT I GIVE YOU ONE MORE CHANCE")
+    sleep(delay * 2)
+    num1 = input("Choose a number between 1 and 20: ")
+    num = int(num1)
+
+    if num <= 6:
+        print("You have been given a new life")
+        direction = input("Choose a direction to go [USA, Finland]: ")
+
+        if direction == "USA":
+            print("YOU GOT SHOT BY A PERSON WITH A GUN")
+            sleep(delay * 3)
+            print()
+            print("YOU DIED!!!!")
+        else:
+            print("YAY YOU HAVE FOUND THE ISLAND OF PEACE")
+            sleep(delay * 2)
+            print("NOW YOU CAN LIVE PEACEFULLY, GOODLUCK :)")
+    else:
+        print("OH NO YOU FAILED, NOW YOU ARE DEAD, THANKS FOR PLAYING.")
+        quit()
+
+sleep(delay * 4)
+
+#########################################################################################################
+# TEAM 6
+
+direction_to_take = input ("What sort of direction are you taking?;Backward/Forward/Right/Left?")
+
+if direction_to_take == "Backward":
+    print("You are dead!, that it a no go zone can you change the direction.")
+    print("Buddy, I am warning you that you are gonna be dead if you do ont change that direction.")
+    print("Last time, my friend Victor was eaten by the wolf in the same forest, trust me take mey warning seriously")
+    print("Berea College computer students want to joke with their CS prof by not completing their assignments on time...opps! I am lost")
+elif direction_to_take == "Forward":
+    print("Things will even be more tougher get up !")
+    print("Do not cry if the lion and tiger gets you eaten in the way and then you can")
+    print("Mach and Victor planned this game  way back in the years ago and now its getting more fun and fun again")
+
+elif direction_to_take == "Right":
+    print("Things will even be more tougher get up !")
+    print (" Why dont you liten you damn! kid ")
+
+else:
+    print(" You will not survive and get back home normal")
+
+dead = True
+print (" The world has ended successfully")
+print (" And we have also finished the assignment and now looking forward to a nice lunch with Victor ")
+
+#########################################################################################################
+# TEAM 7
+
+sound = input ("Would you like to follow the noise? [yes/no?]")
+
+if sound == "yes": #good choice
+    print("You follow the noise and end up running into a furry little doggy")
+    sleep(delay*2)
+    print("The dog looks like he knows his way around pretty well...")
+    sleep(delay)
+
+#########################################################################################################
+# TEAM 8
+
 print("Luckily, you have a flashlight; should you use it?")
 choice_2 = input("Yes/No? ")
 
@@ -46,7 +261,7 @@ if dead == True:
 
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 #########################################################################################################
-# TEAM 2
+# TEAM 9
 from time import sleep
 
 delay = 1.0
@@ -82,7 +297,7 @@ elif direction == "curse":
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 
 #########################################################################################################
-# TEAM 3
+# TEAM 10
 #good path continue
 if direction == "North":
     yes_no = input("do you want to talk to him (yes/no)")
@@ -124,7 +339,7 @@ if direction2 == "back":
         quit()
 
 #########################################################################################################
-# TEAM 4
+# TEAM 11
 nba_team = "Knicks"
 
 print("Welcome,", nba_team, "yall play Cade n nem at MSG")
@@ -140,7 +355,7 @@ if kat == 1:
     print("Kat drove and dunked on Tobias Harris")
 # TODO Don't forget to check if your user is dead at the end of your chapter!
 #########################################################################################################
-# TEAM 5
+# TEAM 12
 import random
 
 print("After your previous adventure, you seek another path.")
@@ -229,7 +444,7 @@ else:
 
 
 #########################################################################################################
-# TEAM 6
+# TEAM 13
 print("A ball lays at your foot you must kick the ball in the direction of the path you want to take.")
 direction = input("Which direction would you like to kick the ball? Left, Right, Middle?")
 
@@ -252,7 +467,7 @@ if dead == True:
 
 
 #########################################################################################################
-# TEAM 7
+# TEAM 14
 
 
 #Guy is friendly and rescues us from the cave. They take you back to the town famed to have a secret treasury
@@ -266,7 +481,6 @@ if dead == True:
 #option 2, you refuse the molly and drink the poisonous drink and die
 #option 3, you change your mind and decide to leave the tavern and start a new life of peace instead
 
-#########################################################################################################
 print("There seems to be someone in the cave with you. He has sensed your presence here")
 sleep(delay)
 print("The man assures you that you are safe and casts a spell on you")
@@ -302,8 +516,7 @@ if dead == True:
     quit()
 
 #########################################################################################################
-# TEAM 8
-
+# TEAM 15
 
 dead = False
 
@@ -321,7 +534,7 @@ elif Choose_Door =='B':
 else:
     print("You found the way out but you get no reward")
 #########################################################################################################
-# TEAM 9
+# TEAM 16
 
 direction = input("Which direction would you like to kick the ball to? [top right/bottom right/top left/bottom left]")
 
@@ -346,7 +559,7 @@ if dead == True:
     print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
     quit()
 #########################################################################################################
-# TEAM 10
+# TEAM 17
 
 if direction == "North":
     print("You see an old man with three strands of fine gray hair. He seems to be blind. What should you do?")
@@ -381,8 +594,9 @@ else:
 if dead == True:
         print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
         quit()
+
 #########################################################################################################
-# TEAM 11
+# TEAM 18
 
  direction=input("Which  direction would you like to go? [N/S/E/W]")
 
@@ -405,7 +619,7 @@ if dead==True:
     quit()
 
 #########################################################################################################
-# TEAM 12
+# TEAM 19
 base = input("Which base would you like to bake? [Vanilla, Chocolate, Red Velvet]: ")
 
 if base == "Vanilla":
@@ -442,4 +656,3 @@ if dead:
 
 if not dead:
     print("Wow! You made an amazing cake! And for me? Thank you! You can't have a piece.")
-#########################################################################################################
