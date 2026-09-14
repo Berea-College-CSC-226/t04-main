@@ -1,5 +1,5 @@
 ######################################################################
-# Author: Spring 2026 Class
+# Author: Fall 2026 Class
 #
 # Assignment: T01: Choose Your Own Adventure
 #
