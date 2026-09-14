@@ -137,7 +137,65 @@ def team_4_adv(username):
 
 def team_5_adv(username):
     pass
+print("------ WELCOME TO THE TRANSPORT STATION -----")
+sleep(1)
+direction = input("Choose a direction to go [Japan, Ghana, Mongolia]: ")
 
+if direction == "Mongolia":
+    #Good choice
+    print("YAYYYY!!!!")
+    sleep(1)
+    print("YOU GOT INTO GENGHIS KHAN'S ARMY...")
+    sleep(1)
+elif direction == "Japan":
+    print("OHHH NOOO!!!")
+    sleep(1 * 2)
+    print("The moment you got on the island you heard footsteps from the dark jungle....")
+    sleep(1 * 3)
+    print("Ooops. They turns out to be a Samurai trying to hunt you down.")
+    sleep(1 * 3)
+    print("So after you see them you start running from them.")
+    sleep(1 * 3)
+    print("Then the Samurai overtakes you because they are fast.")
+    sleep(1 * 3)
+    print("And they pierce through your heart with their katana.")
+    sleep(1 * 3)
+    dead = True
+else:
+    #Neutral choice
+    print("You are in Ghana now, and it's so hot. Go find some water....")
+    sleep(1)
+    dead = False
+
+if dead == True:
+    sleep(1 * 3)
+    print()
+    print()
+    print("YOU DIED!!!!")
+    sleep(1 * 3)
+    print("BUT I GIVE YOU ONE MORE CHANCE")
+    sleep(1 * 2)
+    num1 = input("Choose a number between 1 and 20: ")
+    num = int(num1)
+
+    if num <= 6:
+        print("You have been given a new life")
+        direction = input("Choose a direction to go [USA, Finland]: ")
+
+        if direction == "USA":
+            print("YOU GOT SHOT BY A PERSON WITH A GUN")
+            sleep(1 * 3)
+            print()
+            print("YOU DIED!!!!")
+        else:
+            print("YAY YOU HAVE FOUND THE ISLAND OF PEACE")
+            sleep(1 * 2)
+            print("NOW YOU CAN LIVE PEACEFULLY, GOODLUCK :)")
+    else:
+        print("OH NO YOU FAILED, NOW YOU ARE DEAD, THANKS FOR PLAYING.")
+        quit()
+
+sleep(1 * 4)
 ###################################################################################
 
 def team_6_adv(username):
