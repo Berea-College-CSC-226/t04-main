@@ -126,7 +126,41 @@ def team_2_adv(username):
 ###################################################################################
 
 def team_3_adv(username):
-    pass
+    direction = input("which direction would you like to pass the ball? [Infront/Behind/To your left/To your right]")
+    shoot = input("Which direction are you shooting the ball? [top post/Bottom corners]")
+
+    dead = False
+    if direction == "Infront":
+        print("Oh no, the defenders got the ball")
+        dead = True
+
+    elif direction == "Behind":
+        print("Good job accurate pass to teammate")
+        print("Your teammate holds the ball for too long and losses it")
+        dead = True
+
+    elif direction == "To your left":
+        print("OMG!!!! WORLD CLASS PASS")
+        print("Your teammate on the left wing got the ball")
+        print("He's on the run, driving the ball forward")
+        print("He is about to get tackled, and chops the ball to the inside of the feild and keeps driving")
+        print("He sees you running into the 18 box and crossing it to you")
+        print("You execute a finominal touch and are about to shoot")
+
+        if shoot == "top post":
+            sleep(DELAY)
+            print("GOALLLLLLLLLLLLLLLLLLLLL!!!!!!!")
+
+        else:
+            print("Oh no the keeper caught the ball")
+            return False
+    else:
+        print("Oh no, the defenders got the ball")
+
+    if dead == True:
+        print("Too bad your opponent got the ball and scored")
+        print("YOU LOST ):")
+    return True
 
 ###################################################################################
 
