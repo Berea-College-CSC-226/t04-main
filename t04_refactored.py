@@ -154,6 +154,8 @@ def team_7_adv(username):
         sleep(delay*2)
         print("The dog looks like he knows his way around pretty well...")
         sleep(delay)
+    elif sound == "no":
+        print("You continue going further into the cave...")
 
 ###################################################################################
 
