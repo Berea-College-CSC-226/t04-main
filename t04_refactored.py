@@ -131,7 +131,28 @@ def team_3_adv(username):
 ###################################################################################
 
 def team_4_adv(username):
-    pass
+    # TEAM 4
+
+from time import sleep
+
+delay = 1.0
+dead = False
+
+username = input("What is your name?")
+
+print(username, "Is walking through the forest")
+sleep(delay)
+print("You see a bunch of people doing some sort of ritual around a campfire")
+print("You have many choices to make")
+
+print("Type a if you would like to hide behind a tree?")
+print(" Type b if you would like to make direct contact?")
+print("Type c if you would like to turn around")
+
+direction = input("What are you going to do in this situation")
+
+if direction
+
 
 ###################################################################################
 
