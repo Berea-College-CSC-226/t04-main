@@ -141,21 +141,22 @@ def team_5_adv(username):
 ###################################################################################
 
 def team_6_adv(username):
-    direction_to_take = input("What sort of direction are you taking?;Backward/Forward/Right/Left?")
+    direction = input("What sort of direction are you taking?;Backward/Forward/Right/Left?")
 
-    if direction_to_take == "Backward":
+
+    if direction == "Backward":
         print("You are dead!, that it a no go zone can you change the direction.")
         print("Buddy, I am warning you that you are gonna be dead if you do ont change that direction.")
         print(
             "Last time, my friend Victor was eaten by the wolf in the same forest, trust me take mey warning seriously")
         print(
             "Berea College computer students want to joke with their CS prof by not completing their assignments on time...opps! I am lost")
-    elif direction_to_take == "Forward":
+    elif direction == "Forward":
         print("Things will even be more tougher get up !")
         print("Do not cry if the lion and tiger gets you eaten in the way and then you can")
         print("Mach and Victor planned this game  way back in the years ago and now its getting more fun and fun again")
 
-    elif direction_to_take == "Right":
+    elif direction == "Right":
         print("Things will even be more tougher get up !")
         print(" Why dont you liten you damn! kid ")
 
