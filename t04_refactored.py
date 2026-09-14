@@ -147,13 +147,13 @@ def team_6_adv(username):
 
 def team_7_adv(username):
 
-sound = input ("Would you like to follow the noise? [yes/no?]")
+    sound = input ("Would you like to follow the noise? [yes/no?]")
 
-if sound == "yes": #good choice
-    print("You follow the noise and end up running into a furry little doggy")
-    sleep(delay*2)
-    print("The dog looks like he knows his way around pretty well...")
-    sleep(delay)
+    if sound == "yes": #good choice
+        print("You follow the noise and end up running into a furry little doggy")
+        sleep(delay*2)
+        print("The dog looks like he knows his way around pretty well...")
+        sleep(delay)
 
 ###################################################################################
 
