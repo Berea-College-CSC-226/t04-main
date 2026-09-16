@@ -59,13 +59,13 @@ ___
      Find yours and check that your code is there. Compare your branch to `main`. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    The changes that we made isn't in main
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    Our code is not in other people's branch because its was pushed into our own brnach. 
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -74,14 +74,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    No because we wasnt able to merge. 
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    No because they also wasn't able to merge. 
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
