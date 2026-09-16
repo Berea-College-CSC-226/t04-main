@@ -116,10 +116,42 @@ def scott_adventure(username):
 ###################################################################################
 
 def team_1_adv(username):
-    pass
+    """
+    https://docs.google.com/document/d/1CpA6AyTEu6KLumAtVBWUhpw5lc3oJrjbbiS-z4GUpRY/edit?userstoinvite=yukikaleg8106@gmail.com&sharingaction=manageaccess&role=writer&tab=t.0#heading=h.f6tumop9n7at
+    Yuki Fukushima
+    Ryan Hensley
+    :return: None
+    """
+    direction = input(
+        "You bump your head into a wall. You feel your way around, you have two choices, left or right.  [Left/Right]")
+
+    if direction == "Left":
+        # Good choice
+        print("You safely leave the cave.")
+        sleep(DELAY)
+        return
+
+    if direction == "Right":
+        # Neutral choice
+        print("You fall into a pit. You have another chance of life. ")
+        sleep(DELAY)
+
+    direction = input("You find yourself at a crossroad. You can go left or right. [Left/Right] ")
+    if direction == "Left":
+        # Good choice
+        print("You find a town full of dwarfs that are willing to help you find your way out.")
+        return
+
+    if direction == "Right":
+        # Bad choice
+        print("You get trapped by the land around you and suffocated.")
+        return
+
+
+
+
 
 ###################################################################################
-
 def team_2_adv(username):
     pass
 
