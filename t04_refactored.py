@@ -137,35 +137,36 @@ def team_4_adv(username):
 
 def team_5_adv(username):
     pass
-print("------ WELCOME TO THE TRANSPORT STATION -----")
+print("------ WELCOME TO THE SPACE TRANSPORT STATION -----")
 sleep(1)
-direction = input("Choose a direction to go [Japan, Ghana, Mongolia]: ")
+direction = input("Choose a direction to go [Earth 100, Earth 0]: ")
 
-if direction == "Mongolia":
+if direction == "Earth 0":
     #Good choice
     print("YAYYYY!!!!")
     sleep(1)
-    print("YOU GOT INTO GENGHIS KHAN'S ARMY...")
+    print("YOU GOT INTO THE AVENGERS...")
     sleep(1)
-elif direction == "Japan":
+    quit()
+elif direction == "Earth 100":
     print("OHHH NOOO!!!")
     sleep(1 * 2)
-    print("The moment you got on the island you heard footsteps from the dark jungle....")
+    print("The moment you got on the planet you heard footsteps from the dark jungle....")
     sleep(1 * 3)
-    print("Ooops. They turns out to be a Samurai trying to hunt you down.")
+    print("Ooops. They turns out to be Thanos trying to hunt you down.")
     sleep(1 * 3)
-    print("So after you see them you start running from them.")
+    print("So after you see him you start running from him.")
     sleep(1 * 3)
-    print("Then the Samurai overtakes you because they are fast.")
+    print("Then the Thanos overtakes you because he is inevitable.")
     sleep(1 * 3)
-    print("And they pierce through your heart with their katana.")
+    print("And then he used the infinity stones and snaps his fingers and then boom! You're dust.")
     sleep(1 * 3)
     dead = True
 else:
     #Neutral choice
-    print("You are in Ghana now, and it's so hot. Go find some water....")
+    print("Are you for real? This place does not exist! Bye man!")
     sleep(1)
-    dead = False
+    quit()
 
 if dead == True:
     sleep(1 * 3)
@@ -180,19 +181,21 @@ if dead == True:
 
     if num <= 6:
         print("You have been given a new life")
-        direction = input("Choose a direction to go [USA, Finland]: ")
+        direction = input("Choose a direction to go [Kitchen, Toilet]: ")
 
-        if direction == "USA":
-            print("YOU GOT SHOT BY A PERSON WITH A GUN")
+        if direction == "Toilet":
+            print("YOU JUST GOT FLUSHED")
             sleep(1 * 3)
             print()
-            print("YOU DIED!!!!")
+            print("YOU DIED!!!!wooooo!")
+            quit()
         else:
-            print("YAY YOU HAVE FOUND THE ISLAND OF PEACE")
+            print("YAY YOU HAVE FOUND THE FRIDGE OF LIFE")
             sleep(1 * 2)
-            print("NOW YOU CAN LIVE PEACEFULLY, GOODLUCK :)")
+            print("NOW YOU CAN FEAST WITH THE ETERNALS, GOODLUCK :)")
+            quit()
     else:
-        print("OH NO YOU FAILED, NOW YOU ARE DEAD, THANKS FOR PLAYING.")
+        print("WELL, LOOKS LIKE YOUR DESTINY IS DEATH. YOU DIED AGAIN. WELL...BYE.")
         quit()
 
 sleep(1 * 4)

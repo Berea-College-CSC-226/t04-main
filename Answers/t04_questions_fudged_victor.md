@@ -28,13 +28,13 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    **We fixed the delay and added quit on after every scenario of the story
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    **We did not have alot of logical edits to make, except making the story more coherent**
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
