@@ -126,6 +126,11 @@ def team_2_adv(username):
 ###################################################################################
 
 def team_3_adv(username):
+    """
+    https://docs.google.com/document/d/1TFPxOsOpNuurpIvVdSkVr_I2v1vMKN9P40k_3U-St7E/edit?usp=sharing
+    Mensah Derrick
+    Mach R. Garang
+    """
     direction = input("which direction would you like to pass the ball? [Infront/Behind/To your left/To your right]")
     shoot = input("Which direction are you shooting the ball? [top post/Bottom corners]")
 
