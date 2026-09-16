@@ -96,25 +96,26 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       Adding the github file and history from the github
+        a. Clone:       Adding the github file and history from the github to the local on one's device. 
 
-        b. Commit:      ____________________
+        b. Commit:      To add the edited files from the local environment to the version control/ github. 
+                        This saves the changes made from one end of the parner to the next. 
 
-        c. Push:        ____________________
+        c. Push:        This is to add the edited files from git to github ( server)
 
-        d. Branch:      ____________________
+        d. Branch:      A copy of the main file from which the programmer can edit.
 
-        e. Pull:        ____________________
+        e. Pull:        To access or update from the remote to the local reposiory 
 
-        f. Pull Request:____________________
+        f. Pull Request: To request for a review such that your work could be remotely graded on github
 
-        g. Merge:       ____________________
+        g. Merge:       To harmonise the code base with the current/ 
 
-        h. Remote:      ____________________
+        h. Remote:      Gitub server
 
-        i. Local:       ____________________
+        i. Local:       Means the personal working environment such as the laptop 
 
-        j. Fetch:       ____________________
+        j. Fetch:       Downloading the necessary chnages without modifying the program
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
