@@ -121,7 +121,6 @@ def team_1_adv(username):
 ###################################################################################
 
 def team_2_adv(username):
-
     """
     https://docs.google.com/document/d/1zJS_Cxg4Jzp9z_NxLQ-2PFlvlQb04wrgZ4HA5WF6wFM/edit?usp=sharing
     Michael Damdinsuren

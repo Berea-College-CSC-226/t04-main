@@ -14,11 +14,11 @@ Change roles each day!
     Complete the table below at the start of each class period:
 ```
 
-|                 | Monday | Wednesday | Friday |
-|-----------------|--------|-----------|--------|
-| Driver          | Michael|           |        |
-| Navigator       | Aryan  |           |        |
-| Quality Control |        |           |        |
+|                 | Monday | Wednesday | Friday  |
+|-----------------|--------|-----------|---------|
+| Driver          | Michael| Aryan     | Michael |
+| Navigator       | Aryan  | Michael   | Aryan   |
+| Quality Control |        |           |         |
 
 ___
 
@@ -28,25 +28,25 @@ ___
      **t01_final_story.py** for "inspiration".
 
 ```
-    **Replace This With Your Answer**
+    We can now trace and fix bugs, also use the module turtle to its fullest of abilities.
 ```
 
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We used the return to store values in functions
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    It was challenging to find the bugs but we made it work
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    The piece of code was actually plucked out from another program, it was not quite adjusting to the current environment, we just adjusted it so it can fit well with the objects in global scope.
 ```
 
 _Return to the Google Doc to continue this assignment._
