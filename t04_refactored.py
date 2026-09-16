@@ -19,6 +19,7 @@
 #
 ######################################################################
 import random
+from operator import truediv
 
 from time import sleep
 
@@ -107,7 +108,7 @@ def scott_adventure(username):
     else:
         # Neutral choice
         print(
-            '''You're in another part of the cave. It is equally dark, and equally uninteresting. 
+            '''You're in another part of the cave. It is equally dark, and equally uninteresting.
             Please get me out of here!''')
         sleep(DELAY)
     return True       # User survives all other scenarios
@@ -141,16 +142,17 @@ def team_5_adv(username):
 ###################################################################################
 
 def team_6_adv(username):
+    if_valid_choice = True
+    is_alive = True
     direction = input("What sort of direction are you taking?;Backward/Forward/Right/Left?")
-
-
     if direction == "Backward":
+        if_valid_choice = True
         print("You are dead!, that it a no go zone can you change the direction.")
         print("Buddy, I am warning you that you are gonna be dead if you do ont change that direction.")
-        print(
-            "Last time, my friend Victor was eaten by the wolf in the same forest, trust me take mey warning seriously")
-        print(
-            "Berea College computer students want to joke with their CS prof by not completing their assignments on time...opps! I am lost")
+        print("Last time, my friend Victor was eaten by the wolf in the same forest, trust me take mey warning seriously")
+        print("Berea College computer students want to joke with their CS prof by not completing their assignments on time...opps! I am lost")
+        is_alive = False
+
     elif direction == "Forward":
         print("Things will even be more tougher get up !")
         print("Do not cry if the lion and tiger gets you eaten in the way and then you can")
@@ -160,12 +162,23 @@ def team_6_adv(username):
         print("Things will even be more tougher get up !")
         print(" Why dont you liten you damn! kid ")
 
-    else:
-        print(" You will not survive and get back home normal")
+    elif direction == "Left":
+        print("You will not survive and get back home normal")
+        is_alive = False
 
-    dead = True
+    else:
+        if_valid_choice = False
+        print(" Invalid")
+
+
     print(" The world has ended successfully")
     print(" And we have also finished the assignment and now looking forward to a nice lunch with Victor ")
+    if not if_valid_choice:
+        print("\nGame Over: You didn't choose a valid direction.")
+    elif not is_alive:
+        print("\nThe world has ended. You did not survive.")
+    else:
+        print("\nYou survived the turn!")
 
 ###################################################################################
 
