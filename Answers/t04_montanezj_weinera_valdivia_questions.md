@@ -16,9 +16,9 @@ Change roles each day!
 
 |                 | Monday | Wednesday | Friday |
 |-----------------|--------|-----------|--------|
-| Driver          | Austin |           |        |
-| Navigator       | Adrain |           |        |
-| Quality Control | Joey   |           |        |
+| Driver          | Austin | Adrian    |        |
+| Navigator       | Adrian | Joey      |        |
+| Quality Control | Joey   | Austin    |        |
 
 ___
 
