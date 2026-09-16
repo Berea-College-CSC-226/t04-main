@@ -127,22 +127,26 @@ def team_2_adv(username):
     Aryan Sehrawat
     """
 
-    direction = input("Which direction would you like to go? [East/West]")
+    direction = input("Which direction would you like to go? [East/West]: ")
 
     if direction == "East":
         # Good choice!
-        x = input(
-            "But don't worry, you're doing good, you've 2 paths in front of you. From first path you can hear the sound of water and the second path is full of Gems, make your choice wisely. Choose path 1 or 2? ")
+        x = input("But don't worry, you're doing good, you've 2 paths in front of you. From first path you can hear the sound of water and the second path is full of Gems, make your choice wisely. Choose path 1 or 2?: ")
+
         sleep(DELAY)
         if x == "1":
             print("Great, you made it to the end of the story without dying! ")
             return True
-        else:
+        elif x == "2":
             print("Ah!!, there's the dragon of gems in front of you.")
             sleep(DELAY)
             print("You're dead(Loser😂)")
             print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
             return False
+
+        else:
+            print("Wrong input!")
+            return True
 
     elif direction == "West":
         # Oh... Bad choice
@@ -155,13 +159,31 @@ def team_2_adv(username):
             sleep(DELAY)
             print("Booyah!! You made it to the end of the story without dying!")
             return True
-        else:
+        elif y == "left":
             print("OK sir you've jumped into the world of goblins")
             print("You're dead😂")
             sleep(DELAY)
-            print("You greedy looser")
+
             print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
             return False
+        else:
+            print("Wrong input!")
+            return True
+
+    else:
+        x = input("You're in another part of the cave. Choose a path 1 or 2")
+        if x == "1":
+            print("Great, you made it to the end of the story without dying! ")
+            return True
+        elif x == "2":
+            print("You fell in a pitt full of snakes")
+            return False
+
+        else:
+            print("Wrong input!")
+            return True
+
+
 
 ###################################################################################
 
