@@ -149,7 +149,7 @@ def team_3_adv(username):
 
         if shoot == "top post":
             sleep(DELAY)
-            print("GOALLLLLLLLLLLLLLLLLLLLL!!!!!!!")
+            print("GOALLLLLLLLLLLLLLLLLLL!!!!!!!")
 
         else:
             print("Oh no the keeper caught the ball")
