@@ -131,11 +131,11 @@ def team_3_adv(username):
     Mensah Derrick
     Mach R. Garang
     """
-    direction = input("which direction would you like to pass the ball? [Infront/Behind/To your left/To your right]")
+    direction = input("Which direction would you like to pass the ball? [Infront/Behind/To your left/To your right]")
     shoot = input("Which direction are you shooting the ball? [top post/Bottom corners]")
 
     dead = False
-    if direction == "Infront":
+    if direction == "In front":
         print("Oh no, the defenders got the ball")
         dead = True
 
@@ -150,7 +150,7 @@ def team_3_adv(username):
         print("He's on the run, driving the ball forward")
         print("He is about to get tackled, and chops the ball to the inside of the feild and keeps driving")
         print("He sees you running into the 18 box and crossing it to you")
-        print("You execute a finominal touch and are about to shoot")
+        print("You execute a phenomenal touch and are about to shoot")
 
         if shoot == "top post":
             sleep(DELAY)
@@ -162,7 +162,7 @@ def team_3_adv(username):
     else:
         print("Oh no, the defenders got the ball")
 
-    if dead == True:
+    if dead:
         print("Too bad your opponent got the ball and scored")
         print("YOU LOST ):")
     return True
