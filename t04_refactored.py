@@ -136,69 +136,67 @@ def team_4_adv(username):
 ###################################################################################
 
 def team_5_adv(username):
-    pass
-print("------ WELCOME TO THE SPACE TRANSPORT STATION -----")
-sleep(1)
-direction = input("Choose a direction to go [Earth 100, Earth 0]: ")
+# Demetri Fudge
+# Victor
 
-if direction == "Earth 0":
-    #Good choice
-    print("YAYYYY!!!!")
-    sleep(1)
-    print("YOU GOT INTO THE AVENGERS...")
-    sleep(1)
-    quit()
-elif direction == "Earth 100":
-    print("OHHH NOOO!!!")
-    sleep(1 * 2)
-    print("The moment you got on the planet you heard footsteps from the dark jungle....")
-    sleep(1 * 3)
-    print("Ooops. They turns out to be Thanos trying to hunt you down.")
-    sleep(1 * 3)
-    print("So after you see him you start running from him.")
-    sleep(1 * 3)
-    print("Then the Thanos overtakes you because he is inevitable.")
-    sleep(1 * 3)
-    print("And then he used the infinity stones and snaps his fingers and then boom! You're dust.")
-    sleep(1 * 3)
-    dead = True
-else:
-    #Neutral choice
-    print("Are you for real? This place does not exist! Bye man!")
-    sleep(1)
-    quit()
+# https://docs.google.com/document/d/1Lzin8HRh-dKV1p51tXmVXana-xz1TqGlzQmKU-SHuCE/edit?tab=t.0#heading=h.oxhkmp6s7rpi
 
-if dead == True:
-    sleep(1 * 3)
-    print()
-    print()
-    print("YOU DIED!!!!")
-    sleep(1 * 3)
-    print("BUT I GIVE YOU ONE MORE CHANCE")
-    sleep(1 * 2)
-    num1 = input("Choose a number between 1 and 20: ")
-    num = int(num1)
+    sleep(1)
+    print("------ WELCOME TO THE SPACE TRANSPORT STATION -----")
+    sleep(1)
+    direction = input("Choose a direction to go [Earth 100, Earth 0]: ")
+
+    if direction == "Earth 0":
+        #Good choice
+        dead = false
+        print("YAY!")
+        sleep(1)
+        print("YOU GOT INTO THE AVENGERS!")
+
+        sleep(1)
+    elif direction == "Earth 100":
+        dead = True
+        print("OH NO!")
+        sleep(1)
+        print("The moment you got on the planet you heard footsteps from the dark jungle....")
+        sleep(1)
+        print("It turns out to be Thanos trying to hunt you down!")
+        sleep(1)
+        print("After you see him you start running from him.")
+        sleep(1)
+        print("Thanos overtakes you because he is inevitable.")
+        sleep(1)
+        print("He used the infinity stones and snaps his fingers and then boom! You're dust.")
+        sleep(1)
+
+    else:
+        #Neutral choice
+        print("Are you for real? This place does not exist! Bye man!")
+        sleep(1)
+
+    if dead == True:
+        sleep(1)
+        print("YOU DIED!")
+        sleep(1)
+        print("BUT I'll GIVE YOU ONE MORE CHANCE!")
+        sleep(1)
+        num1 = input("Choose a number between 1 and 20: ")
+        num = int(num1)
 
     if num <= 6:
-        print("You have been given a new life")
+        print("You have been given a new life.")
         direction = input("Choose a direction to go [Kitchen, Toilet]: ")
 
         if direction == "Toilet":
-            print("YOU JUST GOT FLUSHED")
-            sleep(1 * 3)
-            print()
-            print("YOU DIED!!!!wooooo!")
-            quit()
+            print("YOU JUST GOT FLUSHED!")
+            sleep(1)
+            print("YOU DIED!")
         else:
-            print("YAY YOU HAVE FOUND THE FRIDGE OF LIFE")
-            sleep(1 * 2)
-            print("NOW YOU CAN FEAST WITH THE ETERNALS, GOODLUCK :)")
-            quit()
+            print("YAY YOU HAVE FOUND THE FRIDGE OF LIFE!")
+            sleep(1)
+            print("NOW YOU CAN FEAST WITH THE ETERNALS.")
     else:
-        print("WELL, LOOKS LIKE YOUR DESTINY IS DEATH. YOU DIED AGAIN. WELL...BYE.")
-        quit()
-
-sleep(1 * 4)
+        print("WELL, LOOKS LIKE YOUR DESTINY IS DEATH. YOU DIED AGAIN!")
 ###################################################################################
 
 def team_6_adv(username):
