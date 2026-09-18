@@ -137,8 +137,7 @@ def team_4_adv(username):
 
 def team_5_adv(username):
 # Demetri Fudge
-# Victor
-
+# Victor Mucyo
 # https://docs.google.com/document/d/1Lzin8HRh-dKV1p51tXmVXana-xz1TqGlzQmKU-SHuCE/edit?tab=t.0#heading=h.oxhkmp6s7rpi
 
     sleep(DELAY)
