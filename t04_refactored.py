@@ -121,7 +121,69 @@ def team_1_adv(username):
 ###################################################################################
 
 def team_2_adv(username):
-    pass
+    """
+    https://docs.google.com/document/d/1zJS_Cxg4Jzp9z_NxLQ-2PFlvlQb04wrgZ4HA5WF6wFM/edit?usp=sharing
+    Michael Damdinsuren
+    Aryan Sehrawat
+    """
+
+    direction = input("Which direction would you like to go? [East/West]: ")
+
+    if direction == "East":
+        # Good choice!
+        x = input("But don't worry, you're doing good, you've 2 paths in front of you. From first path you can hear the sound of water and the second path is full of Gems, make your choice wisely. Choose path 1 or 2?: ")
+
+        sleep(DELAY)
+        if x == "1":
+            print("Great, you made it to the end of the story without dying! ")
+            return True
+        elif x == "2":
+            print("Ah!!! there's the dragon of gems in front of you.")
+            sleep(DELAY)
+            print("You're dead(Loser😂)")
+            print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+            return False
+
+        else:
+            print("Wrong input!")
+            return True
+
+    elif direction == "West":
+        # Oh... Bad choice
+        print("Oh there's some golden light to your left, can it be treasure or a way out")
+        sleep(DELAY)
+        print("and to your right it's still dark")
+        y = input("Where will you go? right or left ")
+        if y == "right":
+            print("Wait, u see some light in front of you. ")
+            sleep(DELAY)
+            print("Booyah!! You made it to the end of the story without dying!")
+            return True
+        elif y == "left":
+            print("OK sir you've jumped into the world of goblins")
+            print("You're dead😂")
+            sleep(DELAY)
+
+            print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
+            return False
+        else:
+            print("Wrong input!")
+            return True
+
+    else:
+        x = input("You're in another part of the cave. Choose a path 1 or 2")
+        if x == "1":
+            print("Great, you made it to the end of the story without dying! ")
+            return True
+        elif x == "2":
+            print("You fell in a pitt full of snakes")
+            return False
+
+        else:
+            print("Wrong input!")
+            return True
+
+
 
 ###################################################################################
 
