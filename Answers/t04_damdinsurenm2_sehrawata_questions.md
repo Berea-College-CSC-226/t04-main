@@ -59,13 +59,13 @@ ___
      Find yours and check that your code is there. Compare your branch to `main`. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    Yes our code is on our branch. Compared to main our code is not on main because we did not merge it yet.
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    Yes we see their branch. Our code is not there because there clone was made from the original main where our code is not there.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -74,14 +74,14 @@ ___
      After the instructor or TA approves your request, refresh Github. Is your code in the main branch now? 
 
 ```
-    **Replace This With Your Answer**
+    Yes our code is in the main branch now.
 ```
 
 2.d. What about other groups’ code? Is it also in main branch, compared to the last time you looked at it 
      in Question 2.b.?
 
 ```
-    **Replace This With Your Answer**
+    Their code is not there yet because we are the first one to merge our code to the main.
 ```
 
 2.e. Once your code has been pulled into the main branch, go back to PyCharm. Right-click on the directory, and 
@@ -89,30 +89,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    It is not there but after we update the project our code will appear.
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       It clones the repo from github to local.
 
-        b. Commit:      ____________________
+        b. Commit:      Saves a version of your staged changes locally.
 
-        c. Push:        ____________________
+        c. Push:        It sends the prepared changes to the github branch.
 
-        d. Branch:      ____________________
+        d. Branch:      It creates a new branch where you can work on from that will not affect the main branch.
 
-        e. Pull:        ____________________
+        e. Pull:        It updates the project from github to local.
 
-        f. Pull Request:____________________
+        f. Pull Request:Is request where you compare what changes were made and what you want to take from that branch to the main.
 
-        g. Merge:       ____________________
+        g. Merge:       It takes the made changes from your branch to the main branch and puts it in there.
 
-        h. Remote:      ____________________
+        h. Remote:      The version of your repository hosted on github.
 
-        i. Local:       ____________________
+        i. Local:       It is your own computers files.
 
-        j. Fetch:       ____________________
+        j. Fetch:       Downloads updates from github.
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -124,7 +124,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    We do not have any questions. We understanded everything about github that was used on this project.
 ```
 
 ---
