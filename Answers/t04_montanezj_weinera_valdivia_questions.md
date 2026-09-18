@@ -15,10 +15,10 @@ Change roles each day!
 ```
 
 |                 | Monday | Wednesday | Friday |
-|-----------------|--------|-----------|--------|
-| Driver          | Austin |           |        |
-| Navigator       | Adrain |           |        |
-| Quality Control | Joey   |           |        |
+|-----------------|--------|-----------|-------|
+| Driver          | Austin | Adrian    | Joey  |
+| Navigator       | Adrian | Joey      | Austin |
+| Quality Control | Joey   | Austin    |       |
 
 ___
 
@@ -34,19 +34,20 @@ ___
 1.b. Briefly describe any logic changes you made in your code, and why you made them.
 
 ```
-    **Replace This With Your Answer**
+    We didn't make any logic changes aside from getting rid of an extra delay.
 ```
 
 1.c. Did you find it challenging following the logic of another group’s code? Why or why not?
 
 ```
-    **Replace This With Your Answer**
+    Not really, it made sense how they wrote the code out, and with the strings that would be printed out, it helped us 
+    understand what they were trying to do. 
 ```
 
 1.d. Briefly describe two or more of the PEP8 warnings you fixed. Does the resulting code look better or worse? Why?
 
 ```
-    **Replace This With Your Answer**
+    We did not have any PEP8 warnings we had to fix.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -59,13 +60,14 @@ ___
      Find yours and check that your code is there. Compare your branch to `main`. What’s different?
 
 ```        
-    **Replace This With Your Answer**
+    We have a specific file called t04_montanezj_weinera_valdivia_questions.md compared to main.
 ```
 
 2.b. Do you see other groups’ branches in the repo as well? Is your code in their branch? Why or why not?
 
 ```        
-    **Replace This With Your Answer**
+    I see the other groups' branches in the repo as well, however our code is not inside their branch because we have a 
+    different branch from the other groups' branches.
 ```
 
 2.c. Next, issue a pull request (this is done by clicking on "New Pull Request" button in the browser on Github). 
@@ -94,9 +96,17 @@ ___
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       A clone is a copy of a repository that lives on your computer instead of on a website's server 
+        somewhere, or the act of making that copy. When you make a clone, you can edit the files in your preferred 
+        editor and use Git to keep track of your changes without having to be online. The repository you cloned is still
+        connected to the remote version so that you can push your local changes to the remote to keep them synced when 
+        you're online.
+        
+        b. Commit:      A commit, or "revision", is an individual change to a file (or set of files). When you make a 
+        commit to save your work, Git creates a unique ID (a.k.a. the "SHA" or "hash") that allows you to keep record of
+        the specific changes committed along with who made them and when. Commits usually contain a commit message which
+        is a brief description of what changes were made.
 
-        b. Commit:      ____________________
 
         c. Push:        ____________________
 
