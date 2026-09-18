@@ -138,7 +138,7 @@ def team_2_adv(username):
             print("Great, you made it to the end of the story without dying! ")
             return True
         elif x == "2":
-            print("Ah!!, there's the dragon of gems in front of you.")
+            print("Ah!!! there's the dragon of gems in front of you.")
             sleep(DELAY)
             print("You're dead(Loser😂)")
             print("Oh no! You died. Better luck next time! Try again by hitting the green play button. ")
