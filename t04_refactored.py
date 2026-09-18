@@ -123,33 +123,40 @@ def team_1_adv(username):
     :return: None
     """
     direction = input(
-        "You bump your head into a wall. You feel your way around, you have two choices, left or right.  [Left/Right]")
+        "You bump your head into a wall. You feel your way around, you have two choices, left or right.  [Left/Right]: ")
 
     if direction == "Left":
         # Good choice
         print("You safely leave the cave.")
         sleep(DELAY)
-        return
-
-    if direction == "Right":
+        return True
+    elif direction == "Right":
         # Neutral choice
         print("You fall into a pit. You have another chance of life. ")
         sleep(DELAY)
+    else:
+        print("You're confused.")
+        print("An invalid direction makes you bump your head into a wall again.")
+        sleep(DELAY)
+        print("You died from a concussion.")
+        return False
 
-    direction = input("You find yourself at a crossroad. You can go left or right. [Left/Right] ")
+    direction = input("You find yourself at a crossroad. You can go left or right. [Left/Right]: ")
+
     if direction == "Left":
         # Good choice
         print("You find a town full of dwarfs that are willing to help you find your way out.")
-        return
-
-    if direction == "Right":
+        return True
+    elif direction == "Right":
         # Bad choice
         print("You get trapped by the land around you and suffocated.")
-        return
-
-
-
-
+        return False
+    else:
+        print("You're confused. ")
+        print("An invalid direction makes you bump your head into a wall.")
+        sleep(DELAY)
+        print("You died from a concussion.")
+        return False
 
 ###################################################################################
 def team_2_adv(username):

@@ -89,30 +89,30 @@ ___
      Is your code in your **local** main branch? Why not?
 
 ```
-    **Replace This With Your Answer**
+    Its not appearing to my PyCharm since I haven't pulled the changes yet.
 ```
 
 2.f. Define Each Term:
 ```
-        a. Clone:       ____________________
+        a. Clone:       Creates a copy of repository to local machine
 
-        b. Commit:      ____________________
+        b. Commit:      Saves a certain state of the repository
 
-        c. Push:        ____________________
+        c. Push:        Uploads the last saved state to GitHub
 
-        d. Branch:      ____________________
+        d. Branch:      Creates a new workspace, lets you work on different versions of the project
 
-        e. Pull:        ____________________
+        e. Pull:        Pulling changes in GitHub to your local machine
 
-        f. Pull Request:____________________
+        f. Pull Request:Proposing changes to a repository
 
-        g. Merge:       ____________________
+        g. Merge:       Merges commits to a single branch
 
-        h. Remote:      ____________________
+        h. Remote:      Things on GitHub
 
-        i. Local:       ____________________
+        i. Local:       Things on your computer
 
-        j. Fetch:       ____________________
+        j. Fetch:       Pulling changes in GitHub to local machine without committing
 
     Check your definitions against the [git glossary](https://help.github.com/articles/github-glossary/) 
     to ensure they are correct.
@@ -124,7 +124,7 @@ ___
      questions in the space to the right:
 
 ```
-    **Replace This With Your Answer**
+    None so far.
 ```
 
 ---
