@@ -341,8 +341,44 @@ def team_4_adv(username):
 ###################################################################################
 
 def team_5_adv(username):
-    pass
+# Demetri Fudge
+# Victor Mucyo
+# https://docs.google.com/document/d/1Lzin8HRh-dKV1p51tXmVXana-xz1TqGlzQmKU-SHuCE/edit?tab=t.0#heading=h.oxhkmp6s7rpi
 
+    sleep(DELAY)
+    print("------ WELCOME TO THE SPACE TRANSPORT STATION -----")
+    sleep(DELAY)
+    direction = input("Choose a direction to go [Earth 100, Earth 0]: ")
+
+    if direction == "Earth 0":
+        #Good choice
+        print("YAY!")
+        sleep(DELAY * 2)
+        print("YOU GOT INTO THE AVENGERS!")
+        sleep(DELAY * 2)
+        return True
+
+    elif direction == "Earth 100":
+        print("OH NO!")
+        sleep(DELAY * 2)
+        print("The moment you got on the planet you heard footsteps from the dark jungle....")
+        sleep(DELAY * 2)
+        print("It turns out to be Thanos trying to hunt you down!")
+        sleep(DELAY * 2)
+        print("After you see him you start running from him.")
+        sleep(DELAY * 2)
+        print("Thanos overtakes you because he is inevitable.")
+        sleep(DELAY * 2)
+        print("He used the infinity stones and snaps his fingers and then boom! You're dust.")
+        sleep(DELAY * 2)
+        print("YOU ARE DEAD!")
+        sleep(DELAY * 2)
+        return False
+    else:
+        #Neutral choice
+        print("This place does not exist.")
+        sleep(DELAY * 2)
+    return True
 ###################################################################################
 
 def team_6_adv(username):
