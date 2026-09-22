@@ -22,6 +22,7 @@ import random
 
 from time import sleep
 
+
 DELAY = 1.0  # change to 0.0 for testing/speed runs; larger for dramatic effect!
 
 
@@ -232,7 +233,70 @@ def team_3_adv(username):
 ###################################################################################
 
 def team_4_adv(username):
-    pass
+
+    """
+    https://docs.google.com/document/d/1ajIEehJiAZWTx5_dBGmj6-X5o7O4Kn2U8uJ5jeZpCj4/edit?usp=sharing
+    Andre Booker
+    Gabriella Sloboh
+    :return: none
+    """
+    # TEAM 4
+
+    from time import sleep
+
+    delay = 3.0
+    #initialize behind_tree...?
+    behind_tree = True
+    dead = False
+
+
+    username = input("What is your name?")
+
+    print(username, "is walking through the forest")
+    sleep(delay)
+    print("You see a bunch of people doing some sort of ritual around a campfire")
+    print("You have many choices to make")
+    sleep(delay)
+    print("Type ""A"" if you would like to hide behind a tree.")
+    print("Type ""B"" if you would like to make direct contact.")
+    print("Type ""C"" if you would like to turn around.")
+    sleep(delay)
+    direction = input("What are you going to do in this situation?")
+
+    if direction == "A":
+        print("You hide behind a tree and watch from afar.")
+        sleep(delay - 1.0)
+        print("While you are behind the tree you overhear them talking about eating people")
+        print("But for some reason there is an axe beside the tree you are hiding behind?")
+        sleep(delay - 1.0)
+        print()
+        print("Type ""A"" if you want to grab the axe and make contact")
+        print("Type ""C"" if you would like to go home.")
+        behind_tree = input("Do you want to grab the axe and make direct contact or go home?")
+
+
+    elif direction == "B":
+        print("You confronted them, and then they instantly kill you!")
+
+
+    elif direction == "C":
+        print("You turn around a go home")
+        dead = True
+
+    if behind_tree == "A":
+        print("You go up to them and chop their heads off with axe.")
+        print("Congrats you survived!")
+        dead = True
+
+    elif behind_tree == "C":
+        print("You turn around a go home")
+        dead = True
+
+
+    if dead == True:
+        print("They turned out to be cannibals and they eat you.")
+    elif dead == False:
+        print("You are really smart, you weren't taking any chances of dying.")
 
 ###################################################################################
 
